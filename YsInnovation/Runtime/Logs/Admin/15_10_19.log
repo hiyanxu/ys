@@ -1,0 +1,61 @@
+[ 2015-10-19T09:19:19+08:00 ] 127.0.0.1 /YsInnoCenter/YsInnovation/index.php/Admin/Semester/getSemeName
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000515s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000810s ]
+SQL: select semester_id,semester_name from t_semester where isshow='0' and status_id='1' [ RunTime:0.0010s ]
+
+[ 2015-10-19T09:19:19+08:00 ] 127.0.0.1 /YsInnoCenter/YsInnovation/index.php/Admin/Laboratory/getLaboratoryUser
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000416s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000721s ]
+SQL: select t_user.* from t_user,t_user_account where t_user_account.organization_id='1' and t_user.user_id=t_user_account.user_id and t_user.is_tea_or_stu='1' [ RunTime:0.0022s ]
+
+[ 2015-10-19T09:19:19+08:00 ] 127.0.0.1 /YsInnoCenter/YsInnovation/index.php/Admin/Laboratory/getLaboratory
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000442s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000711s ]
+SQL: select organization_id,organization_name from t_organization where organization_type='2' and isshow='0' [ RunTime:0.0014s ]
+
+[ 2015-10-19T09:26:13+08:00 ] 127.0.0.1 /YsInnoCenter/YsInnovation/index.php/Admin/User/getCollegeJs
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000425s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000686s ]
+SQL: select * from t_college where isshow=0 [ RunTime:0.0010s ]
+
+[ 2015-10-19T09:26:18+08:00 ] 127.0.0.1 /YsInnoCenter/YsInnovation/index.php/Admin/User/getTeaDutyJs
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000431s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000692s ]
+SQL: select * from t_tea_duty where isshow=0 [ RunTime:0.0030s ]
+
+[ 2015-10-19T09:26:18+08:00 ] 127.0.0.1 /YsInnoCenter/YsInnovation/index.php/Admin/Laboratory/getLaboratory
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000441s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000700s ]
+SQL: select organization_id,organization_name from t_organization where organization_type='2' and isshow='0' [ RunTime:0.0022s ]
+
+[ 2015-10-19T09:26:18+08:00 ] 127.0.0.1 /YsInnoCenter/YsInnovation/index.php/Admin/User/getCollegeJs
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000417s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000675s ]
+SQL: select * from t_college where isshow=0 [ RunTime:0.0011s ]
+
+[ 2015-10-19T09:26:41+08:00 ] 127.0.0.1 /YsInnoCenter/YsInnovation/index.php/Admin/Lecture/saveLectureJs
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000460s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000768s ]
+SQL: SHOW COLUMNS FROM `t_lecture` [ RunTime:0.0043s ]
+SQL: INSERT INTO `t_lecture` (`lecture_name`,`lecture_time`,`lecture_fee`,`lecture_who_add`,`speaker`,`speaker_duty_id`,`speaker_college`,`lecture_college`,`lecture_desc`,`lecture_scope`,`lecture_status_id`,`lecture_place`,`lecture_news_url`,`lecture_picture`,`lecture_ppt_url`,`lecture_response`,`organization_id`,`ordertime`,`isshow`) VALUES ('asfd ','2015-10-14','','5','asdf ','1','1','1','<pre class=\"prettyprint lang-php\">public function saveCate(){
+        $addsla_Data=  addslPackage($_POST); //将字符进行转义
+        extract($addsla_Data);
+        $arr=array(
+            \"category_name\"=&gt;$name,
+            \"category_attribute\"=&gt;$attribute,
+            \"ordertime\"=&gt;  date(\"y-m-d h:i:s\",time())
+        );
+        $return_id=$this-&gt;cate_obj-&gt;insert($arr);
+        ajaxReturn($return_id);
+    }</pre>','0','1','dfgh ','','','','','1','15-10-19','0') [ RunTime:0.0946s ]
+SQL: SHOW COLUMNS FROM `t_lecture_optional` [ RunTime:0.0023s ]
+SQL: INSERT INTO `t_lecture_optional` (`lecture_id`,`lecture_status_id`,`lecture_time`,`lecture_place`,`lecture_scope`,`organization_id`,`isshow`) VALUES ('9','4','2015-10-14','dfgh ','0','1','0') [ RunTime:0.0465s ]
+

@@ -1,0 +1,6 @@
+[ 2015-09-24T10:42:35+08:00 ] 127.0.0.1 /YsInnoCenter/YsInnovation/index.php/Admin/User/getCollegeJs
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000377s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000819s ]
+SQL: select * from t_college where isshow=0 [ RunTime:0.0013s ]
+

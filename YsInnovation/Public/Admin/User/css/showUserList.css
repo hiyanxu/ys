@@ -1,0 +1,58 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 2015-8-19, 16:43:03
+    Author     : 3
+*/
+#divUserList{
+    position:absolute; margin-left:2%; margin-top:2%; width:95%; height:600px; border-radius: 5px;
+}
+#selected{
+    position:absolute; margin-left: 1%; margin-top: 10px;
+}
+#name{
+    position:absolute; margin-left: 6%; margin-top: 10px;
+}
+#sex{
+    position:absolute; margin-left: 18%; margin-top: 10px;
+}
+#duty{
+    position: absolute; margin-left: 25%; margin-top: 10px;
+}
+#phone{
+    position: absolute; margin-left: 40%; margin-top: 10px;
+}
+#email{
+    position: absolute; margin-left: 55%; margin-top: 10px;
+}
+#organization{
+    position:absolute; margin-left: 70%; margin-top: 10px;
+}
+#operations{
+    position:absolute; margin-left: 90%; margin-top: 10px;
+}
+#dataName{
+    position:absolute; margin-left: 6%; margin-top: 10px;
+}
+#dataSex{
+    position:absolute; margin-left: 18%; margin-top: 10px;
+}
+#dataDuty{
+    position: absolute; margin-left: 25%; margin-top: 10px;
+}
+#dataPhone{
+    position: absolute; margin-left: 40%; margin-top: 10px;
+}
+#dataEmail{
+    position: absolute; margin-left: 55%; margin-top: 10px;
+}
+#dataOrg{
+    position:absolute; margin-left: 70%; margin-top: 10px;
+}
+#dataOperations{
+    position:absolute; margin-left: 90%; margin-top: 0px; width: 20%; height: 40px;
+}
+

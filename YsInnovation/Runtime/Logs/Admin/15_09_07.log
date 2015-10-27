@@ -1,0 +1,31 @@
+[ 2015-09-07T16:35:30+08:00 ] 127.0.0.1 /YsInnoCenter/YsInnovation/index.php/Admin/Lecture/getLectureListDataJs
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000315s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000577s ]
+SQL: select * from t_lecture where isshow=0 and lecture_status_id=2 limit 0,10 [ RunTime:0.0020s ]
+
+[ 2015-09-07T16:35:30+08:00 ] 127.0.0.1 /YsInnoCenter/YsInnovation/index.php/Admin/Lecture/getLectureCountJs
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000293s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000519s ]
+SQL: select count(*) from t_lecture where isshow=0 and lecture_status_id=2 [ RunTime:0.0015s ]
+
+[ 2015-09-07T16:35:30+08:00 ] 127.0.0.1 /YsInnoCenter/YsInnovation/index.php/Admin/Lecture/getLectureListDataJs
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000477s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000853s ]
+SQL: select * from t_lecture where isshow=0 and lecture_status_id=1 limit 0,10 [ RunTime:0.0018s ]
+SQL: SHOW COLUMNS FROM `t_organization` [ RunTime:0.0023s ]
+SQL: SELECT * FROM `t_organization` WHERE ( organization_id=1 )  [ RunTime:0.0013s ]
+SQL: SELECT * FROM `t_organization` WHERE ( organization_id=3 )  [ RunTime:0.0015s ]
+SQL: SELECT * FROM `t_organization` WHERE ( organization_id=5 )  [ RunTime:0.0014s ]
+SQL: SELECT * FROM `t_organization` WHERE ( organization_id=1 )  [ RunTime:0.0014s ]
+SQL: SELECT * FROM `t_organization` WHERE ( organization_id=1 )  [ RunTime:0.0014s ]
+SQL: SELECT * FROM `t_organization` WHERE ( organization_id=1 )  [ RunTime:0.0014s ]
+
+[ 2015-09-07T16:35:30+08:00 ] 127.0.0.1 /YsInnoCenter/YsInnovation/index.php/Admin/Lecture/getLectureCountJs
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000503s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000919s ]
+SQL: select count(*) from t_lecture where isshow=0 and lecture_status_id=1 [ RunTime:0.0011s ]
+

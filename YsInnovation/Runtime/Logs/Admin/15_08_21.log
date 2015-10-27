@@ -1,0 +1,2693 @@
+[ 2015-08-21T08:54:16+08:00 ] 127.0.0.1 /YsInnoCenter/YsInnovation/index.php/Admin/User/getTeaDutyJs
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000328s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001337s ]
+SQL: select * from t_tea_duty where isshow=0 [ RunTime:0.0007s ]
+
+[ 2015-08-21T08:54:16+08:00 ] 127.0.0.1 /YsInnoCenter/YsInnovation/index.php/Admin/User/getCollegeJs
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000331s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000573s ]
+SQL: select * from t_college where isshow=0 [ RunTime:0.0007s ]
+
+[ 2015-08-21T08:54:16+08:00 ] 127.0.0.1 /YsInnoCenter/YsInnovation/index.php/Admin/User/getOrgJs
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000388s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000657s ]
+SQL: select * from t_organization where isshow='0' and organization_type=2 [ RunTime:0.0013s ]
+
+[ 2015-08-21T08:54:16+08:00 ] 127.0.0.1 /YsInnoCenter/YsInnovation/index.php/Admin/User/getRolesJs
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000392s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000668s ]
+SQL: select * from t_role where isshow=0 [ RunTime:0.0007s ]
+
+[ 2015-08-21T09:37:07+08:00 ] 127.0.0.1 /YsInnoCenter/YsInnovation/index.php/Admin/User/getOrgJs
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000400s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000678s ]
+SQL: select * from t_organization where isshow='0' and organization_type=2 [ RunTime:0.0014s ]
+
+[ 2015-08-21T09:37:07+08:00 ] 127.0.0.1 /YsInnoCenter/YsInnovation/index.php/Admin/User/getTeaDutyJs
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000321s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000575s ]
+SQL: select * from t_tea_duty where isshow=0 [ RunTime:0.0007s ]
+
+[ 2015-08-21T09:37:07+08:00 ] 127.0.0.1 /YsInnoCenter/YsInnovation/index.php/Admin/User/getRolesJs
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000391s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000708s ]
+SQL: select * from t_role where isshow=0 [ RunTime:0.0006s ]
+
+[ 2015-08-21T09:37:07+08:00 ] 127.0.0.1 /YsInnoCenter/YsInnovation/index.php/Admin/User/getCollegeJs
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000546s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000924s ]
+SQL: select * from t_college where isshow=0 [ RunTime:0.0006s ]
+
+[ 2015-08-21T09:37:38+08:00 ] 127.0.0.1 /YsInnoCenter/YsInnovation/index.php/Admin/User/getTeaDutyJs
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000305s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000550s ]
+SQL: select * from t_tea_duty where isshow=0 [ RunTime:0.0007s ]
+
+[ 2015-08-21T09:37:38+08:00 ] 127.0.0.1 /YsInnoCenter/YsInnovation/index.php/Admin/User/getOrgJs
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000309s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000567s ]
+SQL: select * from t_organization where isshow='0' and organization_type=2 [ RunTime:0.0013s ]
+
+[ 2015-08-21T09:37:38+08:00 ] 127.0.0.1 /YsInnoCenter/YsInnovation/index.php/Admin/User/getRolesJs
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000351s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000602s ]
+SQL: select * from t_role where isshow=0 [ RunTime:0.0006s ]
+
+[ 2015-08-21T09:37:38+08:00 ] 127.0.0.1 /YsInnoCenter/YsInnovation/index.php/Admin/User/getCollegeJs
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000319s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000567s ]
+SQL: select * from t_college where isshow=0 [ RunTime:0.0006s ]
+
+[ 2015-08-21T09:38:15+08:00 ] 127.0.0.1 /YsInnoCenter/YsInnovation/index.php/Admin/User/getTeaDutyJs
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000309s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000549s ]
+SQL: select * from t_tea_duty where isshow=0 [ RunTime:0.0010s ]
+
+[ 2015-08-21T09:38:15+08:00 ] 127.0.0.1 /YsInnoCenter/YsInnovation/index.php/Admin/User/getCollegeJs
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000315s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000568s ]
+SQL: select * from t_college where isshow=0 [ RunTime:0.0007s ]
+
+[ 2015-08-21T09:38:15+08:00 ] 127.0.0.1 /YsInnoCenter/YsInnovation/index.php/Admin/User/getOrgJs
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000321s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000567s ]
+SQL: select * from t_organization where isshow='0' and organization_type=2 [ RunTime:0.0013s ]
+
+[ 2015-08-21T09:38:15+08:00 ] 127.0.0.1 /YsInnoCenter/YsInnovation/index.php/Admin/User/getRolesJs
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000428s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000700s ]
+SQL: select * from t_role where isshow=0 [ RunTime:0.0006s ]
+
+[ 2015-08-21T09:38:20+08:00 ] 127.0.0.1 /YsInnoCenter/YsInnovation/index.php/Admin/User/getTeaDutyJs
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000464s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000828s ]
+SQL: select * from t_tea_duty where isshow=0 [ RunTime:0.0008s ]
+
+[ 2015-08-21T09:38:20+08:00 ] 127.0.0.1 /YsInnoCenter/YsInnovation/index.php/Admin/User/getOrgJs
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000305s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000554s ]
+SQL: select * from t_organization where isshow='0' and organization_type=2 [ RunTime:0.0012s ]
+
+[ 2015-08-21T09:38:20+08:00 ] 127.0.0.1 /YsInnoCenter/YsInnovation/index.php/Admin/User/getRolesJs
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000303s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000553s ]
+SQL: select * from t_role where isshow=0 [ RunTime:0.0006s ]
+
+[ 2015-08-21T09:38:20+08:00 ] 127.0.0.1 /YsInnoCenter/YsInnovation/index.php/Admin/User/getCollegeJs
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000477s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000820s ]
+SQL: select * from t_college where isshow=0 [ RunTime:0.0006s ]
+
+[ 2015-08-21T09:38:27+08:00 ] 127.0.0.1 /YsInnoCenter/YsInnovation/index.php/Admin/User/getTeaDutyJs
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000306s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000551s ]
+SQL: select * from t_tea_duty where isshow=0 [ RunTime:0.0008s ]
+
+[ 2015-08-21T09:38:27+08:00 ] 127.0.0.1 /YsInnoCenter/YsInnovation/index.php/Admin/User/getCollegeJs
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000405s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000672s ]
+SQL: select * from t_college where isshow=0 [ RunTime:0.0006s ]
+
+[ 2015-08-21T09:38:27+08:00 ] 127.0.0.1 /YsInnoCenter/YsInnovation/index.php/Admin/User/getRolesJs
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000430s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000726s ]
+SQL: select * from t_role where isshow=0 [ RunTime:0.0006s ]
+
+[ 2015-08-21T09:38:27+08:00 ] 127.0.0.1 /YsInnoCenter/YsInnovation/index.php/Admin/User/getOrgJs
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000396s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000669s ]
+SQL: select * from t_organization where isshow='0' and organization_type=2 [ RunTime:0.0013s ]
+
+[ 2015-08-21T10:04:44+08:00 ] 127.0.0.1 /YsInnoCenter/YsInnovation/index.php/Admin/User/getTeaDutyJs
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000378s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001126s ]
+SQL: select * from t_tea_duty where isshow=0 [ RunTime:0.0008s ]
+
+[ 2015-08-21T10:04:44+08:00 ] 127.0.0.1 /YsInnoCenter/YsInnovation/index.php/Admin/User/getRolesJs
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000326s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000587s ]
+SQL: select * from t_role where isshow=0 [ RunTime:0.0007s ]
+
+[ 2015-08-21T10:04:44+08:00 ] 127.0.0.1 /YsInnoCenter/YsInnovation/index.php/Admin/User/getCollegeJs
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000314s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000550s ]
+SQL: select * from t_college where isshow=0 [ RunTime:0.0007s ]
+
+[ 2015-08-21T10:04:44+08:00 ] 127.0.0.1 /YsInnoCenter/YsInnovation/index.php/Admin/User/getOrgJs
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000409s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000710s ]
+SQL: select * from t_organization where isshow='0' and organization_type=2 [ RunTime:0.0012s ]
+
+[ 2015-08-21T10:06:11+08:00 ] 127.0.0.1 /YsInnoCenter/YsInnovation/index.php/Admin/User/saveTeaBySuperAdmin
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000497s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000829s ]
+SQL: SHOW COLUMNS FROM `t_user` [ RunTime:0.0020s ]
+SQL: INSERT INTO `t_user` (`user_name`,`user_sex`,`is_tea_or_stu`,`college_id`,`email`,`weixin`,`phonenum`,`qq`,`innovation_num`,`addtime`) VALUES ('赵英娜','1','1','1','','','','','','15-08-21') [ RunTime:0.0474s ]
+SQL: SHOW COLUMNS FROM `t_user_account` [ RunTime:0.0019s ]
+SQL: INSERT INTO `t_user_account` (`user_id`,`user_account`,`user_account_pwd`,`user_role_id`,`organization_id`) VALUES ('5','sadmin','123456','1','1') [ RunTime:0.0388s ]
+
+[ 2015-08-21T10:11:43+08:00 ] 127.0.0.1 /YsInnoCenter/YsInnovation/index.php/Admin/User/getOrgJs
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000312s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000571s ]
+SQL: select * from t_organization where isshow='0' and organization_type=2 [ RunTime:0.0013s ]
+
+[ 2015-08-21T10:11:43+08:00 ] 127.0.0.1 /YsInnoCenter/YsInnovation/index.php/Admin/User/getRolesJs
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000387s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000656s ]
+SQL: select * from t_role where isshow=0 [ RunTime:0.0007s ]
+
+[ 2015-08-21T10:11:43+08:00 ] 127.0.0.1 /YsInnoCenter/YsInnovation/index.php/Admin/User/getCollegeJs
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000332s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000618s ]
+SQL: select * from t_college where isshow=0 [ RunTime:0.0006s ]
+
+[ 2015-08-21T10:11:43+08:00 ] 127.0.0.1 /YsInnoCenter/YsInnovation/index.php/Admin/User/getTeaDutyJs
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000531s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000846s ]
+SQL: select * from t_tea_duty where isshow=0 [ RunTime:0.0007s ]
+
+[ 2015-08-21T10:12:56+08:00 ] 127.0.0.1 /YsInnoCenter/YsInnovation/index.php/Admin/User/getTeaDutyJs
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000310s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000554s ]
+SQL: select * from t_tea_duty where isshow=0 [ RunTime:0.0007s ]
+
+[ 2015-08-21T10:12:56+08:00 ] 127.0.0.1 /YsInnoCenter/YsInnovation/index.php/Admin/User/getCollegeJs
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000311s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000562s ]
+SQL: select * from t_college where isshow=0 [ RunTime:0.0006s ]
+
+[ 2015-08-21T10:12:56+08:00 ] 127.0.0.1 /YsInnoCenter/YsInnovation/index.php/Admin/User/getOrgJs
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000305s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000548s ]
+SQL: select * from t_organization where isshow='0' and organization_type=2 [ RunTime:0.0013s ]
+
+[ 2015-08-21T10:12:56+08:00 ] 127.0.0.1 /YsInnoCenter/YsInnovation/index.php/Admin/User/getRolesJs
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000411s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000721s ]
+SQL: select * from t_role where isshow=0 [ RunTime:0.0006s ]
+
+[ 2015-08-21T10:13:14+08:00 ] 127.0.0.1 /YsInnoCenter/YsInnovation/index.php/Admin/User/getTeaDutyJs
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000392s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001030s ]
+SQL: select * from t_tea_duty where isshow=0 [ RunTime:0.0007s ]
+
+[ 2015-08-21T10:13:14+08:00 ] 127.0.0.1 /YsInnoCenter/YsInnovation/index.php/Admin/User/getOrgJs
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000311s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000570s ]
+SQL: select * from t_organization where isshow='0' and organization_type=2 [ RunTime:0.0020s ]
+
+[ 2015-08-21T10:13:14+08:00 ] 127.0.0.1 /YsInnoCenter/YsInnovation/index.php/Admin/User/getRolesJs
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000463s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000706s ]
+SQL: select * from t_role where isshow=0 [ RunTime:0.0006s ]
+
+[ 2015-08-21T10:13:14+08:00 ] 127.0.0.1 /YsInnoCenter/YsInnovation/index.php/Admin/User/getCollegeJs
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000326s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000565s ]
+SQL: select * from t_college where isshow=0 [ RunTime:0.0008s ]
+
+[ 2015-08-21T10:59:27+08:00 ] 127.0.0.1 /YsInnoCenter/YsInnovation/index.php/Admin/User/getOrgJs
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000394s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000689s ]
+SQL: select * from t_organization where isshow='0' and organization_type=2 [ RunTime:0.0018s ]
+
+[ 2015-08-21T10:59:27+08:00 ] 127.0.0.1 /YsInnoCenter/YsInnovation/index.php/Admin/User/getCollegeJs
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000586s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000970s ]
+SQL: select * from t_college where isshow=0 [ RunTime:0.0006s ]
+
+[ 2015-08-21T10:59:27+08:00 ] 127.0.0.1 /YsInnoCenter/YsInnovation/index.php/Admin/User/getRolesJs
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000670s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001253s ]
+SQL: select * from t_role where isshow=0 [ RunTime:0.0007s ]
+
+[ 2015-08-21T10:59:27+08:00 ] 127.0.0.1 /YsInnoCenter/YsInnovation/index.php/Admin/User/getTeaDutyJs
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000462s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000866s ]
+SQL: select * from t_tea_duty where isshow=0 [ RunTime:0.0008s ]
+
+[ 2015-08-21T14:48:53+08:00 ] 127.0.0.1 /YsInnoCenter/YsInnovation/index.php/Admin/User/getUserDataJs
+ERR: 非法操作:getUserDataJs
+
+[ 2015-08-21T16:46:10+08:00 ] 127.0.0.1 /YsInnoCenter/YsInnovation/index.php/Admin/Course/getCourseListData
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000363s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000619s ]
+SQL: select * from t_course where status_id='2' and isshow=0 limit 0,10 [ RunTime:0.0015s ]
+SQL: SHOW COLUMNS FROM `t_organization` [ RunTime:0.0021s ]
+SQL: SELECT * FROM `t_organization` WHERE ( organization_id=2 )  [ RunTime:0.0011s ]
+SQL: SHOW COLUMNS FROM `t_user` [ RunTime:0.0018s ]
+SQL: SELECT * FROM `t_user` WHERE ( user_id=1 )  [ RunTime:0.0009s ]
+SQL: SELECT * FROM `t_user` WHERE ( user_id=1 )  [ RunTime:0.0009s ]
+
+[ 2015-08-21T16:46:10+08:00 ] 127.0.0.1 /YsInnoCenter/YsInnovation/index.php/Admin/Course/getCourseCount
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000366s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000689s ]
+SQL: select count(*) from t_course where isshow='0' and status_id='2' [ RunTime:0.0007s ]
+
+[ 2015-08-21T16:47:40+08:00 ] 127.0.0.1 /YsInnoCenter/YsInnovation/index.php/Admin/User/getUserDataJs
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000330s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000604s ]
+NOTIC: [8] Undefined variable: statrt_record E:\wamp\www\YsInnoCenter\YsInnovation\Admin\Controller\UserController.class.php 第 238 行.
+ERR: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '10' at line 1
+
+[ 2015-08-21T16:47:40+08:00 ] 127.0.0.1 /YsInnoCenter/YsInnovation/index.php/Admin/getUserCountJs
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000353s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000616s ]
+ERR: 无法加载控制器:GetUserCountJs
+
+[ 2015-08-21T16:48:16+08:00 ] 127.0.0.1 /YsInnoCenter/YsInnovation/index.php/Admin/User/getUserDataJs
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000528s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000933s ]
+NOTIC: [8] Undefined variable: statrt_record E:\wamp\www\YsInnoCenter\YsInnovation\Admin\Controller\UserController.class.php 第 238 行.
+ERR: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '10' at line 1
+
+[ 2015-08-21T16:48:16+08:00 ] 127.0.0.1 /YsInnoCenter/YsInnovation/index.php/Admin/User/getUserCountJs
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000368s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000719s ]
+ERR: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '*) from t_user_account,t_user where t_user_account.user_id=t_user.user_id and t_' at line 1
+
+[ 2015-08-21T16:48:22+08:00 ] 127.0.0.1 /YsInnoCenter/YsInnovation/index.php/Admin/User/getUserDataJs
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000505s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000902s ]
+NOTIC: [8] Undefined variable: statrt_record E:\wamp\www\YsInnoCenter\YsInnovation\Admin\Controller\UserController.class.php 第 238 行.
+ERR: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '10' at line 1
+
+[ 2015-08-21T16:48:22+08:00 ] 127.0.0.1 /YsInnoCenter/YsInnovation/index.php/Admin/User/getUserCountJs
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000483s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000870s ]
+ERR: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '*) from t_user_account,t_user where t_user_account.user_id=t_user.user_id and t_' at line 1
+
+[ 2015-08-21T16:49:10+08:00 ] 127.0.0.1 /YsInnoCenter/YsInnovation/index.php/Admin/User/getUserDataJs
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000442s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000806s ]
+NOTIC: [8] Undefined variable: statrt_record E:\wamp\www\YsInnoCenter\YsInnovation\Admin\Controller\UserController.class.php 第 238 行.
+ERR: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '10' at line 1
+
+[ 2015-08-21T16:49:10+08:00 ] 127.0.0.1 /YsInnoCenter/YsInnovation/index.php/Admin/User/getUserCountJs
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000452s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000803s ]
+ERR: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '*) from t_user_account,t_user where t_user_account.user_id=t_user.user_id and t_' at line 1
+
+[ 2015-08-21T16:57:40+08:00 ] 127.0.0.1 /YsInnoCenter/YsInnovation/index.php/Admin/User/getUserDataJs
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000571s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001017s ]
+NOTIC: [8] Undefined variable: statrt_record E:\wamp\www\YsInnoCenter\YsInnovation\Admin\Controller\UserController.class.php 第 238 行.
+ERR: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '10' at line 1
+
+[ 2015-08-21T16:57:40+08:00 ] 127.0.0.1 /YsInnoCenter/YsInnovation/index.php/Admin/User/getUserCountJs
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000738s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001270s ]
+SQL: select count(*) from t_user_account,t_user where t_user_account.user_id=t_user.user_id and t_user.is_tea_or_stu=1 [ RunTime:0.0007s ]
+
+[ 2015-08-21T16:59:35+08:00 ] 127.0.0.1 /YsInnoCenter/YsInnovation/index.php/Admin/User/getUserDataJs
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000337s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000593s ]
+NOTIC: [8] Undefined variable: statrt_record E:\wamp\www\YsInnoCenter\YsInnovation\Admin\Controller\UserController.class.php 第 238 行.
+ERR: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '10' at line 1
+
+[ 2015-08-21T16:59:35+08:00 ] 127.0.0.1 /YsInnoCenter/YsInnovation/index.php/Admin/User/getUserCountJs
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000320s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000566s ]
+SQL: select count(*) from t_user_account,t_user where t_user_account.user_id=t_user.user_id and t_user.is_tea_or_stu=1 [ RunTime:0.0006s ]
+
+[ 2015-08-21T17:00:00+08:00 ] 127.0.0.1 /YsInnoCenter/YsInnovation/index.php/Admin/User/getUserDataJs
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000692s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001302s ]
+NOTIC: [8] Undefined variable: statrt_record E:\wamp\www\YsInnoCenter\YsInnovation\Admin\Controller\UserController.class.php 第 238 行.
+ERR: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '10' at line 1
+
+[ 2015-08-21T17:00:00+08:00 ] 127.0.0.1 /YsInnoCenter/YsInnovation/index.php/Admin/User/getUserCountJs
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000375s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000639s ]
+SQL: select count(*) from t_user_account,t_user where t_user_account.user_id=t_user.user_id and t_user.is_tea_or_stu=1 [ RunTime:0.0007s ]
+
+[ 2015-08-21T17:00:39+08:00 ] 127.0.0.1 /YsInnoCenter/YsInnovation/index.php/Admin/User/getUserDataJs
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000320s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000580s ]
+NOTIC: [8] Undefined variable: statrt_record E:\wamp\www\YsInnoCenter\YsInnovation\Admin\Controller\UserController.class.php 第 238 行.
+ERR: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '10' at line 1
+
+[ 2015-08-21T17:00:39+08:00 ] 127.0.0.1 /YsInnoCenter/YsInnovation/index.php/Admin/User/getUserCountJs
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000329s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000582s ]
+SQL: select count(*) from t_user_account,t_user where t_user_account.user_id=t_user.user_id and t_user.is_tea_or_stu=1 [ RunTime:0.0007s ]
+
+[ 2015-08-21T17:00:43+08:00 ] 127.0.0.1 /YsInnoCenter/YsInnovation/index.php/Admin/User/getUserDataJs
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000417s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000681s ]
+NOTIC: [8] Undefined variable: statrt_record E:\wamp\www\YsInnoCenter\YsInnovation\Admin\Controller\UserController.class.php 第 238 行.
+ERR: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '10' at line 1
+
+[ 2015-08-21T17:00:43+08:00 ] 127.0.0.1 /YsInnoCenter/YsInnovation/index.php/Admin/User/getUserCountJs
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000387s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000651s ]
+SQL: select count(*) from t_user_account,t_user where t_user_account.user_id=t_user.user_id and t_user.is_tea_or_stu=1 [ RunTime:0.0008s ]
+
+[ 2015-08-21T17:00:46+08:00 ] 127.0.0.1 /YsInnoCenter/YsInnovation/index.php/Admin/User/getUserDataJs
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000445s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000764s ]
+NOTIC: [8] Undefined variable: statrt_record E:\wamp\www\YsInnoCenter\YsInnovation\Admin\Controller\UserController.class.php 第 238 行.
+ERR: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '10' at line 1
+
+[ 2015-08-21T17:00:46+08:00 ] 127.0.0.1 /YsInnoCenter/YsInnovation/index.php/Admin/User/getUserCountJs
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000342s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000575s ]
+SQL: select count(*) from t_user_account,t_user where t_user_account.user_id=t_user.user_id and t_user.is_tea_or_stu=1 [ RunTime:0.0006s ]
+
+[ 2015-08-21T17:00:46+08:00 ] 127.0.0.1 /YsInnoCenter/YsInnovation/index.php/Admin/User/getUserDataJs
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000505s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000781s ]
+NOTIC: [8] Undefined variable: statrt_record E:\wamp\www\YsInnoCenter\YsInnovation\Admin\Controller\UserController.class.php 第 238 行.
+ERR: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '10' at line 1
+
+[ 2015-08-21T17:00:46+08:00 ] 127.0.0.1 /YsInnoCenter/YsInnovation/index.php/Admin/User/getUserCountJs
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000475s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000726s ]
+SQL: select count(*) from t_user_account,t_user where t_user_account.user_id=t_user.user_id and t_user.is_tea_or_stu=1 [ RunTime:0.0007s ]
+
+[ 2015-08-21T17:00:52+08:00 ] 127.0.0.1 /YsInnoCenter/YsInnovation/index.php/Admin/User/getUserDataJs
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000317s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000557s ]
+NOTIC: [8] Undefined variable: statrt_record E:\wamp\www\YsInnoCenter\YsInnovation\Admin\Controller\UserController.class.php 第 238 行.
+ERR: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '10' at line 1
+
+[ 2015-08-21T17:00:52+08:00 ] 127.0.0.1 /YsInnoCenter/YsInnovation/index.php/Admin/User/getUserCountJs
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000395s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000628s ]
+SQL: select count(*) from t_user_account,t_user where t_user_account.user_id=t_user.user_id and t_user.is_tea_or_stu=1 [ RunTime:0.0007s ]
+
+[ 2015-08-21T17:01:14+08:00 ] 127.0.0.1 /YsInnoCenter/YsInnovation/index.php/Admin/User/getUserDataJs
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000303s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000592s ]
+NOTIC: [8] Undefined variable: statrt_record E:\wamp\www\YsInnoCenter\YsInnovation\Admin\Controller\UserController.class.php 第 238 行.
+ERR: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '10' at line 1
+
+[ 2015-08-21T17:01:14+08:00 ] 127.0.0.1 /YsInnoCenter/YsInnovation/index.php/Admin/User/getUserCountJs
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000304s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000555s ]
+SQL: select count(*) from t_user_account,t_user where t_user_account.user_id=t_user.user_id and t_user.is_tea_or_stu=1 [ RunTime:0.0007s ]
+
+[ 2015-08-21T17:01:35+08:00 ] 127.0.0.1 /YsInnoCenter/YsInnovation/index.php/Admin/User/getUserDataJs
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000373s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000643s ]
+NOTIC: [8] Undefined variable: statrt_record E:\wamp\www\YsInnoCenter\YsInnovation\Admin\Controller\UserController.class.php 第 238 行.
+ERR: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '10' at line 1
+
+[ 2015-08-21T17:01:35+08:00 ] 127.0.0.1 /YsInnoCenter/YsInnovation/index.php/Admin/User/getUserCountJs
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000331s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000591s ]
+SQL: select count(*) from t_user_account,t_user where t_user_account.user_id=t_user.user_id and t_user.is_tea_or_stu=1 [ RunTime:0.0008s ]
+
+[ 2015-08-21T17:02:09+08:00 ] 127.0.0.1 /YsInnoCenter/YsInnovation/index.php/Admin/User/getUserDataJs
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000336s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000613s ]
+NOTIC: [8] Undefined variable: statrt_record E:\wamp\www\YsInnoCenter\YsInnovation\Admin\Controller\UserController.class.php 第 238 行.
+ERR: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '10' at line 1
+
+[ 2015-08-21T17:02:09+08:00 ] 127.0.0.1 /YsInnoCenter/YsInnovation/index.php/Admin/User/getUserCountJs
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000339s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000602s ]
+SQL: select count(*) from t_user_account,t_user where t_user_account.user_id=t_user.user_id and t_user.is_tea_or_stu=1 [ RunTime:0.0012s ]
+
+[ 2015-08-21T17:10:15+08:00 ] 127.0.0.1 /YsInnoCenter/YsInnovation/index.php/Admin/User/getUserDataJs
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000476s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000863s ]
+NOTIC: [8] Undefined variable: statrt_record E:\wamp\www\YsInnoCenter\YsInnovation\Admin\Controller\UserController.class.php 第 239 行.
+ERR: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '10' at line 1
+
+[ 2015-08-21T17:10:15+08:00 ] 127.0.0.1 /YsInnoCenter/YsInnovation/index.php/Admin/User/getUserCountJs
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000689s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001107s ]
+SQL: select count(*) from t_user_account,t_user where t_user_account.user_id=t_user.user_id and t_user.is_tea_or_stu=1 [ RunTime:0.0007s ]
+
+[ 2015-08-21T17:10:52+08:00 ] 127.0.0.1 /YsInnoCenter/YsInnovation/index.php/Admin/User/getUserDataJs
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000345s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000619s ]
+NOTIC: [8] Undefined variable: statrt_record E:\wamp\www\YsInnoCenter\YsInnovation\Admin\Controller\UserController.class.php 第 239 行.
+ERR: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '10' at line 1
+
+[ 2015-08-21T17:10:52+08:00 ] 127.0.0.1 /YsInnoCenter/YsInnovation/index.php/Admin/User/getUserCountJs
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000334s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000615s ]
+SQL: select count(*) from t_user_account,t_user where t_user_account.user_id=t_user.user_id and t_user.is_tea_or_stu=1 [ RunTime:0.0008s ]
+
+[ 2015-08-21T17:11:14+08:00 ] 127.0.0.1 /YsInnoCenter/YsInnovation/index.php/Admin/User/getUserDataJs
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000363s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000652s ]
+NOTIC: [8] Undefined variable: statrt_record E:\wamp\www\YsInnoCenter\YsInnovation\Admin\Controller\UserController.class.php 第 239 行.
+ERR: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '10' at line 1
+
+[ 2015-08-21T17:11:14+08:00 ] 127.0.0.1 /YsInnoCenter/YsInnovation/index.php/Admin/User/getUserCountJs
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000365s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000663s ]
+SQL: select count(*) from t_user_account,t_user where t_user_account.user_id=t_user.user_id and t_user.is_tea_or_stu=1 [ RunTime:0.0007s ]
+
+[ 2015-08-21T17:16:49+08:00 ] 127.0.0.1 /YsInnoCenter/YsInnovation/index.php/Admin/User/getUserDataJs
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000318s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000584s ]
+NOTIC: [8] Undefined variable: statrt_record E:\wamp\www\YsInnoCenter\YsInnovation\Admin\Controller\UserController.class.php 第 239 行.
+ERR: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '10' at line 1
+
+[ 2015-08-21T17:16:49+08:00 ] 127.0.0.1 /YsInnoCenter/YsInnovation/index.php/Admin/User/getUserCountJs
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000571s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000866s ]
+SQL: select count(*) from t_user_account,t_user where t_user_account.user_id=t_user.user_id and t_user.is_tea_or_stu=1 [ RunTime:0.0007s ]
+
+[ 2015-08-21T17:16:55+08:00 ] 127.0.0.1 /YsInnoCenter/YsInnovation/index.php/Admin/User/getUserDataJs
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000429s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000762s ]
+NOTIC: [8] Undefined variable: statrt_record E:\wamp\www\YsInnoCenter\YsInnovation\Admin\Controller\UserController.class.php 第 239 行.
+ERR: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '10' at line 1
+
+[ 2015-08-21T17:16:55+08:00 ] 127.0.0.1 /YsInnoCenter/YsInnovation/index.php/Admin/User/getUserCountJs
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000416s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000746s ]
+SQL: select count(*) from t_user_account,t_user where t_user_account.user_id=t_user.user_id and t_user.is_tea_or_stu=1 [ RunTime:0.0008s ]
+
+[ 2015-08-21T17:18:47+08:00 ] 127.0.0.1 /YsInnoCenter/YsInnovation/index.php/Admin/User/getUserDataJs
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000392s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000695s ]
+NOTIC: [8] Undefined variable: statrt_record E:\wamp\www\YsInnoCenter\YsInnovation\Admin\Controller\UserController.class.php 第 240 行.
+ERR: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '10' at line 1
+
+[ 2015-08-21T17:18:47+08:00 ] 127.0.0.1 /YsInnoCenter/YsInnovation/index.php/Admin/User/getUserCountJs
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000388s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000693s ]
+SQL: select count(*) from t_user_account,t_user where t_user_account.user_id=t_user.user_id and t_user.is_tea_or_stu=1 [ RunTime:0.0008s ]
+
+[ 2015-08-21T17:19:28+08:00 ] 127.0.0.1 /YsInnoCenter/YsInnovation/index.php/Admin/User/getUserDataJs
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000316s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000567s ]
+NOTIC: [8] Undefined variable: statrt_record E:\wamp\www\YsInnoCenter\YsInnovation\Admin\Controller\UserController.class.php 第 240 行.
+ERR: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '10' at line 1
+
+[ 2015-08-21T17:19:28+08:00 ] 127.0.0.1 /YsInnoCenter/YsInnovation/index.php/Admin/User/getUserCountJs
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000472s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000802s ]
+SQL: select count(*) from t_user_account,t_user where t_user_account.user_id=t_user.user_id and t_user.is_tea_or_stu=1 [ RunTime:0.0008s ]
+
+[ 2015-08-21T17:19:42+08:00 ] 127.0.0.1 /YsInnoCenter/YsInnovation/index.php/Admin/User/getUserDataJs
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000444s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000826s ]
+NOTIC: [8] Undefined variable: statrt_record E:\wamp\www\YsInnoCenter\YsInnovation\Admin\Controller\UserController.class.php 第 240 行.
+ERR: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '10' at line 1
+
+[ 2015-08-21T17:19:42+08:00 ] 127.0.0.1 /YsInnoCenter/YsInnovation/index.php/Admin/User/getUserCountJs
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000506s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000881s ]
+SQL: select count(*) from t_user_account,t_user where t_user_account.user_id=t_user.user_id and t_user.is_tea_or_stu=1 [ RunTime:0.0008s ]
+
+[ 2015-08-21T17:58:04+08:00 ] 127.0.0.1 /YsInnoCenter/YsInnovation/index.php/Admin/User/getUserData
+ERR: 参数错误或者未定义:user_type
+
+[ 2015-08-21T17:59:33+08:00 ] 127.0.0.1 /YsInnoCenter/YsInnovation/index.php/Admin/User/getUserDataJs
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000724s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001287s ]
+NOTIC: [8] Undefined variable: statrt_record E:\wamp\www\YsInnoCenter\YsInnovation\Admin\Controller\UserController.class.php 第 239 行.
+ERR: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '10' at line 1
+
+[ 2015-08-21T17:59:33+08:00 ] 127.0.0.1 /YsInnoCenter/YsInnovation/index.php/Admin/User/getUserCountJs
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000737s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001300s ]
+SQL: select count(*) from t_user_account,t_user where t_user_account.user_id=t_user.user_id and t_user.is_tea_or_stu=1 [ RunTime:0.0008s ]
+
+[ 2015-08-21T17:59:46+08:00 ] 127.0.0.1 /YsInnoCenter/YsInnovation/index.php/Admin/User/getUserDataJs
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000966s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001727s ]
+NOTIC: [8] Undefined variable: statrt_record E:\wamp\www\YsInnoCenter\YsInnovation\Admin\Controller\UserController.class.php 第 239 行.
+ERR: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '10' at line 1
+
+[ 2015-08-21T17:59:46+08:00 ] 127.0.0.1 /YsInnoCenter/YsInnovation/index.php/Admin/User/getUserCountJs
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000386s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000681s ]
+SQL: select count(*) from t_user_account,t_user where t_user_account.user_id=t_user.user_id and t_user.is_tea_or_stu=1 [ RunTime:0.0008s ]
+
+[ 2015-08-21T18:00:31+08:00 ] 127.0.0.1 /YsInnoCenter/YsInnovation/index.php/Admin/User/getUserDataJs
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000890s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001536s ]
+NOTIC: [8] Undefined variable: statrt_record E:\wamp\www\YsInnoCenter\YsInnovation\Admin\Controller\UserController.class.php 第 240 行.
+ERR: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '10' at line 1
+
+[ 2015-08-21T18:00:31+08:00 ] 127.0.0.1 /YsInnoCenter/YsInnovation/index.php/Admin/User/getUserCountJs
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001118s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001964s ]
+SQL: select count(*) from t_user_account,t_user where t_user_account.user_id=t_user.user_id and t_user.is_tea_or_stu=1 [ RunTime:0.0007s ]
+
+[ 2015-08-21T18:00:41+08:00 ] 127.0.0.1 /YsInnoCenter/YsInnovation/index.php/Admin/User/getUserDataJs
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000412s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000748s ]
+NOTIC: [8] Undefined variable: statrt_record E:\wamp\www\YsInnoCenter\YsInnovation\Admin\Controller\UserController.class.php 第 240 行.
+ERR: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '10' at line 1
+
+[ 2015-08-21T18:00:41+08:00 ] 127.0.0.1 /YsInnoCenter/YsInnovation/index.php/Admin/User/getUserCountJs
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000397s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000693s ]
+SQL: select count(*) from t_user_account,t_user where t_user_account.user_id=t_user.user_id and t_user.is_tea_or_stu=1 [ RunTime:0.0007s ]
+
+[ 2015-08-21T18:00:46+08:00 ] 127.0.0.1 /YsInnoCenter/YsInnovation/index.php/Admin/User/getUserDataJs
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000308s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000555s ]
+NOTIC: [8] Undefined variable: statrt_record E:\wamp\www\YsInnoCenter\YsInnovation\Admin\Controller\UserController.class.php 第 240 行.
+ERR: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '10' at line 1
+
+[ 2015-08-21T18:00:46+08:00 ] 127.0.0.1 /YsInnoCenter/YsInnovation/index.php/Admin/User/getUserCountJs
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000310s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000583s ]
+SQL: select count(*) from t_user_account,t_user where t_user_account.user_id=t_user.user_id and t_user.is_tea_or_stu=1 [ RunTime:0.0008s ]
+
+[ 2015-08-21T18:00:53+08:00 ] 127.0.0.1 /YsInnoCenter/YsInnovation/index.php/Admin/User/getUserDataJs
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000514s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000949s ]
+NOTIC: [8] Undefined variable: statrt_record E:\wamp\www\YsInnoCenter\YsInnovation\Admin\Controller\UserController.class.php 第 240 行.
+ERR: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '10' at line 1
+
+[ 2015-08-21T18:00:53+08:00 ] 127.0.0.1 /YsInnoCenter/YsInnovation/index.php/Admin/User/getUserCountJs
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000525s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000935s ]
+SQL: select count(*) from t_user_account,t_user where t_user_account.user_id=t_user.user_id and t_user.is_tea_or_stu=1 [ RunTime:0.0009s ]
+
+[ 2015-08-21T18:03:08+08:00 ] 127.0.0.1 /YsInnoCenter/YsInnovation/index.php/Admin/User/getUserDataJs
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000355s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000608s ]
+NOTIC: [8] Undefined variable: statrt_record E:\wamp\www\YsInnoCenter\YsInnovation\Admin\Controller\UserController.class.php 第 240 行.
+ERR: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '10' at line 1
+
+[ 2015-08-21T18:03:08+08:00 ] 127.0.0.1 /YsInnoCenter/YsInnovation/index.php/Admin/User/getUserCountJs
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000469s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000804s ]
+SQL: select count(*) from t_user_account,t_user where t_user_account.user_id=t_user.user_id and t_user.is_tea_or_stu=1 [ RunTime:0.0007s ]
+
+[ 2015-08-21T18:03:09+08:00 ] 127.0.0.1 /YsInnoCenter/YsInnovation/index.php/Admin/User/getUserDataJs
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000300s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000546s ]
+NOTIC: [8] Undefined variable: statrt_record E:\wamp\www\YsInnoCenter\YsInnovation\Admin\Controller\UserController.class.php 第 240 行.
+ERR: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '10' at line 1
+
+[ 2015-08-21T18:03:09+08:00 ] 127.0.0.1 /YsInnoCenter/YsInnovation/index.php/Admin/User/getUserCountJs
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000293s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000555s ]
+SQL: select count(*) from t_user_account,t_user where t_user_account.user_id=t_user.user_id and t_user.is_tea_or_stu=1 [ RunTime:0.0007s ]
+
+[ 2015-08-21T18:03:09+08:00 ] 127.0.0.1 /YsInnoCenter/YsInnovation/index.php/Admin/User/getUserDataJs
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000293s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000538s ]
+NOTIC: [8] Undefined variable: statrt_record E:\wamp\www\YsInnoCenter\YsInnovation\Admin\Controller\UserController.class.php 第 240 行.
+ERR: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '10' at line 1
+
+[ 2015-08-21T18:03:09+08:00 ] 127.0.0.1 /YsInnoCenter/YsInnovation/index.php/Admin/User/getUserCountJs
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000323s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000556s ]
+SQL: select count(*) from t_user_account,t_user where t_user_account.user_id=t_user.user_id and t_user.is_tea_or_stu=1 [ RunTime:0.0008s ]
+
+[ 2015-08-21T18:03:09+08:00 ] 127.0.0.1 /YsInnoCenter/YsInnovation/index.php/Admin/User/getUserDataJs
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000302s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000542s ]
+NOTIC: [8] Undefined variable: statrt_record E:\wamp\www\YsInnoCenter\YsInnovation\Admin\Controller\UserController.class.php 第 240 行.
+ERR: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '10' at line 1
+
+[ 2015-08-21T18:03:09+08:00 ] 127.0.0.1 /YsInnoCenter/YsInnovation/index.php/Admin/User/getUserCountJs
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000351s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000629s ]
+SQL: select count(*) from t_user_account,t_user where t_user_account.user_id=t_user.user_id and t_user.is_tea_or_stu=1 [ RunTime:0.0007s ]
+
+[ 2015-08-21T18:03:09+08:00 ] 127.0.0.1 /YsInnoCenter/YsInnovation/index.php/Admin/User/getUserCountJs
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000318s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000559s ]
+SQL: select count(*) from t_user_account,t_user where t_user_account.user_id=t_user.user_id and t_user.is_tea_or_stu=1 [ RunTime:0.0007s ]
+
+[ 2015-08-21T18:03:09+08:00 ] 127.0.0.1 /YsInnoCenter/YsInnovation/index.php/Admin/User/getUserDataJs
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000318s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000567s ]
+NOTIC: [8] Undefined variable: statrt_record E:\wamp\www\YsInnoCenter\YsInnovation\Admin\Controller\UserController.class.php 第 240 行.
+ERR: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '10' at line 1
+
+[ 2015-08-21T18:03:10+08:00 ] 127.0.0.1 /YsInnoCenter/YsInnovation/index.php/Admin/User/getUserDataJs
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000305s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000553s ]
+NOTIC: [8] Undefined variable: statrt_record E:\wamp\www\YsInnoCenter\YsInnovation\Admin\Controller\UserController.class.php 第 240 行.
+ERR: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '10' at line 1
+
+[ 2015-08-21T18:03:10+08:00 ] 127.0.0.1 /YsInnoCenter/YsInnovation/index.php/Admin/User/getUserCountJs
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000372s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000619s ]
+SQL: select count(*) from t_user_account,t_user where t_user_account.user_id=t_user.user_id and t_user.is_tea_or_stu=1 [ RunTime:0.0008s ]
+
+[ 2015-08-21T18:03:10+08:00 ] 127.0.0.1 /YsInnoCenter/YsInnovation/index.php/Admin/User/getUserDataJs
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000310s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000563s ]
+NOTIC: [8] Undefined variable: statrt_record E:\wamp\www\YsInnoCenter\YsInnovation\Admin\Controller\UserController.class.php 第 240 行.
+ERR: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '10' at line 1
+
+[ 2015-08-21T18:03:10+08:00 ] 127.0.0.1 /YsInnoCenter/YsInnovation/index.php/Admin/User/getUserCountJs
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000338s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000598s ]
+SQL: select count(*) from t_user_account,t_user where t_user_account.user_id=t_user.user_id and t_user.is_tea_or_stu=1 [ RunTime:0.0010s ]
+
+[ 2015-08-21T18:03:10+08:00 ] 127.0.0.1 /YsInnoCenter/YsInnovation/index.php/Admin/User/getUserDataJs
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000304s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000548s ]
+NOTIC: [8] Undefined variable: statrt_record E:\wamp\www\YsInnoCenter\YsInnovation\Admin\Controller\UserController.class.php 第 240 行.
+ERR: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '10' at line 1
+
+[ 2015-08-21T18:03:10+08:00 ] 127.0.0.1 /YsInnoCenter/YsInnovation/index.php/Admin/User/getUserCountJs
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000308s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000565s ]
+SQL: select count(*) from t_user_account,t_user where t_user_account.user_id=t_user.user_id and t_user.is_tea_or_stu=1 [ RunTime:0.0007s ]
+
+[ 2015-08-21T18:03:10+08:00 ] 127.0.0.1 /YsInnoCenter/YsInnovation/index.php/Admin/User/getUserDataJs
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000310s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000562s ]
+NOTIC: [8] Undefined variable: statrt_record E:\wamp\www\YsInnoCenter\YsInnovation\Admin\Controller\UserController.class.php 第 240 行.
+ERR: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '10' at line 1
+
+[ 2015-08-21T18:03:10+08:00 ] 127.0.0.1 /YsInnoCenter/YsInnovation/index.php/Admin/User/getUserCountJs
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000318s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000558s ]
+SQL: select count(*) from t_user_account,t_user where t_user_account.user_id=t_user.user_id and t_user.is_tea_or_stu=1 [ RunTime:0.0008s ]
+
+[ 2015-08-21T18:03:10+08:00 ] 127.0.0.1 /YsInnoCenter/YsInnovation/index.php/Admin/User/getUserDataJs
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000327s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000654s ]
+NOTIC: [8] Undefined variable: statrt_record E:\wamp\www\YsInnoCenter\YsInnovation\Admin\Controller\UserController.class.php 第 240 行.
+ERR: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '10' at line 1
+
+[ 2015-08-21T18:03:10+08:00 ] 127.0.0.1 /YsInnoCenter/YsInnovation/index.php/Admin/User/getUserCountJs
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000335s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000577s ]
+SQL: select count(*) from t_user_account,t_user where t_user_account.user_id=t_user.user_id and t_user.is_tea_or_stu=1 [ RunTime:0.0007s ]
+
+[ 2015-08-21T18:03:11+08:00 ] 127.0.0.1 /YsInnoCenter/YsInnovation/index.php/Admin/User/getUserCountJs
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000388s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000679s ]
+SQL: select count(*) from t_user_account,t_user where t_user_account.user_id=t_user.user_id and t_user.is_tea_or_stu=1 [ RunTime:0.0006s ]
+
+[ 2015-08-21T18:03:11+08:00 ] 127.0.0.1 /YsInnoCenter/YsInnovation/index.php/Admin/User/getUserDataJs
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000397s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000720s ]
+NOTIC: [8] Undefined variable: statrt_record E:\wamp\www\YsInnoCenter\YsInnovation\Admin\Controller\UserController.class.php 第 240 行.
+ERR: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '10' at line 1
+
+[ 2015-08-21T18:03:11+08:00 ] 127.0.0.1 /YsInnoCenter/YsInnovation/index.php/Admin/User/getUserDataJs
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000570s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000933s ]
+NOTIC: [8] Undefined variable: statrt_record E:\wamp\www\YsInnoCenter\YsInnovation\Admin\Controller\UserController.class.php 第 240 行.
+ERR: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '10' at line 1
+
+[ 2015-08-21T18:03:11+08:00 ] 127.0.0.1 /YsInnoCenter/YsInnovation/index.php/Admin/User/getUserCountJs
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000407s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000781s ]
+SQL: select count(*) from t_user_account,t_user where t_user_account.user_id=t_user.user_id and t_user.is_tea_or_stu=1 [ RunTime:0.0006s ]
+
+[ 2015-08-21T18:03:11+08:00 ] 127.0.0.1 /YsInnoCenter/YsInnovation/index.php/Admin/User/getUserDataJs
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000314s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000578s ]
+NOTIC: [8] Undefined variable: statrt_record E:\wamp\www\YsInnoCenter\YsInnovation\Admin\Controller\UserController.class.php 第 240 行.
+ERR: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '10' at line 1
+
+[ 2015-08-21T18:03:11+08:00 ] 127.0.0.1 /YsInnoCenter/YsInnovation/index.php/Admin/User/getUserCountJs
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000316s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000565s ]
+SQL: select count(*) from t_user_account,t_user where t_user_account.user_id=t_user.user_id and t_user.is_tea_or_stu=1 [ RunTime:0.0010s ]
+
+[ 2015-08-21T18:03:12+08:00 ] 127.0.0.1 /YsInnoCenter/YsInnovation/index.php/Admin/User/getUserDataJs
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000331s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000588s ]
+NOTIC: [8] Undefined variable: statrt_record E:\wamp\www\YsInnoCenter\YsInnovation\Admin\Controller\UserController.class.php 第 240 行.
+ERR: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '10' at line 1
+
+[ 2015-08-21T18:03:12+08:00 ] 127.0.0.1 /YsInnoCenter/YsInnovation/index.php/Admin/User/getUserCountJs
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000393s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000667s ]
+SQL: select count(*) from t_user_account,t_user where t_user_account.user_id=t_user.user_id and t_user.is_tea_or_stu=1 [ RunTime:0.0007s ]
+
+[ 2015-08-21T18:03:12+08:00 ] 127.0.0.1 /YsInnoCenter/YsInnovation/index.php/Admin/User/getUserDataJs
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000425s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000771s ]
+NOTIC: [8] Undefined variable: statrt_record E:\wamp\www\YsInnoCenter\YsInnovation\Admin\Controller\UserController.class.php 第 240 行.
+ERR: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '10' at line 1
+
+[ 2015-08-21T18:03:12+08:00 ] 127.0.0.1 /YsInnoCenter/YsInnovation/index.php/Admin/User/getUserCountJs
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000395s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000662s ]
+SQL: select count(*) from t_user_account,t_user where t_user_account.user_id=t_user.user_id and t_user.is_tea_or_stu=1 [ RunTime:0.0006s ]
+
+[ 2015-08-21T18:03:12+08:00 ] 127.0.0.1 /YsInnoCenter/YsInnovation/index.php/Admin/User/getUserDataJs
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000292s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000528s ]
+NOTIC: [8] Undefined variable: statrt_record E:\wamp\www\YsInnoCenter\YsInnovation\Admin\Controller\UserController.class.php 第 240 行.
+ERR: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '10' at line 1
+
+[ 2015-08-21T18:03:12+08:00 ] 127.0.0.1 /YsInnoCenter/YsInnovation/index.php/Admin/User/getUserCountJs
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000403s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000660s ]
+SQL: select count(*) from t_user_account,t_user where t_user_account.user_id=t_user.user_id and t_user.is_tea_or_stu=1 [ RunTime:0.0007s ]
+
+[ 2015-08-21T18:03:12+08:00 ] 127.0.0.1 /YsInnoCenter/YsInnovation/index.php/Admin/User/getUserDataJs
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000367s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000640s ]
+NOTIC: [8] Undefined variable: statrt_record E:\wamp\www\YsInnoCenter\YsInnovation\Admin\Controller\UserController.class.php 第 240 行.
+ERR: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '10' at line 1
+
+[ 2015-08-21T18:03:12+08:00 ] 127.0.0.1 /YsInnoCenter/YsInnovation/index.php/Admin/User/getUserCountJs
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000316s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000561s ]
+SQL: select count(*) from t_user_account,t_user where t_user_account.user_id=t_user.user_id and t_user.is_tea_or_stu=1 [ RunTime:0.0007s ]
+
+[ 2015-08-21T18:03:12+08:00 ] 127.0.0.1 /YsInnoCenter/YsInnovation/index.php/Admin/User/getUserDataJs
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000296s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000567s ]
+NOTIC: [8] Undefined variable: statrt_record E:\wamp\www\YsInnoCenter\YsInnovation\Admin\Controller\UserController.class.php 第 240 行.
+ERR: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '10' at line 1
+
+[ 2015-08-21T18:03:12+08:00 ] 127.0.0.1 /YsInnoCenter/YsInnovation/index.php/Admin/User/getUserCountJs
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000366s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000606s ]
+SQL: select count(*) from t_user_account,t_user where t_user_account.user_id=t_user.user_id and t_user.is_tea_or_stu=1 [ RunTime:0.0006s ]
+
+[ 2015-08-21T18:03:12+08:00 ] 127.0.0.1 /YsInnoCenter/YsInnovation/index.php/Admin/User/getUserDataJs
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000435s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000723s ]
+NOTIC: [8] Undefined variable: statrt_record E:\wamp\www\YsInnoCenter\YsInnovation\Admin\Controller\UserController.class.php 第 240 行.
+ERR: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '10' at line 1
+
+[ 2015-08-21T18:03:12+08:00 ] 127.0.0.1 /YsInnoCenter/YsInnovation/index.php/Admin/User/getUserCountJs
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000322s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000589s ]
+SQL: select count(*) from t_user_account,t_user where t_user_account.user_id=t_user.user_id and t_user.is_tea_or_stu=1 [ RunTime:0.0006s ]
+
+[ 2015-08-21T18:03:13+08:00 ] 127.0.0.1 /YsInnoCenter/YsInnovation/index.php/Admin/User/getUserDataJs
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000320s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000567s ]
+NOTIC: [8] Undefined variable: statrt_record E:\wamp\www\YsInnoCenter\YsInnovation\Admin\Controller\UserController.class.php 第 240 行.
+ERR: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '10' at line 1
+
+[ 2015-08-21T18:03:13+08:00 ] 127.0.0.1 /YsInnoCenter/YsInnovation/index.php/Admin/User/getUserCountJs
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000311s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000550s ]
+SQL: select count(*) from t_user_account,t_user where t_user_account.user_id=t_user.user_id and t_user.is_tea_or_stu=1 [ RunTime:0.0006s ]
+
+[ 2015-08-21T18:03:13+08:00 ] 127.0.0.1 /YsInnoCenter/YsInnovation/index.php/Admin/User/getUserDataJs
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000339s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000581s ]
+NOTIC: [8] Undefined variable: statrt_record E:\wamp\www\YsInnoCenter\YsInnovation\Admin\Controller\UserController.class.php 第 240 行.
+ERR: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '10' at line 1
+
+[ 2015-08-21T18:03:13+08:00 ] 127.0.0.1 /YsInnoCenter/YsInnovation/index.php/Admin/User/getUserCountJs
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000300s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000572s ]
+SQL: select count(*) from t_user_account,t_user where t_user_account.user_id=t_user.user_id and t_user.is_tea_or_stu=1 [ RunTime:0.0015s ]
+
+[ 2015-08-21T18:03:13+08:00 ] 127.0.0.1 /YsInnoCenter/YsInnovation/index.php/Admin/User/getUserDataJs
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000293s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000562s ]
+NOTIC: [8] Undefined variable: statrt_record E:\wamp\www\YsInnoCenter\YsInnovation\Admin\Controller\UserController.class.php 第 240 行.
+ERR: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '10' at line 1
+
+[ 2015-08-21T18:03:13+08:00 ] 127.0.0.1 /YsInnoCenter/YsInnovation/index.php/Admin/User/getUserCountJs
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000294s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000525s ]
+SQL: select count(*) from t_user_account,t_user where t_user_account.user_id=t_user.user_id and t_user.is_tea_or_stu=1 [ RunTime:0.0006s ]
+
+[ 2015-08-21T18:03:13+08:00 ] 127.0.0.1 /YsInnoCenter/YsInnovation/index.php/Admin/User/getUserDataJs
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000345s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000766s ]
+NOTIC: [8] Undefined variable: statrt_record E:\wamp\www\YsInnoCenter\YsInnovation\Admin\Controller\UserController.class.php 第 240 行.
+ERR: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '10' at line 1
+
+[ 2015-08-21T18:03:13+08:00 ] 127.0.0.1 /YsInnoCenter/YsInnovation/index.php/Admin/User/getUserCountJs
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000494s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000853s ]
+SQL: select count(*) from t_user_account,t_user where t_user_account.user_id=t_user.user_id and t_user.is_tea_or_stu=1 [ RunTime:0.0006s ]
+
+[ 2015-08-21T18:03:13+08:00 ] 127.0.0.1 /YsInnoCenter/YsInnovation/index.php/Admin/User/getUserDataJs
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000323s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000564s ]
+NOTIC: [8] Undefined variable: statrt_record E:\wamp\www\YsInnoCenter\YsInnovation\Admin\Controller\UserController.class.php 第 240 行.
+ERR: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '10' at line 1
+
+[ 2015-08-21T18:03:13+08:00 ] 127.0.0.1 /YsInnoCenter/YsInnovation/index.php/Admin/User/getUserCountJs
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000302s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000597s ]
+SQL: select count(*) from t_user_account,t_user where t_user_account.user_id=t_user.user_id and t_user.is_tea_or_stu=1 [ RunTime:0.0007s ]
+
+[ 2015-08-21T18:03:13+08:00 ] 127.0.0.1 /YsInnoCenter/YsInnovation/index.php/Admin/User/getUserDataJs
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000293s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000534s ]
+NOTIC: [8] Undefined variable: statrt_record E:\wamp\www\YsInnoCenter\YsInnovation\Admin\Controller\UserController.class.php 第 240 行.
+ERR: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '10' at line 1
+
+[ 2015-08-21T18:03:13+08:00 ] 127.0.0.1 /YsInnoCenter/YsInnovation/index.php/Admin/User/getUserCountJs
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000294s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000559s ]
+SQL: select count(*) from t_user_account,t_user where t_user_account.user_id=t_user.user_id and t_user.is_tea_or_stu=1 [ RunTime:0.0007s ]
+
+[ 2015-08-21T18:03:14+08:00 ] 127.0.0.1 /YsInnoCenter/YsInnovation/index.php/Admin/User/getUserDataJs
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000318s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000592s ]
+NOTIC: [8] Undefined variable: statrt_record E:\wamp\www\YsInnoCenter\YsInnovation\Admin\Controller\UserController.class.php 第 240 行.
+ERR: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '10' at line 1
+
+[ 2015-08-21T18:03:14+08:00 ] 127.0.0.1 /YsInnoCenter/YsInnovation/index.php/Admin/User/getUserCountJs
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000319s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000570s ]
+SQL: select count(*) from t_user_account,t_user where t_user_account.user_id=t_user.user_id and t_user.is_tea_or_stu=1 [ RunTime:0.0007s ]
+
+[ 2015-08-21T18:03:14+08:00 ] 127.0.0.1 /YsInnoCenter/YsInnovation/index.php/Admin/User/getUserDataJs
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000298s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000562s ]
+NOTIC: [8] Undefined variable: statrt_record E:\wamp\www\YsInnoCenter\YsInnovation\Admin\Controller\UserController.class.php 第 240 行.
+ERR: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '10' at line 1
+
+[ 2015-08-21T18:03:14+08:00 ] 127.0.0.1 /YsInnoCenter/YsInnovation/index.php/Admin/User/getUserCountJs
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000433s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000744s ]
+SQL: select count(*) from t_user_account,t_user where t_user_account.user_id=t_user.user_id and t_user.is_tea_or_stu=1 [ RunTime:0.0007s ]
+
+[ 2015-08-21T18:03:14+08:00 ] 127.0.0.1 /YsInnoCenter/YsInnovation/index.php/Admin/User/getUserDataJs
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000298s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000547s ]
+NOTIC: [8] Undefined variable: statrt_record E:\wamp\www\YsInnoCenter\YsInnovation\Admin\Controller\UserController.class.php 第 240 行.
+ERR: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '10' at line 1
+
+[ 2015-08-21T18:03:14+08:00 ] 127.0.0.1 /YsInnoCenter/YsInnovation/index.php/Admin/User/getUserCountJs
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000429s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000699s ]
+SQL: select count(*) from t_user_account,t_user where t_user_account.user_id=t_user.user_id and t_user.is_tea_or_stu=1 [ RunTime:0.0009s ]
+
+[ 2015-08-21T18:03:15+08:00 ] 127.0.0.1 /YsInnoCenter/YsInnovation/index.php/Admin/User/getUserDataJs
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000305s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000561s ]
+NOTIC: [8] Undefined variable: statrt_record E:\wamp\www\YsInnoCenter\YsInnovation\Admin\Controller\UserController.class.php 第 240 行.
+ERR: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '10' at line 1
+
+[ 2015-08-21T18:03:15+08:00 ] 127.0.0.1 /YsInnoCenter/YsInnovation/index.php/Admin/User/getUserCountJs
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000397s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000689s ]
+SQL: select count(*) from t_user_account,t_user where t_user_account.user_id=t_user.user_id and t_user.is_tea_or_stu=1 [ RunTime:0.0007s ]
+
+[ 2015-08-21T18:03:16+08:00 ] 127.0.0.1 /YsInnoCenter/YsInnovation/index.php/Admin/User/getUserDataJs
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000311s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000564s ]
+NOTIC: [8] Undefined variable: statrt_record E:\wamp\www\YsInnoCenter\YsInnovation\Admin\Controller\UserController.class.php 第 240 行.
+ERR: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '10' at line 1
+
+[ 2015-08-21T18:03:16+08:00 ] 127.0.0.1 /YsInnoCenter/YsInnovation/index.php/Admin/User/getUserCountJs
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000317s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000565s ]
+SQL: select count(*) from t_user_account,t_user where t_user_account.user_id=t_user.user_id and t_user.is_tea_or_stu=1 [ RunTime:0.0006s ]
+
+[ 2015-08-21T18:03:16+08:00 ] 127.0.0.1 /YsInnoCenter/YsInnovation/index.php/Admin/User/getUserDataJs
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000344s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000642s ]
+NOTIC: [8] Undefined variable: statrt_record E:\wamp\www\YsInnoCenter\YsInnovation\Admin\Controller\UserController.class.php 第 240 行.
+ERR: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '10' at line 1
+
+[ 2015-08-21T18:03:16+08:00 ] 127.0.0.1 /YsInnoCenter/YsInnovation/index.php/Admin/User/getUserCountJs
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000304s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000542s ]
+SQL: select count(*) from t_user_account,t_user where t_user_account.user_id=t_user.user_id and t_user.is_tea_or_stu=1 [ RunTime:0.0007s ]
+
+[ 2015-08-21T18:03:16+08:00 ] 127.0.0.1 /YsInnoCenter/YsInnovation/index.php/Admin/User/getUserDataJs
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000308s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000632s ]
+NOTIC: [8] Undefined variable: statrt_record E:\wamp\www\YsInnoCenter\YsInnovation\Admin\Controller\UserController.class.php 第 240 行.
+ERR: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '10' at line 1
+
+[ 2015-08-21T18:03:16+08:00 ] 127.0.0.1 /YsInnoCenter/YsInnovation/index.php/Admin/User/getUserCountJs
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000318s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000574s ]
+SQL: select count(*) from t_user_account,t_user where t_user_account.user_id=t_user.user_id and t_user.is_tea_or_stu=1 [ RunTime:0.0007s ]
+
+[ 2015-08-21T18:03:16+08:00 ] 127.0.0.1 /YsInnoCenter/YsInnovation/index.php/Admin/User/getUserCountJs
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000408s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000694s ]
+SQL: select count(*) from t_user_account,t_user where t_user_account.user_id=t_user.user_id and t_user.is_tea_or_stu=1 [ RunTime:0.0008s ]
+
+[ 2015-08-21T18:03:16+08:00 ] 127.0.0.1 /YsInnoCenter/YsInnovation/index.php/Admin/User/getUserDataJs
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000345s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000631s ]
+NOTIC: [8] Undefined variable: statrt_record E:\wamp\www\YsInnoCenter\YsInnovation\Admin\Controller\UserController.class.php 第 240 行.
+ERR: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '10' at line 1
+
+[ 2015-08-21T18:03:16+08:00 ] 127.0.0.1 /YsInnoCenter/YsInnovation/index.php/Admin/User/getUserDataJs
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000293s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000536s ]
+NOTIC: [8] Undefined variable: statrt_record E:\wamp\www\YsInnoCenter\YsInnovation\Admin\Controller\UserController.class.php 第 240 行.
+ERR: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '10' at line 1
+
+[ 2015-08-21T18:03:16+08:00 ] 127.0.0.1 /YsInnoCenter/YsInnovation/index.php/Admin/User/getUserCountJs
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000328s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000569s ]
+SQL: select count(*) from t_user_account,t_user where t_user_account.user_id=t_user.user_id and t_user.is_tea_or_stu=1 [ RunTime:0.0007s ]
+
+[ 2015-08-21T18:03:16+08:00 ] 127.0.0.1 /YsInnoCenter/YsInnovation/index.php/Admin/User/getUserDataJs
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000320s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000615s ]
+NOTIC: [8] Undefined variable: statrt_record E:\wamp\www\YsInnoCenter\YsInnovation\Admin\Controller\UserController.class.php 第 240 行.
+ERR: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '10' at line 1
+
+[ 2015-08-21T18:03:16+08:00 ] 127.0.0.1 /YsInnoCenter/YsInnovation/index.php/Admin/User/getUserCountJs
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000307s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000542s ]
+SQL: select count(*) from t_user_account,t_user where t_user_account.user_id=t_user.user_id and t_user.is_tea_or_stu=1 [ RunTime:0.0006s ]
+
+[ 2015-08-21T18:03:17+08:00 ] 127.0.0.1 /YsInnoCenter/YsInnovation/index.php/Admin/User/getUserDataJs
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000293s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000547s ]
+NOTIC: [8] Undefined variable: statrt_record E:\wamp\www\YsInnoCenter\YsInnovation\Admin\Controller\UserController.class.php 第 240 行.
+ERR: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '10' at line 1
+
+[ 2015-08-21T18:03:17+08:00 ] 127.0.0.1 /YsInnoCenter/YsInnovation/index.php/Admin/User/getUserCountJs
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000298s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000531s ]
+SQL: select count(*) from t_user_account,t_user where t_user_account.user_id=t_user.user_id and t_user.is_tea_or_stu=1 [ RunTime:0.0007s ]
+
+[ 2015-08-21T18:03:17+08:00 ] 127.0.0.1 /YsInnoCenter/YsInnovation/index.php/Admin/User/getUserDataJs
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000310s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000583s ]
+NOTIC: [8] Undefined variable: statrt_record E:\wamp\www\YsInnoCenter\YsInnovation\Admin\Controller\UserController.class.php 第 240 行.
+ERR: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '10' at line 1
+
+[ 2015-08-21T18:03:17+08:00 ] 127.0.0.1 /YsInnoCenter/YsInnovation/index.php/Admin/User/getUserCountJs
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000384s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000652s ]
+SQL: select count(*) from t_user_account,t_user where t_user_account.user_id=t_user.user_id and t_user.is_tea_or_stu=1 [ RunTime:0.0007s ]
+
+[ 2015-08-21T18:03:17+08:00 ] 127.0.0.1 /YsInnoCenter/YsInnovation/index.php/Admin/User/getUserDataJs
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000302s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000550s ]
+NOTIC: [8] Undefined variable: statrt_record E:\wamp\www\YsInnoCenter\YsInnovation\Admin\Controller\UserController.class.php 第 240 行.
+ERR: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '10' at line 1
+
+[ 2015-08-21T18:03:17+08:00 ] 127.0.0.1 /YsInnoCenter/YsInnovation/index.php/Admin/User/getUserCountJs
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000308s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000558s ]
+SQL: select count(*) from t_user_account,t_user where t_user_account.user_id=t_user.user_id and t_user.is_tea_or_stu=1 [ RunTime:0.0007s ]
+
+[ 2015-08-21T18:03:17+08:00 ] 127.0.0.1 /YsInnoCenter/YsInnovation/index.php/Admin/User/getUserDataJs
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000307s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000567s ]
+NOTIC: [8] Undefined variable: statrt_record E:\wamp\www\YsInnoCenter\YsInnovation\Admin\Controller\UserController.class.php 第 240 行.
+ERR: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '10' at line 1
+
+[ 2015-08-21T18:03:17+08:00 ] 127.0.0.1 /YsInnoCenter/YsInnovation/index.php/Admin/User/getUserCountJs
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000284s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000504s ]
+SQL: select count(*) from t_user_account,t_user where t_user_account.user_id=t_user.user_id and t_user.is_tea_or_stu=1 [ RunTime:0.0006s ]
+
+[ 2015-08-21T18:03:17+08:00 ] 127.0.0.1 /YsInnoCenter/YsInnovation/index.php/Admin/User/getUserDataJs
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000324s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000571s ]
+NOTIC: [8] Undefined variable: statrt_record E:\wamp\www\YsInnoCenter\YsInnovation\Admin\Controller\UserController.class.php 第 240 行.
+ERR: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '10' at line 1
+
+[ 2015-08-21T18:03:17+08:00 ] 127.0.0.1 /YsInnoCenter/YsInnovation/index.php/Admin/User/getUserCountJs
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000297s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000530s ]
+SQL: select count(*) from t_user_account,t_user where t_user_account.user_id=t_user.user_id and t_user.is_tea_or_stu=1 [ RunTime:0.0010s ]
+
+[ 2015-08-21T18:03:17+08:00 ] 127.0.0.1 /YsInnoCenter/YsInnovation/index.php/Admin/User/getUserDataJs
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000310s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000559s ]
+NOTIC: [8] Undefined variable: statrt_record E:\wamp\www\YsInnoCenter\YsInnovation\Admin\Controller\UserController.class.php 第 240 行.
+ERR: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '10' at line 1
+
+[ 2015-08-21T18:03:17+08:00 ] 127.0.0.1 /YsInnoCenter/YsInnovation/index.php/Admin/User/getUserCountJs
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000308s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000550s ]
+SQL: select count(*) from t_user_account,t_user where t_user_account.user_id=t_user.user_id and t_user.is_tea_or_stu=1 [ RunTime:0.0007s ]
+
+[ 2015-08-21T19:43:12+08:00 ] 127.0.0.1 /YsInnoCenter/YsInnovation/index.php/Admin/User/getUserDataJs
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000655s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000962s ]
+NOTIC: [8] Undefined variable: statrt_record E:\wamp\www\YsInnoCenter\YsInnovation\Admin\Controller\UserController.class.php 第 240 行.
+ERR: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '10' at line 1
+
+[ 2015-08-21T19:43:12+08:00 ] 127.0.0.1 /YsInnoCenter/YsInnovation/index.php/Admin/User/getUserCountJs
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000400s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000658s ]
+SQL: select count(*) from t_user_account,t_user where t_user_account.user_id=t_user.user_id and t_user.is_tea_or_stu=1 [ RunTime:0.0008s ]
+
+[ 2015-08-21T19:43:13+08:00 ] 127.0.0.1 /YsInnoCenter/YsInnovation/index.php/Admin/User/getUserDataJs
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000322s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000640s ]
+NOTIC: [8] Undefined variable: statrt_record E:\wamp\www\YsInnoCenter\YsInnovation\Admin\Controller\UserController.class.php 第 240 行.
+ERR: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '10' at line 1
+
+[ 2015-08-21T19:43:13+08:00 ] 127.0.0.1 /YsInnoCenter/YsInnovation/index.php/Admin/User/getUserCountJs
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000327s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000589s ]
+SQL: select count(*) from t_user_account,t_user where t_user_account.user_id=t_user.user_id and t_user.is_tea_or_stu=1 [ RunTime:0.0006s ]
+
+[ 2015-08-21T19:43:14+08:00 ] 127.0.0.1 /YsInnoCenter/YsInnovation/index.php/Admin/User/getUserDataJs
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000319s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000565s ]
+NOTIC: [8] Undefined variable: statrt_record E:\wamp\www\YsInnoCenter\YsInnovation\Admin\Controller\UserController.class.php 第 240 行.
+ERR: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '10' at line 1
+
+[ 2015-08-21T19:43:14+08:00 ] 127.0.0.1 /YsInnoCenter/YsInnovation/index.php/Admin/User/getUserCountJs
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000306s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000543s ]
+SQL: select count(*) from t_user_account,t_user where t_user_account.user_id=t_user.user_id and t_user.is_tea_or_stu=1 [ RunTime:0.0007s ]
+
+[ 2015-08-21T19:43:14+08:00 ] 127.0.0.1 /YsInnoCenter/YsInnovation/index.php/Admin/User/getUserDataJs
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000310s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000555s ]
+NOTIC: [8] Undefined variable: statrt_record E:\wamp\www\YsInnoCenter\YsInnovation\Admin\Controller\UserController.class.php 第 240 行.
+ERR: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '10' at line 1
+
+[ 2015-08-21T19:43:14+08:00 ] 127.0.0.1 /YsInnoCenter/YsInnovation/index.php/Admin/User/getUserCountJs
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000316s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000560s ]
+SQL: select count(*) from t_user_account,t_user where t_user_account.user_id=t_user.user_id and t_user.is_tea_or_stu=1 [ RunTime:0.0006s ]
+
+[ 2015-08-21T19:43:14+08:00 ] 127.0.0.1 /YsInnoCenter/YsInnovation/index.php/Admin/User/getUserDataJs
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000301s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000555s ]
+NOTIC: [8] Undefined variable: statrt_record E:\wamp\www\YsInnoCenter\YsInnovation\Admin\Controller\UserController.class.php 第 240 行.
+ERR: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '10' at line 1
+
+[ 2015-08-21T19:43:14+08:00 ] 127.0.0.1 /YsInnoCenter/YsInnovation/index.php/Admin/User/getUserCountJs
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000300s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000603s ]
+SQL: select count(*) from t_user_account,t_user where t_user_account.user_id=t_user.user_id and t_user.is_tea_or_stu=1 [ RunTime:0.0008s ]
+
+[ 2015-08-21T19:43:14+08:00 ] 127.0.0.1 /YsInnoCenter/YsInnovation/index.php/Admin/User/getUserDataJs
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000385s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000667s ]
+NOTIC: [8] Undefined variable: statrt_record E:\wamp\www\YsInnoCenter\YsInnovation\Admin\Controller\UserController.class.php 第 240 行.
+ERR: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '10' at line 1
+
+[ 2015-08-21T19:43:14+08:00 ] 127.0.0.1 /YsInnoCenter/YsInnovation/index.php/Admin/User/getUserCountJs
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000327s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000571s ]
+SQL: select count(*) from t_user_account,t_user where t_user_account.user_id=t_user.user_id and t_user.is_tea_or_stu=1 [ RunTime:0.0008s ]
+
+[ 2015-08-21T19:43:15+08:00 ] 127.0.0.1 /YsInnoCenter/YsInnovation/index.php/Admin/User/getUserDataJs
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000321s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000554s ]
+NOTIC: [8] Undefined variable: statrt_record E:\wamp\www\YsInnoCenter\YsInnovation\Admin\Controller\UserController.class.php 第 240 行.
+ERR: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '10' at line 1
+
+[ 2015-08-21T19:43:15+08:00 ] 127.0.0.1 /YsInnoCenter/YsInnovation/index.php/Admin/User/getUserCountJs
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000306s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000556s ]
+SQL: select count(*) from t_user_account,t_user where t_user_account.user_id=t_user.user_id and t_user.is_tea_or_stu=1 [ RunTime:0.0007s ]
+
+[ 2015-08-21T19:43:15+08:00 ] 127.0.0.1 /YsInnoCenter/YsInnovation/index.php/Admin/User/getUserDataJs
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000313s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000563s ]
+NOTIC: [8] Undefined variable: statrt_record E:\wamp\www\YsInnoCenter\YsInnovation\Admin\Controller\UserController.class.php 第 240 行.
+ERR: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '10' at line 1
+
+[ 2015-08-21T19:43:15+08:00 ] 127.0.0.1 /YsInnoCenter/YsInnovation/index.php/Admin/User/getUserCountJs
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000339s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000573s ]
+SQL: select count(*) from t_user_account,t_user where t_user_account.user_id=t_user.user_id and t_user.is_tea_or_stu=1 [ RunTime:0.0011s ]
+
+[ 2015-08-21T19:43:15+08:00 ] 127.0.0.1 /YsInnoCenter/YsInnovation/index.php/Admin/User/getUserDataJs
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000308s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000561s ]
+NOTIC: [8] Undefined variable: statrt_record E:\wamp\www\YsInnoCenter\YsInnovation\Admin\Controller\UserController.class.php 第 240 行.
+ERR: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '10' at line 1
+
+[ 2015-08-21T19:43:15+08:00 ] 127.0.0.1 /YsInnoCenter/YsInnovation/index.php/Admin/User/getUserCountJs
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000335s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000598s ]
+SQL: select count(*) from t_user_account,t_user where t_user_account.user_id=t_user.user_id and t_user.is_tea_or_stu=1 [ RunTime:0.0006s ]
+
+[ 2015-08-21T19:43:15+08:00 ] 127.0.0.1 /YsInnoCenter/YsInnovation/index.php/Admin/User/getUserDataJs
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000297s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000546s ]
+NOTIC: [8] Undefined variable: statrt_record E:\wamp\www\YsInnoCenter\YsInnovation\Admin\Controller\UserController.class.php 第 240 行.
+ERR: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '10' at line 1
+
+[ 2015-08-21T19:43:15+08:00 ] 127.0.0.1 /YsInnoCenter/YsInnovation/index.php/Admin/User/getUserCountJs
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000346s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000575s ]
+SQL: select count(*) from t_user_account,t_user where t_user_account.user_id=t_user.user_id and t_user.is_tea_or_stu=1 [ RunTime:0.0007s ]
+
+[ 2015-08-21T19:43:15+08:00 ] 127.0.0.1 /YsInnoCenter/YsInnovation/index.php/Admin/User/getUserDataJs
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000412s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000726s ]
+NOTIC: [8] Undefined variable: statrt_record E:\wamp\www\YsInnoCenter\YsInnovation\Admin\Controller\UserController.class.php 第 240 行.
+ERR: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '10' at line 1
+
+[ 2015-08-21T19:43:15+08:00 ] 127.0.0.1 /YsInnoCenter/YsInnovation/index.php/Admin/User/getUserCountJs
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000310s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000555s ]
+SQL: select count(*) from t_user_account,t_user where t_user_account.user_id=t_user.user_id and t_user.is_tea_or_stu=1 [ RunTime:0.0006s ]
+
+[ 2015-08-21T19:43:16+08:00 ] 127.0.0.1 /YsInnoCenter/YsInnovation/index.php/Admin/User/getUserDataJs
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000354s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000632s ]
+NOTIC: [8] Undefined variable: statrt_record E:\wamp\www\YsInnoCenter\YsInnovation\Admin\Controller\UserController.class.php 第 240 行.
+ERR: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '10' at line 1
+
+[ 2015-08-21T19:43:16+08:00 ] 127.0.0.1 /YsInnoCenter/YsInnovation/index.php/Admin/User/getUserCountJs
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000338s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000604s ]
+SQL: select count(*) from t_user_account,t_user where t_user_account.user_id=t_user.user_id and t_user.is_tea_or_stu=1 [ RunTime:0.0007s ]
+
+[ 2015-08-21T19:43:16+08:00 ] 127.0.0.1 /YsInnoCenter/YsInnovation/index.php/Admin/User/getUserDataJs
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000299s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000633s ]
+NOTIC: [8] Undefined variable: statrt_record E:\wamp\www\YsInnoCenter\YsInnovation\Admin\Controller\UserController.class.php 第 240 行.
+ERR: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '10' at line 1
+
+[ 2015-08-21T19:43:16+08:00 ] 127.0.0.1 /YsInnoCenter/YsInnovation/index.php/Admin/User/getUserCountJs
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000287s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000535s ]
+SQL: select count(*) from t_user_account,t_user where t_user_account.user_id=t_user.user_id and t_user.is_tea_or_stu=1 [ RunTime:0.0007s ]
+
+[ 2015-08-21T19:47:01+08:00 ] 127.0.0.1 /YsInnoCenter/YsInnovation/index.php/Admin/User/getUserDataJs
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000301s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000554s ]
+NOTIC: [8] Undefined variable: statrt_record E:\wamp\www\YsInnoCenter\YsInnovation\Admin\Controller\UserController.class.php 第 240 行.
+ERR: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '10' at line 1
+
+[ 2015-08-21T19:47:01+08:00 ] 127.0.0.1 /YsInnoCenter/YsInnovation/index.php/Admin/User/getUserCountJs
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000750s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001051s ]
+SQL: select count(*) from t_user_account,t_user where t_user_account.user_id=t_user.user_id and t_user.is_tea_or_stu=1 [ RunTime:0.0008s ]
+
+[ 2015-08-21T19:47:02+08:00 ] 127.0.0.1 /YsInnoCenter/YsInnovation/index.php/Admin/User/getUserDataJs
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000306s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000570s ]
+NOTIC: [8] Undefined variable: statrt_record E:\wamp\www\YsInnoCenter\YsInnovation\Admin\Controller\UserController.class.php 第 240 行.
+ERR: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '10' at line 1
+
+[ 2015-08-21T19:47:02+08:00 ] 127.0.0.1 /YsInnoCenter/YsInnovation/index.php/Admin/User/getUserCountJs
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000402s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000687s ]
+SQL: select count(*) from t_user_account,t_user where t_user_account.user_id=t_user.user_id and t_user.is_tea_or_stu=1 [ RunTime:0.0007s ]
+
+[ 2015-08-21T19:47:02+08:00 ] 127.0.0.1 /YsInnoCenter/YsInnovation/index.php/Admin/User/getUserDataJs
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000338s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000580s ]
+NOTIC: [8] Undefined variable: statrt_record E:\wamp\www\YsInnoCenter\YsInnovation\Admin\Controller\UserController.class.php 第 240 行.
+ERR: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '10' at line 1
+
+[ 2015-08-21T19:47:02+08:00 ] 127.0.0.1 /YsInnoCenter/YsInnovation/index.php/Admin/User/getUserCountJs
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000323s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000585s ]
+SQL: select count(*) from t_user_account,t_user where t_user_account.user_id=t_user.user_id and t_user.is_tea_or_stu=1 [ RunTime:0.0007s ]
+
+[ 2015-08-21T19:47:03+08:00 ] 127.0.0.1 /YsInnoCenter/YsInnovation/index.php/Admin/User/getUserCountJs
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000340s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000606s ]
+SQL: select count(*) from t_user_account,t_user where t_user_account.user_id=t_user.user_id and t_user.is_tea_or_stu=1 [ RunTime:0.0007s ]
+
+[ 2015-08-21T19:47:03+08:00 ] 127.0.0.1 /YsInnoCenter/YsInnovation/index.php/Admin/User/getUserDataJs
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000334s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000585s ]
+NOTIC: [8] Undefined variable: statrt_record E:\wamp\www\YsInnoCenter\YsInnovation\Admin\Controller\UserController.class.php 第 240 行.
+ERR: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '10' at line 1
+
+[ 2015-08-21T19:47:03+08:00 ] 127.0.0.1 /YsInnoCenter/YsInnovation/index.php/Admin/User/getUserCountJs
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000312s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000556s ]
+SQL: select count(*) from t_user_account,t_user where t_user_account.user_id=t_user.user_id and t_user.is_tea_or_stu=1 [ RunTime:0.0006s ]
+
+[ 2015-08-21T19:47:03+08:00 ] 127.0.0.1 /YsInnoCenter/YsInnovation/index.php/Admin/User/getUserDataJs
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000438s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000785s ]
+NOTIC: [8] Undefined variable: statrt_record E:\wamp\www\YsInnoCenter\YsInnovation\Admin\Controller\UserController.class.php 第 240 行.
+ERR: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '10' at line 1
+
+[ 2015-08-21T19:47:04+08:00 ] 127.0.0.1 /YsInnoCenter/YsInnovation/index.php/Admin/User/getUserDataJs
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000390s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000669s ]
+NOTIC: [8] Undefined variable: statrt_record E:\wamp\www\YsInnoCenter\YsInnovation\Admin\Controller\UserController.class.php 第 240 行.
+ERR: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '10' at line 1
+
+[ 2015-08-21T19:47:04+08:00 ] 127.0.0.1 /YsInnoCenter/YsInnovation/index.php/Admin/User/getUserCountJs
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000315s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000550s ]
+SQL: select count(*) from t_user_account,t_user where t_user_account.user_id=t_user.user_id and t_user.is_tea_or_stu=1 [ RunTime:0.0008s ]
+
+[ 2015-08-21T19:47:04+08:00 ] 127.0.0.1 /YsInnoCenter/YsInnovation/index.php/Admin/User/getUserDataJs
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000531s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000803s ]
+NOTIC: [8] Undefined variable: statrt_record E:\wamp\www\YsInnoCenter\YsInnovation\Admin\Controller\UserController.class.php 第 240 行.
+ERR: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '10' at line 1
+
+[ 2015-08-21T19:47:04+08:00 ] 127.0.0.1 /YsInnoCenter/YsInnovation/index.php/Admin/User/getUserCountJs
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000395s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000686s ]
+SQL: select count(*) from t_user_account,t_user where t_user_account.user_id=t_user.user_id and t_user.is_tea_or_stu=1 [ RunTime:0.0006s ]
+
+[ 2015-08-21T19:47:04+08:00 ] 127.0.0.1 /YsInnoCenter/YsInnovation/index.php/Admin/User/getUserDataJs
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000315s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000586s ]
+NOTIC: [8] Undefined variable: statrt_record E:\wamp\www\YsInnoCenter\YsInnovation\Admin\Controller\UserController.class.php 第 240 行.
+ERR: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '10' at line 1
+
+[ 2015-08-21T19:47:04+08:00 ] 127.0.0.1 /YsInnoCenter/YsInnovation/index.php/Admin/User/getUserCountJs
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000306s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000546s ]
+SQL: select count(*) from t_user_account,t_user where t_user_account.user_id=t_user.user_id and t_user.is_tea_or_stu=1 [ RunTime:0.0006s ]
+
+[ 2015-08-21T19:47:04+08:00 ] 127.0.0.1 /YsInnoCenter/YsInnovation/index.php/Admin/User/getUserDataJs
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000310s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000552s ]
+NOTIC: [8] Undefined variable: statrt_record E:\wamp\www\YsInnoCenter\YsInnovation\Admin\Controller\UserController.class.php 第 240 行.
+ERR: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '10' at line 1
+
+[ 2015-08-21T19:47:04+08:00 ] 127.0.0.1 /YsInnoCenter/YsInnovation/index.php/Admin/User/getUserCountJs
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000307s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000553s ]
+SQL: select count(*) from t_user_account,t_user where t_user_account.user_id=t_user.user_id and t_user.is_tea_or_stu=1 [ RunTime:0.0007s ]
+
+[ 2015-08-21T19:47:05+08:00 ] 127.0.0.1 /YsInnoCenter/YsInnovation/index.php/Admin/User/getUserDataJs
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000301s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000548s ]
+NOTIC: [8] Undefined variable: statrt_record E:\wamp\www\YsInnoCenter\YsInnovation\Admin\Controller\UserController.class.php 第 240 行.
+ERR: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '10' at line 1
+
+[ 2015-08-21T19:47:05+08:00 ] 127.0.0.1 /YsInnoCenter/YsInnovation/index.php/Admin/User/getUserCountJs
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000330s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000611s ]
+SQL: select count(*) from t_user_account,t_user where t_user_account.user_id=t_user.user_id and t_user.is_tea_or_stu=1 [ RunTime:0.0007s ]
+
+[ 2015-08-21T19:47:05+08:00 ] 127.0.0.1 /YsInnoCenter/YsInnovation/index.php/Admin/User/getUserDataJs
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000326s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000583s ]
+NOTIC: [8] Undefined variable: statrt_record E:\wamp\www\YsInnoCenter\YsInnovation\Admin\Controller\UserController.class.php 第 240 行.
+ERR: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '10' at line 1
+
+[ 2015-08-21T19:47:05+08:00 ] 127.0.0.1 /YsInnoCenter/YsInnovation/index.php/Admin/User/getUserCountJs
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000317s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000559s ]
+SQL: select count(*) from t_user_account,t_user where t_user_account.user_id=t_user.user_id and t_user.is_tea_or_stu=1 [ RunTime:0.0006s ]
+
+[ 2015-08-21T19:47:06+08:00 ] 127.0.0.1 /YsInnoCenter/YsInnovation/index.php/Admin/User/getUserCountJs
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000345s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000586s ]
+SQL: select count(*) from t_user_account,t_user where t_user_account.user_id=t_user.user_id and t_user.is_tea_or_stu=1 [ RunTime:0.0007s ]
+
+[ 2015-08-21T19:47:06+08:00 ] 127.0.0.1 /YsInnoCenter/YsInnovation/index.php/Admin/User/getUserDataJs
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000451s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000839s ]
+NOTIC: [8] Undefined variable: statrt_record E:\wamp\www\YsInnoCenter\YsInnovation\Admin\Controller\UserController.class.php 第 240 行.
+ERR: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '10' at line 1
+
+[ 2015-08-21T19:47:06+08:00 ] 127.0.0.1 /YsInnoCenter/YsInnovation/index.php/Admin/User/getUserCountJs
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000325s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000615s ]
+SQL: select count(*) from t_user_account,t_user where t_user_account.user_id=t_user.user_id and t_user.is_tea_or_stu=1 [ RunTime:0.0007s ]
+
+[ 2015-08-21T19:47:06+08:00 ] 127.0.0.1 /YsInnoCenter/YsInnovation/index.php/Admin/User/getUserDataJs
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000460s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000803s ]
+NOTIC: [8] Undefined variable: statrt_record E:\wamp\www\YsInnoCenter\YsInnovation\Admin\Controller\UserController.class.php 第 240 行.
+ERR: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '10' at line 1
+
+[ 2015-08-21T19:47:06+08:00 ] 127.0.0.1 /YsInnoCenter/YsInnovation/index.php/Admin/User/getUserDataJs
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000312s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000560s ]
+NOTIC: [8] Undefined variable: statrt_record E:\wamp\www\YsInnoCenter\YsInnovation\Admin\Controller\UserController.class.php 第 240 行.
+ERR: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '10' at line 1
+
+[ 2015-08-21T19:47:06+08:00 ] 127.0.0.1 /YsInnoCenter/YsInnovation/index.php/Admin/User/getUserCountJs
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000311s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000552s ]
+SQL: select count(*) from t_user_account,t_user where t_user_account.user_id=t_user.user_id and t_user.is_tea_or_stu=1 [ RunTime:0.0016s ]
+
+[ 2015-08-21T19:47:06+08:00 ] 127.0.0.1 /YsInnoCenter/YsInnovation/index.php/Admin/User/getUserDataJs
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000418s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000721s ]
+NOTIC: [8] Undefined variable: statrt_record E:\wamp\www\YsInnoCenter\YsInnovation\Admin\Controller\UserController.class.php 第 240 行.
+ERR: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '10' at line 1
+
+[ 2015-08-21T19:47:06+08:00 ] 127.0.0.1 /YsInnoCenter/YsInnovation/index.php/Admin/User/getUserCountJs
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000313s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000560s ]
+SQL: select count(*) from t_user_account,t_user where t_user_account.user_id=t_user.user_id and t_user.is_tea_or_stu=1 [ RunTime:0.0007s ]
+
+[ 2015-08-21T19:47:06+08:00 ] 127.0.0.1 /YsInnoCenter/YsInnovation/index.php/Admin/User/getUserCountJs
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000308s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000547s ]
+SQL: select count(*) from t_user_account,t_user where t_user_account.user_id=t_user.user_id and t_user.is_tea_or_stu=1 [ RunTime:0.0007s ]
+
+[ 2015-08-21T19:47:06+08:00 ] 127.0.0.1 /YsInnoCenter/YsInnovation/index.php/Admin/User/getUserDataJs
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000388s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000713s ]
+NOTIC: [8] Undefined variable: statrt_record E:\wamp\www\YsInnoCenter\YsInnovation\Admin\Controller\UserController.class.php 第 240 行.
+ERR: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '10' at line 1
+
+[ 2015-08-21T19:47:06+08:00 ] 127.0.0.1 /YsInnoCenter/YsInnovation/index.php/Admin/User/getUserCountJs
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000340s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000605s ]
+SQL: select count(*) from t_user_account,t_user where t_user_account.user_id=t_user.user_id and t_user.is_tea_or_stu=1 [ RunTime:0.0010s ]
+
+[ 2015-08-21T19:47:06+08:00 ] 127.0.0.1 /YsInnoCenter/YsInnovation/index.php/Admin/User/getUserDataJs
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000352s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000651s ]
+NOTIC: [8] Undefined variable: statrt_record E:\wamp\www\YsInnoCenter\YsInnovation\Admin\Controller\UserController.class.php 第 240 行.
+ERR: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '10' at line 1
+
+[ 2015-08-21T19:47:07+08:00 ] 127.0.0.1 /YsInnoCenter/YsInnovation/index.php/Admin/User/getUserDataJs
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000335s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000623s ]
+NOTIC: [8] Undefined variable: statrt_record E:\wamp\www\YsInnoCenter\YsInnovation\Admin\Controller\UserController.class.php 第 240 行.
+ERR: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '10' at line 1
+
+[ 2015-08-21T19:47:07+08:00 ] 127.0.0.1 /YsInnoCenter/YsInnovation/index.php/Admin/User/getUserCountJs
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000386s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000688s ]
+SQL: select count(*) from t_user_account,t_user where t_user_account.user_id=t_user.user_id and t_user.is_tea_or_stu=1 [ RunTime:0.0007s ]
+
+[ 2015-08-21T19:47:07+08:00 ] 127.0.0.1 /YsInnoCenter/YsInnovation/index.php/Admin/User/getUserCountJs
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000313s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000572s ]
+SQL: select count(*) from t_user_account,t_user where t_user_account.user_id=t_user.user_id and t_user.is_tea_or_stu=1 [ RunTime:0.0007s ]
+
+[ 2015-08-21T19:47:07+08:00 ] 127.0.0.1 /YsInnoCenter/YsInnovation/index.php/Admin/User/getUserDataJs
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000460s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000842s ]
+NOTIC: [8] Undefined variable: statrt_record E:\wamp\www\YsInnoCenter\YsInnovation\Admin\Controller\UserController.class.php 第 240 行.
+ERR: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '10' at line 1
+
+[ 2015-08-21T19:47:07+08:00 ] 127.0.0.1 /YsInnoCenter/YsInnovation/index.php/Admin/User/getUserDataJs
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000290s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000525s ]
+NOTIC: [8] Undefined variable: statrt_record E:\wamp\www\YsInnoCenter\YsInnovation\Admin\Controller\UserController.class.php 第 240 行.
+ERR: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '10' at line 1
+
+[ 2015-08-21T19:47:07+08:00 ] 127.0.0.1 /YsInnoCenter/YsInnovation/index.php/Admin/User/getUserCountJs
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000358s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000594s ]
+SQL: select count(*) from t_user_account,t_user where t_user_account.user_id=t_user.user_id and t_user.is_tea_or_stu=1 [ RunTime:0.0007s ]
+
+[ 2015-08-21T19:47:07+08:00 ] 127.0.0.1 /YsInnoCenter/YsInnovation/index.php/Admin/User/getUserDataJs
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000323s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000593s ]
+NOTIC: [8] Undefined variable: statrt_record E:\wamp\www\YsInnoCenter\YsInnovation\Admin\Controller\UserController.class.php 第 240 行.
+ERR: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '10' at line 1
+
+[ 2015-08-21T19:47:07+08:00 ] 127.0.0.1 /YsInnoCenter/YsInnovation/index.php/Admin/User/getUserCountJs
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000321s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000558s ]
+SQL: select count(*) from t_user_account,t_user where t_user_account.user_id=t_user.user_id and t_user.is_tea_or_stu=1 [ RunTime:0.0007s ]
+
+[ 2015-08-21T19:47:07+08:00 ] 127.0.0.1 /YsInnoCenter/YsInnovation/index.php/Admin/User/getUserDataJs
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000299s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000551s ]
+NOTIC: [8] Undefined variable: statrt_record E:\wamp\www\YsInnoCenter\YsInnovation\Admin\Controller\UserController.class.php 第 240 行.
+ERR: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '10' at line 1
+
+[ 2015-08-21T19:47:07+08:00 ] 127.0.0.1 /YsInnoCenter/YsInnovation/index.php/Admin/User/getUserCountJs
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000326s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000559s ]
+SQL: select count(*) from t_user_account,t_user where t_user_account.user_id=t_user.user_id and t_user.is_tea_or_stu=1 [ RunTime:0.0007s ]
+
+[ 2015-08-21T19:47:08+08:00 ] 127.0.0.1 /YsInnoCenter/YsInnovation/index.php/Admin/User/getUserDataJs
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000292s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000573s ]
+NOTIC: [8] Undefined variable: statrt_record E:\wamp\www\YsInnoCenter\YsInnovation\Admin\Controller\UserController.class.php 第 240 行.
+ERR: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '10' at line 1
+
+[ 2015-08-21T19:47:08+08:00 ] 127.0.0.1 /YsInnoCenter/YsInnovation/index.php/Admin/User/getUserCountJs
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000312s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000546s ]
+SQL: select count(*) from t_user_account,t_user where t_user_account.user_id=t_user.user_id and t_user.is_tea_or_stu=1 [ RunTime:0.0007s ]
+
+[ 2015-08-21T19:47:08+08:00 ] 127.0.0.1 /YsInnoCenter/YsInnovation/index.php/Admin/User/getUserDataJs
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000421s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000660s ]
+NOTIC: [8] Undefined variable: statrt_record E:\wamp\www\YsInnoCenter\YsInnovation\Admin\Controller\UserController.class.php 第 240 行.
+ERR: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '10' at line 1
+
+[ 2015-08-21T19:47:08+08:00 ] 127.0.0.1 /YsInnoCenter/YsInnovation/index.php/Admin/User/getUserCountJs
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000294s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000586s ]
+SQL: select count(*) from t_user_account,t_user where t_user_account.user_id=t_user.user_id and t_user.is_tea_or_stu=1 [ RunTime:0.0008s ]
+
+[ 2015-08-21T19:47:08+08:00 ] 127.0.0.1 /YsInnoCenter/YsInnovation/index.php/Admin/User/getUserDataJs
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000502s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000789s ]
+NOTIC: [8] Undefined variable: statrt_record E:\wamp\www\YsInnoCenter\YsInnovation\Admin\Controller\UserController.class.php 第 240 行.
+ERR: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '10' at line 1
+
+[ 2015-08-21T19:47:08+08:00 ] 127.0.0.1 /YsInnoCenter/YsInnovation/index.php/Admin/User/getUserCountJs
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000407s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000672s ]
+SQL: select count(*) from t_user_account,t_user where t_user_account.user_id=t_user.user_id and t_user.is_tea_or_stu=1 [ RunTime:0.0006s ]
+
+[ 2015-08-21T19:47:08+08:00 ] 127.0.0.1 /YsInnoCenter/YsInnovation/index.php/Admin/User/getUserDataJs
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000321s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000586s ]
+NOTIC: [8] Undefined variable: statrt_record E:\wamp\www\YsInnoCenter\YsInnovation\Admin\Controller\UserController.class.php 第 240 行.
+ERR: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '10' at line 1
+
+[ 2015-08-21T19:47:08+08:00 ] 127.0.0.1 /YsInnoCenter/YsInnovation/index.php/Admin/User/getUserCountJs
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000309s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000550s ]
+SQL: select count(*) from t_user_account,t_user where t_user_account.user_id=t_user.user_id and t_user.is_tea_or_stu=1 [ RunTime:0.0007s ]
+
+[ 2015-08-21T19:47:08+08:00 ] 127.0.0.1 /YsInnoCenter/YsInnovation/index.php/Admin/User/getUserDataJs
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000297s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000536s ]
+NOTIC: [8] Undefined variable: statrt_record E:\wamp\www\YsInnoCenter\YsInnovation\Admin\Controller\UserController.class.php 第 240 行.
+ERR: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '10' at line 1
+
+[ 2015-08-21T19:47:08+08:00 ] 127.0.0.1 /YsInnoCenter/YsInnovation/index.php/Admin/User/getUserCountJs
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000359s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000618s ]
+SQL: select count(*) from t_user_account,t_user where t_user_account.user_id=t_user.user_id and t_user.is_tea_or_stu=1 [ RunTime:0.0018s ]
+
+[ 2015-08-21T19:47:09+08:00 ] 127.0.0.1 /YsInnoCenter/YsInnovation/index.php/Admin/User/getUserDataJs
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000311s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000574s ]
+NOTIC: [8] Undefined variable: statrt_record E:\wamp\www\YsInnoCenter\YsInnovation\Admin\Controller\UserController.class.php 第 240 行.
+ERR: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '10' at line 1
+
+[ 2015-08-21T19:47:09+08:00 ] 127.0.0.1 /YsInnoCenter/YsInnovation/index.php/Admin/User/getUserCountJs
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000305s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000578s ]
+SQL: select count(*) from t_user_account,t_user where t_user_account.user_id=t_user.user_id and t_user.is_tea_or_stu=1 [ RunTime:0.0007s ]
+
+[ 2015-08-21T19:47:09+08:00 ] 127.0.0.1 /YsInnoCenter/YsInnovation/index.php/Admin/User/getUserDataJs
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000374s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000631s ]
+NOTIC: [8] Undefined variable: statrt_record E:\wamp\www\YsInnoCenter\YsInnovation\Admin\Controller\UserController.class.php 第 240 行.
+ERR: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '10' at line 1
+
+[ 2015-08-21T19:47:09+08:00 ] 127.0.0.1 /YsInnoCenter/YsInnovation/index.php/Admin/User/getUserCountJs
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000316s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000569s ]
+SQL: select count(*) from t_user_account,t_user where t_user_account.user_id=t_user.user_id and t_user.is_tea_or_stu=1 [ RunTime:0.0006s ]
+
+[ 2015-08-21T19:47:09+08:00 ] 127.0.0.1 /YsInnoCenter/YsInnovation/index.php/Admin/User/getUserDataJs
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000353s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000638s ]
+NOTIC: [8] Undefined variable: statrt_record E:\wamp\www\YsInnoCenter\YsInnovation\Admin\Controller\UserController.class.php 第 240 行.
+ERR: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '10' at line 1
+
+[ 2015-08-21T19:47:09+08:00 ] 127.0.0.1 /YsInnoCenter/YsInnovation/index.php/Admin/User/getUserCountJs
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000311s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000558s ]
+SQL: select count(*) from t_user_account,t_user where t_user_account.user_id=t_user.user_id and t_user.is_tea_or_stu=1 [ RunTime:0.0007s ]
+
+[ 2015-08-21T19:47:09+08:00 ] 127.0.0.1 /YsInnoCenter/YsInnovation/index.php/Admin/User/getUserDataJs
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000332s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000602s ]
+NOTIC: [8] Undefined variable: statrt_record E:\wamp\www\YsInnoCenter\YsInnovation\Admin\Controller\UserController.class.php 第 240 行.
+ERR: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '10' at line 1
+
+[ 2015-08-21T19:47:09+08:00 ] 127.0.0.1 /YsInnoCenter/YsInnovation/index.php/Admin/User/getUserCountJs
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000356s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000591s ]
+SQL: select count(*) from t_user_account,t_user where t_user_account.user_id=t_user.user_id and t_user.is_tea_or_stu=1 [ RunTime:0.0007s ]
+
+[ 2015-08-21T19:47:09+08:00 ] 127.0.0.1 /YsInnoCenter/YsInnovation/index.php/Admin/User/getUserDataJs
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000306s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000561s ]
+NOTIC: [8] Undefined variable: statrt_record E:\wamp\www\YsInnoCenter\YsInnovation\Admin\Controller\UserController.class.php 第 240 行.
+ERR: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '10' at line 1
+
+[ 2015-08-21T19:47:09+08:00 ] 127.0.0.1 /YsInnoCenter/YsInnovation/index.php/Admin/User/getUserCountJs
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000391s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000666s ]
+SQL: select count(*) from t_user_account,t_user where t_user_account.user_id=t_user.user_id and t_user.is_tea_or_stu=1 [ RunTime:0.0007s ]
+
+[ 2015-08-21T19:47:09+08:00 ] 127.0.0.1 /YsInnoCenter/YsInnovation/index.php/Admin/User/getUserDataJs
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000298s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000657s ]
+NOTIC: [8] Undefined variable: statrt_record E:\wamp\www\YsInnoCenter\YsInnovation\Admin\Controller\UserController.class.php 第 240 行.
+ERR: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '10' at line 1
+
+[ 2015-08-21T19:47:09+08:00 ] 127.0.0.1 /YsInnoCenter/YsInnovation/index.php/Admin/User/getUserCountJs
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000365s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000592s ]
+SQL: select count(*) from t_user_account,t_user where t_user_account.user_id=t_user.user_id and t_user.is_tea_or_stu=1 [ RunTime:0.0006s ]
+
+[ 2015-08-21T19:47:10+08:00 ] 127.0.0.1 /YsInnoCenter/YsInnovation/index.php/Admin/User/getUserDataJs
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000310s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000584s ]
+NOTIC: [8] Undefined variable: statrt_record E:\wamp\www\YsInnoCenter\YsInnovation\Admin\Controller\UserController.class.php 第 240 行.
+ERR: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '10' at line 1
+
+[ 2015-08-21T19:47:10+08:00 ] 127.0.0.1 /YsInnoCenter/YsInnovation/index.php/Admin/User/getUserCountJs
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000348s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000613s ]
+SQL: select count(*) from t_user_account,t_user where t_user_account.user_id=t_user.user_id and t_user.is_tea_or_stu=1 [ RunTime:0.0009s ]
+
+[ 2015-08-21T19:47:10+08:00 ] 127.0.0.1 /YsInnoCenter/YsInnovation/index.php/Admin/User/getUserDataJs
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000326s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000633s ]
+NOTIC: [8] Undefined variable: statrt_record E:\wamp\www\YsInnoCenter\YsInnovation\Admin\Controller\UserController.class.php 第 240 行.
+ERR: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '10' at line 1
+
+[ 2015-08-21T19:47:10+08:00 ] 127.0.0.1 /YsInnoCenter/YsInnovation/index.php/Admin/User/getUserCountJs
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000320s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000567s ]
+SQL: select count(*) from t_user_account,t_user where t_user_account.user_id=t_user.user_id and t_user.is_tea_or_stu=1 [ RunTime:0.0007s ]
+
+[ 2015-08-21T19:47:10+08:00 ] 127.0.0.1 /YsInnoCenter/YsInnovation/index.php/Admin/User/getUserDataJs
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000384s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000634s ]
+NOTIC: [8] Undefined variable: statrt_record E:\wamp\www\YsInnoCenter\YsInnovation\Admin\Controller\UserController.class.php 第 240 行.
+ERR: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '10' at line 1
+
+[ 2015-08-21T19:47:10+08:00 ] 127.0.0.1 /YsInnoCenter/YsInnovation/index.php/Admin/User/getUserCountJs
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000349s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000641s ]
+SQL: select count(*) from t_user_account,t_user where t_user_account.user_id=t_user.user_id and t_user.is_tea_or_stu=1 [ RunTime:0.0007s ]
+
+[ 2015-08-21T19:47:10+08:00 ] 127.0.0.1 /YsInnoCenter/YsInnovation/index.php/Admin/User/getUserDataJs
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000315s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000571s ]
+NOTIC: [8] Undefined variable: statrt_record E:\wamp\www\YsInnoCenter\YsInnovation\Admin\Controller\UserController.class.php 第 240 行.
+ERR: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '10' at line 1
+
+[ 2015-08-21T19:47:10+08:00 ] 127.0.0.1 /YsInnoCenter/YsInnovation/index.php/Admin/User/getUserCountJs
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000570s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000997s ]
+SQL: select count(*) from t_user_account,t_user where t_user_account.user_id=t_user.user_id and t_user.is_tea_or_stu=1 [ RunTime:0.0007s ]
+
+[ 2015-08-21T19:47:10+08:00 ] 127.0.0.1 /YsInnoCenter/YsInnovation/index.php/Admin/User/getUserDataJs
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000331s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000626s ]
+NOTIC: [8] Undefined variable: statrt_record E:\wamp\www\YsInnoCenter\YsInnovation\Admin\Controller\UserController.class.php 第 240 行.
+ERR: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '10' at line 1
+
+[ 2015-08-21T19:47:10+08:00 ] 127.0.0.1 /YsInnoCenter/YsInnovation/index.php/Admin/User/getUserCountJs
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000423s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000675s ]
+SQL: select count(*) from t_user_account,t_user where t_user_account.user_id=t_user.user_id and t_user.is_tea_or_stu=1 [ RunTime:0.0008s ]
+
+[ 2015-08-21T19:47:11+08:00 ] 127.0.0.1 /YsInnoCenter/YsInnovation/index.php/Admin/User/getUserDataJs
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000438s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000744s ]
+NOTIC: [8] Undefined variable: statrt_record E:\wamp\www\YsInnoCenter\YsInnovation\Admin\Controller\UserController.class.php 第 240 行.
+ERR: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '10' at line 1
+
+[ 2015-08-21T19:47:11+08:00 ] 127.0.0.1 /YsInnoCenter/YsInnovation/index.php/Admin/User/getUserCountJs
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000485s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000802s ]
+SQL: select count(*) from t_user_account,t_user where t_user_account.user_id=t_user.user_id and t_user.is_tea_or_stu=1 [ RunTime:0.0007s ]
+
+[ 2015-08-21T19:47:39+08:00 ] 127.0.0.1 /YsInnoCenter/YsInnovation/index.php/Admin/User/getUserDataJs
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000286s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000518s ]
+NOTIC: [8] Undefined variable: statrt_record E:\wamp\www\YsInnoCenter\YsInnovation\Admin\Controller\UserController.class.php 第 240 行.
+ERR: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '10' at line 1
+
+[ 2015-08-21T19:47:39+08:00 ] 127.0.0.1 /YsInnoCenter/YsInnovation/index.php/Admin/User/getUserCountJs
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000393s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000625s ]
+SQL: select count(*) from t_user_account,t_user where t_user_account.user_id=t_user.user_id and t_user.is_tea_or_stu=1 [ RunTime:0.0007s ]
+
+[ 2015-08-21T19:47:41+08:00 ] 127.0.0.1 /YsInnoCenter/YsInnovation/index.php/Admin/User/getUserDataJs
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000323s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000583s ]
+NOTIC: [8] Undefined variable: statrt_record E:\wamp\www\YsInnoCenter\YsInnovation\Admin\Controller\UserController.class.php 第 240 行.
+ERR: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '10' at line 1
+
+[ 2015-08-21T19:47:41+08:00 ] 127.0.0.1 /YsInnoCenter/YsInnovation/index.php/Admin/User/getUserCountJs
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000361s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000677s ]
+SQL: select count(*) from t_user_account,t_user where t_user_account.user_id=t_user.user_id and t_user.is_tea_or_stu=1 [ RunTime:0.0007s ]
+
+[ 2015-08-21T19:47:41+08:00 ] 127.0.0.1 /YsInnoCenter/YsInnovation/index.php/Admin/User/getUserDataJs
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000361s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000765s ]
+NOTIC: [8] Undefined variable: statrt_record E:\wamp\www\YsInnoCenter\YsInnovation\Admin\Controller\UserController.class.php 第 240 行.
+ERR: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '10' at line 1
+
+[ 2015-08-21T19:47:41+08:00 ] 127.0.0.1 /YsInnoCenter/YsInnovation/index.php/Admin/User/getUserCountJs
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000336s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000709s ]
+SQL: select count(*) from t_user_account,t_user where t_user_account.user_id=t_user.user_id and t_user.is_tea_or_stu=1 [ RunTime:0.0007s ]
+
+[ 2015-08-21T19:47:41+08:00 ] 127.0.0.1 /YsInnoCenter/YsInnovation/index.php/Admin/User/getUserDataJs
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000320s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000564s ]
+NOTIC: [8] Undefined variable: statrt_record E:\wamp\www\YsInnoCenter\YsInnovation\Admin\Controller\UserController.class.php 第 240 行.
+ERR: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '10' at line 1
+
+[ 2015-08-21T19:47:41+08:00 ] 127.0.0.1 /YsInnoCenter/YsInnovation/index.php/Admin/User/getUserCountJs
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000309s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000547s ]
+SQL: select count(*) from t_user_account,t_user where t_user_account.user_id=t_user.user_id and t_user.is_tea_or_stu=1 [ RunTime:0.0007s ]
+
+[ 2015-08-21T19:47:45+08:00 ] 127.0.0.1 /YsInnoCenter/YsInnovation/index.php/Admin/User/getUserDataJs
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000341s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000594s ]
+NOTIC: [8] Undefined variable: statrt_record E:\wamp\www\YsInnoCenter\YsInnovation\Admin\Controller\UserController.class.php 第 240 行.
+ERR: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '10' at line 1
+
+[ 2015-08-21T19:47:45+08:00 ] 127.0.0.1 /YsInnoCenter/YsInnovation/index.php/Admin/User/getUserCountJs
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000328s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000571s ]
+SQL: select count(*) from t_user_account,t_user where t_user_account.user_id=t_user.user_id and t_user.is_tea_or_stu=1 [ RunTime:0.0007s ]
+
+[ 2015-08-21T19:47:57+08:00 ] 127.0.0.1 /YsInnoCenter/YsInnovation/index.php/Admin/User/getUserDataJs
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000328s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000610s ]
+NOTIC: [8] Undefined variable: statrt_record E:\wamp\www\YsInnoCenter\YsInnovation\Admin\Controller\UserController.class.php 第 240 行.
+ERR: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '10' at line 1
+
+[ 2015-08-21T19:47:57+08:00 ] 127.0.0.1 /YsInnoCenter/YsInnovation/index.php/Admin/User/getUserCountJs
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000527s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000946s ]
+SQL: select count(*) from t_user_account,t_user where t_user_account.user_id=t_user.user_id and t_user.is_tea_or_stu=1 [ RunTime:0.0008s ]
+
+[ 2015-08-21T19:48:01+08:00 ] 127.0.0.1 /YsInnoCenter/YsInnovation/index.php/Admin/User/getUserDataJs
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000550s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000923s ]
+NOTIC: [8] Undefined variable: statrt_record E:\wamp\www\YsInnoCenter\YsInnovation\Admin\Controller\UserController.class.php 第 240 行.
+ERR: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '10' at line 1
+
+[ 2015-08-21T19:48:01+08:00 ] 127.0.0.1 /YsInnoCenter/YsInnovation/index.php/Admin/User/getUserCountJs
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000337s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000684s ]
+SQL: select count(*) from t_user_account,t_user where t_user_account.user_id=t_user.user_id and t_user.is_tea_or_stu=1 [ RunTime:0.0009s ]
+
+[ 2015-08-21T19:48:10+08:00 ] 127.0.0.1 /YsInnoCenter/YsInnovation/index.php/Admin/User/getUserDataJs
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000306s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000556s ]
+NOTIC: [8] Undefined variable: statrt_record E:\wamp\www\YsInnoCenter\YsInnovation\Admin\Controller\UserController.class.php 第 240 行.
+ERR: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '10' at line 1
+
+[ 2015-08-21T19:48:10+08:00 ] 127.0.0.1 /YsInnoCenter/YsInnovation/index.php/Admin/User/getUserCountJs
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000312s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000558s ]
+SQL: select count(*) from t_user_account,t_user where t_user_account.user_id=t_user.user_id and t_user.is_tea_or_stu=1 [ RunTime:0.0007s ]
+
+[ 2015-08-21T19:49:07+08:00 ] 127.0.0.1 /YsInnoCenter/YsInnovation/index.php/Admin/User/getUserCountJs
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000334s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000673s ]
+SQL: select count(*) from t_user_account,t_user where t_user_account.user_id=t_user.user_id and t_user.is_tea_or_stu=1 [ RunTime:0.0008s ]
+
+[ 2015-08-21T19:49:07+08:00 ] 127.0.0.1 /YsInnoCenter/YsInnovation/index.php/Admin/User/getUserDataJs
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000310s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000615s ]
+NOTIC: [8] Undefined variable: statrt_record E:\wamp\www\YsInnoCenter\YsInnovation\Admin\Controller\UserController.class.php 第 240 行.
+ERR: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '10' at line 1
+
+[ 2015-08-21T19:49:47+08:00 ] 127.0.0.1 /YsInnoCenter/YsInnovation/index.php/Admin/User/getUserDataJs
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000312s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000555s ]
+NOTIC: [8] Undefined variable: statrt_record E:\wamp\www\YsInnoCenter\YsInnovation\Admin\Controller\UserController.class.php 第 243 行.
+ERR: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '10' at line 1
+
+[ 2015-08-21T19:49:47+08:00 ] 127.0.0.1 /YsInnoCenter/YsInnovation/index.php/Admin/User/getUserCountJs
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000349s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000624s ]
+SQL: select count(*) from t_user_account,t_user where t_user_account.user_id=t_user.user_id and t_user.is_tea_or_stu=1 [ RunTime:0.0007s ]
+
+[ 2015-08-21T19:49:52+08:00 ] 127.0.0.1 /YsInnoCenter/YsInnovation/index.php/Admin/User/getUserDataJs
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000294s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000560s ]
+NOTIC: [8] Undefined variable: statrt_record E:\wamp\www\YsInnoCenter\YsInnovation\Admin\Controller\UserController.class.php 第 243 行.
+ERR: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '10' at line 1
+
+[ 2015-08-21T19:49:52+08:00 ] 127.0.0.1 /YsInnoCenter/YsInnovation/index.php/Admin/User/getUserCountJs
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000334s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000569s ]
+SQL: select count(*) from t_user_account,t_user where t_user_account.user_id=t_user.user_id and t_user.is_tea_or_stu=1 [ RunTime:0.0007s ]
+
+[ 2015-08-21T19:50:15+08:00 ] 127.0.0.1 /YsInnoCenter/YsInnovation/index.php/Admin/User/getUserDataJs
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000309s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000567s ]
+NOTIC: [8] Undefined variable: statrt_record E:\wamp\www\YsInnoCenter\YsInnovation\Admin\Controller\UserController.class.php 第 243 行.
+ERR: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '10' at line 1
+
+[ 2015-08-21T19:50:15+08:00 ] 127.0.0.1 /YsInnoCenter/YsInnovation/index.php/Admin/User/getUserCountJs
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000309s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000549s ]
+SQL: select count(*) from t_user_account,t_user where t_user_account.user_id=t_user.user_id and t_user.is_tea_or_stu=1 [ RunTime:0.0007s ]
+
+[ 2015-08-21T19:50:23+08:00 ] 127.0.0.1 /YsInnoCenter/YsInnovation/index.php/Admin/User/getUserDataJs
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000304s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000571s ]
+NOTIC: [8] Undefined variable: statrt_record E:\wamp\www\YsInnoCenter\YsInnovation\Admin\Controller\UserController.class.php 第 243 行.
+ERR: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '10' at line 1
+
+[ 2015-08-21T19:50:23+08:00 ] 127.0.0.1 /YsInnoCenter/YsInnovation/index.php/Admin/User/getUserCountJs
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000305s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000553s ]
+SQL: select count(*) from t_user_account,t_user where t_user_account.user_id=t_user.user_id and t_user.is_tea_or_stu=1 [ RunTime:0.0007s ]
+
+[ 2015-08-21T19:51:12+08:00 ] 127.0.0.1 /YsInnoCenter/YsInnovation/index.php/Admin/User/getUserDataJs
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000301s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000553s ]
+NOTIC: [8] Undefined variable: statrt_record E:\wamp\www\YsInnoCenter\YsInnovation\Admin\Controller\UserController.class.php 第 243 行.
+ERR: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '10' at line 1
+
+[ 2015-08-21T19:51:12+08:00 ] 127.0.0.1 /YsInnoCenter/YsInnovation/index.php/Admin/User/getUserCountJs
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000425s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000690s ]
+SQL: select count(*) from t_user_account,t_user where t_user_account.user_id=t_user.user_id and t_user.is_tea_or_stu=1 [ RunTime:0.0007s ]
+
+[ 2015-08-21T19:51:20+08:00 ] 127.0.0.1 /YsInnoCenter/YsInnovation/index.php/Admin/User/getUserDataJs
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000310s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000570s ]
+NOTIC: [8] Undefined variable: statrt_record E:\wamp\www\YsInnoCenter\YsInnovation\Admin\Controller\UserController.class.php 第 243 行.
+ERR: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '10' at line 1
+
+[ 2015-08-21T19:51:20+08:00 ] 127.0.0.1 /YsInnoCenter/YsInnovation/index.php/Admin/User/getUserCountJs
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000370s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000610s ]
+SQL: select count(*) from t_user_account,t_user where t_user_account.user_id=t_user.user_id and t_user.is_tea_or_stu=1 [ RunTime:0.0007s ]
+
+[ 2015-08-21T19:51:28+08:00 ] 127.0.0.1 /YsInnoCenter/YsInnovation/index.php/Admin/User/getTeaDutyJs
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000317s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000583s ]
+SQL: select * from t_tea_duty where isshow=0 [ RunTime:0.0007s ]
+
+[ 2015-08-21T19:51:28+08:00 ] 127.0.0.1 /YsInnoCenter/YsInnovation/index.php/Admin/User/getCollegeJs
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000306s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000555s ]
+SQL: select * from t_college where isshow=0 [ RunTime:0.0006s ]
+
+[ 2015-08-21T19:51:28+08:00 ] 127.0.0.1 /YsInnoCenter/YsInnovation/index.php/Admin/User/getOrgJs
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000435s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000786s ]
+SQL: select * from t_organization where isshow='0' and organization_type=2 [ RunTime:0.0012s ]
+
+[ 2015-08-21T19:51:29+08:00 ] 127.0.0.1 /YsInnoCenter/YsInnovation/index.php/Admin/User/getRolesJs
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000299s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000541s ]
+SQL: select * from t_role where isshow=0 [ RunTime:0.0007s ]
+
+[ 2015-08-21T19:51:32+08:00 ] 127.0.0.1 /YsInnoCenter/YsInnovation/index.php/Admin/User/getUserDataJs
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000296s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000542s ]
+NOTIC: [8] Undefined variable: statrt_record E:\wamp\www\YsInnoCenter\YsInnovation\Admin\Controller\UserController.class.php 第 243 行.
+ERR: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '10' at line 1
+
+[ 2015-08-21T19:51:32+08:00 ] 127.0.0.1 /YsInnoCenter/YsInnovation/index.php/Admin/User/getUserCountJs
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000396s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000624s ]
+SQL: select count(*) from t_user_account,t_user where t_user_account.user_id=t_user.user_id and t_user.is_tea_or_stu=1 [ RunTime:0.0008s ]
+
+[ 2015-08-21T19:52:32+08:00 ] 127.0.0.1 /YsInnoCenter/YsInnovation/index.php/Admin/User/getUserDataJs
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000329s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000588s ]
+NOTIC: [8] Undefined variable: statrt_record E:\wamp\www\YsInnoCenter\YsInnovation\Admin\Controller\UserController.class.php 第 243 行.
+ERR: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '10' at line 1
+
+[ 2015-08-21T19:52:32+08:00 ] 127.0.0.1 /YsInnoCenter/YsInnovation/index.php/Admin/User/getUserCountJs
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000405s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000699s ]
+SQL: select count(*) from t_user_account,t_user where t_user_account.user_id=t_user.user_id and t_user.is_tea_or_stu=1 [ RunTime:0.0006s ]
+
+[ 2015-08-21T19:52:59+08:00 ] 127.0.0.1 /YsInnoCenter/YsInnovation/index.php/Admin/User/getUserDataJs
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000430s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000783s ]
+NOTIC: [8] Undefined variable: statrt_record E:\wamp\www\YsInnoCenter\YsInnovation\Admin\Controller\UserController.class.php 第 243 行.
+ERR: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '10' at line 1
+
+[ 2015-08-21T19:52:59+08:00 ] 127.0.0.1 /YsInnoCenter/YsInnovation/index.php/Admin/User/getUserCountJs
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000434s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000774s ]
+SQL: select count(*) from t_user_account,t_user where t_user_account.user_id=t_user.user_id and t_user.is_tea_or_stu=1 [ RunTime:0.0010s ]
+
+[ 2015-08-21T19:53:29+08:00 ] 127.0.0.1 /YsInnoCenter/YsInnovation/index.php/Admin/User/getUserDataJs
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001255s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001950s ]
+NOTIC: [8] Undefined variable: statrt_record E:\wamp\www\YsInnoCenter\YsInnovation\Admin\Controller\UserController.class.php 第 243 行.
+ERR: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '10' at line 1
+
+[ 2015-08-21T19:53:29+08:00 ] 127.0.0.1 /YsInnoCenter/YsInnovation/index.php/Admin/User/getUserCountJs
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000493s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000823s ]
+SQL: select count(*) from t_user_account,t_user where t_user_account.user_id=t_user.user_id and t_user.is_tea_or_stu=1 [ RunTime:0.0007s ]
+
+[ 2015-08-21T19:55:36+08:00 ] 127.0.0.1 /YsInnoCenter/YsInnovation/index.php/Admin/User/haha
+ERR: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '10' at line 1
+
+[ 2015-08-21T19:56:29+08:00 ] 127.0.0.1 /YsInnoCenter/YsInnovation/index.php/Admin/User/haha
+ERR: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '10' at line 1
+
+[ 2015-08-21T19:56:31+08:00 ] 127.0.0.1 /YsInnoCenter/YsInnovation/index.php/Admin/User/haha
+ERR: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '10' at line 1
+
+[ 2015-08-21T19:58:07+08:00 ] 127.0.0.1 /YsInnoCenter/YsInnovation/index.php/Admin/User/getUserDataJs
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000320s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000574s ]
+SQL: select t_user_account.*,t_user.* from t_user,t_user_account where t_user.is_tea_or_stu='1' and t_user_account.user_id=t_user.user_id limit 0,10 [ RunTime:0.0015s ]
+SQL: SHOW COLUMNS FROM `t_tea_duty` [ RunTime:0.0017s ]
+SQL: SELECT * FROM `t_tea_duty` WHERE ( tea_duty_id=1 )  [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `t_organization` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `t_organization` WHERE ( organization_id=1 )  [ RunTime:0.0011s ]
+SQL: SELECT * FROM `t_tea_duty` WHERE ( tea_duty_id=1 )  [ RunTime:0.0006s ]
+SQL: SELECT * FROM `t_organization` WHERE ( organization_id=1 )  [ RunTime:0.0012s ]
+SQL: SELECT * FROM `t_tea_duty` WHERE ( tea_duty_id=1 )  [ RunTime:0.0006s ]
+SQL: SELECT * FROM `t_organization` WHERE ( organization_id=1 )  [ RunTime:0.0012s ]
+SQL: SELECT * FROM `t_tea_duty` WHERE ( tea_duty_id=2 )  [ RunTime:0.0006s ]
+SQL: SELECT * FROM `t_organization` WHERE ( organization_id=1 )  [ RunTime:0.0011s ]
+
+[ 2015-08-21T19:58:07+08:00 ] 127.0.0.1 /YsInnoCenter/YsInnovation/index.php/Admin/User/getUserCountJs
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000402s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000682s ]
+SQL: select count(*) from t_user_account,t_user where t_user_account.user_id=t_user.user_id and t_user.is_tea_or_stu=1 [ RunTime:0.0007s ]
+
+[ 2015-08-21T20:09:21+08:00 ] 127.0.0.1 /YsInnoCenter/YsInnovation/index.php/Admin/User/getUserDataJs
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000303s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000548s ]
+SQL: select t_user_account.*,t_user.* from t_user,t_user_account where t_user.is_tea_or_stu='1' and t_user_account.user_id=t_user.user_id limit 0,10 [ RunTime:0.0017s ]
+SQL: SHOW COLUMNS FROM `t_tea_duty` [ RunTime:0.0018s ]
+SQL: SELECT * FROM `t_tea_duty` WHERE ( tea_duty_id=1 )  [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `t_organization` [ RunTime:0.0019s ]
+SQL: SELECT * FROM `t_organization` WHERE ( organization_id=1 )  [ RunTime:0.0012s ]
+SQL: SELECT * FROM `t_tea_duty` WHERE ( tea_duty_id=1 )  [ RunTime:0.0006s ]
+SQL: SELECT * FROM `t_organization` WHERE ( organization_id=1 )  [ RunTime:0.0011s ]
+SQL: SELECT * FROM `t_tea_duty` WHERE ( tea_duty_id=1 )  [ RunTime:0.0006s ]
+SQL: SELECT * FROM `t_organization` WHERE ( organization_id=1 )  [ RunTime:0.0011s ]
+SQL: SELECT * FROM `t_tea_duty` WHERE ( tea_duty_id=2 )  [ RunTime:0.0006s ]
+SQL: SELECT * FROM `t_organization` WHERE ( organization_id=1 )  [ RunTime:0.0011s ]
+
+[ 2015-08-21T20:09:21+08:00 ] 127.0.0.1 /YsInnoCenter/YsInnovation/index.php/Admin/User/getUserCountJs
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000400s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000677s ]
+SQL: select count(*) from t_user_account,t_user where t_user_account.user_id=t_user.user_id and t_user.is_tea_or_stu=1 [ RunTime:0.0015s ]
+
+[ 2015-08-21T20:11:29+08:00 ] 127.0.0.1 /YsInnoCenter/YsInnovation/index.php/Admin/User/getUserDataJs
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000323s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000575s ]
+SQL: select t_user_account.*,t_user.* from t_user,t_user_account where t_user.is_tea_or_stu='1' and t_user_account.user_id=t_user.user_id limit 0,10 [ RunTime:0.0017s ]
+SQL: SHOW COLUMNS FROM `t_tea_duty` [ RunTime:0.0017s ]
+SQL: SELECT * FROM `t_tea_duty` WHERE ( tea_duty_id=1 )  [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `t_organization` [ RunTime:0.0018s ]
+SQL: SELECT * FROM `t_organization` WHERE ( organization_id=1 )  [ RunTime:0.0011s ]
+SQL: SELECT * FROM `t_tea_duty` WHERE ( tea_duty_id=1 )  [ RunTime:0.0005s ]
+SQL: SELECT * FROM `t_organization` WHERE ( organization_id=1 )  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `t_tea_duty` WHERE ( tea_duty_id=1 )  [ RunTime:0.0005s ]
+SQL: SELECT * FROM `t_organization` WHERE ( organization_id=1 )  [ RunTime:0.0011s ]
+SQL: SELECT * FROM `t_tea_duty` WHERE ( tea_duty_id=2 )  [ RunTime:0.0005s ]
+SQL: SELECT * FROM `t_organization` WHERE ( organization_id=1 )  [ RunTime:0.0010s ]
+
+[ 2015-08-21T20:11:29+08:00 ] 127.0.0.1 /YsInnoCenter/YsInnovation/index.php/Admin/User/getUserCountJs
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000385s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000649s ]
+SQL: select count(*) from t_user_account,t_user where t_user_account.user_id=t_user.user_id and t_user.is_tea_or_stu=1 [ RunTime:0.0007s ]
+
+[ 2015-08-21T20:12:25+08:00 ] 127.0.0.1 /YsInnoCenter/YsInnovation/index.php/Admin/User/getUserDataJs
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000351s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000596s ]
+SQL: select t_user_account.*,t_user.* from t_user,t_user_account where t_user.is_tea_or_stu='1' and t_user_account.user_id=t_user.user_id limit 0,10 [ RunTime:0.0016s ]
+SQL: SHOW COLUMNS FROM `t_tea_duty` [ RunTime:0.0018s ]
+SQL: SELECT * FROM `t_tea_duty` WHERE ( tea_duty_id=1 )  [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `t_organization` [ RunTime:0.0019s ]
+SQL: SELECT * FROM `t_organization` WHERE ( organization_id=1 )  [ RunTime:0.0012s ]
+SQL: SELECT * FROM `t_tea_duty` WHERE ( tea_duty_id=1 )  [ RunTime:0.0006s ]
+SQL: SELECT * FROM `t_organization` WHERE ( organization_id=1 )  [ RunTime:0.0011s ]
+SQL: SELECT * FROM `t_tea_duty` WHERE ( tea_duty_id=1 )  [ RunTime:0.0006s ]
+SQL: SELECT * FROM `t_organization` WHERE ( organization_id=1 )  [ RunTime:0.0011s ]
+SQL: SELECT * FROM `t_tea_duty` WHERE ( tea_duty_id=2 )  [ RunTime:0.0006s ]
+SQL: SELECT * FROM `t_organization` WHERE ( organization_id=1 )  [ RunTime:0.0011s ]
+
+[ 2015-08-21T20:12:25+08:00 ] 127.0.0.1 /YsInnoCenter/YsInnovation/index.php/Admin/User/getUserCountJs
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000359s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000653s ]
+SQL: select count(*) from t_user_account,t_user where t_user_account.user_id=t_user.user_id and t_user.is_tea_or_stu=1 [ RunTime:0.0006s ]
+
+[ 2015-08-21T20:12:27+08:00 ] 127.0.0.1 /YsInnoCenter/YsInnovation/index.php/Admin/User/getUserDataJs
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000881s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001645s ]
+SQL: select t_user_account.*,t_user.* from t_user,t_user_account where t_user.is_tea_or_stu='1' and t_user_account.user_id=t_user.user_id and t_user_account.organization_id='2' limit 0,10 [ RunTime:0.0016s ]
+
+[ 2015-08-21T20:12:27+08:00 ] 127.0.0.1 /YsInnoCenter/YsInnovation/index.php/Admin/User/getUserCountJs
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000390s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000691s ]
+SQL: select count(*) from t_user_account,t_user where t_user_account.user_id=t_user.user_id and t_user.is_tea_or_stu=1 and t_user_account.organization_id='2' [ RunTime:0.0008s ]
+
+[ 2015-08-21T20:12:28+08:00 ] 127.0.0.1 /YsInnoCenter/YsInnovation/index.php/Admin/User/getUserCountJs
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000715s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001279s ]
+SQL: select count(*) from t_user_account,t_user where t_user_account.user_id=t_user.user_id and t_user.is_tea_or_stu=1 [ RunTime:0.0008s ]
+
+[ 2015-08-21T20:12:28+08:00 ] 127.0.0.1 /YsInnoCenter/YsInnovation/index.php/Admin/User/getUserDataJs
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000714s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001289s ]
+SQL: select t_user_account.*,t_user.* from t_user,t_user_account where t_user.is_tea_or_stu='1' and t_user_account.user_id=t_user.user_id limit 0,10 [ RunTime:0.0022s ]
+SQL: SHOW COLUMNS FROM `t_tea_duty` [ RunTime:0.0018s ]
+SQL: SELECT * FROM `t_tea_duty` WHERE ( tea_duty_id=1 )  [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `t_organization` [ RunTime:0.0018s ]
+SQL: SELECT * FROM `t_organization` WHERE ( organization_id=1 )  [ RunTime:0.0011s ]
+SQL: SELECT * FROM `t_tea_duty` WHERE ( tea_duty_id=1 )  [ RunTime:0.0015s ]
+SQL: SELECT * FROM `t_organization` WHERE ( organization_id=1 )  [ RunTime:0.0017s ]
+SQL: SELECT * FROM `t_tea_duty` WHERE ( tea_duty_id=1 )  [ RunTime:0.0007s ]
+SQL: SELECT * FROM `t_organization` WHERE ( organization_id=1 )  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `t_tea_duty` WHERE ( tea_duty_id=2 )  [ RunTime:0.0005s ]
+SQL: SELECT * FROM `t_organization` WHERE ( organization_id=1 )  [ RunTime:0.0011s ]
+
+[ 2015-08-21T20:12:30+08:00 ] 127.0.0.1 /YsInnoCenter/YsInnovation/index.php/Admin/User/getUserDataJs
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000952s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001653s ]
+SQL: select t_user_account.*,t_user.* from t_user,t_user_account where t_user.is_tea_or_stu='1' and t_user_account.user_id=t_user.user_id and t_user_account.organization_id='1' limit 0,10 [ RunTime:0.0016s ]
+SQL: SHOW COLUMNS FROM `t_tea_duty` [ RunTime:0.0017s ]
+SQL: SELECT * FROM `t_tea_duty` WHERE ( tea_duty_id=1 )  [ RunTime:0.0007s ]
+SQL: SHOW COLUMNS FROM `t_organization` [ RunTime:0.0021s ]
+SQL: SELECT * FROM `t_organization` WHERE ( organization_id=1 )  [ RunTime:0.0013s ]
+SQL: SELECT * FROM `t_tea_duty` WHERE ( tea_duty_id=1 )  [ RunTime:0.0006s ]
+SQL: SELECT * FROM `t_organization` WHERE ( organization_id=1 )  [ RunTime:0.0013s ]
+SQL: SELECT * FROM `t_tea_duty` WHERE ( tea_duty_id=1 )  [ RunTime:0.0007s ]
+SQL: SELECT * FROM `t_organization` WHERE ( organization_id=1 )  [ RunTime:0.0013s ]
+SQL: SELECT * FROM `t_tea_duty` WHERE ( tea_duty_id=2 )  [ RunTime:0.0007s ]
+SQL: SELECT * FROM `t_organization` WHERE ( organization_id=1 )  [ RunTime:0.0011s ]
+
+[ 2015-08-21T20:12:30+08:00 ] 127.0.0.1 /YsInnoCenter/YsInnovation/index.php/Admin/User/getUserCountJs
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000951s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001802s ]
+SQL: select count(*) from t_user_account,t_user where t_user_account.user_id=t_user.user_id and t_user.is_tea_or_stu=1 and t_user_account.organization_id='1' [ RunTime:0.0007s ]
+
+[ 2015-08-21T20:12:31+08:00 ] 127.0.0.1 /YsInnoCenter/YsInnovation/index.php/Admin/User/getUserDataJs
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000420s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000783s ]
+SQL: select t_user_account.*,t_user.* from t_user,t_user_account where t_user.is_tea_or_stu='1' and t_user_account.user_id=t_user.user_id and t_user_account.organization_id='2' limit 0,10 [ RunTime:0.0015s ]
+
+[ 2015-08-21T20:12:31+08:00 ] 127.0.0.1 /YsInnoCenter/YsInnovation/index.php/Admin/User/getUserCountJs
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000384s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000680s ]
+SQL: select count(*) from t_user_account,t_user where t_user_account.user_id=t_user.user_id and t_user.is_tea_or_stu=1 and t_user_account.organization_id='2' [ RunTime:0.0006s ]
+
+[ 2015-08-21T20:12:32+08:00 ] 127.0.0.1 /YsInnoCenter/YsInnovation/index.php/Admin/User/getUserCountJs
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000488s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000881s ]
+SQL: select count(*) from t_user_account,t_user where t_user_account.user_id=t_user.user_id and t_user.is_tea_or_stu=1 and t_user_account.organization_id='1' [ RunTime:0.0008s ]
+
+[ 2015-08-21T20:12:32+08:00 ] 127.0.0.1 /YsInnoCenter/YsInnovation/index.php/Admin/User/getUserDataJs
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000607s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: select t_user_account.*,t_user.* from t_user,t_user_account where t_user.is_tea_or_stu='1' and t_user_account.user_id=t_user.user_id and t_user_account.organization_id='1' limit 0,10 [ RunTime:0.0016s ]
+SQL: SHOW COLUMNS FROM `t_tea_duty` [ RunTime:0.0018s ]
+SQL: SELECT * FROM `t_tea_duty` WHERE ( tea_duty_id=1 )  [ RunTime:0.0007s ]
+SQL: SHOW COLUMNS FROM `t_organization` [ RunTime:0.0021s ]
+SQL: SELECT * FROM `t_organization` WHERE ( organization_id=1 )  [ RunTime:0.0014s ]
+SQL: SELECT * FROM `t_tea_duty` WHERE ( tea_duty_id=1 )  [ RunTime:0.0007s ]
+SQL: SELECT * FROM `t_organization` WHERE ( organization_id=1 )  [ RunTime:0.0012s ]
+SQL: SELECT * FROM `t_tea_duty` WHERE ( tea_duty_id=1 )  [ RunTime:0.0006s ]
+SQL: SELECT * FROM `t_organization` WHERE ( organization_id=1 )  [ RunTime:0.0012s ]
+SQL: SELECT * FROM `t_tea_duty` WHERE ( tea_duty_id=2 )  [ RunTime:0.0007s ]
+SQL: SELECT * FROM `t_organization` WHERE ( organization_id=1 )  [ RunTime:0.0012s ]
+
+[ 2015-08-21T20:12:50+08:00 ] 127.0.0.1 /YsInnoCenter/YsInnovation/index.php/Admin/User/showUserList
+ERR: 非法操作:showUserList
+
+[ 2015-08-21T20:12:52+08:00 ] 127.0.0.1 /YsInnoCenter/YsInnovation/index.php/Admin/User/getUserDataJs
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000329s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000584s ]
+SQL: select t_user_account.*,t_user.* from t_user,t_user_account where t_user.is_tea_or_stu='1' and t_user_account.user_id=t_user.user_id limit 0,10 [ RunTime:0.0015s ]
+SQL: SHOW COLUMNS FROM `t_tea_duty` [ RunTime:0.0018s ]
+SQL: SELECT * FROM `t_tea_duty` WHERE ( tea_duty_id=1 )  [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `t_organization` [ RunTime:0.0018s ]
+SQL: SELECT * FROM `t_organization` WHERE ( organization_id=1 )  [ RunTime:0.0011s ]
+SQL: SELECT * FROM `t_tea_duty` WHERE ( tea_duty_id=1 )  [ RunTime:0.0006s ]
+SQL: SELECT * FROM `t_organization` WHERE ( organization_id=1 )  [ RunTime:0.0011s ]
+SQL: SELECT * FROM `t_tea_duty` WHERE ( tea_duty_id=1 )  [ RunTime:0.0005s ]
+SQL: SELECT * FROM `t_organization` WHERE ( organization_id=1 )  [ RunTime:0.0011s ]
+SQL: SELECT * FROM `t_tea_duty` WHERE ( tea_duty_id=2 )  [ RunTime:0.0006s ]
+SQL: SELECT * FROM `t_organization` WHERE ( organization_id=1 )  [ RunTime:0.0011s ]
+
+[ 2015-08-21T20:12:52+08:00 ] 127.0.0.1 /YsInnoCenter/YsInnovation/index.php/Admin/User/getUserCountJs
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000323s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000630s ]
+SQL: select count(*) from t_user_account,t_user where t_user_account.user_id=t_user.user_id and t_user.is_tea_or_stu=1 [ RunTime:0.0007s ]
+
+[ 2015-08-21T20:12:52+08:00 ] 127.0.0.1 /YsInnoCenter/YsInnovation/index.php/Admin/User/showUserList
+ERR: 非法操作:showUserList
+
+[ 2015-08-21T20:12:53+08:00 ] 127.0.0.1 /YsInnoCenter/YsInnovation/index.php/Admin/User/getUserDataJs
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000426s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000774s ]
+SQL: select t_user_account.*,t_user.* from t_user,t_user_account where t_user.is_tea_or_stu='1' and t_user_account.user_id=t_user.user_id limit 0,10 [ RunTime:0.0021s ]
+SQL: SHOW COLUMNS FROM `t_tea_duty` [ RunTime:0.0018s ]
+SQL: SELECT * FROM `t_tea_duty` WHERE ( tea_duty_id=1 )  [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `t_organization` [ RunTime:0.0019s ]
+SQL: SELECT * FROM `t_organization` WHERE ( organization_id=1 )  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `t_tea_duty` WHERE ( tea_duty_id=1 )  [ RunTime:0.0006s ]
+SQL: SELECT * FROM `t_organization` WHERE ( organization_id=1 )  [ RunTime:0.0011s ]
+SQL: SELECT * FROM `t_tea_duty` WHERE ( tea_duty_id=1 )  [ RunTime:0.0006s ]
+SQL: SELECT * FROM `t_organization` WHERE ( organization_id=1 )  [ RunTime:0.0011s ]
+SQL: SELECT * FROM `t_tea_duty` WHERE ( tea_duty_id=2 )  [ RunTime:0.0006s ]
+SQL: SELECT * FROM `t_organization` WHERE ( organization_id=1 )  [ RunTime:0.0011s ]
+
+[ 2015-08-21T20:12:53+08:00 ] 127.0.0.1 /YsInnoCenter/YsInnovation/index.php/Admin/User/getUserCountJs
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000326s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000578s ]
+SQL: select count(*) from t_user_account,t_user where t_user_account.user_id=t_user.user_id and t_user.is_tea_or_stu=1 [ RunTime:0.0006s ]
+
+[ 2015-08-21T20:12:54+08:00 ] 127.0.0.1 /YsInnoCenter/YsInnovation/index.php/Admin/User/showUserList
+ERR: 非法操作:showUserList
+
+[ 2015-08-21T20:12:55+08:00 ] 127.0.0.1 /YsInnoCenter/YsInnovation/index.php/Admin/User/getUserDataJs
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000320s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000563s ]
+SQL: select t_user_account.*,t_user.* from t_user,t_user_account where t_user.is_tea_or_stu='1' and t_user_account.user_id=t_user.user_id limit 0,10 [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `t_tea_duty` [ RunTime:0.0016s ]
+SQL: SELECT * FROM `t_tea_duty` WHERE ( tea_duty_id=1 )  [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `t_organization` [ RunTime:0.0019s ]
+SQL: SELECT * FROM `t_organization` WHERE ( organization_id=1 )  [ RunTime:0.0011s ]
+SQL: SELECT * FROM `t_tea_duty` WHERE ( tea_duty_id=1 )  [ RunTime:0.0006s ]
+SQL: SELECT * FROM `t_organization` WHERE ( organization_id=1 )  [ RunTime:0.0011s ]
+SQL: SELECT * FROM `t_tea_duty` WHERE ( tea_duty_id=1 )  [ RunTime:0.0006s ]
+SQL: SELECT * FROM `t_organization` WHERE ( organization_id=1 )  [ RunTime:0.0011s ]
+SQL: SELECT * FROM `t_tea_duty` WHERE ( tea_duty_id=2 )  [ RunTime:0.0006s ]
+SQL: SELECT * FROM `t_organization` WHERE ( organization_id=1 )  [ RunTime:0.0010s ]
+
+[ 2015-08-21T20:12:55+08:00 ] 127.0.0.1 /YsInnoCenter/YsInnovation/index.php/Admin/User/getUserCountJs
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000300s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000554s ]
+SQL: select count(*) from t_user_account,t_user where t_user_account.user_id=t_user.user_id and t_user.is_tea_or_stu=1 [ RunTime:0.0009s ]
+
+[ 2015-08-21T20:37:13+08:00 ] 127.0.0.1 /YsInnoCenter/YsInnovation/index.php/Admin/User/showUserList
+ERR: 非法操作:showUserList
+
+[ 2015-08-21T20:38:06+08:00 ] 127.0.0.1 /YsInnoCenter/YsInnovation/index.php/Admin/User/getUserCountJs
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000308s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000550s ]
+SQL: select count(*) from t_user_account,t_user where t_user_account.user_id=t_user.user_id and t_user.is_tea_or_stu=1 [ RunTime:0.0007s ]
+
+[ 2015-08-21T20:38:06+08:00 ] 127.0.0.1 /YsInnoCenter/YsInnovation/index.php/Admin/User/getUserDataJs
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000387s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000647s ]
+SQL: select t_user_account.*,t_user.* from t_user,t_user_account where t_user.is_tea_or_stu='1' and t_user_account.user_id=t_user.user_id limit 0,10 [ RunTime:0.0015s ]
+SQL: SHOW COLUMNS FROM `t_tea_duty` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `t_tea_duty` WHERE ( tea_duty_id=1 )  [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `t_organization` [ RunTime:0.0018s ]
+SQL: SELECT * FROM `t_organization` WHERE ( organization_id=1 )  [ RunTime:0.0011s ]
+SQL: SELECT * FROM `t_tea_duty` WHERE ( tea_duty_id=1 )  [ RunTime:0.0006s ]
+SQL: SELECT * FROM `t_organization` WHERE ( organization_id=1 )  [ RunTime:0.0011s ]
+SQL: SELECT * FROM `t_tea_duty` WHERE ( tea_duty_id=1 )  [ RunTime:0.0006s ]
+SQL: SELECT * FROM `t_organization` WHERE ( organization_id=1 )  [ RunTime:0.0011s ]
+SQL: SELECT * FROM `t_tea_duty` WHERE ( tea_duty_id=2 )  [ RunTime:0.0006s ]
+SQL: SELECT * FROM `t_organization` WHERE ( organization_id=1 )  [ RunTime:0.0011s ]
+
+[ 2015-08-21T20:42:19+08:00 ] 127.0.0.1 /YsInnoCenter/YsInnovation/index.php/Admin/User/getUserDataJs
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000355s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000613s ]
+SQL: select t_user_account.*,t_user.* from t_user,t_user_account where t_user.is_tea_or_stu='1' and t_user_account.user_id=t_user.user_id limit 0,10 [ RunTime:0.0018s ]
+SQL: SHOW COLUMNS FROM `t_tea_duty` [ RunTime:0.0022s ]
+SQL: SELECT * FROM `t_tea_duty` WHERE ( tea_duty_id=1 )  [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `t_organization` [ RunTime:0.0019s ]
+SQL: SELECT * FROM `t_organization` WHERE ( organization_id=1 )  [ RunTime:0.0011s ]
+SQL: SELECT * FROM `t_tea_duty` WHERE ( tea_duty_id=1 )  [ RunTime:0.0006s ]
+SQL: SELECT * FROM `t_organization` WHERE ( organization_id=1 )  [ RunTime:0.0011s ]
+SQL: SELECT * FROM `t_tea_duty` WHERE ( tea_duty_id=1 )  [ RunTime:0.0006s ]
+SQL: SELECT * FROM `t_organization` WHERE ( organization_id=1 )  [ RunTime:0.0012s ]
+SQL: SELECT * FROM `t_tea_duty` WHERE ( tea_duty_id=2 )  [ RunTime:0.0005s ]
+SQL: SELECT * FROM `t_organization` WHERE ( organization_id=1 )  [ RunTime:0.0011s ]
+
+[ 2015-08-21T20:42:19+08:00 ] 127.0.0.1 /YsInnoCenter/YsInnovation/index.php/Admin/User/getUserCountJs
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000434s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000687s ]
+SQL: select count(*) from t_user_account,t_user where t_user_account.user_id=t_user.user_id and t_user.is_tea_or_stu=1 [ RunTime:0.0007s ]
+
+[ 2015-08-21T20:42:21+08:00 ] 127.0.0.1 /YsInnoCenter/YsInnovation/index.php/Admin/User/showUserList
+ERR: 非法操作:showUserList
+
+[ 2015-08-21T20:42:38+08:00 ] 127.0.0.1 /YsInnoCenter/YsInnovation/index.php/Admin/User/getUserDataJs
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000341s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000611s ]
+SQL: select t_user_account.*,t_user.* from t_user,t_user_account where t_user.is_tea_or_stu='1' and t_user_account.user_id=t_user.user_id limit 0,10 [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `t_tea_duty` [ RunTime:0.0017s ]
+SQL: SELECT * FROM `t_tea_duty` WHERE ( tea_duty_id=1 )  [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `t_organization` [ RunTime:0.0019s ]
+SQL: SELECT * FROM `t_organization` WHERE ( organization_id=1 )  [ RunTime:0.0011s ]
+SQL: SELECT * FROM `t_tea_duty` WHERE ( tea_duty_id=1 )  [ RunTime:0.0006s ]
+SQL: SELECT * FROM `t_organization` WHERE ( organization_id=1 )  [ RunTime:0.0011s ]
+SQL: SELECT * FROM `t_tea_duty` WHERE ( tea_duty_id=1 )  [ RunTime:0.0005s ]
+SQL: SELECT * FROM `t_organization` WHERE ( organization_id=1 )  [ RunTime:0.0011s ]
+SQL: SELECT * FROM `t_tea_duty` WHERE ( tea_duty_id=2 )  [ RunTime:0.0006s ]
+SQL: SELECT * FROM `t_organization` WHERE ( organization_id=1 )  [ RunTime:0.0011s ]
+
+[ 2015-08-21T20:42:38+08:00 ] 127.0.0.1 /YsInnoCenter/YsInnovation/index.php/Admin/User/getUserCountJs
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000339s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000605s ]
+SQL: select count(*) from t_user_account,t_user where t_user_account.user_id=t_user.user_id and t_user.is_tea_or_stu=1 [ RunTime:0.0006s ]
+
+[ 2015-08-21T20:43:43+08:00 ] 127.0.0.1 /YsInnoCenter/YsInnovation/index.php/Admin/User/getUserDataJs
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000326s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000605s ]
+SQL: select t_user_account.*,t_user.* from t_user,t_user_account where t_user.is_tea_or_stu='2' and t_user_account.user_id=t_user.user_id limit 0,10 [ RunTime:0.0020s ]
+
+[ 2015-08-21T20:43:43+08:00 ] 127.0.0.1 /YsInnoCenter/YsInnovation/index.php/Admin/User/getUserCountJs
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000341s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000594s ]
+SQL: select count(*) from t_user_account,t_user where t_user_account.user_id=t_user.user_id and t_user.is_tea_or_stu=2 [ RunTime:0.0007s ]
+
+[ 2015-08-21T20:43:44+08:00 ] 127.0.0.1 /YsInnoCenter/YsInnovation/index.php/Admin/User/getUserDataJs
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000312s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000556s ]
+SQL: select t_user_account.*,t_user.* from t_user,t_user_account where t_user.is_tea_or_stu='2' and t_user_account.user_id=t_user.user_id limit 0,10 [ RunTime:0.0014s ]
+
+[ 2015-08-21T20:43:44+08:00 ] 127.0.0.1 /YsInnoCenter/YsInnovation/index.php/Admin/User/getUserCountJs
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000309s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000551s ]
+SQL: select count(*) from t_user_account,t_user where t_user_account.user_id=t_user.user_id and t_user.is_tea_or_stu=2 [ RunTime:0.0008s ]
+
+[ 2015-08-21T20:45:06+08:00 ] 127.0.0.1 /YsInnoCenter/YsInnovation/index.php/Admin/User/getUserDataJs
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000352s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000614s ]
+SQL: select t_user_account.*,t_user.* from t_user,t_user_account where t_user.is_tea_or_stu='1' and t_user_account.user_id=t_user.user_id limit 0,10 [ RunTime:0.0015s ]
+SQL: SHOW COLUMNS FROM `t_tea_duty` [ RunTime:0.0018s ]
+SQL: SELECT * FROM `t_tea_duty` WHERE ( tea_duty_id=1 )  [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `t_organization` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `t_organization` WHERE ( organization_id=1 )  [ RunTime:0.0019s ]
+SQL: SELECT * FROM `t_tea_duty` WHERE ( tea_duty_id=1 )  [ RunTime:0.0007s ]
+SQL: SELECT * FROM `t_organization` WHERE ( organization_id=1 )  [ RunTime:0.0018s ]
+SQL: SELECT * FROM `t_tea_duty` WHERE ( tea_duty_id=1 )  [ RunTime:0.0008s ]
+SQL: SELECT * FROM `t_organization` WHERE ( organization_id=1 )  [ RunTime:0.0012s ]
+SQL: SELECT * FROM `t_tea_duty` WHERE ( tea_duty_id=2 )  [ RunTime:0.0006s ]
+SQL: SELECT * FROM `t_organization` WHERE ( organization_id=1 )  [ RunTime:0.0011s ]
+
+[ 2015-08-21T20:45:06+08:00 ] 127.0.0.1 /YsInnoCenter/YsInnovation/index.php/Admin/User/getUserCountJs
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000389s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000655s ]
+SQL: select count(*) from t_user_account,t_user where t_user_account.user_id=t_user.user_id and t_user.is_tea_or_stu=1 [ RunTime:0.0007s ]
+
+[ 2015-08-21T20:45:07+08:00 ] 127.0.0.1 /YsInnoCenter/YsInnovation/index.php/Admin/User/getUserDataJs
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000305s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000540s ]
+SQL: select t_user_account.*,t_user.* from t_user,t_user_account where t_user.is_tea_or_stu='2' and t_user_account.user_id=t_user.user_id limit 0,10 [ RunTime:0.0014s ]
+
+[ 2015-08-21T20:45:07+08:00 ] 127.0.0.1 /YsInnoCenter/YsInnovation/index.php/Admin/User/getUserCountJs
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000288s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000516s ]
+SQL: select count(*) from t_user_account,t_user where t_user_account.user_id=t_user.user_id and t_user.is_tea_or_stu=2 [ RunTime:0.0007s ]
+
+[ 2015-08-21T20:45:08+08:00 ] 127.0.0.1 /YsInnoCenter/YsInnovation/index.php/Admin/User/showAddStu
+ERR: 非法操作:showAddStu
+
+[ 2015-08-21T20:45:09+08:00 ] 127.0.0.1 /YsInnoCenter/YsInnovation/index.php/Admin/User/getUserCountJs
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000309s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000553s ]
+SQL: select count(*) from t_user_account,t_user where t_user_account.user_id=t_user.user_id and t_user.is_tea_or_stu=1 [ RunTime:0.0007s ]
+
+[ 2015-08-21T20:45:09+08:00 ] 127.0.0.1 /YsInnoCenter/YsInnovation/index.php/Admin/User/getUserDataJs
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000303s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000546s ]
+SQL: select t_user_account.*,t_user.* from t_user,t_user_account where t_user.is_tea_or_stu='1' and t_user_account.user_id=t_user.user_id limit 0,10 [ RunTime:0.0014s ]
+SQL: SHOW COLUMNS FROM `t_tea_duty` [ RunTime:0.0017s ]
+SQL: SELECT * FROM `t_tea_duty` WHERE ( tea_duty_id=1 )  [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `t_organization` [ RunTime:0.0018s ]
+SQL: SELECT * FROM `t_organization` WHERE ( organization_id=1 )  [ RunTime:0.0011s ]
+SQL: SELECT * FROM `t_tea_duty` WHERE ( tea_duty_id=1 )  [ RunTime:0.0005s ]
+SQL: SELECT * FROM `t_organization` WHERE ( organization_id=1 )  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `t_tea_duty` WHERE ( tea_duty_id=1 )  [ RunTime:0.0006s ]
+SQL: SELECT * FROM `t_organization` WHERE ( organization_id=1 )  [ RunTime:0.0011s ]
+SQL: SELECT * FROM `t_tea_duty` WHERE ( tea_duty_id=2 )  [ RunTime:0.0009s ]
+SQL: SELECT * FROM `t_organization` WHERE ( organization_id=1 )  [ RunTime:0.0012s ]
+
+[ 2015-08-21T20:45:10+08:00 ] 127.0.0.1 /YsInnoCenter/YsInnovation/index.php/Admin/User/getOrgJs
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000401s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000689s ]
+SQL: select * from t_organization where isshow='0' and organization_type=2 [ RunTime:0.0013s ]
+
+[ 2015-08-21T20:45:10+08:00 ] 127.0.0.1 /YsInnoCenter/YsInnovation/index.php/Admin/User/getCollegeJs
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000310s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000561s ]
+SQL: select * from t_college where isshow=0 [ RunTime:0.0006s ]
+
+[ 2015-08-21T20:45:10+08:00 ] 127.0.0.1 /YsInnoCenter/YsInnovation/index.php/Admin/User/getTeaDutyJs
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000359s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000641s ]
+SQL: select * from t_tea_duty where isshow=0 [ RunTime:0.0007s ]
+
+[ 2015-08-21T20:45:10+08:00 ] 127.0.0.1 /YsInnoCenter/YsInnovation/index.php/Admin/User/getRolesJs
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000394s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000701s ]
+SQL: select * from t_role where isshow=0 [ RunTime:0.0005s ]
+
+[ 2015-08-21T20:45:17+08:00 ] 127.0.0.1 /YsInnoCenter/YsInnovation/index.php/Admin/User/getUserDataJs
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000323s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000595s ]
+SQL: select t_user_account.*,t_user.* from t_user,t_user_account where t_user.is_tea_or_stu='2' and t_user_account.user_id=t_user.user_id limit 0,10 [ RunTime:0.0014s ]
+
+[ 2015-08-21T20:45:17+08:00 ] 127.0.0.1 /YsInnoCenter/YsInnovation/index.php/Admin/User/getUserCountJs
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000384s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000635s ]
+SQL: select count(*) from t_user_account,t_user where t_user_account.user_id=t_user.user_id and t_user.is_tea_or_stu=2 [ RunTime:0.0007s ]
+
+[ 2015-08-21T20:46:02+08:00 ] 127.0.0.1 /YsInnoCenter/YsInnovation/index.php/Admin/User/getUserDataJs
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000316s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000562s ]
+SQL: select t_user_account.*,t_user.* from t_user,t_user_account where t_user.is_tea_or_stu='2' and t_user_account.user_id=t_user.user_id limit 0,10 [ RunTime:0.0016s ]
+
+[ 2015-08-21T20:46:02+08:00 ] 127.0.0.1 /YsInnoCenter/YsInnovation/index.php/Admin/User/getUserCountJs
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000420s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000742s ]
+SQL: select count(*) from t_user_account,t_user where t_user_account.user_id=t_user.user_id and t_user.is_tea_or_stu=2 [ RunTime:0.0007s ]
+
+[ 2015-08-21T20:46:03+08:00 ] 127.0.0.1 /YsInnoCenter/YsInnovation/index.php/Admin/User/showAddStu
+ERR: 模板不存在:E:/wamp/www/YsInnoCenter/YsInnovation/Admin/View/User/showAddStu.html
+
+[ 2015-08-21T20:53:10+08:00 ] 127.0.0.1 /YsInnoCenter/YsInnovation/index.php/Admin/User/getUserDataJs
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000308s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000555s ]
+SQL: select t_user_account.*,t_user.* from t_user,t_user_account where t_user.is_tea_or_stu='2' and t_user_account.user_id=t_user.user_id limit 0,10 [ RunTime:0.0012s ]
+
+[ 2015-08-21T20:53:10+08:00 ] 127.0.0.1 /YsInnoCenter/YsInnovation/index.php/Admin/User/getUserCountJs
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000383s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000646s ]
+SQL: select count(*) from t_user_account,t_user where t_user_account.user_id=t_user.user_id and t_user.is_tea_or_stu=2 [ RunTime:0.0007s ]
+
+[ 2015-08-21T20:53:11+08:00 ] 127.0.0.1 /YsInnoCenter/YsInnovation/index.php/Admin/User/getOrgJs
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000310s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000568s ]
+SQL: select * from t_organization where isshow='0' and organization_type=2 [ RunTime:0.0014s ]
+
+[ 2015-08-21T20:53:11+08:00 ] 127.0.0.1 /YsInnoCenter/YsInnovation/index.php/Admin/User/getTeaDutyJs
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000308s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000557s ]
+SQL: select * from t_tea_duty where isshow=0 [ RunTime:0.0007s ]
+
+[ 2015-08-21T20:53:11+08:00 ] 127.0.0.1 /YsInnoCenter/YsInnovation/index.php/Admin/User/getCollegeJs
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000386s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000652s ]
+SQL: select * from t_college where isshow=0 [ RunTime:0.0006s ]
+
+[ 2015-08-21T20:53:11+08:00 ] 127.0.0.1 /YsInnoCenter/YsInnovation/index.php/Admin/User/getRolesJs
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000413s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000681s ]
+SQL: select * from t_role where isshow=0 [ RunTime:0.0007s ]
+
+[ 2015-08-21T20:53:45+08:00 ] 127.0.0.1 /YsInnoCenter/YsInnovation/index.php/Admin/User/getUserDataJs
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000309s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000552s ]
+SQL: select t_user_account.*,t_user.* from t_user,t_user_account where t_user.is_tea_or_stu='2' and t_user_account.user_id=t_user.user_id limit 0,10 [ RunTime:0.0013s ]
+
+[ 2015-08-21T20:53:45+08:00 ] 127.0.0.1 /YsInnoCenter/YsInnovation/index.php/Admin/User/getUserCountJs
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000304s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000546s ]
+SQL: select count(*) from t_user_account,t_user where t_user_account.user_id=t_user.user_id and t_user.is_tea_or_stu=2 [ RunTime:0.0007s ]
+
+[ 2015-08-21T20:53:46+08:00 ] 127.0.0.1 /YsInnoCenter/YsInnovation/index.php/Admin/User/getTeaDutyJs
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000317s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000570s ]
+SQL: select * from t_tea_duty where isshow=0 [ RunTime:0.0007s ]
+
+[ 2015-08-21T20:53:46+08:00 ] 127.0.0.1 /YsInnoCenter/YsInnovation/index.php/Admin/User/getOrgJs
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000302s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000542s ]
+SQL: select * from t_organization where isshow='0' and organization_type=2 [ RunTime:0.0013s ]
+
+[ 2015-08-21T20:53:46+08:00 ] 127.0.0.1 /YsInnoCenter/YsInnovation/index.php/Admin/User/getCollegeJs
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000355s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000663s ]
+SQL: select * from t_college where isshow=0 [ RunTime:0.0006s ]
+
+[ 2015-08-21T20:53:46+08:00 ] 127.0.0.1 /YsInnoCenter/YsInnovation/index.php/Admin/User/getRolesJs
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000350s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000603s ]
+SQL: select * from t_role where isshow=0 [ RunTime:0.0006s ]
+

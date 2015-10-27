@@ -1,0 +1,1819 @@
+[ 2015-08-25T08:51:28+08:00 ] 127.0.0.1 /YsInnoCenter/YsInnovation/index.php/Admin/User/getUserDataJs
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000453s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000692s ]
+SQL: select t_user_account.*,t_user.* from t_user,t_user_account where t_user.is_tea_or_stu='1' and t_user_account.user_id=t_user.user_id limit 0,10 [ RunTime:0.0019s ]
+SQL: SHOW COLUMNS FROM `t_tea_duty` [ RunTime:0.0021s ]
+SQL: SELECT * FROM `t_tea_duty` WHERE ( tea_duty_id=1 )  [ RunTime:0.0009s ]
+SQL: SHOW COLUMNS FROM `t_organization` [ RunTime:0.0021s ]
+SQL: SELECT * FROM `t_organization` WHERE ( organization_id=1 )  [ RunTime:0.0013s ]
+SQL: SELECT * FROM `t_tea_duty` WHERE ( tea_duty_id=1 )  [ RunTime:0.0008s ]
+SQL: SELECT * FROM `t_organization` WHERE ( organization_id=1 )  [ RunTime:0.0014s ]
+SQL: SELECT * FROM `t_tea_duty` WHERE ( tea_duty_id=1 )  [ RunTime:0.0008s ]
+SQL: SELECT * FROM `t_organization` WHERE ( organization_id=1 )  [ RunTime:0.0013s ]
+SQL: SELECT * FROM `t_tea_duty` WHERE ( tea_duty_id=2 )  [ RunTime:0.0008s ]
+SQL: SELECT * FROM `t_organization` WHERE ( organization_id=1 )  [ RunTime:0.0013s ]
+SQL: SELECT * FROM `t_tea_duty` WHERE ( tea_duty_id=1 )  [ RunTime:0.0008s ]
+SQL: SELECT * FROM `t_organization` WHERE ( organization_id=1 )  [ RunTime:0.0013s ]
+SQL: SELECT * FROM `t_tea_duty` WHERE ( tea_duty_id=1 )  [ RunTime:0.0008s ]
+SQL: SELECT * FROM `t_organization` WHERE ( organization_id=1 )  [ RunTime:0.0013s ]
+
+[ 2015-08-25T08:51:28+08:00 ] 127.0.0.1 /YsInnoCenter/YsInnovation/index.php/Admin/User/getUserCountJs
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000440s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000767s ]
+SQL: select count(*) from t_user_account,t_user where t_user_account.user_id=t_user.user_id and t_user.is_tea_or_stu=1 [ RunTime:0.0010s ]
+
+[ 2015-08-25T08:51:31+08:00 ] 127.0.0.1 /YsInnoCenter/YsInnovation/index.php/Admin/User/getUserDataJs
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000373s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000619s ]
+SQL: select t_user_account.*,t_user.* from t_user,t_user_account where t_user.is_tea_or_stu='0' and t_user_account.user_id=t_user.user_id limit 0,10 [ RunTime:0.0017s ]
+SQL: SHOW COLUMNS FROM `t_tea_duty` [ RunTime:0.0022s ]
+SQL: SELECT * FROM `t_tea_duty` WHERE ( tea_duty_id=0 )  [ RunTime:0.0009s ]
+NOTIC: [8] Undefined offset: 0 E:\wamp\www\YsInnoCenter\YsInnovation\Admin\Controller\UserController.class.php 第 286 行.
+SQL: SHOW COLUMNS FROM `t_organization` [ RunTime:0.0022s ]
+SQL: SELECT * FROM `t_organization` WHERE ( organization_id=1 )  [ RunTime:0.0014s ]
+SQL: SELECT * FROM `t_tea_duty` WHERE ( tea_duty_id=0 )  [ RunTime:0.0008s ]
+NOTIC: [8] Undefined offset: 0 E:\wamp\www\YsInnoCenter\YsInnovation\Admin\Controller\UserController.class.php 第 286 行.
+SQL: SELECT * FROM `t_organization` WHERE ( organization_id=1 )  [ RunTime:0.0014s ]
+
+[ 2015-08-25T08:51:31+08:00 ] 127.0.0.1 /YsInnoCenter/YsInnovation/index.php/Admin/User/getUserCountJs
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000308s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000542s ]
+SQL: select count(*) from t_user_account,t_user where t_user_account.user_id=t_user.user_id and t_user.is_tea_or_stu=0 [ RunTime:0.0010s ]
+
+[ 2015-08-25T08:51:33+08:00 ] 127.0.0.1 /YsInnoCenter/YsInnovation/index.php/Admin/User/getRolesJs
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000306s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000563s ]
+SQL: select * from t_role where isshow=0 [ RunTime:0.0012s ]
+
+[ 2015-08-25T08:51:38+08:00 ] 127.0.0.1 /YsInnoCenter/YsInnovation/index.php/Admin/User/getUserDataJs
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000325s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000573s ]
+SQL: select t_user_account.*,t_user.* from t_user,t_user_account where t_user.is_tea_or_stu='0' and t_user_account.user_id=t_user.user_id limit 0,10 [ RunTime:0.0021s ]
+SQL: SHOW COLUMNS FROM `t_tea_duty` [ RunTime:0.0023s ]
+SQL: SELECT * FROM `t_tea_duty` WHERE ( tea_duty_id=0 )  [ RunTime:0.0007s ]
+NOTIC: [8] Undefined offset: 0 E:\wamp\www\YsInnoCenter\YsInnovation\Admin\Controller\UserController.class.php 第 286 行.
+SQL: SHOW COLUMNS FROM `t_organization` [ RunTime:0.0021s ]
+SQL: SELECT * FROM `t_organization` WHERE ( organization_id=1 )  [ RunTime:0.0014s ]
+SQL: SELECT * FROM `t_tea_duty` WHERE ( tea_duty_id=0 )  [ RunTime:0.0008s ]
+NOTIC: [8] Undefined offset: 0 E:\wamp\www\YsInnoCenter\YsInnovation\Admin\Controller\UserController.class.php 第 286 行.
+SQL: SELECT * FROM `t_organization` WHERE ( organization_id=1 )  [ RunTime:0.0014s ]
+
+[ 2015-08-25T08:51:38+08:00 ] 127.0.0.1 /YsInnoCenter/YsInnovation/index.php/Admin/User/getUserCountJs
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000309s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000598s ]
+SQL: select count(*) from t_user_account,t_user where t_user_account.user_id=t_user.user_id and t_user.is_tea_or_stu=0 [ RunTime:0.0012s ]
+
+[ 2015-08-25T08:51:40+08:00 ] 127.0.0.1 /YsInnoCenter/YsInnovation/index.php/Admin/User/getUserCountJs
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000333s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000611s ]
+SQL: select count(*) from t_user_account,t_user where t_user_account.user_id=t_user.user_id and t_user.is_tea_or_stu=1 [ RunTime:0.0010s ]
+
+[ 2015-08-25T08:51:40+08:00 ] 127.0.0.1 /YsInnoCenter/YsInnovation/index.php/Admin/User/getUserDataJs
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000325s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000586s ]
+SQL: select t_user_account.*,t_user.* from t_user,t_user_account where t_user.is_tea_or_stu='1' and t_user_account.user_id=t_user.user_id limit 0,10 [ RunTime:0.0017s ]
+SQL: SHOW COLUMNS FROM `t_tea_duty` [ RunTime:0.0021s ]
+SQL: SELECT * FROM `t_tea_duty` WHERE ( tea_duty_id=1 )  [ RunTime:0.0008s ]
+SQL: SHOW COLUMNS FROM `t_organization` [ RunTime:0.0021s ]
+SQL: SELECT * FROM `t_organization` WHERE ( organization_id=1 )  [ RunTime:0.0013s ]
+SQL: SELECT * FROM `t_tea_duty` WHERE ( tea_duty_id=1 )  [ RunTime:0.0008s ]
+SQL: SELECT * FROM `t_organization` WHERE ( organization_id=1 )  [ RunTime:0.0014s ]
+SQL: SELECT * FROM `t_tea_duty` WHERE ( tea_duty_id=1 )  [ RunTime:0.0009s ]
+SQL: SELECT * FROM `t_organization` WHERE ( organization_id=1 )  [ RunTime:0.0014s ]
+SQL: SELECT * FROM `t_tea_duty` WHERE ( tea_duty_id=2 )  [ RunTime:0.0008s ]
+SQL: SELECT * FROM `t_organization` WHERE ( organization_id=1 )  [ RunTime:0.0014s ]
+SQL: SELECT * FROM `t_tea_duty` WHERE ( tea_duty_id=1 )  [ RunTime:0.0009s ]
+SQL: SELECT * FROM `t_organization` WHERE ( organization_id=1 )  [ RunTime:0.0013s ]
+SQL: SELECT * FROM `t_tea_duty` WHERE ( tea_duty_id=1 )  [ RunTime:0.0008s ]
+SQL: SELECT * FROM `t_organization` WHERE ( organization_id=1 )  [ RunTime:0.0013s ]
+
+[ 2015-08-25T08:51:55+08:00 ] 127.0.0.1 /YsInnoCenter/YsInnovation/index.php/Admin/User/getUserDataJs
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000641s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001151s ]
+SQL: select t_user_account.*,t_user.* from t_user,t_user_account where t_user.is_tea_or_stu='1' and t_user_account.user_id=t_user.user_id and t_user_account.organization_id='1' limit 0,10 [ RunTime:0.0018s ]
+SQL: SHOW COLUMNS FROM `t_tea_duty` [ RunTime:0.0021s ]
+SQL: SELECT * FROM `t_tea_duty` WHERE ( tea_duty_id=1 )  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `t_organization` [ RunTime:0.0021s ]
+SQL: SELECT * FROM `t_organization` WHERE ( organization_id=1 )  [ RunTime:0.0014s ]
+SQL: SELECT * FROM `t_tea_duty` WHERE ( tea_duty_id=1 )  [ RunTime:0.0011s ]
+SQL: SELECT * FROM `t_organization` WHERE ( organization_id=1 )  [ RunTime:0.0016s ]
+SQL: SELECT * FROM `t_tea_duty` WHERE ( tea_duty_id=1 )  [ RunTime:0.0008s ]
+SQL: SELECT * FROM `t_organization` WHERE ( organization_id=1 )  [ RunTime:0.0013s ]
+SQL: SELECT * FROM `t_tea_duty` WHERE ( tea_duty_id=2 )  [ RunTime:0.0008s ]
+SQL: SELECT * FROM `t_organization` WHERE ( organization_id=1 )  [ RunTime:0.0013s ]
+SQL: SELECT * FROM `t_tea_duty` WHERE ( tea_duty_id=1 )  [ RunTime:0.0008s ]
+SQL: SELECT * FROM `t_organization` WHERE ( organization_id=1 )  [ RunTime:0.0013s ]
+SQL: SELECT * FROM `t_tea_duty` WHERE ( tea_duty_id=1 )  [ RunTime:0.0009s ]
+SQL: SELECT * FROM `t_organization` WHERE ( organization_id=1 )  [ RunTime:0.0013s ]
+
+[ 2015-08-25T08:51:55+08:00 ] 127.0.0.1 /YsInnoCenter/YsInnovation/index.php/Admin/User/getUserCountJs
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000646s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001142s ]
+SQL: select count(*) from t_user_account,t_user where t_user_account.user_id=t_user.user_id and t_user.is_tea_or_stu=1 and t_user_account.organization_id='1' [ RunTime:0.0010s ]
+
+[ 2015-08-25T08:51:56+08:00 ] 127.0.0.1 /YsInnoCenter/YsInnovation/index.php/Admin/User/getUserDataJs
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000308s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000545s ]
+SQL: select t_user_account.*,t_user.* from t_user,t_user_account where t_user.is_tea_or_stu='1' and t_user_account.user_id=t_user.user_id and t_user_account.organization_id='2' limit 0,10 [ RunTime:0.0017s ]
+
+[ 2015-08-25T08:51:56+08:00 ] 127.0.0.1 /YsInnoCenter/YsInnovation/index.php/Admin/User/getUserCountJs
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000308s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000567s ]
+SQL: select count(*) from t_user_account,t_user where t_user_account.user_id=t_user.user_id and t_user.is_tea_or_stu=1 and t_user_account.organization_id='2' [ RunTime:0.0010s ]
+
+[ 2015-08-25T08:51:58+08:00 ] 127.0.0.1 /YsInnoCenter/YsInnovation/index.php/Admin/User/getUserDataJs
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000320s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000561s ]
+SQL: select t_user_account.*,t_user.* from t_user,t_user_account where t_user.is_tea_or_stu='1' and t_user_account.user_id=t_user.user_id and t_user_account.organization_id='1' limit 0,10 [ RunTime:0.0017s ]
+SQL: SHOW COLUMNS FROM `t_tea_duty` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `t_tea_duty` WHERE ( tea_duty_id=1 )  [ RunTime:0.0008s ]
+SQL: SHOW COLUMNS FROM `t_organization` [ RunTime:0.0022s ]
+SQL: SELECT * FROM `t_organization` WHERE ( organization_id=1 )  [ RunTime:0.0014s ]
+SQL: SELECT * FROM `t_tea_duty` WHERE ( tea_duty_id=1 )  [ RunTime:0.0008s ]
+SQL: SELECT * FROM `t_organization` WHERE ( organization_id=1 )  [ RunTime:0.0013s ]
+SQL: SELECT * FROM `t_tea_duty` WHERE ( tea_duty_id=1 )  [ RunTime:0.0008s ]
+SQL: SELECT * FROM `t_organization` WHERE ( organization_id=1 )  [ RunTime:0.0013s ]
+SQL: SELECT * FROM `t_tea_duty` WHERE ( tea_duty_id=2 )  [ RunTime:0.0008s ]
+SQL: SELECT * FROM `t_organization` WHERE ( organization_id=1 )  [ RunTime:0.0013s ]
+SQL: SELECT * FROM `t_tea_duty` WHERE ( tea_duty_id=1 )  [ RunTime:0.0008s ]
+SQL: SELECT * FROM `t_organization` WHERE ( organization_id=1 )  [ RunTime:0.0013s ]
+SQL: SELECT * FROM `t_tea_duty` WHERE ( tea_duty_id=1 )  [ RunTime:0.0008s ]
+SQL: SELECT * FROM `t_organization` WHERE ( organization_id=1 )  [ RunTime:0.0013s ]
+
+[ 2015-08-25T08:51:58+08:00 ] 127.0.0.1 /YsInnoCenter/YsInnovation/index.php/Admin/User/getUserCountJs
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000325s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000552s ]
+SQL: select count(*) from t_user_account,t_user where t_user_account.user_id=t_user.user_id and t_user.is_tea_or_stu=1 and t_user_account.organization_id='1' [ RunTime:0.0010s ]
+
+[ 2015-08-25T08:52:00+08:00 ] 127.0.0.1 /YsInnoCenter/YsInnovation/index.php/Admin/User/getUserDataJs
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000316s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000555s ]
+SQL: select t_user_account.*,t_user.* from t_user,t_user_account where t_user.is_tea_or_stu='1' and t_user_account.user_id=t_user.user_id limit 0,10 [ RunTime:0.0018s ]
+SQL: SHOW COLUMNS FROM `t_tea_duty` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `t_tea_duty` WHERE ( tea_duty_id=1 )  [ RunTime:0.0009s ]
+SQL: SHOW COLUMNS FROM `t_organization` [ RunTime:0.0021s ]
+SQL: SELECT * FROM `t_organization` WHERE ( organization_id=1 )  [ RunTime:0.0014s ]
+SQL: SELECT * FROM `t_tea_duty` WHERE ( tea_duty_id=1 )  [ RunTime:0.0009s ]
+SQL: SELECT * FROM `t_organization` WHERE ( organization_id=1 )  [ RunTime:0.0014s ]
+SQL: SELECT * FROM `t_tea_duty` WHERE ( tea_duty_id=1 )  [ RunTime:0.0009s ]
+SQL: SELECT * FROM `t_organization` WHERE ( organization_id=1 )  [ RunTime:0.0013s ]
+SQL: SELECT * FROM `t_tea_duty` WHERE ( tea_duty_id=2 )  [ RunTime:0.0009s ]
+SQL: SELECT * FROM `t_organization` WHERE ( organization_id=1 )  [ RunTime:0.0013s ]
+SQL: SELECT * FROM `t_tea_duty` WHERE ( tea_duty_id=1 )  [ RunTime:0.0008s ]
+SQL: SELECT * FROM `t_organization` WHERE ( organization_id=1 )  [ RunTime:0.0014s ]
+SQL: SELECT * FROM `t_tea_duty` WHERE ( tea_duty_id=1 )  [ RunTime:0.0009s ]
+SQL: SELECT * FROM `t_organization` WHERE ( organization_id=1 )  [ RunTime:0.0014s ]
+
+[ 2015-08-25T08:52:00+08:00 ] 127.0.0.1 /YsInnoCenter/YsInnovation/index.php/Admin/User/getUserCountJs
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000315s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000549s ]
+SQL: select count(*) from t_user_account,t_user where t_user_account.user_id=t_user.user_id and t_user.is_tea_or_stu=1 [ RunTime:0.0009s ]
+
+[ 2015-08-25T08:52:01+08:00 ] 127.0.0.1 /YsInnoCenter/YsInnovation/index.php/Admin/User/getUserDataJs
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000318s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000562s ]
+SQL: select t_user_account.*,t_user.* from t_user,t_user_account where t_user.is_tea_or_stu='0' and t_user_account.user_id=t_user.user_id limit 0,10 [ RunTime:0.0017s ]
+SQL: SHOW COLUMNS FROM `t_tea_duty` [ RunTime:0.0019s ]
+SQL: SELECT * FROM `t_tea_duty` WHERE ( tea_duty_id=0 )  [ RunTime:0.0008s ]
+NOTIC: [8] Undefined offset: 0 E:\wamp\www\YsInnoCenter\YsInnovation\Admin\Controller\UserController.class.php 第 286 行.
+SQL: SHOW COLUMNS FROM `t_organization` [ RunTime:0.0021s ]
+SQL: SELECT * FROM `t_organization` WHERE ( organization_id=1 )  [ RunTime:0.0013s ]
+SQL: SELECT * FROM `t_tea_duty` WHERE ( tea_duty_id=0 )  [ RunTime:0.0008s ]
+NOTIC: [8] Undefined offset: 0 E:\wamp\www\YsInnoCenter\YsInnovation\Admin\Controller\UserController.class.php 第 286 行.
+SQL: SELECT * FROM `t_organization` WHERE ( organization_id=1 )  [ RunTime:0.0013s ]
+
+[ 2015-08-25T08:52:01+08:00 ] 127.0.0.1 /YsInnoCenter/YsInnovation/index.php/Admin/User/getUserCountJs
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000286s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000553s ]
+SQL: select count(*) from t_user_account,t_user where t_user_account.user_id=t_user.user_id and t_user.is_tea_or_stu=0 [ RunTime:0.0009s ]
+
+[ 2015-08-25T08:52:03+08:00 ] 127.0.0.1 /YsInnoCenter/YsInnovation/index.php/Admin/User/getUserDataJs
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000445s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000786s ]
+SQL: select t_user_account.*,t_user.* from t_user,t_user_account where t_user.is_tea_or_stu='0' and t_user_account.user_id=t_user.user_id and t_user_account.organization_id='2' limit 0,10 [ RunTime:0.0017s ]
+
+[ 2015-08-25T08:52:03+08:00 ] 127.0.0.1 /YsInnoCenter/YsInnovation/index.php/Admin/User/getUserCountJs
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000442s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000781s ]
+SQL: select count(*) from t_user_account,t_user where t_user_account.user_id=t_user.user_id and t_user.is_tea_or_stu=0 and t_user_account.organization_id='2' [ RunTime:0.0010s ]
+
+[ 2015-08-25T08:52:05+08:00 ] 127.0.0.1 /YsInnoCenter/YsInnovation/index.php/Admin/User/getUserDataJs
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000749s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001311s ]
+SQL: select t_user_account.*,t_user.* from t_user,t_user_account where t_user.is_tea_or_stu='0' and t_user_account.user_id=t_user.user_id and t_user_account.organization_id='1' limit 0,10 [ RunTime:0.0023s ]
+SQL: SHOW COLUMNS FROM `t_tea_duty` [ RunTime:0.0023s ]
+SQL: SELECT * FROM `t_tea_duty` WHERE ( tea_duty_id=0 )  [ RunTime:0.0009s ]
+NOTIC: [8] Undefined offset: 0 E:\wamp\www\YsInnoCenter\YsInnovation\Admin\Controller\UserController.class.php 第 286 行.
+SQL: SHOW COLUMNS FROM `t_organization` [ RunTime:0.0023s ]
+SQL: SELECT * FROM `t_organization` WHERE ( organization_id=1 )  [ RunTime:0.0015s ]
+SQL: SELECT * FROM `t_tea_duty` WHERE ( tea_duty_id=0 )  [ RunTime:0.0009s ]
+NOTIC: [8] Undefined offset: 0 E:\wamp\www\YsInnoCenter\YsInnovation\Admin\Controller\UserController.class.php 第 286 行.
+SQL: SELECT * FROM `t_organization` WHERE ( organization_id=1 )  [ RunTime:0.0014s ]
+
+[ 2015-08-25T08:52:05+08:00 ] 127.0.0.1 /YsInnoCenter/YsInnovation/index.php/Admin/User/getUserCountJs
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000720s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001301s ]
+SQL: select count(*) from t_user_account,t_user where t_user_account.user_id=t_user.user_id and t_user.is_tea_or_stu=0 and t_user_account.organization_id='1' [ RunTime:0.0013s ]
+
+[ 2015-08-25T08:53:03+08:00 ] 127.0.0.1 /YsInnoCenter/YsInnovation/index.php/Admin/User/showAddAdmin
+ERR: 非法操作:showAddAdmin
+
+[ 2015-08-25T09:10:45+08:00 ] 127.0.0.1 /YsInnoCenter/YsInnovation/index.php/Admin/User/getTeaDutyJs
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000322s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000583s ]
+SQL: select * from t_tea_duty where isshow=0 [ RunTime:0.0010s ]
+
+[ 2015-08-25T09:10:45+08:00 ] 127.0.0.1 /YsInnoCenter/YsInnovation/index.php/Admin/User/getOrgJs
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000404s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000655s ]
+SQL: select * from t_organization where isshow='0' and organization_type=2 [ RunTime:0.0016s ]
+
+[ 2015-08-25T09:10:45+08:00 ] 127.0.0.1 /YsInnoCenter/YsInnovation/index.php/Admin/User/getCollegeJs
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000314s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000568s ]
+SQL: select * from t_college where isshow=0 [ RunTime:0.0011s ]
+
+[ 2015-08-25T09:10:45+08:00 ] 127.0.0.1 /YsInnoCenter/YsInnovation/index.php/Admin/User/getRolesJs
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000311s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000558s ]
+SQL: select * from t_role where isshow=0 [ RunTime:0.0009s ]
+
+[ 2015-08-25T09:13:01+08:00 ] 127.0.0.1 /YsInnoCenter/YsInnovation/index.php/Admin/User/getOrgJs
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000364s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000630s ]
+SQL: select * from t_organization where isshow='0' and organization_type=2 [ RunTime:0.0016s ]
+
+[ 2015-08-25T09:13:01+08:00 ] 127.0.0.1 /YsInnoCenter/YsInnovation/index.php/Admin/User/getTeaDutyJs
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000374s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000834s ]
+SQL: select * from t_tea_duty where isshow=0 [ RunTime:0.0009s ]
+
+[ 2015-08-25T09:13:01+08:00 ] 127.0.0.1 /YsInnoCenter/YsInnovation/index.php/Admin/User/getRolesJs
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000422s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000682s ]
+SQL: select * from t_role where isshow=0 [ RunTime:0.0009s ]
+
+[ 2015-08-25T09:13:01+08:00 ] 127.0.0.1 /YsInnoCenter/YsInnovation/index.php/Admin/User/getCollegeJs
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000336s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000591s ]
+SQL: select * from t_college where isshow=0 [ RunTime:0.0009s ]
+
+[ 2015-08-25T09:13:31+08:00 ] 127.0.0.1 /YsInnoCenter/YsInnovation/index.php/Admin/User/getTeaDutyJs
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000321s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000576s ]
+SQL: select * from t_tea_duty where isshow=0 [ RunTime:0.0013s ]
+
+[ 2015-08-25T09:13:31+08:00 ] 127.0.0.1 /YsInnoCenter/YsInnovation/index.php/Admin/User/getCollegeJs
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000319s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000576s ]
+SQL: select * from t_college where isshow=0 [ RunTime:0.0011s ]
+
+[ 2015-08-25T09:13:31+08:00 ] 127.0.0.1 /YsInnoCenter/YsInnovation/index.php/Admin/User/getOrgJs
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000311s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000556s ]
+SQL: select * from t_organization where isshow='0' and organization_type=2 [ RunTime:0.0017s ]
+
+[ 2015-08-25T09:13:31+08:00 ] 127.0.0.1 /YsInnoCenter/YsInnovation/index.php/Admin/User/getRolesJs
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000307s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000563s ]
+SQL: select * from t_role where isshow=0 [ RunTime:0.0010s ]
+
+[ 2015-08-25T09:26:02+08:00 ] 127.0.0.1 /YsInnoCenter/YsInnovation/index.php/Admin/User/getCollegeJs
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000400s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000660s ]
+SQL: select * from t_college where isshow=0 [ RunTime:0.0010s ]
+
+[ 2015-08-25T09:26:02+08:00 ] 127.0.0.1 /YsInnoCenter/YsInnovation/index.php/Admin/User/getTeaDutyJs
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000305s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000556s ]
+SQL: select * from t_tea_duty where isshow=0 [ RunTime:0.0009s ]
+
+[ 2015-08-25T09:26:02+08:00 ] 127.0.0.1 /YsInnoCenter/YsInnovation/index.php/Admin/User/getOrgJs
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000308s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000545s ]
+SQL: select * from t_organization where isshow='0' and organization_type=2 [ RunTime:0.0015s ]
+
+[ 2015-08-25T09:26:02+08:00 ] 127.0.0.1 /YsInnoCenter/YsInnovation/index.php/Admin/User/getRolesJs
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000304s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000611s ]
+SQL: select * from t_role where isshow=0 [ RunTime:0.0009s ]
+
+[ 2015-08-25T09:26:02+08:00 ] 127.0.0.1 /YsInnoCenter/YsInnovation/index.php/Admin/User/getAllTea
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000479s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000769s ]
+SQL: select * from t_user where is_tea_or_stu='1' [ RunTime:0.0014s ]
+
+[ 2015-08-25T09:28:26+08:00 ] 127.0.0.1 /YsInnoCenter/YsInnovation/index.php/Admin/User/getTeaDutyJs
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000332s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000594s ]
+SQL: select * from t_tea_duty where isshow=0 [ RunTime:0.0015s ]
+
+[ 2015-08-25T09:28:26+08:00 ] 127.0.0.1 /YsInnoCenter/YsInnovation/index.php/Admin/User/getOrgJs
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000322s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000580s ]
+SQL: select * from t_organization where isshow='0' and organization_type=2 [ RunTime:0.0016s ]
+
+[ 2015-08-25T09:28:26+08:00 ] 127.0.0.1 /YsInnoCenter/YsInnovation/index.php/Admin/User/getCollegeJs
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000776s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001070s ]
+SQL: select * from t_college where isshow=0 [ RunTime:0.0009s ]
+
+[ 2015-08-25T09:28:26+08:00 ] 127.0.0.1 /YsInnoCenter/YsInnovation/index.php/Admin/User/getRolesJs
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000630s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000896s ]
+SQL: select * from t_role where isshow=0 [ RunTime:0.0010s ]
+
+[ 2015-08-25T09:28:26+08:00 ] 127.0.0.1 /YsInnoCenter/YsInnovation/index.php/Admin/User/getAllTea
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000397s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000678s ]
+SQL: select * from t_user where is_tea_or_stu='1' [ RunTime:0.0015s ]
+
+[ 2015-08-25T09:28:54+08:00 ] 127.0.0.1 /YsInnoCenter/YsInnovation/index.php/Admin/User/getTeaDutyJs
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000306s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000551s ]
+SQL: select * from t_tea_duty where isshow=0 [ RunTime:0.0011s ]
+
+[ 2015-08-25T09:28:54+08:00 ] 127.0.0.1 /YsInnoCenter/YsInnovation/index.php/Admin/User/getOrgJs
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000317s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000637s ]
+SQL: select * from t_organization where isshow='0' and organization_type=2 [ RunTime:0.0015s ]
+
+[ 2015-08-25T09:28:54+08:00 ] 127.0.0.1 /YsInnoCenter/YsInnovation/index.php/Admin/User/getCollegeJs
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000315s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000583s ]
+SQL: select * from t_college where isshow=0 [ RunTime:0.0009s ]
+
+[ 2015-08-25T09:28:54+08:00 ] 127.0.0.1 /YsInnoCenter/YsInnovation/index.php/Admin/User/getRolesJs
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000298s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000540s ]
+SQL: select * from t_role where isshow=0 [ RunTime:0.0009s ]
+
+[ 2015-08-25T09:28:54+08:00 ] 127.0.0.1 /YsInnoCenter/YsInnovation/index.php/Admin/User/getAllTea
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000374s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000612s ]
+SQL: select * from t_user where is_tea_or_stu='1' [ RunTime:0.0013s ]
+
+[ 2015-08-25T10:22:25+08:00 ] 127.0.0.1 /YsInnoCenter/YsInnovation/index.php/Admin/User/getTeaDutyJs
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000480s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000951s ]
+SQL: select * from t_tea_duty where isshow=0 [ RunTime:0.0011s ]
+
+[ 2015-08-25T10:22:25+08:00 ] 127.0.0.1 /YsInnoCenter/YsInnovation/index.php/Admin/User/getCollegeJs
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000317s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000571s ]
+SQL: select * from t_college where isshow=0 [ RunTime:0.0017s ]
+
+[ 2015-08-25T10:22:25+08:00 ] 127.0.0.1 /YsInnoCenter/YsInnovation/index.php/Admin/User/getOrgJs
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000387s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000655s ]
+SQL: select * from t_organization where isshow='0' and organization_type=2 [ RunTime:0.0016s ]
+
+[ 2015-08-25T10:22:25+08:00 ] 127.0.0.1 /YsInnoCenter/YsInnovation/index.php/Admin/User/getAllTea
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000400s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000666s ]
+SQL: select * from t_user where is_tea_or_stu='1' [ RunTime:0.0013s ]
+
+[ 2015-08-25T10:22:25+08:00 ] 127.0.0.1 /YsInnoCenter/YsInnovation/index.php/Admin/User/getRolesJs
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000452s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000733s ]
+SQL: select * from t_role where isshow=0 [ RunTime:0.0010s ]
+
+[ 2015-08-25T10:22:25+08:00 ] 127.0.0.1 /YsInnoCenter/YsInnovation/index.php/Admin/User/saveAdmin
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000480s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000792s ]
+SQL: select * from t_user_account where user_id=null [ RunTime:0.0010s ]
+NOTIC: [8] Undefined offset: 0 E:\wamp\www\YsInnoCenter\YsInnovation\Admin\Controller\UserController.class.php 第 615 行.
+SQL: SHOW COLUMNS FROM `t_user_account` [ RunTime:0.0021s ]
+ERR: SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'organization_id' cannot be null
+
+[ 2015-08-25T10:22:29+08:00 ] 127.0.0.1 /YsInnoCenter/YsInnovation/index.php/Admin/User/getTeaDutyJs
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000305s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000550s ]
+SQL: select * from t_tea_duty where isshow=0 [ RunTime:0.0015s ]
+
+[ 2015-08-25T10:22:29+08:00 ] 127.0.0.1 /YsInnoCenter/YsInnovation/index.php/Admin/User/getCollegeJs
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000308s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000549s ]
+SQL: select * from t_college where isshow=0 [ RunTime:0.0009s ]
+
+[ 2015-08-25T10:22:30+08:00 ] 127.0.0.1 /YsInnoCenter/YsInnovation/index.php/Admin/User/saveAdmin
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000307s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000541s ]
+SQL: select * from t_user_account where user_id=null [ RunTime:0.0010s ]
+NOTIC: [8] Undefined offset: 0 E:\wamp\www\YsInnoCenter\YsInnovation\Admin\Controller\UserController.class.php 第 615 行.
+SQL: SHOW COLUMNS FROM `t_user_account` [ RunTime:0.0022s ]
+ERR: SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'organization_id' cannot be null
+
+[ 2015-08-25T10:22:30+08:00 ] 127.0.0.1 /YsInnoCenter/YsInnovation/index.php/Admin/User/getAllTea
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000307s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000550s ]
+SQL: select * from t_user where is_tea_or_stu='1' [ RunTime:0.0014s ]
+
+[ 2015-08-25T10:22:30+08:00 ] 127.0.0.1 /YsInnoCenter/YsInnovation/index.php/Admin/User/getRolesJs
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000304s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000552s ]
+SQL: select * from t_role where isshow=0 [ RunTime:0.0009s ]
+
+[ 2015-08-25T10:22:30+08:00 ] 127.0.0.1 /YsInnoCenter/YsInnovation/index.php/Admin/User/getOrgJs
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000358s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000901s ]
+SQL: select * from t_organization where isshow='0' and organization_type=2 [ RunTime:0.0016s ]
+
+[ 2015-08-25T10:25:07+08:00 ] 127.0.0.1 /YsInnoCenter/YsInnovation/index.php/Admin/User/showAdminList
+ERR: 非法操作:showAdminList
+
+[ 2015-08-25T10:25:08+08:00 ] 127.0.0.1 /YsInnoCenter/YsInnovation/index.php/Admin/User/getOrgJs
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000408s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000654s ]
+SQL: select * from t_organization where isshow='0' and organization_type=2 [ RunTime:0.0016s ]
+
+[ 2015-08-25T10:25:08+08:00 ] 127.0.0.1 /YsInnoCenter/YsInnovation/index.php/Admin/User/getCollegeJs
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000305s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000546s ]
+SQL: select * from t_college where isshow=0 [ RunTime:0.0009s ]
+
+[ 2015-08-25T10:25:08+08:00 ] 127.0.0.1 /YsInnoCenter/YsInnovation/index.php/Admin/User/getRolesJs
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000396s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000643s ]
+SQL: select * from t_role where isshow=0 [ RunTime:0.0009s ]
+
+[ 2015-08-25T10:25:08+08:00 ] 127.0.0.1 /YsInnoCenter/YsInnovation/index.php/Admin/User/getAllTea
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000308s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000552s ]
+SQL: select * from t_user where is_tea_or_stu='1' [ RunTime:0.0013s ]
+
+[ 2015-08-25T10:25:08+08:00 ] 127.0.0.1 /YsInnoCenter/YsInnovation/index.php/Admin/User/getTeaDutyJs
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000327s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000573s ]
+SQL: select * from t_tea_duty where isshow=0 [ RunTime:0.0010s ]
+
+[ 2015-08-25T10:25:16+08:00 ] 127.0.0.1 /YsInnoCenter/YsInnovation/index.php/Admin/User/saveAdmin
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000703s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001251s ]
+SQL: select * from t_user_account where user_id=1 [ RunTime:0.0011s ]
+SQL: SHOW COLUMNS FROM `t_user_account` [ RunTime:0.0022s ]
+SQL: INSERT INTO `t_user_account` (`user_id`,`user_account`,`user_account_pwd`,`user_role_id`,`organization_id`) VALUES ('1','orgadmin','123456','1','1') [ RunTime:0.0466s ]
+
+[ 2015-08-25T10:32:39+08:00 ] 127.0.0.1 /YsInnoCenter/YsInnovation/index.php/Admin/User/showAdminList
+ERR: 非法操作:showAdminList
+
+[ 2015-08-25T14:40:02+08:00 ] 127.0.0.1 /YsInnoCenter/YsInnovation/index.php/Admin/User/getOrgJs
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000402s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000696s ]
+SQL: select * from t_organization where isshow='0' and organization_type=2 [ RunTime:0.0014s ]
+
+[ 2015-08-25T14:40:02+08:00 ] 127.0.0.1 /YsInnoCenter/YsInnovation/index.php/Admin/User/getCollegeJs
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000389s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000761s ]
+SQL: select * from t_college where isshow=0 [ RunTime:0.0006s ]
+
+[ 2015-08-25T14:40:02+08:00 ] 127.0.0.1 /YsInnoCenter/YsInnovation/index.php/Admin/User/getRolesJs
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000426s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000706s ]
+SQL: select * from t_role where isshow=0 [ RunTime:0.0007s ]
+
+[ 2015-08-25T14:40:02+08:00 ] 127.0.0.1 /YsInnoCenter/YsInnovation/index.php/Admin/User/getAllTea
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000418s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000771s ]
+SQL: select * from t_user where is_tea_or_stu='1' [ RunTime:0.0013s ]
+
+[ 2015-08-25T14:40:02+08:00 ] 127.0.0.1 /YsInnoCenter/YsInnovation/index.php/Admin/User/getTeaDutyJs
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000334s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000657s ]
+SQL: select * from t_tea_duty where isshow=0 [ RunTime:0.0007s ]
+
+[ 2015-08-25T14:52:40+08:00 ] 127.0.0.1 /YsInnoCenter/YsInnovation/index.php/Admin/User/getAdminList
+ERR: 非法操作:getAdminList
+
+[ 2015-08-25T15:08:59+08:00 ] 127.0.0.1 /YsInnoCenter/YsInnovation/index.php/Admin/User/getRolesJs
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000326s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000593s ]
+SQL: select * from t_role where isshow=0 [ RunTime:0.0007s ]
+
+[ 2015-08-25T15:09:36+08:00 ] 127.0.0.1 /YsInnoCenter/YsInnovation/index.php/Admin/User/getAdminListJs
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000321s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000575s ]
+SQL: select t_user_account.*,t_user.user_name,t_role.role_name from t_user_account,t_user,t_role where t_user_account.user_role_id in (1,2,3) and t_user.user_id=t_user_account.user_id and t_role.role_id=t_user_account.user_role_id limit 0,10 [ RunTime:0.0014s ]
+
+[ 2015-08-25T15:09:36+08:00 ] 127.0.0.1 /YsInnoCenter/YsInnovation/index.php/Admin/User/getAdminCountJs
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000339s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000617s ]
+SQL: select count(*) from t_user_account where user_role_id in (1,2,3) [ RunTime:0.0012s ]
+
+[ 2015-08-25T15:11:54+08:00 ] 127.0.0.1 /YsInnoCenter/YsInnovation/index.php/Admin/User/getAdminListJs
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000331s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000587s ]
+SQL: select t_user_account.*,t_user.user_name,t_role.role_name from t_user_account,t_user,t_role where t_user_account.user_role_id in (1,2,3) and t_user.user_id=t_user_account.user_id and t_role.role_id=t_user_account.user_role_id limit 0,10 [ RunTime:0.0013s ]
+
+[ 2015-08-25T15:11:54+08:00 ] 127.0.0.1 /YsInnoCenter/YsInnovation/index.php/Admin/User/getAdminCountJs
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000424s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000690s ]
+SQL: select count(*) from t_user_account where user_role_id in (1,2,3) [ RunTime:0.0009s ]
+
+[ 2015-08-25T15:12:04+08:00 ] 127.0.0.1 /YsInnoCenter/YsInnovation/index.php/Admin/User/getAdminListJs
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000324s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000575s ]
+SQL: select t_user_account.*,t_user.user_name,t_role.role_name from t_user_account,t_user,t_role where t_user_account.user_role_id in (1,2,3) and t_user.user_id=t_user_account.user_id and t_role.role_id=t_user_account.user_role_id limit 0,10 [ RunTime:0.0016s ]
+
+[ 2015-08-25T15:12:04+08:00 ] 127.0.0.1 /YsInnoCenter/YsInnovation/index.php/Admin/User/getAdminCountJs
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000383s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000699s ]
+SQL: select count(*) from t_user_account where user_role_id in (1,2,3) [ RunTime:0.0008s ]
+
+[ 2015-08-25T15:12:10+08:00 ] 127.0.0.1 /YsInnoCenter/YsInnovation/index.php/Admin/User/getAdminListJs
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000331s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000588s ]
+SQL: select t_user_account.*,t_user.user_name,t_role.role_name from t_user_account,t_user,t_role where t_user_account.user_role_id in (1,2,3) and t_user.user_id=t_user_account.user_id and t_role.role_id=t_user_account.user_role_id limit 0,10 [ RunTime:0.0013s ]
+
+[ 2015-08-25T15:12:10+08:00 ] 127.0.0.1 /YsInnoCenter/YsInnovation/index.php/Admin/User/getAdminCountJs
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000329s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000575s ]
+SQL: select count(*) from t_user_account where user_role_id in (1,2,3) [ RunTime:0.0006s ]
+
+[ 2015-08-25T15:12:15+08:00 ] 127.0.0.1 /YsInnoCenter/YsInnovation/index.php/Admin/User/getAdminListJs
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000322s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000561s ]
+SQL: select t_user_account.*,t_user.user_name,t_role.role_name from t_user_account,t_user,t_role where t_user_account.user_role_id in (1,2,3) and t_user.user_id=t_user_account.user_id and t_role.role_id=t_user_account.user_role_id limit 0,10 [ RunTime:0.0015s ]
+
+[ 2015-08-25T15:12:15+08:00 ] 127.0.0.1 /YsInnoCenter/YsInnovation/index.php/Admin/User/getAdminCountJs
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000326s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000593s ]
+SQL: select count(*) from t_user_account where user_role_id in (1,2,3) [ RunTime:0.0009s ]
+
+[ 2015-08-25T15:12:20+08:00 ] 127.0.0.1 /YsInnoCenter/YsInnovation/index.php/Admin/User/getAdminListJs
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000337s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000594s ]
+SQL: select t_user_account.*,t_user.user_name,t_role.role_name from t_user_account,t_user,t_role where t_user_account.user_role_id in (1,2,3) and t_user.user_id=t_user_account.user_id and t_role.role_id=t_user_account.user_role_id limit 0,10 [ RunTime:0.0014s ]
+
+[ 2015-08-25T15:12:20+08:00 ] 127.0.0.1 /YsInnoCenter/YsInnovation/index.php/Admin/User/getAdminCountJs
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000313s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000576s ]
+SQL: select count(*) from t_user_account where user_role_id in (1,2,3) [ RunTime:0.0009s ]
+
+[ 2015-08-25T15:33:49+08:00 ] 127.0.0.1 /YsInnoCenter/YsInnovation/index.php/Admin/User/getAdminListJs
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000347s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000598s ]
+SQL: select t_user_account.*,t_user.user_name,t_role.role_name from t_user_account,t_user,t_role where t_user_account.user_role_id in (1,2,3) and t_user.user_id=t_user_account.user_id and t_role.role_id=t_user_account.user_role_id limit 0,10 [ RunTime:0.0016s ]
+
+[ 2015-08-25T15:33:49+08:00 ] 127.0.0.1 /YsInnoCenter/YsInnovation/index.php/Admin/User/getAdminCountJs
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000347s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000623s ]
+SQL: select count(*) from t_user_account where user_role_id in (1,2,3) [ RunTime:0.0007s ]
+
+[ 2015-08-25T15:33:52+08:00 ] 127.0.0.1 /YsInnoCenter/YsInnovation/index.php/Admin/User/getOrgJs
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000343s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000608s ]
+SQL: select * from t_organization where isshow='0' and organization_type=2 [ RunTime:0.0014s ]
+
+[ 2015-08-25T15:33:52+08:00 ] 127.0.0.1 /YsInnoCenter/YsInnovation/index.php/Admin/User/getCollegeJs
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000337s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000617s ]
+SQL: select * from t_college where isshow=0 [ RunTime:0.0006s ]
+
+[ 2015-08-25T15:33:52+08:00 ] 127.0.0.1 /YsInnoCenter/YsInnovation/index.php/Admin/User/getRolesJs
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000450s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000730s ]
+SQL: select * from t_role where isshow=0 [ RunTime:0.0007s ]
+
+[ 2015-08-25T15:33:52+08:00 ] 127.0.0.1 /YsInnoCenter/YsInnovation/index.php/Admin/User/getAllTea
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000573s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000923s ]
+SQL: select * from t_user where is_tea_or_stu='1' [ RunTime:0.0012s ]
+
+[ 2015-08-25T15:33:52+08:00 ] 127.0.0.1 /YsInnoCenter/YsInnovation/index.php/Admin/User/getTeaDutyJs
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000540s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000892s ]
+SQL: select * from t_tea_duty where isshow=0 [ RunTime:0.0011s ]
+
+[ 2015-08-25T15:43:39+08:00 ] 127.0.0.1 /YsInnoCenter/YsInnovation/index.php/Admin/User/getAdminDetialJs
+ERR: 非法操作:getAdminDetialJs
+
+[ 2015-08-25T15:45:38+08:00 ] 127.0.0.1 /YsInnoCenter/YsInnovation/index.php/Admin/User/getAdminListJs
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000365s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000646s ]
+SQL: select t_user_account.*,t_user.user_name,t_role.role_name from t_user_account,t_user,t_role where t_user_account.user_role_id in (1,2,3) and t_user.user_id=t_user_account.user_id and t_role.role_id=t_user_account.user_role_id limit 0,10 [ RunTime:0.0014s ]
+
+[ 2015-08-25T15:45:38+08:00 ] 127.0.0.1 /YsInnoCenter/YsInnovation/index.php/Admin/User/getAdminCountJs
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000430s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000723s ]
+SQL: select count(*) from t_user_account where user_role_id in (1,2,3) [ RunTime:0.0007s ]
+
+[ 2015-08-25T15:45:40+08:00 ] 127.0.0.1 /YsInnoCenter/YsInnovation/index.php/Admin/User/getTeaDutyJs
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000405s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000697s ]
+SQL: select * from t_tea_duty where isshow=0 [ RunTime:0.0006s ]
+
+[ 2015-08-25T15:45:40+08:00 ] 127.0.0.1 /YsInnoCenter/YsInnovation/index.php/Admin/User/getOrgJs
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000475s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000811s ]
+SQL: select * from t_organization where isshow='0' and organization_type=2 [ RunTime:0.0013s ]
+
+[ 2015-08-25T15:45:40+08:00 ] 127.0.0.1 /YsInnoCenter/YsInnovation/index.php/Admin/User/getRolesJs
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000776s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001098s ]
+SQL: select * from t_role where isshow=0 [ RunTime:0.0006s ]
+
+[ 2015-08-25T15:45:40+08:00 ] 127.0.0.1 /YsInnoCenter/YsInnovation/index.php/Admin/User/getAdminDetialJs
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000439s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000764s ]
+ERR: 非法操作:getAdminDetialJs
+
+[ 2015-08-25T15:45:40+08:00 ] 127.0.0.1 /YsInnoCenter/YsInnovation/index.php/Admin/User/getAllTea
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000431s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000746s ]
+SQL: select * from t_user where is_tea_or_stu='1' [ RunTime:0.0012s ]
+
+[ 2015-08-25T15:45:41+08:00 ] 127.0.0.1 /YsInnoCenter/YsInnovation/index.php/Admin/User/getCollegeJs
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000406s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000699s ]
+SQL: select * from t_college where isshow=0 [ RunTime:0.0007s ]
+
+[ 2015-08-25T15:52:18+08:00 ] 127.0.0.1 /YsInnoCenter/YsInnovation/index.php/Admin/User/getAdminListJs
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000335s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000605s ]
+SQL: select t_user_account.*,t_user.user_name,t_role.role_name from t_user_account,t_user,t_role where t_user_account.user_role_id in (1,2,3) and t_user.user_id=t_user_account.user_id and t_role.role_id=t_user_account.user_role_id limit 0,10 [ RunTime:0.0014s ]
+
+[ 2015-08-25T15:52:18+08:00 ] 127.0.0.1 /YsInnoCenter/YsInnovation/index.php/Admin/User/getAdminCountJs
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000543s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000858s ]
+SQL: select count(*) from t_user_account where user_role_id in (1,2,3) [ RunTime:0.0006s ]
+
+[ 2015-08-25T15:52:20+08:00 ] 127.0.0.1 /YsInnoCenter/YsInnovation/index.php/Admin/User/getOrgJs
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000367s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000696s ]
+SQL: select * from t_organization where isshow='0' and organization_type=2 [ RunTime:0.0014s ]
+
+[ 2015-08-25T15:52:20+08:00 ] 127.0.0.1 /YsInnoCenter/YsInnovation/index.php/Admin/User/getTeaDutyJs
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000506s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000902s ]
+SQL: select * from t_tea_duty where isshow=0 [ RunTime:0.0006s ]
+
+[ 2015-08-25T15:52:20+08:00 ] 127.0.0.1 /YsInnoCenter/YsInnovation/index.php/Admin/User/getRolesJs
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000482s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000785s ]
+SQL: select * from t_role where isshow=0 [ RunTime:0.0007s ]
+
+[ 2015-08-25T15:52:20+08:00 ] 127.0.0.1 /YsInnoCenter/YsInnovation/index.php/Admin/User/getCollegeJs
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000353s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000624s ]
+SQL: select * from t_college where isshow=0 [ RunTime:0.0007s ]
+
+[ 2015-08-25T15:52:20+08:00 ] 127.0.0.1 /YsInnoCenter/YsInnovation/index.php/Admin/User/getAdminDetialJs
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000473s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000741s ]
+ERR: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'where t_user_account.user_account_id=10 and t_user_account.user_id=t_user.user_i' at line 1
+
+[ 2015-08-25T15:52:20+08:00 ] 127.0.0.1 /YsInnoCenter/YsInnovation/index.php/Admin/User/getAllTea
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000332s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000586s ]
+SQL: select * from t_user where is_tea_or_stu='1' [ RunTime:0.0012s ]
+
+[ 2015-08-25T15:53:11+08:00 ] 127.0.0.1 /YsInnoCenter/YsInnovation/index.php/Admin/User/getAdminListJs
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000335s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000602s ]
+SQL: select t_user_account.*,t_user.user_name,t_role.role_name from t_user_account,t_user,t_role where t_user_account.user_role_id in (1,2,3) and t_user.user_id=t_user_account.user_id and t_role.role_id=t_user_account.user_role_id limit 0,10 [ RunTime:0.0016s ]
+
+[ 2015-08-25T15:53:11+08:00 ] 127.0.0.1 /YsInnoCenter/YsInnovation/index.php/Admin/User/getAdminCountJs
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000345s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000616s ]
+SQL: select count(*) from t_user_account where user_role_id in (1,2,3) [ RunTime:0.0013s ]
+
+[ 2015-08-25T15:53:13+08:00 ] 127.0.0.1 /YsInnoCenter/YsInnovation/index.php/Admin/User/getOrgJs
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000406s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000699s ]
+SQL: select * from t_organization where isshow='0' and organization_type=2 [ RunTime:0.0014s ]
+
+[ 2015-08-25T15:53:13+08:00 ] 127.0.0.1 /YsInnoCenter/YsInnovation/index.php/Admin/User/getRolesJs
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000405s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000691s ]
+SQL: select * from t_role where isshow=0 [ RunTime:0.0006s ]
+
+[ 2015-08-25T15:53:13+08:00 ] 127.0.0.1 /YsInnoCenter/YsInnovation/index.php/Admin/User/getCollegeJs
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000385s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000651s ]
+SQL: select * from t_college where isshow=0 [ RunTime:0.0017s ]
+
+[ 2015-08-25T15:53:13+08:00 ] 127.0.0.1 /YsInnoCenter/YsInnovation/index.php/Admin/User/getAllTea
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000347s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000634s ]
+SQL: select * from t_user where is_tea_or_stu='1' [ RunTime:0.0012s ]
+
+[ 2015-08-25T15:53:13+08:00 ] 127.0.0.1 /YsInnoCenter/YsInnovation/index.php/Admin/User/getTeaDutyJs
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000378s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000648s ]
+SQL: select * from t_tea_duty where isshow=0 [ RunTime:0.0006s ]
+
+[ 2015-08-25T15:53:13+08:00 ] 127.0.0.1 /YsInnoCenter/YsInnovation/index.php/Admin/User/getAdminDetialJs
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000447s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000913s ]
+ERR: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'where t_user_account.user_account_id=10 and t_user_account.user_id=t_user.user_i' at line 1
+
+[ 2015-08-25T15:54:06+08:00 ] 127.0.0.1 /YsInnoCenter/YsInnovation/index.php/Admin/User/getAdminListJs
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000297s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000526s ]
+SQL: select t_user_account.*,t_user.user_name,t_role.role_name from t_user_account,t_user,t_role where t_user_account.user_role_id in (1,2,3) and t_user.user_id=t_user_account.user_id and t_role.role_id=t_user_account.user_role_id limit 0,10 [ RunTime:0.0014s ]
+
+[ 2015-08-25T15:54:06+08:00 ] 127.0.0.1 /YsInnoCenter/YsInnovation/index.php/Admin/User/getAdminCountJs
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000327s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000567s ]
+SQL: select count(*) from t_user_account where user_role_id in (1,2,3) [ RunTime:0.0007s ]
+
+[ 2015-08-25T15:54:08+08:00 ] 127.0.0.1 /YsInnoCenter/YsInnovation/index.php/Admin/User/getTeaDutyJs
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000308s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000549s ]
+SQL: select * from t_tea_duty where isshow=0 [ RunTime:0.0007s ]
+
+[ 2015-08-25T15:54:08+08:00 ] 127.0.0.1 /YsInnoCenter/YsInnovation/index.php/Admin/User/getRolesJs
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000311s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000557s ]
+SQL: select * from t_role where isshow=0 [ RunTime:0.0006s ]
+
+[ 2015-08-25T15:54:08+08:00 ] 127.0.0.1 /YsInnoCenter/YsInnovation/index.php/Admin/User/getAllTea
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000463s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000886s ]
+SQL: select * from t_user where is_tea_or_stu='1' [ RunTime:0.0026s ]
+
+[ 2015-08-25T15:54:08+08:00 ] 127.0.0.1 /YsInnoCenter/YsInnovation/index.php/Admin/User/getCollegeJs
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000303s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000543s ]
+SQL: select * from t_college where isshow=0 [ RunTime:0.0007s ]
+
+[ 2015-08-25T15:54:08+08:00 ] 127.0.0.1 /YsInnoCenter/YsInnovation/index.php/Admin/User/getOrgJs
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000298s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000575s ]
+SQL: select * from t_organization where isshow='0' and organization_type=2 [ RunTime:0.0014s ]
+
+[ 2015-08-25T15:54:09+08:00 ] 127.0.0.1 /YsInnoCenter/YsInnovation/index.php/Admin/User/getAdminDetialJs
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000557s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000990s ]
+ERR: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'where t_user_account.user_account_id=10 and t_user_account.user_id=t_user.user_i' at line 1
+
+[ 2015-08-25T15:59:34+08:00 ] 127.0.0.1 /YsInnoCenter/YsInnovation/index.php/Admin/User/getAdminListJs
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000323s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000583s ]
+SQL: select t_user_account.*,t_user.user_name,t_role.role_name from t_user_account,t_user,t_role where t_user_account.user_role_id in (1,2,3) and t_user.user_id=t_user_account.user_id and t_role.role_id=t_user_account.user_role_id limit 0,10 [ RunTime:0.0016s ]
+
+[ 2015-08-25T15:59:34+08:00 ] 127.0.0.1 /YsInnoCenter/YsInnovation/index.php/Admin/User/getAdminCountJs
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000322s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000568s ]
+SQL: select count(*) from t_user_account where user_role_id in (1,2,3) [ RunTime:0.0008s ]
+
+[ 2015-08-25T15:59:36+08:00 ] 127.0.0.1 /YsInnoCenter/YsInnovation/index.php/Admin/User/getTeaDutyJs
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000324s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000576s ]
+SQL: select * from t_tea_duty where isshow=0 [ RunTime:0.0007s ]
+
+[ 2015-08-25T15:59:36+08:00 ] 127.0.0.1 /YsInnoCenter/YsInnovation/index.php/Admin/User/getCollegeJs
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000301s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000578s ]
+SQL: select * from t_college where isshow=0 [ RunTime:0.0007s ]
+
+[ 2015-08-25T15:59:36+08:00 ] 127.0.0.1 /YsInnoCenter/YsInnovation/index.php/Admin/User/getRolesJs
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000302s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000541s ]
+SQL: select * from t_role where isshow=0 [ RunTime:0.0006s ]
+
+[ 2015-08-25T15:59:36+08:00 ] 127.0.0.1 /YsInnoCenter/YsInnovation/index.php/Admin/User/getOrgJs
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000388s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000675s ]
+SQL: select * from t_organization where isshow='0' and organization_type=2 [ RunTime:0.0014s ]
+
+[ 2015-08-25T15:59:36+08:00 ] 127.0.0.1 /YsInnoCenter/YsInnovation/index.php/Admin/User/getAllTea
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000620s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001077s ]
+SQL: select * from t_user where is_tea_or_stu='1' [ RunTime:0.0011s ]
+
+[ 2015-08-25T15:59:37+08:00 ] 127.0.0.1 /YsInnoCenter/YsInnovation/index.php/Admin/User/getAdminDetialJs
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000378s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000669s ]
+SQL: select t_user_account.*,t_user.user_name from t_user_account,t_user where t_user_account.user_account_id=10 and t_user_account.user_id=t_user.user_id [ RunTime:0.0011s ]
+
+[ 2015-08-25T16:02:33+08:00 ] 127.0.0.1 /YsInnoCenter/YsInnovation/index.php/Admin/User/getAdminCountJs
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000305s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000551s ]
+SQL: select count(*) from t_user_account where user_role_id in (1,2,3) [ RunTime:0.0007s ]
+
+[ 2015-08-25T16:02:33+08:00 ] 127.0.0.1 /YsInnoCenter/YsInnovation/index.php/Admin/User/getAdminListJs
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000310s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000556s ]
+SQL: select t_user_account.*,t_user.user_name,t_role.role_name from t_user_account,t_user,t_role where t_user_account.user_role_id in (1,2,3) and t_user.user_id=t_user_account.user_id and t_role.role_id=t_user_account.user_role_id limit 0,10 [ RunTime:0.0013s ]
+
+[ 2015-08-25T16:02:34+08:00 ] 127.0.0.1 /YsInnoCenter/YsInnovation/index.php/Admin/User/getCollegeJs
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000324s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000578s ]
+SQL: select * from t_college where isshow=0 [ RunTime:0.0007s ]
+
+[ 2015-08-25T16:02:34+08:00 ] 127.0.0.1 /YsInnoCenter/YsInnovation/index.php/Admin/User/getOrgJs
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000308s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000565s ]
+SQL: select * from t_organization where isshow='0' and organization_type=2 [ RunTime:0.0013s ]
+
+[ 2015-08-25T16:02:34+08:00 ] 127.0.0.1 /YsInnoCenter/YsInnovation/index.php/Admin/User/getRolesJs
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000306s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000553s ]
+SQL: select * from t_role where isshow=0 [ RunTime:0.0006s ]
+
+[ 2015-08-25T16:02:34+08:00 ] 127.0.0.1 /YsInnoCenter/YsInnovation/index.php/Admin/User/getTeaDutyJs
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000307s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000551s ]
+SQL: select * from t_tea_duty where isshow=0 [ RunTime:0.0007s ]
+
+[ 2015-08-25T16:02:34+08:00 ] 127.0.0.1 /YsInnoCenter/YsInnovation/index.php/Admin/User/getAllTea
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000747s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001020s ]
+SQL: select * from t_user where is_tea_or_stu='1' [ RunTime:0.0011s ]
+
+[ 2015-08-25T16:02:35+08:00 ] 127.0.0.1 /YsInnoCenter/YsInnovation/index.php/Admin/User/getAdminDetialJs
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000564s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001006s ]
+SQL: select t_user_account.*,t_user.user_name from t_user_account,t_user where t_user_account.user_account_id=10 and t_user_account.user_id=t_user.user_id [ RunTime:0.0016s ]
+
+[ 2015-08-25T16:03:17+08:00 ] 127.0.0.1 /YsInnoCenter/YsInnovation/index.php/Admin/User/getAdminListJs
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000328s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000559s ]
+SQL: select t_user_account.*,t_user.user_name,t_role.role_name from t_user_account,t_user,t_role where t_user_account.user_role_id in (1,2,3) and t_user.user_id=t_user_account.user_id and t_role.role_id=t_user_account.user_role_id limit 0,10 [ RunTime:0.0014s ]
+
+[ 2015-08-25T16:03:17+08:00 ] 127.0.0.1 /YsInnoCenter/YsInnovation/index.php/Admin/User/getAdminCountJs
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000376s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000622s ]
+SQL: select count(*) from t_user_account where user_role_id in (1,2,3) [ RunTime:0.0007s ]
+
+[ 2015-08-25T16:03:19+08:00 ] 127.0.0.1 /YsInnoCenter/YsInnovation/index.php/Admin/User/getCollegeJs
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000305s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000556s ]
+SQL: select * from t_college where isshow=0 [ RunTime:0.0006s ]
+
+[ 2015-08-25T16:03:19+08:00 ] 127.0.0.1 /YsInnoCenter/YsInnovation/index.php/Admin/User/getOrgJs
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000308s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000559s ]
+SQL: select * from t_organization where isshow='0' and organization_type=2 [ RunTime:0.0014s ]
+
+[ 2015-08-25T16:03:19+08:00 ] 127.0.0.1 /YsInnoCenter/YsInnovation/index.php/Admin/User/getTeaDutyJs
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000310s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000560s ]
+SQL: select * from t_tea_duty where isshow=0 [ RunTime:0.0007s ]
+
+[ 2015-08-25T16:03:19+08:00 ] 127.0.0.1 /YsInnoCenter/YsInnovation/index.php/Admin/User/getRolesJs
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000322s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000579s ]
+SQL: select * from t_role where isshow=0 [ RunTime:0.0007s ]
+
+[ 2015-08-25T16:03:19+08:00 ] 127.0.0.1 /YsInnoCenter/YsInnovation/index.php/Admin/User/getAdminDetialJs
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000412s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000694s ]
+SQL: select t_user_account.*,t_user.user_name from t_user_account,t_user where t_user_account.user_account_id=10 and t_user_account.user_id=t_user.user_id [ RunTime:0.0010s ]
+
+[ 2015-08-25T16:03:19+08:00 ] 127.0.0.1 /YsInnoCenter/YsInnovation/index.php/Admin/User/getAllTea
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000588s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000990s ]
+SQL: select * from t_user where is_tea_or_stu='1' [ RunTime:0.0012s ]
+
+[ 2015-08-25T16:03:57+08:00 ] 127.0.0.1 /YsInnoCenter/YsInnovation/index.php/Admin/User/getAdminListJs
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000353s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000699s ]
+SQL: select t_user_account.*,t_user.user_name,t_role.role_name from t_user_account,t_user,t_role where t_user_account.user_role_id in (1,2,3) and t_user.user_id=t_user_account.user_id and t_role.role_id=t_user_account.user_role_id limit 0,10 [ RunTime:0.0016s ]
+
+[ 2015-08-25T16:03:57+08:00 ] 127.0.0.1 /YsInnoCenter/YsInnovation/index.php/Admin/User/getAdminCountJs
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000402s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000658s ]
+SQL: select count(*) from t_user_account where user_role_id in (1,2,3) [ RunTime:0.0006s ]
+
+[ 2015-08-25T16:03:59+08:00 ] 127.0.0.1 /YsInnoCenter/YsInnovation/index.php/Admin/User/getTeaDutyJs
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000321s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000567s ]
+SQL: select * from t_tea_duty where isshow=0 [ RunTime:0.0011s ]
+
+[ 2015-08-25T16:03:59+08:00 ] 127.0.0.1 /YsInnoCenter/YsInnovation/index.php/Admin/User/getOrgJs
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000320s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001993s ]
+SQL: select * from t_organization where isshow='0' and organization_type=2 [ RunTime:0.0013s ]
+
+[ 2015-08-25T16:03:59+08:00 ] 127.0.0.1 /YsInnoCenter/YsInnovation/index.php/Admin/User/getCollegeJs
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000311s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000565s ]
+SQL: select * from t_college where isshow=0 [ RunTime:0.0006s ]
+
+[ 2015-08-25T16:03:59+08:00 ] 127.0.0.1 /YsInnoCenter/YsInnovation/index.php/Admin/User/getAllTea
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000321s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000585s ]
+SQL: select * from t_user where is_tea_or_stu='1' [ RunTime:0.0011s ]
+
+[ 2015-08-25T16:03:59+08:00 ] 127.0.0.1 /YsInnoCenter/YsInnovation/index.php/Admin/User/getRolesJs
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000446s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000734s ]
+SQL: select * from t_role where isshow=0 [ RunTime:0.0006s ]
+
+[ 2015-08-25T16:03:59+08:00 ] 127.0.0.1 /YsInnoCenter/YsInnovation/index.php/Admin/User/getAdminDetialJs
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000386s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000648s ]
+SQL: select t_user_account.*,t_user.user_name from t_user_account,t_user where t_user_account.user_account_id=10 and t_user_account.user_id=t_user.user_id [ RunTime:0.0009s ]
+
+[ 2015-08-25T16:04:17+08:00 ] 127.0.0.1 /YsInnoCenter/YsInnovation/index.php/Admin/User/getAdminListJs
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000416s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000700s ]
+SQL: select t_user_account.*,t_user.user_name,t_role.role_name from t_user_account,t_user,t_role where t_user_account.user_role_id in (1,2,3) and t_user.user_id=t_user_account.user_id and t_role.role_id=t_user_account.user_role_id limit 0,10 [ RunTime:0.0016s ]
+
+[ 2015-08-25T16:04:17+08:00 ] 127.0.0.1 /YsInnoCenter/YsInnovation/index.php/Admin/User/getAdminCountJs
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000397s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000685s ]
+SQL: select count(*) from t_user_account where user_role_id in (1,2,3) [ RunTime:0.0010s ]
+
+[ 2015-08-25T16:04:18+08:00 ] 127.0.0.1 /YsInnoCenter/YsInnovation/index.php/Admin/User/getTeaDutyJs
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000331s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000677s ]
+SQL: select * from t_tea_duty where isshow=0 [ RunTime:0.0013s ]
+
+[ 2015-08-25T16:04:19+08:00 ] 127.0.0.1 /YsInnoCenter/YsInnovation/index.php/Admin/User/getRolesJs
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000314s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000573s ]
+SQL: select * from t_role where isshow=0 [ RunTime:0.0007s ]
+
+[ 2015-08-25T16:04:19+08:00 ] 127.0.0.1 /YsInnoCenter/YsInnovation/index.php/Admin/User/getAdminDetialJs
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000318s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000572s ]
+SQL: select t_user_account.*,t_user.user_name from t_user_account,t_user where t_user_account.user_account_id=10 and t_user_account.user_id=t_user.user_id [ RunTime:0.0009s ]
+
+[ 2015-08-25T16:04:19+08:00 ] 127.0.0.1 /YsInnoCenter/YsInnovation/index.php/Admin/User/getAllTea
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000311s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000562s ]
+SQL: select * from t_user where is_tea_or_stu='1' [ RunTime:0.0012s ]
+
+[ 2015-08-25T16:04:19+08:00 ] 127.0.0.1 /YsInnoCenter/YsInnovation/index.php/Admin/User/getOrgJs
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000306s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000548s ]
+SQL: select * from t_organization where isshow='0' and organization_type=2 [ RunTime:0.0014s ]
+
+[ 2015-08-25T16:04:19+08:00 ] 127.0.0.1 /YsInnoCenter/YsInnovation/index.php/Admin/User/getCollegeJs
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000315s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000601s ]
+SQL: select * from t_college where isshow=0 [ RunTime:0.0008s ]
+
+[ 2015-08-25T16:26:54+08:00 ] 127.0.0.1 /YsInnoCenter/YsInnovation/index.php/Admin/User/getAdminListJs
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000326s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000560s ]
+SQL: select t_user_account.*,t_user.user_name,t_role.role_name from t_user_account,t_user,t_role where t_user_account.user_role_id in (1,2,3) and t_user.user_id=t_user_account.user_id and t_role.role_id=t_user_account.user_role_id limit 0,10 [ RunTime:0.0015s ]
+
+[ 2015-08-25T16:26:54+08:00 ] 127.0.0.1 /YsInnoCenter/YsInnovation/index.php/Admin/User/getAdminCountJs
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000299s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000573s ]
+SQL: select count(*) from t_user_account where user_role_id in (1,2,3) [ RunTime:0.0009s ]
+
+[ 2015-08-25T16:26:55+08:00 ] 127.0.0.1 /YsInnoCenter/YsInnovation/index.php/Admin/User/getCollegeJs
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000311s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000552s ]
+SQL: select * from t_college where isshow=0 [ RunTime:0.0008s ]
+
+[ 2015-08-25T16:26:55+08:00 ] 127.0.0.1 /YsInnoCenter/YsInnovation/index.php/Admin/User/getRolesJs
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000303s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000543s ]
+SQL: select * from t_role where isshow=0 [ RunTime:0.0007s ]
+
+[ 2015-08-25T16:26:55+08:00 ] 127.0.0.1 /YsInnoCenter/YsInnovation/index.php/Admin/User/getTeaDutyJs
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000304s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000551s ]
+SQL: select * from t_tea_duty where isshow=0 [ RunTime:0.0010s ]
+
+[ 2015-08-25T16:26:55+08:00 ] 127.0.0.1 /YsInnoCenter/YsInnovation/index.php/Admin/User/getAdminDetialJs
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000529s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003594s ]
+SQL: select t_user_account.*,t_user.user_name from t_user_account,t_user where t_user_account.user_account_id=10 and t_user_account.user_id=t_user.user_id [ RunTime:0.0014s ]
+
+[ 2015-08-25T16:26:55+08:00 ] 127.0.0.1 /YsInnoCenter/YsInnovation/index.php/Admin/User/getAllTea
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000387s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000721s ]
+SQL: select * from t_user where is_tea_or_stu='1' [ RunTime:0.0011s ]
+
+[ 2015-08-25T16:26:55+08:00 ] 127.0.0.1 /YsInnoCenter/YsInnovation/index.php/Admin/User/getOrgJs
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000305s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000555s ]
+SQL: select * from t_organization where isshow='0' and organization_type=2 [ RunTime:0.0014s ]
+
+[ 2015-08-25T16:26:55+08:00 ] 127.0.0.1 /YsInnoCenter/YsInnovation/index.php/Admin/User/editSaveAdmin
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000381s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000652s ]
+SQL: SHOW COLUMNS FROM `t_user_account` [ RunTime:0.0018s ]
+ERR: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')' at line 1
+
+[ 2015-08-25T16:27:43+08:00 ] 127.0.0.1 /YsInnoCenter/YsInnovation/index.php/Admin/User/getAdminCountJs
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000319s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000574s ]
+SQL: select count(*) from t_user_account where user_role_id in (1,2,3) [ RunTime:0.0007s ]
+
+[ 2015-08-25T16:27:43+08:00 ] 127.0.0.1 /YsInnoCenter/YsInnovation/index.php/Admin/User/getAdminListJs
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000308s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000562s ]
+SQL: select t_user_account.*,t_user.user_name,t_role.role_name from t_user_account,t_user,t_role where t_user_account.user_role_id in (1,2,3) and t_user.user_id=t_user_account.user_id and t_role.role_id=t_user_account.user_role_id limit 0,10 [ RunTime:0.0013s ]
+
+[ 2015-08-25T16:27:44+08:00 ] 127.0.0.1 /YsInnoCenter/YsInnovation/index.php/Admin/User/getTeaDutyJs
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000395s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000644s ]
+SQL: select * from t_tea_duty where isshow=0 [ RunTime:0.0009s ]
+
+[ 2015-08-25T16:27:45+08:00 ] 127.0.0.1 /YsInnoCenter/YsInnovation/index.php/Admin/User/getOrgJs
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000308s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000553s ]
+SQL: select * from t_organization where isshow='0' and organization_type=2 [ RunTime:0.0013s ]
+
+[ 2015-08-25T16:27:45+08:00 ] 127.0.0.1 /YsInnoCenter/YsInnovation/index.php/Admin/User/getRolesJs
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000324s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000564s ]
+SQL: select * from t_role where isshow=0 [ RunTime:0.0006s ]
+
+[ 2015-08-25T16:27:45+08:00 ] 127.0.0.1 /YsInnoCenter/YsInnovation/index.php/Admin/User/getAllTea
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000388s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000663s ]
+SQL: select * from t_user where is_tea_or_stu='1' [ RunTime:0.0011s ]
+
+[ 2015-08-25T16:27:45+08:00 ] 127.0.0.1 /YsInnoCenter/YsInnovation/index.php/Admin/User/getCollegeJs
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000308s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000561s ]
+SQL: select * from t_college where isshow=0 [ RunTime:0.0006s ]
+
+[ 2015-08-25T16:27:45+08:00 ] 127.0.0.1 /YsInnoCenter/YsInnovation/index.php/Admin/User/getAdminDetialJs
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000317s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000571s ]
+SQL: select t_user_account.*,t_user.user_name from t_user_account,t_user where t_user_account.user_account_id=10 and t_user_account.user_id=t_user.user_id [ RunTime:0.0011s ]
+
+[ 2015-08-25T16:27:45+08:00 ] 127.0.0.1 /YsInnoCenter/YsInnovation/index.php/Admin/User/editSaveAdmin
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000304s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000551s ]
+SQL: SHOW COLUMNS FROM `t_user_account` [ RunTime:0.0018s ]
+ERR: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')' at line 1
+
+[ 2015-08-25T16:28:32+08:00 ] 127.0.0.1 /YsInnoCenter/YsInnovation/index.php/Admin/User/getAdminListJs
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000362s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000594s ]
+SQL: select t_user_account.*,t_user.user_name,t_role.role_name from t_user_account,t_user,t_role where t_user_account.user_role_id in (1,2,3) and t_user.user_id=t_user_account.user_id and t_role.role_id=t_user_account.user_role_id limit 0,10 [ RunTime:0.0013s ]
+
+[ 2015-08-25T16:28:32+08:00 ] 127.0.0.1 /YsInnoCenter/YsInnovation/index.php/Admin/User/getAdminCountJs
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000285s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000534s ]
+SQL: select count(*) from t_user_account where user_role_id in (1,2,3) [ RunTime:0.0006s ]
+
+[ 2015-08-25T16:28:35+08:00 ] 127.0.0.1 /YsInnoCenter/YsInnovation/index.php/Admin/User/getOrgJs
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000303s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000550s ]
+SQL: select * from t_organization where isshow='0' and organization_type=2 [ RunTime:0.0014s ]
+
+[ 2015-08-25T16:28:35+08:00 ] 127.0.0.1 /YsInnoCenter/YsInnovation/index.php/Admin/User/getCollegeJs
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000304s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000549s ]
+SQL: select * from t_college where isshow=0 [ RunTime:0.0006s ]
+
+[ 2015-08-25T16:28:35+08:00 ] 127.0.0.1 /YsInnoCenter/YsInnovation/index.php/Admin/User/getAdminDetialJs
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000309s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000544s ]
+SQL: select t_user_account.*,t_user.user_name from t_user_account,t_user where t_user_account.user_account_id=10 and t_user_account.user_id=t_user.user_id [ RunTime:0.0009s ]
+
+[ 2015-08-25T16:28:35+08:00 ] 127.0.0.1 /YsInnoCenter/YsInnovation/index.php/Admin/User/getTeaDutyJs
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000315s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004141s ]
+SQL: select * from t_tea_duty where isshow=0 [ RunTime:0.0006s ]
+
+[ 2015-08-25T16:28:35+08:00 ] 127.0.0.1 /YsInnoCenter/YsInnovation/index.php/Admin/User/getAllTea
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000306s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000557s ]
+SQL: select * from t_user where is_tea_or_stu='1' [ RunTime:0.0011s ]
+
+[ 2015-08-25T16:28:35+08:00 ] 127.0.0.1 /YsInnoCenter/YsInnovation/index.php/Admin/User/getRolesJs
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000304s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000567s ]
+SQL: select * from t_role where isshow=0 [ RunTime:0.0008s ]
+
+[ 2015-08-25T16:28:40+08:00 ] 127.0.0.1 /YsInnoCenter/YsInnovation/index.php/Admin/User/editSaveAdmin
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000289s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000522s ]
+SQL: SHOW COLUMNS FROM `t_user_account` [ RunTime:0.0022s ]
+SQL: UPDATE `t_user_account` SET `user_account`='orgadminedit',`user_account_pwd`='123456',`user_role_id`='1' WHERE ( user_account_id=10 ) [ RunTime:0.0544s ]
+
+[ 2015-08-25T16:28:52+08:00 ] 127.0.0.1 /YsInnoCenter/YsInnovation/index.php/Admin/User/getAdminListJs
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000303s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000543s ]
+SQL: select t_user_account.*,t_user.user_name,t_role.role_name from t_user_account,t_user,t_role where t_user_account.user_role_id in (1,2,3) and t_user.user_id=t_user_account.user_id and t_role.role_id=t_user_account.user_role_id limit 0,10 [ RunTime:0.0018s ]
+
+[ 2015-08-25T16:28:52+08:00 ] 127.0.0.1 /YsInnoCenter/YsInnovation/index.php/Admin/User/getAdminCountJs
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000386s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000661s ]
+SQL: select count(*) from t_user_account where user_role_id in (1,2,3) [ RunTime:0.0010s ]
+
+[ 2015-08-25T16:28:55+08:00 ] 127.0.0.1 /YsInnoCenter/YsInnovation/index.php/Admin/User/getRolesJs
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000710s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000968s ]
+SQL: select * from t_role where isshow=0 [ RunTime:0.0010s ]
+
+[ 2015-08-25T16:28:55+08:00 ] 127.0.0.1 /YsInnoCenter/YsInnovation/index.php/Admin/User/getTeaDutyJs
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000404s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000727s ]
+SQL: select * from t_tea_duty where isshow=0 [ RunTime:0.0006s ]
+
+[ 2015-08-25T16:28:55+08:00 ] 127.0.0.1 /YsInnoCenter/YsInnovation/index.php/Admin/User/getOrgJs
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000397s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000647s ]
+SQL: select * from t_organization where isshow='0' and organization_type=2 [ RunTime:0.0014s ]
+
+[ 2015-08-25T16:28:55+08:00 ] 127.0.0.1 /YsInnoCenter/YsInnovation/index.php/Admin/User/getAllTea
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000385s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000654s ]
+SQL: select * from t_user where is_tea_or_stu='1' [ RunTime:0.0011s ]
+
+[ 2015-08-25T16:28:55+08:00 ] 127.0.0.1 /YsInnoCenter/YsInnovation/index.php/Admin/User/getCollegeJs
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000446s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000786s ]
+SQL: select * from t_college where isshow=0 [ RunTime:0.0006s ]
+
+[ 2015-08-25T16:28:55+08:00 ] 127.0.0.1 /YsInnoCenter/YsInnovation/index.php/Admin/User/getAdminDetialJs
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000304s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000537s ]
+SQL: select t_user_account.*,t_user.user_name from t_user_account,t_user where t_user_account.user_account_id=10 and t_user_account.user_id=t_user.user_id [ RunTime:0.0010s ]
+
+[ 2015-08-25T16:29:02+08:00 ] 127.0.0.1 /YsInnoCenter/YsInnovation/index.php/Admin/User/editSaveAdmin
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000406s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000671s ]
+SQL: SHOW COLUMNS FROM `t_user_account` [ RunTime:0.0019s ]
+SQL: UPDATE `t_user_account` SET `user_account`='orgadmin',`user_account_pwd`='123456',`user_role_id`='2' WHERE ( user_account_id=10 ) [ RunTime:0.0718s ]
+
+[ 2015-08-25T16:31:32+08:00 ] 127.0.0.1 /YsInnoCenter/YsInnovation/index.php/Admin/User/getAdminListJs
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000306s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000546s ]
+SQL: select t_user_account.*,t_user.user_name,t_role.role_name from t_user_account,t_user,t_role where t_user_account.user_role_id in (1,2,3) and t_user.user_id=t_user_account.user_id and t_role.role_id=t_user_account.user_role_id limit 0,10 [ RunTime:0.0014s ]
+
+[ 2015-08-25T16:31:32+08:00 ] 127.0.0.1 /YsInnoCenter/YsInnovation/index.php/Admin/User/getAdminCountJs
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000304s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000544s ]
+SQL: select count(*) from t_user_account where user_role_id in (1,2,3) [ RunTime:0.0010s ]
+
+[ 2015-08-25T16:31:35+08:00 ] 127.0.0.1 /YsInnoCenter/YsInnovation/index.php/Admin/User/getOrgJs
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000309s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000562s ]
+SQL: select * from t_organization where isshow='0' and organization_type=2 [ RunTime:0.0014s ]
+
+[ 2015-08-25T16:31:35+08:00 ] 127.0.0.1 /YsInnoCenter/YsInnovation/index.php/Admin/User/getTeaDutyJs
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000314s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000617s ]
+SQL: select * from t_tea_duty where isshow=0 [ RunTime:0.0007s ]
+
+[ 2015-08-25T16:31:35+08:00 ] 127.0.0.1 /YsInnoCenter/YsInnovation/index.php/Admin/User/getAllTea
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000305s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000550s ]
+SQL: select * from t_user where is_tea_or_stu='1' [ RunTime:0.0011s ]
+
+[ 2015-08-25T16:31:35+08:00 ] 127.0.0.1 /YsInnoCenter/YsInnovation/index.php/Admin/User/getRolesJs
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000435s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000705s ]
+SQL: select * from t_role where isshow=0 [ RunTime:0.0007s ]
+
+[ 2015-08-25T16:31:35+08:00 ] 127.0.0.1 /YsInnoCenter/YsInnovation/index.php/Admin/User/getCollegeJs
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000367s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000645s ]
+SQL: select * from t_college where isshow=0 [ RunTime:0.0006s ]
+
+[ 2015-08-25T16:31:35+08:00 ] 127.0.0.1 /YsInnoCenter/YsInnovation/index.php/Admin/User/getAdminDetialJs
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000299s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000524s ]
+SQL: select t_user_account.*,t_user.user_name from t_user_account,t_user where t_user_account.user_account_id=9 and t_user_account.user_id=t_user.user_id [ RunTime:0.0010s ]
+
+[ 2015-08-25T16:31:42+08:00 ] 127.0.0.1 /YsInnoCenter/YsInnovation/index.php/Admin/User/editSaveAdmin
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000314s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000564s ]
+SQL: SHOW COLUMNS FROM `t_user_account` [ RunTime:0.0020s ]
+SQL: UPDATE `t_user_account` SET `user_account`='lpf',`user_account_pwd`='1234',`user_role_id`='1' WHERE ( user_account_id=9 ) [ RunTime:0.0451s ]
+
+[ 2015-08-25T16:31:43+08:00 ] 127.0.0.1 /YsInnoCenter/YsInnovation/index.php/Admin/User/getAdminListJs
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000407s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000826s ]
+SQL: select t_user_account.*,t_user.user_name,t_role.role_name from t_user_account,t_user,t_role where t_user_account.user_role_id in (1,2,3) and t_user.user_id=t_user_account.user_id and t_role.role_id=t_user_account.user_role_id limit 0,10 [ RunTime:0.0014s ]
+
+[ 2015-08-25T16:31:43+08:00 ] 127.0.0.1 /YsInnoCenter/YsInnovation/index.php/Admin/User/getAdminCountJs
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000385s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000650s ]
+SQL: select count(*) from t_user_account where user_role_id in (1,2,3) [ RunTime:0.0006s ]
+
+[ 2015-08-25T16:31:53+08:00 ] 127.0.0.1 /YsInnoCenter/YsInnovation/index.php/Admin/User/getTeaDutyJs
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000307s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000562s ]
+SQL: select * from t_tea_duty where isshow=0 [ RunTime:0.0008s ]
+
+[ 2015-08-25T16:31:53+08:00 ] 127.0.0.1 /YsInnoCenter/YsInnovation/index.php/Admin/User/getCollegeJs
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000360s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000656s ]
+SQL: select * from t_college where isshow=0 [ RunTime:0.0006s ]
+
+[ 2015-08-25T16:31:53+08:00 ] 127.0.0.1 /YsInnoCenter/YsInnovation/index.php/Admin/User/getOrgJs
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000352s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001003s ]
+SQL: select * from t_organization where isshow='0' and organization_type=2 [ RunTime:0.0013s ]
+
+[ 2015-08-25T16:31:53+08:00 ] 127.0.0.1 /YsInnoCenter/YsInnovation/index.php/Admin/User/getRolesJs
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000313s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000560s ]
+SQL: select * from t_role where isshow=0 [ RunTime:0.0006s ]
+
+[ 2015-08-25T16:31:53+08:00 ] 127.0.0.1 /YsInnoCenter/YsInnovation/index.php/Admin/User/getAdminDetialJs
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000503s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000740s ]
+SQL: select t_user_account.*,t_user.user_name from t_user_account,t_user where t_user_account.user_account_id=9 and t_user_account.user_id=t_user.user_id [ RunTime:0.0009s ]
+
+[ 2015-08-25T16:31:53+08:00 ] 127.0.0.1 /YsInnoCenter/YsInnovation/index.php/Admin/User/getAllTea
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000591s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000860s ]
+SQL: select * from t_user where is_tea_or_stu='1' [ RunTime:0.0011s ]
+
+[ 2015-08-25T16:31:57+08:00 ] 127.0.0.1 /YsInnoCenter/YsInnovation/index.php/Admin/User/editSaveAdmin
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000291s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000551s ]
+SQL: SHOW COLUMNS FROM `t_user_account` [ RunTime:0.0019s ]
+SQL: UPDATE `t_user_account` SET `user_account`='lpf',`user_account_pwd`='123456',`user_role_id`='1' WHERE ( user_account_id=9 ) [ RunTime:0.0493s ]
+
+[ 2015-08-25T16:31:58+08:00 ] 127.0.0.1 /YsInnoCenter/YsInnovation/index.php/Admin/User/getAdminListJs
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000318s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000546s ]
+SQL: select t_user_account.*,t_user.user_name,t_role.role_name from t_user_account,t_user,t_role where t_user_account.user_role_id in (1,2,3) and t_user.user_id=t_user_account.user_id and t_role.role_id=t_user_account.user_role_id limit 0,10 [ RunTime:0.0013s ]
+
+[ 2015-08-25T16:31:58+08:00 ] 127.0.0.1 /YsInnoCenter/YsInnovation/index.php/Admin/User/getAdminCountJs
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000327s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000585s ]
+SQL: select count(*) from t_user_account where user_role_id in (1,2,3) [ RunTime:0.0006s ]
+
+[ 2015-08-25T16:33:36+08:00 ] 127.0.0.1 /YsInnoCenter/YsInnovation/index.php/Admin/User/getAdminListJs
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000393s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000665s ]
+SQL: select t_user_account.*,t_user.user_name,t_role.role_name from t_user_account,t_user,t_role where t_user_account.user_role_id in (1,2,3) and t_user.user_id=t_user_account.user_id and t_role.role_id=t_user_account.user_role_id limit 0,10 [ RunTime:0.0014s ]
+
+[ 2015-08-25T16:33:36+08:00 ] 127.0.0.1 /YsInnoCenter/YsInnovation/index.php/Admin/User/getAdminCountJs
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000459s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000751s ]
+SQL: select count(*) from t_user_account where user_role_id in (1,2,3) [ RunTime:0.0010s ]
+
+[ 2015-08-25T16:34:02+08:00 ] 127.0.0.1 /YsInnoCenter/YsInnovation/index.php/Admin/User/getAdminListJs
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000347s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000621s ]
+SQL: select t_user_account.*,t_user.user_name,t_role.role_name from t_user_account,t_user,t_role where t_user_account.user_role_id in (1,2,3) and t_user.user_id=t_user_account.user_id and t_role.role_id=t_user_account.user_role_id limit 0,10 [ RunTime:0.0013s ]
+
+[ 2015-08-25T16:34:02+08:00 ] 127.0.0.1 /YsInnoCenter/YsInnovation/index.php/Admin/User/getAdminCountJs
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000332s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000620s ]
+SQL: select count(*) from t_user_account where user_role_id in (1,2,3) [ RunTime:0.0006s ]
+
+[ 2015-08-25T16:34:11+08:00 ] 127.0.0.1 /YsInnoCenter/YsInnovation/index.php/Admin/User/getAdminListJs
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000322s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000623s ]
+SQL: select t_user_account.*,t_user.user_name,t_role.role_name from t_user_account,t_user,t_role where t_user_account.user_role_id in (1,2,3) and t_user.user_id=t_user_account.user_id and t_role.role_id=t_user_account.user_role_id limit 0,10 [ RunTime:0.0015s ]
+
+[ 2015-08-25T16:34:11+08:00 ] 127.0.0.1 /YsInnoCenter/YsInnovation/index.php/Admin/User/getAdminCountJs
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000308s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000561s ]
+SQL: select count(*) from t_user_account where user_role_id in (1,2,3) [ RunTime:0.0007s ]
+
+[ 2015-08-25T16:34:57+08:00 ] 127.0.0.1 /YsInnoCenter/YsInnovation/index.php/Admin/User/getAdminListJs
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000347s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000605s ]
+SQL: select t_user_account.*,t_user.user_name,t_role.role_name from t_user_account,t_user,t_role where t_user_account.user_role_id in (1,2,3) and t_user.user_id=t_user_account.user_id and t_role.role_id=t_user_account.user_role_id limit 0,10 [ RunTime:0.0013s ]
+
+[ 2015-08-25T16:34:57+08:00 ] 127.0.0.1 /YsInnoCenter/YsInnovation/index.php/Admin/User/getAdminCountJs
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000309s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000739s ]
+SQL: select count(*) from t_user_account where user_role_id in (1,2,3) [ RunTime:0.0007s ]
+
+[ 2015-08-25T16:35:06+08:00 ] 127.0.0.1 /YsInnoCenter/YsInnovation/index.php/Admin/User/getAdminListJs
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000288s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000519s ]
+SQL: select t_user_account.*,t_user.user_name,t_role.role_name from t_user_account,t_user,t_role where t_user_account.user_role_id in (1,2,3) and t_user.user_id=t_user_account.user_id and t_role.role_id=t_user_account.user_role_id limit 0,10 [ RunTime:0.0014s ]
+
+[ 2015-08-25T16:35:06+08:00 ] 127.0.0.1 /YsInnoCenter/YsInnovation/index.php/Admin/User/getAdminCountJs
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000311s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000546s ]
+SQL: select count(*) from t_user_account where user_role_id in (1,2,3) [ RunTime:0.0007s ]
+
+[ 2015-08-25T16:35:35+08:00 ] 127.0.0.1 /YsInnoCenter/YsInnovation/index.php/Admin/User/getAdminListJs
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000295s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000522s ]
+SQL: select t_user_account.*,t_user.user_name,t_role.role_name from t_user_account,t_user,t_role where t_user_account.user_role_id in (1,2,3) and t_user.user_id=t_user_account.user_id and t_role.role_id=t_user_account.user_role_id limit 0,10 [ RunTime:0.0014s ]
+
+[ 2015-08-25T16:35:35+08:00 ] 127.0.0.1 /YsInnoCenter/YsInnovation/index.php/Admin/User/getAdminCountJs
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000312s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000569s ]
+SQL: select count(*) from t_user_account where user_role_id in (1,2,3) [ RunTime:0.0006s ]
+
+[ 2015-08-25T16:35:55+08:00 ] 127.0.0.1 /YsInnoCenter/YsInnovation/index.php/Admin/User/getAdminListJs
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000314s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000563s ]
+SQL: select t_user_account.*,t_user.user_name,t_role.role_name from t_user_account,t_user,t_role where t_user_account.user_role_id in (1,2,3) and t_user.user_id=t_user_account.user_id and t_role.role_id=t_user_account.user_role_id limit 0,10 [ RunTime:0.0013s ]
+
+[ 2015-08-25T16:35:55+08:00 ] 127.0.0.1 /YsInnoCenter/YsInnovation/index.php/Admin/User/getAdminCountJs
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000527s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000805s ]
+SQL: select count(*) from t_user_account where user_role_id in (1,2,3) [ RunTime:0.0006s ]
+
+[ 2015-08-25T16:36:02+08:00 ] 127.0.0.1 /YsInnoCenter/YsInnovation/index.php/Admin/User/getAdminListJs
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000330s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000579s ]
+SQL: select t_user_account.*,t_user.user_name,t_role.role_name from t_user_account,t_user,t_role where t_user_account.user_role_id in (1,2,3) and t_user.user_id=t_user_account.user_id and t_role.role_id=t_user_account.user_role_id limit 0,10 [ RunTime:0.0014s ]
+
+[ 2015-08-25T16:36:02+08:00 ] 127.0.0.1 /YsInnoCenter/YsInnovation/index.php/Admin/User/getAdminCountJs
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000329s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000650s ]
+SQL: select count(*) from t_user_account where user_role_id in (1,2,3) [ RunTime:0.0006s ]
+
+[ 2015-08-25T16:36:21+08:00 ] 127.0.0.1 /YsInnoCenter/YsInnovation/index.php/Admin/User/getAdminListJs
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000322s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000580s ]
+SQL: select t_user_account.*,t_user.user_name,t_role.role_name from t_user_account,t_user,t_role where t_user_account.user_role_id in (1,2,3) and t_user.user_id=t_user_account.user_id and t_role.role_id=t_user_account.user_role_id limit 0,10 [ RunTime:0.0015s ]
+
+[ 2015-08-25T16:36:21+08:00 ] 127.0.0.1 /YsInnoCenter/YsInnovation/index.php/Admin/User/getAdminCountJs
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000336s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000590s ]
+SQL: select count(*) from t_user_account where user_role_id in (1,2,3) [ RunTime:0.0006s ]
+
+[ 2015-08-25T16:37:39+08:00 ] 127.0.0.1 /YsInnoCenter/YsInnovation/index.php/Admin/Course/getCourseListData
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000313s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000568s ]
+SQL: select * from t_course where status_id='1' and isshow=0 limit 0,10 [ RunTime:0.0019s ]
+SQL: SHOW COLUMNS FROM `t_organization` [ RunTime:0.0023s ]
+SQL: SELECT * FROM `t_organization` WHERE ( organization_id=1 )  [ RunTime:0.0012s ]
+SQL: SHOW COLUMNS FROM `t_user` [ RunTime:0.0021s ]
+SQL: SELECT * FROM `t_user` WHERE ( user_id=2 )  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `t_user` WHERE ( user_id=1 )  [ RunTime:0.0009s ]
+SQL: SELECT * FROM `t_organization` WHERE ( organization_id=1 )  [ RunTime:0.0011s ]
+SQL: SELECT * FROM `t_user` WHERE ( user_id=1 )  [ RunTime:0.0009s ]
+SQL: SELECT * FROM `t_user` WHERE ( user_id=1 )  [ RunTime:0.0009s ]
+SQL: SELECT * FROM `t_organization` WHERE ( organization_id=1 )  [ RunTime:0.0012s ]
+SQL: SELECT * FROM `t_user` WHERE ( user_id=1 )  [ RunTime:0.0009s ]
+SQL: SELECT * FROM `t_user` WHERE ( user_id=1 )  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `t_organization` WHERE ( organization_id=1 )  [ RunTime:0.0012s ]
+SQL: SELECT * FROM `t_user` WHERE ( user_id=1 )  [ RunTime:0.0009s ]
+SQL: SELECT * FROM `t_user` WHERE ( user_id=1 )  [ RunTime:0.0009s ]
+SQL: SELECT * FROM `t_organization` WHERE ( organization_id=1 )  [ RunTime:0.0012s ]
+SQL: SELECT * FROM `t_user` WHERE ( user_id=1 )  [ RunTime:0.0009s ]
+SQL: SELECT * FROM `t_user` WHERE ( user_id=1 )  [ RunTime:0.0009s ]
+SQL: SELECT * FROM `t_organization` WHERE ( organization_id=1 )  [ RunTime:0.0012s ]
+SQL: SELECT * FROM `t_user` WHERE ( user_id=1 )  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `t_user` WHERE ( user_id=1 )  [ RunTime:0.0010s ]
+
+[ 2015-08-25T16:37:39+08:00 ] 127.0.0.1 /YsInnoCenter/YsInnovation/index.php/Admin/Course/getCourseCount
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000311s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000560s ]
+SQL: select count(*) from t_course where isshow='0' and status_id='1' [ RunTime:0.0006s ]
+
+[ 2015-08-25T16:37:46+08:00 ] 127.0.0.1 /YsInnoCenter/YsInnovation/index.php/Admin/Course/getCourseListData
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000304s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000543s ]
+SQL: select * from t_course where status_id='2' and isshow=0 limit 0,10 [ RunTime:0.0014s ]
+SQL: SHOW COLUMNS FROM `t_organization` [ RunTime:0.0022s ]
+SQL: SELECT * FROM `t_organization` WHERE ( organization_id=2 )  [ RunTime:0.0011s ]
+SQL: SHOW COLUMNS FROM `t_user` [ RunTime:0.0018s ]
+SQL: SELECT * FROM `t_user` WHERE ( user_id=1 )  [ RunTime:0.0009s ]
+SQL: SELECT * FROM `t_user` WHERE ( user_id=1 )  [ RunTime:0.0009s ]
+
+[ 2015-08-25T16:37:46+08:00 ] 127.0.0.1 /YsInnoCenter/YsInnovation/index.php/Admin/Course/getCourseCount
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000590s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000978s ]
+SQL: select count(*) from t_course where isshow='0' and status_id='2' [ RunTime:0.0006s ]
+
+[ 2015-08-25T16:37:53+08:00 ] 127.0.0.1 /YsInnoCenter/YsInnovation/index.php/Admin/Course/getCurrentCourseSelectedCount
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000303s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000544s ]
+SQL: select count(*) from t_course_optional where status_id=4 [ RunTime:0.0007s ]
+
+[ 2015-08-25T16:37:53+08:00 ] 127.0.0.1 /YsInnoCenter/YsInnovation/index.php/Admin/Course/getCurrentCourseSelected
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000331s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000623s ]
+SQL: select t_course_optional.*,t_course.* from t_course_optional,t_course where t_course_optional.status_id=4 and t_course_optional.course_id=t_course.course_id [ RunTime:0.0016s ]
+SQL: SHOW COLUMNS FROM `t_organization` [ RunTime:0.0028s ]
+SQL: SELECT * FROM `t_organization` WHERE ( organization_id=1 )  [ RunTime:0.0012s ]
+SQL: SHOW COLUMNS FROM `t_user` [ RunTime:0.0022s ]
+SQL: SELECT * FROM `t_user` WHERE ( user_id=1 )  [ RunTime:0.0009s ]
+SQL: SELECT * FROM `t_user` WHERE ( user_id=1 )  [ RunTime:0.0009s ]
+SQL: SELECT * FROM `t_organization` WHERE ( organization_id=1 )  [ RunTime:0.0011s ]
+SQL: SELECT * FROM `t_user` WHERE ( user_id=1 )  [ RunTime:0.0009s ]
+SQL: SELECT * FROM `t_user` WHERE ( user_id=1 )  [ RunTime:0.0013s ]
+SQL: SELECT * FROM `t_organization` WHERE ( organization_id=1 )  [ RunTime:0.0011s ]
+SQL: SELECT * FROM `t_user` WHERE ( user_id=1 )  [ RunTime:0.0009s ]
+SQL: SELECT * FROM `t_user` WHERE ( user_id=1 )  [ RunTime:0.0009s ]
+SQL: SELECT * FROM `t_organization` WHERE ( organization_id=1 )  [ RunTime:0.0011s ]
+SQL: SELECT * FROM `t_user` WHERE ( user_id=1 )  [ RunTime:0.0011s ]
+SQL: SELECT * FROM `t_user` WHERE ( user_id=1 )  [ RunTime:0.0009s ]
+SQL: SELECT * FROM `t_organization` WHERE ( organization_id=1 )  [ RunTime:0.0011s ]
+SQL: SELECT * FROM `t_user` WHERE ( user_id=1 )  [ RunTime:0.0009s ]
+SQL: SELECT * FROM `t_user` WHERE ( user_id=1 )  [ RunTime:0.0009s ]
+
+[ 2015-08-25T16:37:58+08:00 ] 127.0.0.1 /YsInnoCenter/YsInnovation/index.php/Admin/Course/getCourseListData
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000305s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000555s ]
+SQL: select * from t_course where status_id='2' and isshow=0 limit 0,10 [ RunTime:0.0013s ]
+SQL: SHOW COLUMNS FROM `t_organization` [ RunTime:0.0021s ]
+SQL: SELECT * FROM `t_organization` WHERE ( organization_id=2 )  [ RunTime:0.0012s ]
+SQL: SHOW COLUMNS FROM `t_user` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `t_user` WHERE ( user_id=1 )  [ RunTime:0.0009s ]
+SQL: SELECT * FROM `t_user` WHERE ( user_id=1 )  [ RunTime:0.0009s ]
+
+[ 2015-08-25T16:37:58+08:00 ] 127.0.0.1 /YsInnoCenter/YsInnovation/index.php/Admin/Course/getCourseCount
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000314s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000555s ]
+SQL: select count(*) from t_course where isshow='0' and status_id='2' [ RunTime:0.0007s ]
+
+[ 2015-08-25T17:19:55+08:00 ] 127.0.0.1 /YsInnoCenter/YsInnovation/index.php/Admin/User/getAdminListJs
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000347s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000588s ]
+SQL: select t_user_account.*,t_user.user_name,t_role.role_name from t_user_account,t_user,t_role where t_user_account.user_role_id in (1,2,3) and t_user.user_id=t_user_account.user_id and t_role.role_id=t_user_account.user_role_id limit 0,10 [ RunTime:0.0015s ]
+
+[ 2015-08-25T17:19:55+08:00 ] 127.0.0.1 /YsInnoCenter/YsInnovation/index.php/Admin/User/getAdminCountJs
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000391s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000651s ]
+SQL: select count(*) from t_user_account where user_role_id in (1,2,3) [ RunTime:0.0005s ]
+
+[ 2015-08-25T17:20:23+08:00 ] 127.0.0.1 /YsInnoCenter/YsInnovation/index.php/Admin/Course/getCourseCount
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000344s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000608s ]
+SQL: select count(*) from t_course where isshow='0' and status_id='1' [ RunTime:0.0006s ]
+
+[ 2015-08-25T17:20:23+08:00 ] 127.0.0.1 /YsInnoCenter/YsInnovation/index.php/Admin/Course/getCourseListData
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000391s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000675s ]
+SQL: select * from t_course where status_id='1' and isshow=0 limit 0,10 [ RunTime:0.0017s ]
+SQL: SHOW COLUMNS FROM `t_organization` [ RunTime:0.0022s ]
+SQL: SELECT * FROM `t_organization` WHERE ( organization_id=1 )  [ RunTime:0.0016s ]
+SQL: SHOW COLUMNS FROM `t_user` [ RunTime:0.0019s ]
+SQL: SELECT * FROM `t_user` WHERE ( user_id=2 )  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `t_user` WHERE ( user_id=1 )  [ RunTime:0.0009s ]
+SQL: SELECT * FROM `t_organization` WHERE ( organization_id=1 )  [ RunTime:0.0012s ]
+SQL: SELECT * FROM `t_user` WHERE ( user_id=1 )  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `t_user` WHERE ( user_id=1 )  [ RunTime:0.0009s ]
+SQL: SELECT * FROM `t_organization` WHERE ( organization_id=1 )  [ RunTime:0.0012s ]
+SQL: SELECT * FROM `t_user` WHERE ( user_id=1 )  [ RunTime:0.0009s ]
+SQL: SELECT * FROM `t_user` WHERE ( user_id=1 )  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `t_organization` WHERE ( organization_id=1 )  [ RunTime:0.0012s ]
+SQL: SELECT * FROM `t_user` WHERE ( user_id=1 )  [ RunTime:0.0009s ]
+SQL: SELECT * FROM `t_user` WHERE ( user_id=1 )  [ RunTime:0.0009s ]
+SQL: SELECT * FROM `t_organization` WHERE ( organization_id=1 )  [ RunTime:0.0012s ]
+SQL: SELECT * FROM `t_user` WHERE ( user_id=1 )  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `t_user` WHERE ( user_id=1 )  [ RunTime:0.0009s ]
+SQL: SELECT * FROM `t_organization` WHERE ( organization_id=1 )  [ RunTime:0.0011s ]
+SQL: SELECT * FROM `t_user` WHERE ( user_id=1 )  [ RunTime:0.0012s ]
+SQL: SELECT * FROM `t_user` WHERE ( user_id=1 )  [ RunTime:0.0009s ]
+
+[ 2015-08-25T17:20:29+08:00 ] 127.0.0.1 /YsInnoCenter/YsInnovation/index.php/Admin/Course/deleteCourse
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000834s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001499s ]
+SQL: update t_course set isshow='1' where course_id='9' [ RunTime:0.0535s ]
+
+[ 2015-08-25T17:20:30+08:00 ] 127.0.0.1 /YsInnoCenter/YsInnovation/index.php/Admin/Course/getCourseCount
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000324s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000571s ]
+SQL: select count(*) from t_course where isshow='0' and status_id='1' [ RunTime:0.0008s ]
+
+[ 2015-08-25T17:20:30+08:00 ] 127.0.0.1 /YsInnoCenter/YsInnovation/index.php/Admin/Course/getCourseListData
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000320s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000571s ]
+SQL: select * from t_course where status_id='1' and isshow=0 limit 0,10 [ RunTime:0.0017s ]
+SQL: SHOW COLUMNS FROM `t_organization` [ RunTime:0.0021s ]
+SQL: SELECT * FROM `t_organization` WHERE ( organization_id=1 )  [ RunTime:0.0017s ]
+SQL: SHOW COLUMNS FROM `t_user` [ RunTime:0.0018s ]
+SQL: SELECT * FROM `t_user` WHERE ( user_id=2 )  [ RunTime:0.0009s ]
+SQL: SELECT * FROM `t_user` WHERE ( user_id=1 )  [ RunTime:0.0009s ]
+SQL: SELECT * FROM `t_organization` WHERE ( organization_id=1 )  [ RunTime:0.0011s ]
+SQL: SELECT * FROM `t_user` WHERE ( user_id=1 )  [ RunTime:0.0009s ]
+SQL: SELECT * FROM `t_user` WHERE ( user_id=1 )  [ RunTime:0.0015s ]
+SQL: SELECT * FROM `t_organization` WHERE ( organization_id=1 )  [ RunTime:0.0011s ]
+SQL: SELECT * FROM `t_user` WHERE ( user_id=1 )  [ RunTime:0.0009s ]
+SQL: SELECT * FROM `t_user` WHERE ( user_id=1 )  [ RunTime:0.0009s ]
+SQL: SELECT * FROM `t_organization` WHERE ( organization_id=1 )  [ RunTime:0.0011s ]
+SQL: SELECT * FROM `t_user` WHERE ( user_id=1 )  [ RunTime:0.0008s ]
+SQL: SELECT * FROM `t_user` WHERE ( user_id=1 )  [ RunTime:0.0008s ]
+SQL: SELECT * FROM `t_organization` WHERE ( organization_id=1 )  [ RunTime:0.0011s ]
+SQL: SELECT * FROM `t_user` WHERE ( user_id=1 )  [ RunTime:0.0009s ]
+SQL: SELECT * FROM `t_user` WHERE ( user_id=1 )  [ RunTime:0.0009s ]
+
+[ 2015-08-25T19:17:39+08:00 ] 127.0.0.1 /YsInnoCenter/YsInnovation/index.php/Admin/User/getAdminListJs
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000304s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000545s ]
+SQL: select t_user_account.*,t_user.user_name,t_role.role_name from t_user_account,t_user,t_role where t_user_account.user_role_id in (1,2,3) and t_user.user_id=t_user_account.user_id and t_role.role_id=t_user_account.user_role_id limit 0,10 [ RunTime:0.0014s ]
+
+[ 2015-08-25T19:17:39+08:00 ] 127.0.0.1 /YsInnoCenter/YsInnovation/index.php/Admin/User/getAdminCountJs
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000300s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000541s ]
+SQL: select count(*) from t_user_account where user_role_id in (1,2,3) [ RunTime:0.0007s ]
+
+[ 2015-08-25T19:17:52+08:00 ] 127.0.0.1 /YsInnoCenter/YsInnovation/index.php/Admin/User/delAdminByIdJs
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000451s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000790s ]
+SQL: select * from t_user_account where user_account_id=10 [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `t_his_user_account` [ RunTime:0.0019s ]
+SQL: INSERT INTO `t_his_user_account` (`user_id`,`user_account_id`,`user_account`,`user_account_pwd`,`user_role_id`) VALUES ('1','10','orgadmin','123456','2') [ RunTime:0.0441s ]
+SQL: SHOW COLUMNS FROM `t_user_account` [ RunTime:0.0021s ]
+SQL: DELETE FROM `t_user_account` WHERE ( user_account_id=10 ) [ RunTime:0.0386s ]
+
+[ 2015-08-25T19:17:52+08:00 ] 127.0.0.1 /YsInnoCenter/YsInnovation/index.php/Admin/User/getAdminListJs
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000324s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000557s ]
+SQL: select t_user_account.*,t_user.user_name,t_role.role_name from t_user_account,t_user,t_role where t_user_account.user_role_id in (1,2,3) and t_user.user_id=t_user_account.user_id and t_role.role_id=t_user_account.user_role_id limit 0,10 [ RunTime:0.0014s ]
+
+[ 2015-08-25T19:17:52+08:00 ] 127.0.0.1 /YsInnoCenter/YsInnovation/index.php/Admin/User/getAdminCountJs
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000306s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000535s ]
+SQL: select count(*) from t_user_account where user_role_id in (1,2,3) [ RunTime:0.0006s ]
+
+[ 2015-08-25T19:19:10+08:00 ] 127.0.0.1 /YsInnoCenter/YsInnovation/index.php/Admin/User/getAdminListJs
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000321s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000553s ]
+SQL: select t_user_account.*,t_user.user_name,t_role.role_name from t_user_account,t_user,t_role where t_user_account.user_role_id in (1,2,3) and t_user.user_id=t_user_account.user_id and t_role.role_id=t_user_account.user_role_id limit 0,10 [ RunTime:0.0019s ]
+
+[ 2015-08-25T19:19:10+08:00 ] 127.0.0.1 /YsInnoCenter/YsInnovation/index.php/Admin/User/getAdminCountJs
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000311s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000539s ]
+SQL: select count(*) from t_user_account where user_role_id in (1,2,3) [ RunTime:0.0006s ]
+
+[ 2015-08-25T19:20:39+08:00 ] 127.0.0.1 /YsInnoCenter/YsInnovation/index.php/Admin/User/getAdminListJs
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000317s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000556s ]
+SQL: select t_user_account.*,t_user.user_name,t_role.role_name from t_user_account,t_user,t_role where t_user_account.user_role_id in (1,2,3) and t_user.user_id=t_user_account.user_id and t_role.role_id=t_user_account.user_role_id limit 0,10 [ RunTime:0.0013s ]
+
+[ 2015-08-25T19:20:39+08:00 ] 127.0.0.1 /YsInnoCenter/YsInnovation/index.php/Admin/User/getAdminCountJs
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000303s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000552s ]
+SQL: select count(*) from t_user_account where user_role_id in (1,2,3) [ RunTime:0.0008s ]
+
+[ 2015-08-25T19:20:50+08:00 ] 127.0.0.1 /YsInnoCenter/YsInnovation/index.php/Admin/User/delAdminByIdJs
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000821s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001478s ]
+SQL: select * from t_user_account where user_account_id=9 [ RunTime:0.0008s ]
+SQL: SHOW COLUMNS FROM `t_his_user_account` [ RunTime:0.0019s ]
+SQL: INSERT INTO `t_his_user_account` (`user_id`,`user_account_id`,`user_account`,`user_account_pwd`,`user_role_id`) VALUES ('10','9','lpf','123456','1') [ RunTime:0.0420s ]
+SQL: SHOW COLUMNS FROM `t_user_account` [ RunTime:0.0018s ]
+SQL: DELETE FROM `t_user_account` WHERE ( user_account_id=9 ) [ RunTime:0.0391s ]
+
+[ 2015-08-25T19:20:51+08:00 ] 127.0.0.1 /YsInnoCenter/YsInnovation/index.php/Admin/User/getAdminListJs
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000351s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000610s ]
+SQL: select t_user_account.*,t_user.user_name,t_role.role_name from t_user_account,t_user,t_role where t_user_account.user_role_id in (1,2,3) and t_user.user_id=t_user_account.user_id and t_role.role_id=t_user_account.user_role_id limit 0,10 [ RunTime:0.0015s ]
+
+[ 2015-08-25T19:20:51+08:00 ] 127.0.0.1 /YsInnoCenter/YsInnovation/index.php/Admin/User/getAdminCountJs
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000384s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000660s ]
+SQL: select count(*) from t_user_account where user_role_id in (1,2,3) [ RunTime:0.0008s ]
+

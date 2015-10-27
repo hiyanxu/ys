@@ -1,0 +1,39 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 2015-8-1, 15:30:08
+    Author     : 3
+*/
+#divSemesterList{
+    position:absolute; margin-left:2%; margin-top:2%; width:95%; height:600px; border-radius: 5px;
+}
+#selected{
+    position:absolute; margin-left: 1%; margin-top: 10px;
+}
+#name{
+    position:absolute; margin-left: 8%; margin-top: 10px;
+}
+#educWeeks{
+    position:absolute; margin-left: 25%; margin-top: 10px;
+}
+#beginTime{
+    position: absolute; margin-left: 50%; margin-top: 10px;
+}
+#operations{
+    position: absolute; margin-left: 80%; margin-top: 10px;
+}
+#dataName{
+    position:absolute; margin-left: 8%; margin-top: 10px;
+}
+#dataWeek{
+    position:absolute; margin-left: 25%; margin-top: 10px;
+}
+#dataTime{
+    position:absolute; margin-left: 50%; margin-top: 10px;
+}
+#dataOperations{
+    position: absolute; margin-left: 80%; margin-top: 0px; width: 20%; height: 40px;
+}

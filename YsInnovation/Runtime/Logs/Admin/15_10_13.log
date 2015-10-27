@@ -1,0 +1,116 @@
+[ 2015-10-13T10:25:37+08:00 ] 127.0.0.1 /YsInnoCenter/YsInnovation/index.php/Admin/User/getUserDataJs
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000461s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000708s ]
+SQL: select t_user_account.*,t_user.* from t_user,t_user_account where t_user.is_tea_or_stu='1' and t_user_account.user_id=t_user.user_id limit 0,10 [ RunTime:0.0017s ]
+SQL: SHOW COLUMNS FROM `t_tea_duty` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `t_tea_duty` WHERE ( tea_duty_id=1 )  [ RunTime:0.0008s ]
+SQL: SHOW COLUMNS FROM `t_organization` [ RunTime:0.0022s ]
+SQL: SELECT * FROM `t_organization` WHERE ( organization_id=1 )  [ RunTime:0.0021s ]
+SQL: SELECT * FROM `t_tea_duty` WHERE ( tea_duty_id=1 )  [ RunTime:0.0008s ]
+SQL: SELECT * FROM `t_organization` WHERE ( organization_id=1 )  [ RunTime:0.0013s ]
+SQL: SELECT * FROM `t_tea_duty` WHERE ( tea_duty_id=1 )  [ RunTime:0.0008s ]
+SQL: SELECT * FROM `t_organization` WHERE ( organization_id=1 )  [ RunTime:0.0013s ]
+SQL: SELECT * FROM `t_tea_duty` WHERE ( tea_duty_id=2 )  [ RunTime:0.0008s ]
+SQL: SELECT * FROM `t_organization` WHERE ( organization_id=1 )  [ RunTime:0.0019s ]
+SQL: SELECT * FROM `t_tea_duty` WHERE ( tea_duty_id=1 )  [ RunTime:0.0008s ]
+SQL: SELECT * FROM `t_organization` WHERE ( organization_id=1 )  [ RunTime:0.0013s ]
+SQL: SELECT * FROM `t_tea_duty` WHERE ( tea_duty_id=1 )  [ RunTime:0.0008s ]
+SQL: SELECT * FROM `t_organization` WHERE ( organization_id=1 )  [ RunTime:0.0013s ]
+SQL: SELECT * FROM `t_tea_duty` WHERE ( tea_duty_id=3 )  [ RunTime:0.0008s ]
+SQL: SELECT * FROM `t_organization` WHERE ( organization_id=2 )  [ RunTime:0.0013s ]
+SQL: SELECT * FROM `t_tea_duty` WHERE ( tea_duty_id=1 )  [ RunTime:0.0008s ]
+SQL: SELECT * FROM `t_organization` WHERE ( organization_id=3 )  [ RunTime:0.0013s ]
+SQL: SELECT * FROM `t_tea_duty` WHERE ( tea_duty_id=1 )  [ RunTime:0.0008s ]
+SQL: SELECT * FROM `t_organization` WHERE ( organization_id=4 )  [ RunTime:0.0013s ]
+SQL: SELECT * FROM `t_tea_duty` WHERE ( tea_duty_id=1 )  [ RunTime:0.0008s ]
+SQL: SELECT * FROM `t_organization` WHERE ( organization_id=5 )  [ RunTime:0.0019s ]
+
+[ 2015-10-13T10:25:37+08:00 ] 127.0.0.1 /YsInnoCenter/YsInnovation/index.php/Admin/User/getUserCountJs
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000821s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001094s ]
+SQL: select count(*) from t_user_account,t_user where t_user_account.user_id=t_user.user_id and t_user.is_tea_or_stu=1 [ RunTime:0.0010s ]
+
+[ 2015-10-13T10:25:39+08:00 ] 127.0.0.1 /YsInnoCenter/YsInnovation/index.php/Admin/User/getUserDataJs
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000340s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000650s ]
+SQL: select t_user_account.*,t_user.* from t_user,t_user_account where t_user.is_tea_or_stu='0' and t_user_account.user_id=t_user.user_id limit 0,10 [ RunTime:0.0018s ]
+SQL: SHOW COLUMNS FROM `t_tea_duty` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `t_tea_duty` WHERE ( tea_duty_id=0 )  [ RunTime:0.0009s ]
+NOTIC: [8] Undefined offset: 0 E:\wamp\www\YsInnoCenter\YsInnovation\Admin\Controller\UserController.class.php 第 286 行.
+SQL: SHOW COLUMNS FROM `t_organization` [ RunTime:0.0022s ]
+SQL: SELECT * FROM `t_organization` WHERE ( organization_id=1 )  [ RunTime:0.0014s ]
+SQL: SELECT * FROM `t_tea_duty` WHERE ( tea_duty_id=0 )  [ RunTime:0.0008s ]
+NOTIC: [8] Undefined offset: 0 E:\wamp\www\YsInnoCenter\YsInnovation\Admin\Controller\UserController.class.php 第 286 行.
+SQL: SELECT * FROM `t_organization` WHERE ( organization_id=2 )  [ RunTime:0.0013s ]
+SQL: SELECT * FROM `t_tea_duty` WHERE ( tea_duty_id=0 )  [ RunTime:0.0009s ]
+NOTIC: [8] Undefined offset: 0 E:\wamp\www\YsInnoCenter\YsInnovation\Admin\Controller\UserController.class.php 第 286 行.
+SQL: SELECT * FROM `t_organization` WHERE ( organization_id=3 )  [ RunTime:0.0014s ]
+SQL: SELECT * FROM `t_tea_duty` WHERE ( tea_duty_id=0 )  [ RunTime:0.0008s ]
+NOTIC: [8] Undefined offset: 0 E:\wamp\www\YsInnoCenter\YsInnovation\Admin\Controller\UserController.class.php 第 286 行.
+SQL: SELECT * FROM `t_organization` WHERE ( organization_id=4 )  [ RunTime:0.0013s ]
+SQL: SELECT * FROM `t_tea_duty` WHERE ( tea_duty_id=0 )  [ RunTime:0.0008s ]
+NOTIC: [8] Undefined offset: 0 E:\wamp\www\YsInnoCenter\YsInnovation\Admin\Controller\UserController.class.php 第 286 行.
+SQL: SELECT * FROM `t_organization` WHERE ( organization_id=5 )  [ RunTime:0.0015s ]
+
+[ 2015-10-13T10:25:39+08:00 ] 127.0.0.1 /YsInnoCenter/YsInnovation/index.php/Admin/User/getUserCountJs
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000460s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000703s ]
+SQL: select count(*) from t_user_account,t_user where t_user_account.user_id=t_user.user_id and t_user.is_tea_or_stu=0 [ RunTime:0.0009s ]
+
+[ 2015-10-13T10:25:40+08:00 ] 127.0.0.1 /YsInnoCenter/YsInnovation/index.php/Admin/User/getRolesJs
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000474s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000718s ]
+SQL: select * from t_role where isshow=0 [ RunTime:0.0009s ]
+
+[ 2015-10-13T10:25:44+08:00 ] 127.0.0.1 /YsInnoCenter/YsInnovation/index.php/Admin/User/getCollegeJs
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000430s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000710s ]
+SQL: select * from t_college where isshow=0 [ RunTime:0.0010s ]
+
+[ 2015-10-13T10:25:45+08:00 ] 127.0.0.1 /YsInnoCenter/YsInnovation/index.php/Admin/Laboratory/getLaboratoryCountJs
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000301s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000550s ]
+SQL: select count(*) from t_organization where organization_type=2 and isshow=0 [ RunTime:0.0010s ]
+
+[ 2015-10-13T10:25:45+08:00 ] 127.0.0.1 /YsInnoCenter/YsInnovation/index.php/Admin/Laboratory/getLaboratoryListJs
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000324s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000658s ]
+SQL: select * from t_organization where organization_type=2 and isshow=0 limit 0,10 [ RunTime:0.0016s ]
+SQL: select * from t_user_account where organization_id=1 and user_role_id=2 [ RunTime:0.0011s ]
+SQL: select * from t_user where user_id=1 [ RunTime:0.0011s ]
+SQL: select * from t_user_account where organization_id=1 and user_role_id=3 [ RunTime:0.0011s ]
+SQL: select * from t_user where user_id=8 [ RunTime:0.0011s ]
+SQL: SHOW COLUMNS FROM `t_college` [ RunTime:0.0018s ]
+SQL: SELECT * FROM `t_college` WHERE ( college_id=1 )  [ RunTime:0.0009s ]
+SQL: select * from t_user_account where organization_id=2 and user_role_id=2 [ RunTime:0.0019s ]
+SQL: select * from t_user where user_id=11 [ RunTime:0.0011s ]
+SQL: select * from t_user_account where organization_id=2 and user_role_id=3 [ RunTime:0.0011s ]
+SQL: select * from t_user where user_id=12 [ RunTime:0.0011s ]
+SQL: SELECT * FROM `t_college` WHERE ( college_id=1 )  [ RunTime:0.0008s ]
+SQL: select * from t_user_account where organization_id=3 and user_role_id=2 [ RunTime:0.0010s ]
+SQL: select * from t_user_account where organization_id=3 and user_role_id=3 [ RunTime:0.0010s ]
+SQL: select * from t_user where user_id=13 [ RunTime:0.0011s ]
+SQL: SELECT * FROM `t_college` WHERE ( college_id=1 )  [ RunTime:0.0008s ]
+SQL: select * from t_user_account where organization_id=4 and user_role_id=2 [ RunTime:0.0010s ]
+SQL: select * from t_user where user_id=15 [ RunTime:0.0012s ]
+SQL: select * from t_user_account where organization_id=4 and user_role_id=3 [ RunTime:0.0010s ]
+SQL: select * from t_user where user_id=16 [ RunTime:0.0010s ]
+SQL: SELECT * FROM `t_college` WHERE ( college_id=1 )  [ RunTime:0.0008s ]
+SQL: select * from t_user_account where organization_id=5 and user_role_id=2 [ RunTime:0.0010s ]
+SQL: select * from t_user where user_id=17 [ RunTime:0.0011s ]
+SQL: select * from t_user_account where organization_id=5 and user_role_id=3 [ RunTime:0.0011s ]
+SQL: select * from t_user where user_id=18 [ RunTime:0.0011s ]
+SQL: SELECT * FROM `t_college` WHERE ( college_id=1 )  [ RunTime:0.0008s ]
+SQL: select * from t_user_account where organization_id=6 and user_role_id=2 [ RunTime:0.0010s ]
+SQL: select * from t_user where user_id=19 [ RunTime:0.0011s ]
+SQL: select * from t_user_account where organization_id=6 and user_role_id=3 [ RunTime:0.0010s ]
+SQL: SELECT * FROM `t_college` WHERE ( college_id=1 )  [ RunTime:0.0008s ]
+

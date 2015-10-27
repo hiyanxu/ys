@@ -1,0 +1,55 @@
+/*
+列表页css样式表
+*/
+/* 
+    Created on : 2015-8-28, 1:12:55
+    Author     : 3
+*/
+#divLaboratoryList{
+    position:absolute; margin-left:2%; margin-top:2%; width:95%; height:600px; border-radius: 5px;
+}
+#selected{
+    position:absolute; margin-left: 1%; margin-top: 10px;
+}
+#name{
+    position:absolute; margin-left: 6%; margin-top: 10px;
+}
+#engName{
+    position:absolute; margin-left: 18%; margin-top: 10px;
+}
+#laboratoryTeaInCharge{
+    position: absolute; margin-left: 30%; margin-top: 10px;
+}
+#laboratoryStuInCharge{
+    position: absolute; margin-left: 40%; margin-top: 10px;
+}
+#innoNum{
+    position: absolute; margin-left: 48%; margin-top: 10px;
+}
+#organization{
+    position:absolute; margin-left: 60%; margin-top: 10px;
+}
+#operations{
+    position:absolute; margin-left: 90%; margin-top: 10px;
+}
+#dataName{
+    position:absolute; margin-left: 6%; margin-top: 10px;
+}
+#dataEngName{
+    position:absolute; margin-left: 18%; margin-top: 10px;
+}
+#dataLaboratoryTeaInCharge{
+    position: absolute; margin-left: 30%; margin-top: 10px;
+}
+#dataLaboratoryStuInCharge{
+    position: absolute; margin-left: 40%; margin-top: 10px;
+}
+#dataInnoNum{
+    position: absolute; margin-left: 48%; margin-top: 10px;
+}
+#dataOrg{
+    position:absolute; margin-left: 60%; margin-top: 10px;
+}
+#dataOperations{
+    position:absolute; margin-left: 90%; margin-top: 0px; width: 20%; height: 40px;
+}

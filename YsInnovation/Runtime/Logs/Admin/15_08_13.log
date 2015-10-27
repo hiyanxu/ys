@@ -1,0 +1,1542 @@
+[ 2015-08-13T19:11:33+08:00 ] 127.0.0.1 /YsInnoCenter/YsInnovation/index.php/Admin/Course/getCourseListData
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000308s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000553s ]
+SQL: select * from t_course where status_id='3' and isshow=0 limit 0,10 [ RunTime:0.0016s ]
+SQL: SHOW COLUMNS FROM `t_organization` [ RunTime:0.0022s ]
+SQL: SELECT * FROM `t_organization` WHERE ( organization_id=1 )  [ RunTime:0.0013s ]
+SQL: SHOW COLUMNS FROM `t_user` [ RunTime:0.0019s ]
+SQL: SELECT * FROM `t_user` WHERE ( user_id=2 )  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `t_user` WHERE ( user_id=1 )  [ RunTime:0.0010s ]
+
+[ 2015-08-13T19:11:33+08:00 ] 127.0.0.1 /YsInnoCenter/YsInnovation/index.php/Admin/Course/getCourseCount
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000304s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000541s ]
+SQL: select count(*) from t_course where isshow='0' and status_id='3' [ RunTime:0.0009s ]
+
+[ 2015-08-13T19:14:26+08:00 ] 127.0.0.1 /YsInnoCenter/YsInnovation/index.php/Admin/Course/getCourseCount
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000335s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000589s ]
+SQL: select count(*) from t_course where isshow='0' and status_id='3' [ RunTime:0.0009s ]
+
+[ 2015-08-13T19:14:26+08:00 ] 127.0.0.1 /YsInnoCenter/YsInnovation/index.php/Admin/Course/getCourseListData
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000314s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000557s ]
+SQL: select * from t_course where status_id='3' and isshow=0 limit 0,10 [ RunTime:0.0015s ]
+SQL: SHOW COLUMNS FROM `t_organization` [ RunTime:0.0023s ]
+SQL: SELECT * FROM `t_organization` WHERE ( organization_id=1 )  [ RunTime:0.0013s ]
+SQL: SHOW COLUMNS FROM `t_user` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `t_user` WHERE ( user_id=2 )  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `t_user` WHERE ( user_id=1 )  [ RunTime:0.0010s ]
+
+[ 2015-08-13T19:14:28+08:00 ] 127.0.0.1 /YsInnoCenter/YsInnovation/index.php/Admin/Semester/getSemeName
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000491s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000917s ]
+SQL: select semester_id,semester_name from t_semester where isshow='0' and status_id='1' [ RunTime:0.0011s ]
+
+[ 2015-08-13T19:14:28+08:00 ] 127.0.0.1 /YsInnoCenter/YsInnovation/index.php/Admin/Laboratory/getLaboratoryUser
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000670s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001038s ]
+SQL: select t_user.* from t_user,t_user_account where t_user_account.organization_id='1' and t_user.user_id=t_user_account.user_id and t_user.is_tea_or_stu='1' [ RunTime:0.0018s ]
+
+[ 2015-08-13T19:14:28+08:00 ] 127.0.0.1 /YsInnoCenter/YsInnovation/index.php/Admin/Course/getCourseById
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000412s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000699s ]
+SQL: select * from t_course where course_id='6' [ RunTime:0.0014s ]
+
+[ 2015-08-13T19:14:55+08:00 ] 127.0.0.1 /YsInnoCenter/YsInnovation/index.php/Admin/Course/getCourseListData
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000298s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000534s ]
+SQL: select * from t_course where status_id='2' and isshow=0 limit 0,10 [ RunTime:0.0018s ]
+SQL: SHOW COLUMNS FROM `t_organization` [ RunTime:0.0024s ]
+SQL: SELECT * FROM `t_organization` WHERE ( organization_id=2 )  [ RunTime:0.0013s ]
+SQL: SHOW COLUMNS FROM `t_user` [ RunTime:0.0018s ]
+SQL: SELECT * FROM `t_user` WHERE ( user_id=2 )  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `t_user` WHERE ( user_id=1 )  [ RunTime:0.0010s ]
+
+[ 2015-08-13T19:14:55+08:00 ] 127.0.0.1 /YsInnoCenter/YsInnovation/index.php/Admin/Course/getCourseCount
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000297s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000542s ]
+SQL: select count(*) from t_course where isshow='0' and status_id='2' [ RunTime:0.0006s ]
+
+[ 2015-08-13T19:14:58+08:00 ] 127.0.0.1 /YsInnoCenter/YsInnovation/index.php/Admin/Semester/getSemeName
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000358s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000689s ]
+SQL: select semester_id,semester_name from t_semester where isshow='0' and status_id='1' [ RunTime:0.0011s ]
+
+[ 2015-08-13T19:14:58+08:00 ] 127.0.0.1 /YsInnoCenter/YsInnovation/index.php/Admin/Laboratory/getLaboratory
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000713s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001087s ]
+SQL: select organization_id,organization_name from t_organization where organization_type='2' and isshow='0' [ RunTime:0.0011s ]
+
+[ 2015-08-13T19:14:58+08:00 ] 127.0.0.1 /YsInnoCenter/YsInnovation/index.php/Admin/Laboratory/getLaboratoryUser
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000362s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000639s ]
+SQL: select t_user.* from t_user,t_user_account where t_user_account.organization_id='1' and t_user.user_id=t_user_account.user_id and t_user.is_tea_or_stu='1' [ RunTime:0.0014s ]
+
+[ 2015-08-13T19:14:58+08:00 ] 127.0.0.1 /YsInnoCenter/YsInnovation/index.php/Admin/Course/getCourseById
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000542s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000860s ]
+SQL: select * from t_course where course_id='2' [ RunTime:0.0014s ]
+
+[ 2015-08-13T19:15:02+08:00 ] 127.0.0.1 /YsInnoCenter/YsInnovation/index.php/Admin/Course/getCourseListData
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000339s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000585s ]
+SQL: select * from t_course where status_id='2' and isshow=0 limit 0,10 [ RunTime:0.0017s ]
+SQL: SHOW COLUMNS FROM `t_organization` [ RunTime:0.0023s ]
+SQL: SELECT * FROM `t_organization` WHERE ( organization_id=2 )  [ RunTime:0.0013s ]
+SQL: SHOW COLUMNS FROM `t_user` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `t_user` WHERE ( user_id=2 )  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `t_user` WHERE ( user_id=1 )  [ RunTime:0.0010s ]
+
+[ 2015-08-13T19:15:02+08:00 ] 127.0.0.1 /YsInnoCenter/YsInnovation/index.php/Admin/Course/getCourseCount
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000304s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000536s ]
+SQL: select count(*) from t_course where isshow='0' and status_id='2' [ RunTime:0.0008s ]
+
+[ 2015-08-13T19:27:54+08:00 ] 127.0.0.1 /YsInnoCenter/YsInnovation/index.php/Admin/Course/getCourseListData
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000305s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000536s ]
+SQL: select * from t_course where status_id='3' and isshow=0 limit 0,10 [ RunTime:0.0015s ]
+SQL: SHOW COLUMNS FROM `t_organization` [ RunTime:0.0025s ]
+SQL: SELECT * FROM `t_organization` WHERE ( organization_id=1 )  [ RunTime:0.0013s ]
+SQL: SHOW COLUMNS FROM `t_user` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `t_user` WHERE ( user_id=2 )  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `t_user` WHERE ( user_id=1 )  [ RunTime:0.0010s ]
+
+[ 2015-08-13T19:27:54+08:00 ] 127.0.0.1 /YsInnoCenter/YsInnovation/index.php/Admin/Course/getCourseCount
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000297s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000524s ]
+SQL: select count(*) from t_course where isshow='0' and status_id='3' [ RunTime:0.0006s ]
+
+[ 2015-08-13T19:27:55+08:00 ] 127.0.0.1 /YsInnoCenter/YsInnovation/index.php/Admin/Semester/getSemeName
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000306s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000549s ]
+SQL: select semester_id,semester_name from t_semester where isshow='0' and status_id='1' [ RunTime:0.0010s ]
+
+[ 2015-08-13T19:27:56+08:00 ] 127.0.0.1 /YsInnoCenter/YsInnovation/index.php/Admin/Laboratory/getLaboratoryUser
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000309s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000542s ]
+SQL: select t_user.* from t_user,t_user_account where t_user_account.organization_id='1' and t_user.user_id=t_user_account.user_id and t_user.is_tea_or_stu='1' [ RunTime:0.0012s ]
+
+[ 2015-08-13T19:27:56+08:00 ] 127.0.0.1 /YsInnoCenter/YsInnovation/index.php/Admin/Course/getCourseById
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000311s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000555s ]
+SQL: select * from t_course where course_id='6' [ RunTime:0.0015s ]
+
+[ 2015-08-13T19:27:58+08:00 ] 127.0.0.1 /YsInnoCenter/YsInnovation/index.php/Admin/Course/getCourseListData
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000442s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000761s ]
+SQL: select * from t_course where status_id='3' and isshow=0 limit 0,10 [ RunTime:0.0017s ]
+SQL: SHOW COLUMNS FROM `t_organization` [ RunTime:0.0023s ]
+SQL: SELECT * FROM `t_organization` WHERE ( organization_id=1 )  [ RunTime:0.0014s ]
+SQL: SHOW COLUMNS FROM `t_user` [ RunTime:0.0019s ]
+SQL: SELECT * FROM `t_user` WHERE ( user_id=2 )  [ RunTime:0.0011s ]
+SQL: SELECT * FROM `t_user` WHERE ( user_id=1 )  [ RunTime:0.0010s ]
+
+[ 2015-08-13T19:27:58+08:00 ] 127.0.0.1 /YsInnoCenter/YsInnovation/index.php/Admin/Course/getCourseCount
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000412s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000736s ]
+SQL: select count(*) from t_course where isshow='0' and status_id='3' [ RunTime:0.0008s ]
+
+[ 2015-08-13T19:28:01+08:00 ] 127.0.0.1 /YsInnoCenter/YsInnovation/index.php/Admin/Semester/getSemeName
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000432s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000896s ]
+SQL: select semester_id,semester_name from t_semester where isshow='0' and status_id='1' [ RunTime:0.0013s ]
+
+[ 2015-08-13T19:28:01+08:00 ] 127.0.0.1 /YsInnoCenter/YsInnovation/index.php/Admin/Laboratory/getLaboratoryUser
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000310s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000558s ]
+SQL: select t_user.* from t_user,t_user_account where t_user_account.organization_id='1' and t_user.user_id=t_user_account.user_id and t_user.is_tea_or_stu='1' [ RunTime:0.0020s ]
+
+[ 2015-08-13T19:28:01+08:00 ] 127.0.0.1 /YsInnoCenter/YsInnovation/index.php/Admin/Course/getCourseById
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000329s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000597s ]
+SQL: select * from t_course where course_id='6' [ RunTime:0.0015s ]
+
+[ 2015-08-13T20:16:40+08:00 ] 127.0.0.1 /YsInnoCenter/YsInnovation/index.php/Admin/Course/getCourseListData
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000321s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000567s ]
+SQL: select * from t_course where status_id='3' and isshow=0 limit 0,10 [ RunTime:0.0016s ]
+SQL: SHOW COLUMNS FROM `t_organization` [ RunTime:0.0022s ]
+SQL: SELECT * FROM `t_organization` WHERE ( organization_id=1 )  [ RunTime:0.0017s ]
+SQL: SHOW COLUMNS FROM `t_user` [ RunTime:0.0021s ]
+SQL: SELECT * FROM `t_user` WHERE ( user_id=2 )  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `t_user` WHERE ( user_id=1 )  [ RunTime:0.0010s ]
+
+[ 2015-08-13T20:16:40+08:00 ] 127.0.0.1 /YsInnoCenter/YsInnovation/index.php/Admin/Course/getCourseCount
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000417s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000675s ]
+SQL: select count(*) from t_course where isshow='0' and status_id='3' [ RunTime:0.0008s ]
+
+[ 2015-08-13T20:16:42+08:00 ] 127.0.0.1 /YsInnoCenter/YsInnovation/index.php/Admin/Semester/getSemeName
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000306s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000549s ]
+SQL: select semester_id,semester_name from t_semester where isshow='0' and status_id='1' [ RunTime:0.0011s ]
+
+[ 2015-08-13T20:16:42+08:00 ] 127.0.0.1 /YsInnoCenter/YsInnovation/index.php/Admin/Laboratory/getLaboratoryUser
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000303s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000538s ]
+SQL: select t_user.* from t_user,t_user_account where t_user_account.organization_id='1' and t_user.user_id=t_user_account.user_id and t_user.is_tea_or_stu='1' [ RunTime:0.0013s ]
+
+[ 2015-08-13T20:16:42+08:00 ] 127.0.0.1 /YsInnoCenter/YsInnovation/index.php/Admin/Course/getCourseById
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000311s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000558s ]
+SQL: select * from t_course where course_id='6' [ RunTime:0.0014s ]
+
+[ 2015-08-13T20:18:10+08:00 ] 127.0.0.1 /YsInnoCenter/YsInnovation/index.php/Admin/Course/getCourseListData
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000318s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000585s ]
+SQL: select * from t_course where status_id='3' and isshow=0 limit 0,10 [ RunTime:0.0016s ]
+SQL: SHOW COLUMNS FROM `t_organization` [ RunTime:0.0023s ]
+SQL: SELECT * FROM `t_organization` WHERE ( organization_id=1 )  [ RunTime:0.0013s ]
+SQL: SHOW COLUMNS FROM `t_user` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `t_user` WHERE ( user_id=2 )  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `t_user` WHERE ( user_id=1 )  [ RunTime:0.0010s ]
+
+[ 2015-08-13T20:18:10+08:00 ] 127.0.0.1 /YsInnoCenter/YsInnovation/index.php/Admin/Course/getCourseCount
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000394s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000631s ]
+SQL: select count(*) from t_course where isshow='0' and status_id='3' [ RunTime:0.0008s ]
+
+[ 2015-08-13T20:18:11+08:00 ] 127.0.0.1 /YsInnoCenter/YsInnovation/index.php/Admin/Semester/getSemeName
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000300s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000544s ]
+SQL: select semester_id,semester_name from t_semester where isshow='0' and status_id='1' [ RunTime:0.0010s ]
+
+[ 2015-08-13T20:18:11+08:00 ] 127.0.0.1 /YsInnoCenter/YsInnovation/index.php/Admin/Laboratory/getLaboratoryUser
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000304s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000546s ]
+SQL: select t_user.* from t_user,t_user_account where t_user_account.organization_id='1' and t_user.user_id=t_user_account.user_id and t_user.is_tea_or_stu='1' [ RunTime:0.0020s ]
+
+[ 2015-08-13T20:18:11+08:00 ] 127.0.0.1 /YsInnoCenter/YsInnovation/index.php/Admin/Course/getCourseById
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000611s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000969s ]
+SQL: select * from t_course where course_id='6' [ RunTime:0.0014s ]
+
+[ 2015-08-13T20:21:39+08:00 ] 127.0.0.1 /YsInnoCenter/YsInnovation/index.php/Admin/Course/getCourseListData
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000324s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000568s ]
+SQL: select * from t_course where status_id='3' and isshow=0 limit 0,10 [ RunTime:0.0015s ]
+SQL: SHOW COLUMNS FROM `t_organization` [ RunTime:0.0029s ]
+SQL: SELECT * FROM `t_organization` WHERE ( organization_id=1 )  [ RunTime:0.0013s ]
+SQL: SHOW COLUMNS FROM `t_user` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `t_user` WHERE ( user_id=2 )  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `t_user` WHERE ( user_id=1 )  [ RunTime:0.0010s ]
+
+[ 2015-08-13T20:21:39+08:00 ] 127.0.0.1 /YsInnoCenter/YsInnovation/index.php/Admin/Course/getCourseCount
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000379s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000628s ]
+SQL: select count(*) from t_course where isshow='0' and status_id='3' [ RunTime:0.0008s ]
+
+[ 2015-08-13T20:21:40+08:00 ] 127.0.0.1 /YsInnoCenter/YsInnovation/index.php/Admin/Semester/getSemeName
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000304s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000554s ]
+SQL: select semester_id,semester_name from t_semester where isshow='0' and status_id='1' [ RunTime:0.0011s ]
+
+[ 2015-08-13T20:21:40+08:00 ] 127.0.0.1 /YsInnoCenter/YsInnovation/index.php/Admin/Laboratory/getLaboratoryUser
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000361s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000595s ]
+SQL: select t_user.* from t_user,t_user_account where t_user_account.organization_id='1' and t_user.user_id=t_user_account.user_id and t_user.is_tea_or_stu='1' [ RunTime:0.0013s ]
+
+[ 2015-08-13T20:21:40+08:00 ] 127.0.0.1 /YsInnoCenter/YsInnovation/index.php/Admin/Course/getCourseById
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000321s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000562s ]
+SQL: select * from t_course where course_id='6' [ RunTime:0.0014s ]
+
+[ 2015-08-13T20:21:43+08:00 ] 127.0.0.1 /YsInnoCenter/YsInnovation/index.php/Admin/Course/orgCourseEditSave
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000413s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000990s ]
+SQL: select * from t_course where course_id='6' [ RunTime:0.0016s ]
+SQL: SHOW COLUMNS FROM `t_course` [ RunTime:0.0029s ]
+SQL: UPDATE `t_course` SET `course_name`='动画设计',`course_outline`='动画设计大纲',`course_hourse`='1,2,1,3,|1,4,1,5,|',`course_begin`='2015-08-01 00:00:00',`course_end`='2015-08-12 00:00:00',`course_who_add`='1',`speaker_id`='2',`semester_id`='16',`course_place`='2教2618',`course_period`='16',`status_id`='2',`organization_id`='1',`ordertime`='15-08-13',`isshow`='0' WHERE ( course_id='6' ) [ RunTime:0.0389s ]
+
+[ 2015-08-13T20:21:59+08:00 ] 127.0.0.1 /YsInnoCenter/YsInnovation/index.php/Admin/Course/orgCourseEditSave
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000615s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001104s ]
+SQL: select * from t_course where course_id='6' [ RunTime:0.0015s ]
+SQL: SHOW COLUMNS FROM `t_course` [ RunTime:0.0024s ]
+SQL: UPDATE `t_course` SET `course_name`='动画设计',`course_outline`='动画设计大纲',`course_hourse`='1,2,1,3,|1,4,1,5,|',`course_begin`='2015-08-01 00:00:00',`course_end`='2015-08-12 00:00:00',`course_who_add`='1',`speaker_id`='1',`semester_id`='16',`course_place`='2教2618',`course_period`='32',`status_id`='2',`organization_id`='1',`ordertime`='15-08-13',`isshow`='0' WHERE ( course_id='6' ) [ RunTime:0.0453s ]
+
+[ 2015-08-13T20:23:43+08:00 ] 127.0.0.1 /YsInnoCenter/YsInnovation/index.php/Admin/Course/getCourseListData
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000429s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000690s ]
+SQL: select * from t_course where status_id='3' and isshow=0 limit 0,10 [ RunTime:0.0016s ]
+
+[ 2015-08-13T20:23:43+08:00 ] 127.0.0.1 /YsInnoCenter/YsInnovation/index.php/Admin/Course/getCourseCount
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000523s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000827s ]
+SQL: select count(*) from t_course where isshow='0' and status_id='3' [ RunTime:0.0008s ]
+
+[ 2015-08-13T20:23:45+08:00 ] 127.0.0.1 /YsInnoCenter/YsInnovation/index.php/Admin/Course/getCourseListData
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000332s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000582s ]
+SQL: select * from t_course where status_id='3' and isshow=0 limit 0,10 [ RunTime:0.0015s ]
+
+[ 2015-08-13T20:23:45+08:00 ] 127.0.0.1 /YsInnoCenter/YsInnovation/index.php/Admin/Course/getCourseCount
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000321s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000595s ]
+SQL: select count(*) from t_course where isshow='0' and status_id='3' [ RunTime:0.0011s ]
+
+[ 2015-08-13T20:23:46+08:00 ] 127.0.0.1 /YsInnoCenter/YsInnovation/index.php/Admin/Course/getCourseListData
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000323s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000547s ]
+SQL: select * from t_course where status_id='2' and isshow=0 limit 0,10 [ RunTime:0.0017s ]
+SQL: SHOW COLUMNS FROM `t_organization` [ RunTime:0.0024s ]
+SQL: SELECT * FROM `t_organization` WHERE ( organization_id=2 )  [ RunTime:0.0014s ]
+SQL: SHOW COLUMNS FROM `t_user` [ RunTime:0.0022s ]
+SQL: SELECT * FROM `t_user` WHERE ( user_id=2 )  [ RunTime:0.0011s ]
+SQL: SELECT * FROM `t_user` WHERE ( user_id=1 )  [ RunTime:0.0011s ]
+SQL: SELECT * FROM `t_organization` WHERE ( organization_id=1 )  [ RunTime:0.0013s ]
+SQL: SELECT * FROM `t_user` WHERE ( user_id=1 )  [ RunTime:0.0008s ]
+SQL: SELECT * FROM `t_user` WHERE ( user_id=1 )  [ RunTime:0.0012s ]
+
+[ 2015-08-13T20:23:46+08:00 ] 127.0.0.1 /YsInnoCenter/YsInnovation/index.php/Admin/Course/getCourseCount
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000286s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000528s ]
+SQL: select count(*) from t_course where isshow='0' and status_id='2' [ RunTime:0.0013s ]
+
+[ 2015-08-13T20:24:38+08:00 ] 127.0.0.1 /YsInnoCenter/YsInnovation/index.php/Admin/Semester/getSemeName
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000335s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000591s ]
+SQL: select semester_id,semester_name from t_semester where isshow='0' and status_id='1' [ RunTime:0.0010s ]
+
+[ 2015-08-13T20:24:38+08:00 ] 127.0.0.1 /YsInnoCenter/YsInnovation/index.php/Admin/Laboratory/getLaboratory
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000305s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000570s ]
+SQL: select organization_id,organization_name from t_organization where organization_type='2' and isshow='0' [ RunTime:0.0011s ]
+
+[ 2015-08-13T20:24:38+08:00 ] 127.0.0.1 /YsInnoCenter/YsInnovation/index.php/Admin/Laboratory/getLaboratoryUser
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000303s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000536s ]
+SQL: select t_user.* from t_user,t_user_account where t_user_account.organization_id='1' and t_user.user_id=t_user_account.user_id and t_user.is_tea_or_stu='1' [ RunTime:0.0013s ]
+
+[ 2015-08-13T20:24:38+08:00 ] 127.0.0.1 /YsInnoCenter/YsInnovation/index.php/Admin/Course/getCourseById
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000426s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000649s ]
+SQL: select * from t_course where course_id='6' [ RunTime:0.0014s ]
+
+[ 2015-08-13T20:24:40+08:00 ] 127.0.0.1 /YsInnoCenter/YsInnovation/index.php/Admin/Course/getCourseListData
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000317s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000564s ]
+SQL: select * from t_course where status_id='2' and isshow=0 limit 0,10 [ RunTime:0.0016s ]
+SQL: SHOW COLUMNS FROM `t_organization` [ RunTime:0.0025s ]
+SQL: SELECT * FROM `t_organization` WHERE ( organization_id=2 )  [ RunTime:0.0017s ]
+SQL: SHOW COLUMNS FROM `t_user` [ RunTime:0.0021s ]
+SQL: SELECT * FROM `t_user` WHERE ( user_id=2 )  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `t_user` WHERE ( user_id=1 )  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `t_organization` WHERE ( organization_id=1 )  [ RunTime:0.0014s ]
+SQL: SELECT * FROM `t_user` WHERE ( user_id=1 )  [ RunTime:0.0011s ]
+SQL: SELECT * FROM `t_user` WHERE ( user_id=1 )  [ RunTime:0.0011s ]
+
+[ 2015-08-13T20:24:40+08:00 ] 127.0.0.1 /YsInnoCenter/YsInnovation/index.php/Admin/Course/getCourseCount
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000290s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000517s ]
+SQL: select count(*) from t_course where isshow='0' and status_id='2' [ RunTime:0.0009s ]
+
+[ 2015-08-13T20:24:41+08:00 ] 127.0.0.1 /YsInnoCenter/YsInnovation/index.php/Admin/Course/getCourseListData
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000358s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000624s ]
+SQL: select * from t_course where status_id='3' and isshow=0 limit 0,10 [ RunTime:0.0015s ]
+
+[ 2015-08-13T20:24:41+08:00 ] 127.0.0.1 /YsInnoCenter/YsInnovation/index.php/Admin/Course/getCourseCount
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000335s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000594s ]
+SQL: select count(*) from t_course where isshow='0' and status_id='3' [ RunTime:0.0008s ]
+
+[ 2015-08-13T20:24:42+08:00 ] 127.0.0.1 /YsInnoCenter/YsInnovation/index.php/Admin/Course/getCourseListData
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000305s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000538s ]
+SQL: select * from t_course where status_id='2' and isshow=0 limit 0,10 [ RunTime:0.0017s ]
+SQL: SHOW COLUMNS FROM `t_organization` [ RunTime:0.0028s ]
+SQL: SELECT * FROM `t_organization` WHERE ( organization_id=2 )  [ RunTime:0.0017s ]
+SQL: SHOW COLUMNS FROM `t_user` [ RunTime:0.0021s ]
+SQL: SELECT * FROM `t_user` WHERE ( user_id=2 )  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `t_user` WHERE ( user_id=1 )  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `t_organization` WHERE ( organization_id=1 )  [ RunTime:0.0018s ]
+SQL: SELECT * FROM `t_user` WHERE ( user_id=1 )  [ RunTime:0.0008s ]
+SQL: SELECT * FROM `t_user` WHERE ( user_id=1 )  [ RunTime:0.0010s ]
+
+[ 2015-08-13T20:24:42+08:00 ] 127.0.0.1 /YsInnoCenter/YsInnovation/index.php/Admin/Course/getCourseCount
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000299s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000537s ]
+SQL: select count(*) from t_course where isshow='0' and status_id='2' [ RunTime:0.0009s ]
+
+[ 2015-08-13T20:24:43+08:00 ] 127.0.0.1 /YsInnoCenter/YsInnovation/index.php/Admin/Course/getCourseListData
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000362s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000640s ]
+SQL: select * from t_course where status_id='3' and isshow=0 limit 0,10 [ RunTime:0.0015s ]
+
+[ 2015-08-13T20:24:43+08:00 ] 127.0.0.1 /YsInnoCenter/YsInnovation/index.php/Admin/Course/getCourseCount
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000294s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000553s ]
+SQL: select count(*) from t_course where isshow='0' and status_id='3' [ RunTime:0.0007s ]
+
+[ 2015-08-13T20:25:36+08:00 ] 127.0.0.1 /YsInnoCenter/YsInnovation/index.php/Admin/Course/getCourseListData
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000307s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000541s ]
+SQL: select * from t_course where status_id='2' and isshow=0 limit 0,10 [ RunTime:0.0024s ]
+SQL: SHOW COLUMNS FROM `t_organization` [ RunTime:0.0024s ]
+SQL: SELECT * FROM `t_organization` WHERE ( organization_id=2 )  [ RunTime:0.0013s ]
+SQL: SHOW COLUMNS FROM `t_user` [ RunTime:0.0021s ]
+SQL: SELECT * FROM `t_user` WHERE ( user_id=2 )  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `t_user` WHERE ( user_id=1 )  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `t_organization` WHERE ( organization_id=1 )  [ RunTime:0.0013s ]
+SQL: SELECT * FROM `t_user` WHERE ( user_id=1 )  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `t_user` WHERE ( user_id=1 )  [ RunTime:0.0010s ]
+
+[ 2015-08-13T20:25:37+08:00 ] 127.0.0.1 /YsInnoCenter/YsInnovation/index.php/Admin/Course/getCourseCount
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000465s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000700s ]
+SQL: select count(*) from t_course where isshow='0' and status_id='2' [ RunTime:0.0008s ]
+
+[ 2015-08-13T20:25:39+08:00 ] 127.0.0.1 /YsInnoCenter/YsInnovation/index.php/Admin/Course/getCourseListData
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000319s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000564s ]
+SQL: select * from t_course where status_id='3' and isshow=0 limit 0,10 [ RunTime:0.0015s ]
+
+[ 2015-08-13T20:25:39+08:00 ] 127.0.0.1 /YsInnoCenter/YsInnovation/index.php/Admin/Course/getCourseCount
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000317s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000560s ]
+SQL: select count(*) from t_course where isshow='0' and status_id='3' [ RunTime:0.0008s ]
+
+[ 2015-08-13T20:25:41+08:00 ] 127.0.0.1 /YsInnoCenter/YsInnovation/index.php/Admin/Course/getCourseListData
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000300s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000529s ]
+SQL: select * from t_course where status_id='2' and isshow=0 limit 0,10 [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `t_organization` [ RunTime:0.0028s ]
+SQL: SELECT * FROM `t_organization` WHERE ( organization_id=2 )  [ RunTime:0.0013s ]
+SQL: SHOW COLUMNS FROM `t_user` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `t_user` WHERE ( user_id=2 )  [ RunTime:0.0018s ]
+SQL: SELECT * FROM `t_user` WHERE ( user_id=1 )  [ RunTime:0.0008s ]
+SQL: SELECT * FROM `t_organization` WHERE ( organization_id=1 )  [ RunTime:0.0014s ]
+SQL: SELECT * FROM `t_user` WHERE ( user_id=1 )  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `t_user` WHERE ( user_id=1 )  [ RunTime:0.0011s ]
+
+[ 2015-08-13T20:25:41+08:00 ] 127.0.0.1 /YsInnoCenter/YsInnovation/index.php/Admin/Course/getCourseCount
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000392s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000639s ]
+SQL: select count(*) from t_course where isshow='0' and status_id='2' [ RunTime:0.0007s ]
+
+[ 2015-08-13T20:28:04+08:00 ] 127.0.0.1 /YsInnoCenter/YsInnovation/index.php/Admin/Course/getCourseListData
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000359s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000631s ]
+SQL: select * from t_course where status_id='3' and isshow=0 limit 0,10 [ RunTime:0.0015s ]
+
+[ 2015-08-13T20:28:04+08:00 ] 127.0.0.1 /YsInnoCenter/YsInnovation/index.php/Admin/Course/getCourseCount
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000401s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000647s ]
+SQL: select count(*) from t_course where isshow='0' and status_id='3' [ RunTime:0.0009s ]
+
+[ 2015-08-13T20:28:05+08:00 ] 127.0.0.1 /YsInnoCenter/YsInnovation/index.php/Admin/Course/getCourseListData
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000338s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000583s ]
+SQL: select * from t_course where status_id='2' and isshow=0 limit 0,10 [ RunTime:0.0016s ]
+SQL: SHOW COLUMNS FROM `t_organization` [ RunTime:0.0024s ]
+SQL: SELECT * FROM `t_organization` WHERE ( organization_id=2 )  [ RunTime:0.0013s ]
+SQL: SHOW COLUMNS FROM `t_user` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `t_user` WHERE ( user_id=2 )  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `t_user` WHERE ( user_id=1 )  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `t_organization` WHERE ( organization_id=1 )  [ RunTime:0.0013s ]
+SQL: SELECT * FROM `t_user` WHERE ( user_id=1 )  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `t_user` WHERE ( user_id=1 )  [ RunTime:0.0010s ]
+
+[ 2015-08-13T20:28:05+08:00 ] 127.0.0.1 /YsInnoCenter/YsInnovation/index.php/Admin/Course/getCourseCount
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000339s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000584s ]
+SQL: select count(*) from t_course where isshow='0' and status_id='2' [ RunTime:0.0009s ]
+
+[ 2015-08-13T20:28:09+08:00 ] 127.0.0.1 /YsInnoCenter/YsInnovation/index.php/Admin/Course/getCourseListData
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000630s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001119s ]
+SQL: select * from t_course where status_id='2' and organization_id='1' and isshow=0 limit 0,10 [ RunTime:0.0017s ]
+SQL: SHOW COLUMNS FROM `t_organization` [ RunTime:0.0025s ]
+SQL: SELECT * FROM `t_organization` WHERE ( organization_id=1 )  [ RunTime:0.0013s ]
+SQL: SHOW COLUMNS FROM `t_user` [ RunTime:0.0022s ]
+SQL: SELECT * FROM `t_user` WHERE ( user_id=1 )  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `t_user` WHERE ( user_id=1 )  [ RunTime:0.0010s ]
+
+[ 2015-08-13T20:28:09+08:00 ] 127.0.0.1 /YsInnoCenter/YsInnovation/index.php/Admin/Course/getCourseCount
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000634s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001153s ]
+SQL: select count(*) from t_course where isshow='0' and status_id='2' and organization_id='1' [ RunTime:0.0010s ]
+
+[ 2015-08-13T20:28:11+08:00 ] 127.0.0.1 /YsInnoCenter/YsInnovation/index.php/Admin/Course/getCourseListData
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000634s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001125s ]
+SQL: select * from t_course where status_id='2' and organization_id='2' and isshow=0 limit 0,10 [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `t_organization` [ RunTime:0.0026s ]
+SQL: SELECT * FROM `t_organization` WHERE ( organization_id=2 )  [ RunTime:0.0014s ]
+SQL: SHOW COLUMNS FROM `t_user` [ RunTime:0.0022s ]
+SQL: SELECT * FROM `t_user` WHERE ( user_id=2 )  [ RunTime:0.0011s ]
+SQL: SELECT * FROM `t_user` WHERE ( user_id=1 )  [ RunTime:0.0011s ]
+
+[ 2015-08-13T20:28:11+08:00 ] 127.0.0.1 /YsInnoCenter/YsInnovation/index.php/Admin/Course/getCourseCount
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000576s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001018s ]
+SQL: select count(*) from t_course where isshow='0' and status_id='2' and organization_id='2' [ RunTime:0.0012s ]
+
+[ 2015-08-13T20:28:13+08:00 ] 127.0.0.1 /YsInnoCenter/YsInnovation/index.php/Admin/Course/getCourseListData
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000515s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000921s ]
+SQL: select * from t_course where status_id='2' and isshow=0 limit 0,10 [ RunTime:0.0019s ]
+SQL: SHOW COLUMNS FROM `t_organization` [ RunTime:0.0025s ]
+SQL: SELECT * FROM `t_organization` WHERE ( organization_id=2 )  [ RunTime:0.0015s ]
+SQL: SHOW COLUMNS FROM `t_user` [ RunTime:0.0022s ]
+SQL: SELECT * FROM `t_user` WHERE ( user_id=2 )  [ RunTime:0.0012s ]
+SQL: SELECT * FROM `t_user` WHERE ( user_id=1 )  [ RunTime:0.0011s ]
+SQL: SELECT * FROM `t_organization` WHERE ( organization_id=1 )  [ RunTime:0.0014s ]
+SQL: SELECT * FROM `t_user` WHERE ( user_id=1 )  [ RunTime:0.0011s ]
+SQL: SELECT * FROM `t_user` WHERE ( user_id=1 )  [ RunTime:0.0011s ]
+
+[ 2015-08-13T20:28:13+08:00 ] 127.0.0.1 /YsInnoCenter/YsInnovation/index.php/Admin/Course/getCourseCount
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000626s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001050s ]
+SQL: select count(*) from t_course where isshow='0' and status_id='2' [ RunTime:0.0011s ]
+
+[ 2015-08-13T20:28:20+08:00 ] 127.0.0.1 /YsInnoCenter/YsInnovation/index.php/Admin/Course/getCourseListData
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000364s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000631s ]
+SQL: select * from t_course where status_id='2' and isshow=0 limit 0,10 [ RunTime:0.0017s ]
+SQL: SHOW COLUMNS FROM `t_organization` [ RunTime:0.0023s ]
+SQL: SELECT * FROM `t_organization` WHERE ( organization_id=2 )  [ RunTime:0.0013s ]
+SQL: SHOW COLUMNS FROM `t_user` [ RunTime:0.0021s ]
+SQL: SELECT * FROM `t_user` WHERE ( user_id=2 )  [ RunTime:0.0011s ]
+SQL: SELECT * FROM `t_user` WHERE ( user_id=1 )  [ RunTime:0.0011s ]
+SQL: SELECT * FROM `t_organization` WHERE ( organization_id=1 )  [ RunTime:0.0014s ]
+SQL: SELECT * FROM `t_user` WHERE ( user_id=1 )  [ RunTime:0.0012s ]
+SQL: SELECT * FROM `t_user` WHERE ( user_id=1 )  [ RunTime:0.0011s ]
+
+[ 2015-08-13T20:28:20+08:00 ] 127.0.0.1 /YsInnoCenter/YsInnovation/index.php/Admin/Course/getCourseCount
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000324s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000613s ]
+SQL: select count(*) from t_course where isshow='0' and status_id='2' [ RunTime:0.0012s ]
+
+[ 2015-08-13T20:28:21+08:00 ] 127.0.0.1 /YsInnoCenter/YsInnovation/index.php/Admin/Course/showOrgExaminedList
+ERR: 非法操作:showOrgExaminedList
+
+[ 2015-08-13T20:28:21+08:00 ] 127.0.0.1 /YsInnoCenter/YsInnovation/index.php/Admin/Course/showOrgExaminedList
+ERR: 非法操作:showOrgExaminedList
+
+[ 2015-08-13T20:28:22+08:00 ] 127.0.0.1 /YsInnoCenter/YsInnovation/index.php/Admin/Course/getCourseListData
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000341s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000619s ]
+SQL: select * from t_course where status_id='2' and isshow=0 limit 0,10 [ RunTime:0.0018s ]
+SQL: SHOW COLUMNS FROM `t_organization` [ RunTime:0.0023s ]
+SQL: SELECT * FROM `t_organization` WHERE ( organization_id=2 )  [ RunTime:0.0013s ]
+SQL: SHOW COLUMNS FROM `t_user` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `t_user` WHERE ( user_id=2 )  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `t_user` WHERE ( user_id=1 )  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `t_organization` WHERE ( organization_id=1 )  [ RunTime:0.0013s ]
+SQL: SELECT * FROM `t_user` WHERE ( user_id=1 )  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `t_user` WHERE ( user_id=1 )  [ RunTime:0.0010s ]
+
+[ 2015-08-13T20:28:22+08:00 ] 127.0.0.1 /YsInnoCenter/YsInnovation/index.php/Admin/Course/getCourseCount
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000309s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000631s ]
+SQL: select count(*) from t_course where isshow='0' and status_id='2' [ RunTime:0.0008s ]
+
+[ 2015-08-13T20:28:23+08:00 ] 127.0.0.1 /YsInnoCenter/YsInnovation/index.php/Admin/Course/getCourseListData
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000463s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000713s ]
+SQL: select * from t_course where status_id='3' and isshow=0 limit 0,10 [ RunTime:0.0015s ]
+
+[ 2015-08-13T20:28:23+08:00 ] 127.0.0.1 /YsInnoCenter/YsInnovation/index.php/Admin/Course/getCourseCount
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000310s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000551s ]
+SQL: select count(*) from t_course where isshow='0' and status_id='3' [ RunTime:0.0009s ]
+
+[ 2015-08-13T20:28:23+08:00 ] 127.0.0.1 /YsInnoCenter/YsInnovation/index.php/Admin/Semester/getSemeName
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000326s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000598s ]
+SQL: select semester_id,semester_name from t_semester where isshow='0' and status_id='1' [ RunTime:0.0010s ]
+
+[ 2015-08-13T20:28:23+08:00 ] 127.0.0.1 /YsInnoCenter/YsInnovation/index.php/Admin/Laboratory/getLaboratoryUser
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000295s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000550s ]
+SQL: select t_user.* from t_user,t_user_account where t_user_account.organization_id='1' and t_user.user_id=t_user_account.user_id and t_user.is_tea_or_stu='1' [ RunTime:0.0014s ]
+
+[ 2015-08-13T20:28:24+08:00 ] 127.0.0.1 /YsInnoCenter/YsInnovation/index.php/Admin/Course/getCourseCount
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000305s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000540s ]
+SQL: select count(*) from t_course where isshow='0' and status_id='3' [ RunTime:0.0009s ]
+
+[ 2015-08-13T20:28:24+08:00 ] 127.0.0.1 /YsInnoCenter/YsInnovation/index.php/Admin/Course/getCourseListData
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000303s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000535s ]
+SQL: select * from t_course where status_id='3' and isshow=0 limit 0,10 [ RunTime:0.0015s ]
+
+[ 2015-08-13T21:09:52+08:00 ] 127.0.0.1 /YsInnoCenter/YsInnovation/index.php/Admin/Course/getCourseListData
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000330s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000620s ]
+SQL: select * from t_course where status_id='2' and isshow=0 limit 0,10 [ RunTime:0.0016s ]
+SQL: SHOW COLUMNS FROM `t_organization` [ RunTime:0.0023s ]
+SQL: SELECT * FROM `t_organization` WHERE ( organization_id=2 )  [ RunTime:0.0013s ]
+SQL: SHOW COLUMNS FROM `t_user` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `t_user` WHERE ( user_id=2 )  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `t_user` WHERE ( user_id=1 )  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `t_organization` WHERE ( organization_id=1 )  [ RunTime:0.0013s ]
+SQL: SELECT * FROM `t_user` WHERE ( user_id=1 )  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `t_user` WHERE ( user_id=1 )  [ RunTime:0.0012s ]
+
+[ 2015-08-13T21:09:52+08:00 ] 127.0.0.1 /YsInnoCenter/YsInnovation/index.php/Admin/Course/getCourseCount
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000434s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000706s ]
+SQL: select count(*) from t_course where isshow='0' and status_id='2' [ RunTime:0.0009s ]
+
+[ 2015-08-13T21:10:07+08:00 ] 127.0.0.1 /YsInnoCenter/YsInnovation/index.php/Admin/Course/getCourseListData
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000325s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000557s ]
+SQL: select * from t_course where status_id='2' and isshow=0 limit 0,10 [ RunTime:0.0021s ]
+SQL: SHOW COLUMNS FROM `t_organization` [ RunTime:0.0023s ]
+SQL: SELECT * FROM `t_organization` WHERE ( organization_id=2 )  [ RunTime:0.0013s ]
+SQL: SHOW COLUMNS FROM `t_user` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `t_user` WHERE ( user_id=2 )  [ RunTime:0.0009s ]
+SQL: SELECT * FROM `t_user` WHERE ( user_id=1 )  [ RunTime:0.0011s ]
+SQL: SELECT * FROM `t_organization` WHERE ( organization_id=1 )  [ RunTime:0.0013s ]
+SQL: SELECT * FROM `t_user` WHERE ( user_id=1 )  [ RunTime:0.0011s ]
+SQL: SELECT * FROM `t_user` WHERE ( user_id=1 )  [ RunTime:0.0010s ]
+
+[ 2015-08-13T21:10:07+08:00 ] 127.0.0.1 /YsInnoCenter/YsInnovation/index.php/Admin/Course/getCourseCount
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000384s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000647s ]
+SQL: select count(*) from t_course where isshow='0' and status_id='2' [ RunTime:0.0008s ]
+
+[ 2015-08-13T21:11:32+08:00 ] 127.0.0.1 /YsInnoCenter/YsInnovation/index.php/Admin/Course/getCourseListData
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000377s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000673s ]
+SQL: select * from t_course where status_id='2' and isshow=0 limit 0,10 [ RunTime:0.0022s ]
+SQL: SHOW COLUMNS FROM `t_organization` [ RunTime:0.0033s ]
+SQL: SELECT * FROM `t_organization` WHERE ( organization_id=2 )  [ RunTime:0.0016s ]
+SQL: SHOW COLUMNS FROM `t_user` [ RunTime:0.0023s ]
+SQL: SELECT * FROM `t_user` WHERE ( user_id=2 )  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `t_user` WHERE ( user_id=1 )  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `t_organization` WHERE ( organization_id=1 )  [ RunTime:0.0013s ]
+SQL: SELECT * FROM `t_user` WHERE ( user_id=1 )  [ RunTime:0.0009s ]
+SQL: SELECT * FROM `t_user` WHERE ( user_id=1 )  [ RunTime:0.0008s ]
+
+[ 2015-08-13T21:11:32+08:00 ] 127.0.0.1 /YsInnoCenter/YsInnovation/index.php/Admin/Course/getCourseCount
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000314s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000598s ]
+SQL: select count(*) from t_course where isshow='0' and status_id='2' [ RunTime:0.0008s ]
+
+[ 2015-08-13T21:11:34+08:00 ] 127.0.0.1 /YsInnoCenter/YsInnovation/index.php/Admin/Semester/getSemeName
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000307s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000559s ]
+SQL: select semester_id,semester_name from t_semester where isshow='0' and status_id='1' [ RunTime:0.0011s ]
+
+[ 2015-08-13T21:11:34+08:00 ] 127.0.0.1 /YsInnoCenter/YsInnovation/index.php/Admin/Laboratory/getLaboratory
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000300s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000539s ]
+SQL: select organization_id,organization_name from t_organization where organization_type='2' and isshow='0' [ RunTime:0.0010s ]
+
+[ 2015-08-13T21:11:34+08:00 ] 127.0.0.1 /YsInnoCenter/YsInnovation/index.php/Admin/Laboratory/getLaboratoryUser
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000303s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000537s ]
+SQL: select t_user.* from t_user,t_user_account where t_user_account.organization_id='1' and t_user.user_id=t_user_account.user_id and t_user.is_tea_or_stu='1' [ RunTime:0.0012s ]
+
+[ 2015-08-13T21:11:34+08:00 ] 127.0.0.1 /YsInnoCenter/YsInnovation/index.php/Admin/Course/getCourseById
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000458s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000770s ]
+SQL: select * from t_course where course_id='2' [ RunTime:0.0014s ]
+
+[ 2015-08-13T21:11:37+08:00 ] 127.0.0.1 /YsInnoCenter/YsInnovation/index.php/Admin/Course/getCourseListData
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000321s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000569s ]
+SQL: select * from t_course where status_id='2' and isshow=0 limit 0,10 [ RunTime:0.0016s ]
+SQL: SHOW COLUMNS FROM `t_organization` [ RunTime:0.0023s ]
+SQL: SELECT * FROM `t_organization` WHERE ( organization_id=2 )  [ RunTime:0.0013s ]
+SQL: SHOW COLUMNS FROM `t_user` [ RunTime:0.0019s ]
+SQL: SELECT * FROM `t_user` WHERE ( user_id=2 )  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `t_user` WHERE ( user_id=1 )  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `t_organization` WHERE ( organization_id=1 )  [ RunTime:0.0013s ]
+SQL: SELECT * FROM `t_user` WHERE ( user_id=1 )  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `t_user` WHERE ( user_id=1 )  [ RunTime:0.0010s ]
+
+[ 2015-08-13T21:11:37+08:00 ] 127.0.0.1 /YsInnoCenter/YsInnovation/index.php/Admin/Course/getCourseCount
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000317s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000560s ]
+SQL: select count(*) from t_course where isshow='0' and status_id='2' [ RunTime:0.0009s ]
+
+[ 2015-08-13T21:11:38+08:00 ] 127.0.0.1 /YsInnoCenter/YsInnovation/index.php/Admin/Semester/getSemeName
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000315s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000557s ]
+SQL: select semester_id,semester_name from t_semester where isshow='0' and status_id='1' [ RunTime:0.0010s ]
+
+[ 2015-08-13T21:11:38+08:00 ] 127.0.0.1 /YsInnoCenter/YsInnovation/index.php/Admin/Laboratory/getLaboratory
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000305s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000546s ]
+SQL: select organization_id,organization_name from t_organization where organization_type='2' and isshow='0' [ RunTime:0.0011s ]
+
+[ 2015-08-13T21:11:38+08:00 ] 127.0.0.1 /YsInnoCenter/YsInnovation/index.php/Admin/Laboratory/getLaboratoryUser
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000301s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000532s ]
+SQL: select t_user.* from t_user,t_user_account where t_user_account.organization_id='1' and t_user.user_id=t_user_account.user_id and t_user.is_tea_or_stu='1' [ RunTime:0.0012s ]
+
+[ 2015-08-13T21:11:38+08:00 ] 127.0.0.1 /YsInnoCenter/YsInnovation/index.php/Admin/Course/getCourseById
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000300s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000536s ]
+SQL: select * from t_course where course_id='6' [ RunTime:0.0014s ]
+
+[ 2015-08-13T21:11:40+08:00 ] 127.0.0.1 /YsInnoCenter/YsInnovation/index.php/Admin/Course/getCourseListData
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000298s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000556s ]
+SQL: select * from t_course where status_id='3' and isshow=0 limit 0,10 [ RunTime:0.0018s ]
+
+[ 2015-08-13T21:11:40+08:00 ] 127.0.0.1 /YsInnoCenter/YsInnovation/index.php/Admin/Course/getCourseCount
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000329s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000616s ]
+SQL: select count(*) from t_course where isshow='0' and status_id='3' [ RunTime:0.0009s ]
+
+[ 2015-08-13T21:11:42+08:00 ] 127.0.0.1 /YsInnoCenter/YsInnovation/index.php/Admin/Course/getCourseListData
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000351s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000586s ]
+SQL: select * from t_course where status_id='2' and isshow=0 limit 0,10 [ RunTime:0.0017s ]
+SQL: SHOW COLUMNS FROM `t_organization` [ RunTime:0.0033s ]
+SQL: SELECT * FROM `t_organization` WHERE ( organization_id=2 )  [ RunTime:0.0017s ]
+SQL: SHOW COLUMNS FROM `t_user` [ RunTime:0.0026s ]
+SQL: SELECT * FROM `t_user` WHERE ( user_id=2 )  [ RunTime:0.0017s ]
+SQL: SELECT * FROM `t_user` WHERE ( user_id=1 )  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `t_organization` WHERE ( organization_id=1 )  [ RunTime:0.0013s ]
+SQL: SELECT * FROM `t_user` WHERE ( user_id=1 )  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `t_user` WHERE ( user_id=1 )  [ RunTime:0.0010s ]
+
+[ 2015-08-13T21:11:42+08:00 ] 127.0.0.1 /YsInnoCenter/YsInnovation/index.php/Admin/Course/getCourseCount
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000286s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000538s ]
+SQL: select count(*) from t_course where isshow='0' and status_id='2' [ RunTime:0.0009s ]
+
+[ 2015-08-13T21:11:58+08:00 ] 127.0.0.1 /YsInnoCenter/YsInnovation/index.php/Admin/Course/getCourseCount
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000311s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000552s ]
+SQL: select count(*) from t_course where isshow='0' and status_id='2' [ RunTime:0.0010s ]
+
+[ 2015-08-13T21:11:58+08:00 ] 127.0.0.1 /YsInnoCenter/YsInnovation/index.php/Admin/Course/getCourseListData
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000386s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000632s ]
+SQL: select * from t_course where status_id='2' and isshow=0 limit 0,10 [ RunTime:0.0026s ]
+SQL: SHOW COLUMNS FROM `t_organization` [ RunTime:0.0024s ]
+SQL: SELECT * FROM `t_organization` WHERE ( organization_id=2 )  [ RunTime:0.0013s ]
+SQL: SHOW COLUMNS FROM `t_user` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `t_user` WHERE ( user_id=2 )  [ RunTime:0.0019s ]
+SQL: SELECT * FROM `t_user` WHERE ( user_id=1 )  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `t_organization` WHERE ( organization_id=1 )  [ RunTime:0.0013s ]
+SQL: SELECT * FROM `t_user` WHERE ( user_id=1 )  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `t_user` WHERE ( user_id=1 )  [ RunTime:0.0010s ]
+
+[ 2015-08-13T21:12:06+08:00 ] 127.0.0.1 /YsInnoCenter/YsInnovation/index.php/Admin/Semester/getSemeName
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000303s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000553s ]
+SQL: select semester_id,semester_name from t_semester where isshow='0' and status_id='1' [ RunTime:0.0018s ]
+
+[ 2015-08-13T21:12:06+08:00 ] 127.0.0.1 /YsInnoCenter/YsInnovation/index.php/Admin/Laboratory/getLaboratoryUser
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000308s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000547s ]
+SQL: select t_user.* from t_user,t_user_account where t_user_account.organization_id='1' and t_user.user_id=t_user_account.user_id and t_user.is_tea_or_stu='1' [ RunTime:0.0012s ]
+
+[ 2015-08-13T21:12:06+08:00 ] 127.0.0.1 /YsInnoCenter/YsInnovation/index.php/Admin/Course/getCourseById
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000335s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000618s ]
+SQL: select * from t_course where course_id='2' [ RunTime:0.0015s ]
+
+[ 2015-08-13T21:13:17+08:00 ] 127.0.0.1 /YsInnoCenter/YsInnovation/index.php/Admin/Course/getCourseListData
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000314s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000544s ]
+SQL: select * from t_course where status_id='2' and isshow=0 limit 0,10 [ RunTime:0.0016s ]
+SQL: SHOW COLUMNS FROM `t_organization` [ RunTime:0.0022s ]
+SQL: SELECT * FROM `t_organization` WHERE ( organization_id=2 )  [ RunTime:0.0013s ]
+SQL: SHOW COLUMNS FROM `t_user` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `t_user` WHERE ( user_id=2 )  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `t_user` WHERE ( user_id=1 )  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `t_organization` WHERE ( organization_id=1 )  [ RunTime:0.0013s ]
+SQL: SELECT * FROM `t_user` WHERE ( user_id=1 )  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `t_user` WHERE ( user_id=1 )  [ RunTime:0.0010s ]
+
+[ 2015-08-13T21:13:17+08:00 ] 127.0.0.1 /YsInnoCenter/YsInnovation/index.php/Admin/Course/getCourseCount
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000319s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000547s ]
+SQL: select count(*) from t_course where isshow='0' and status_id='2' [ RunTime:0.0008s ]
+
+[ 2015-08-13T21:13:19+08:00 ] 127.0.0.1 /YsInnoCenter/YsInnovation/index.php/Admin/Semester/getSemeName
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000488s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000877s ]
+SQL: select semester_id,semester_name from t_semester where isshow='0' and status_id='1' [ RunTime:0.0011s ]
+
+[ 2015-08-13T21:13:19+08:00 ] 127.0.0.1 /YsInnoCenter/YsInnovation/index.php/Admin/Laboratory/getLaboratoryUser
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000522s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000866s ]
+SQL: select t_user.* from t_user,t_user_account where t_user_account.organization_id='1' and t_user.user_id=t_user_account.user_id and t_user.is_tea_or_stu='1' [ RunTime:0.0013s ]
+
+[ 2015-08-13T21:13:19+08:00 ] 127.0.0.1 /YsInnoCenter/YsInnovation/index.php/Admin/Course/getCourseById
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000445s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000784s ]
+SQL: select * from t_course where course_id='6' [ RunTime:0.0014s ]
+
+[ 2015-08-13T21:14:13+08:00 ] 127.0.0.1 /YsInnoCenter/YsInnovation/index.php/Admin/Course/orgCourseEditSave
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000720s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001212s ]
+SQL: select * from t_course where course_id='6' [ RunTime:0.0015s ]
+SQL: SHOW COLUMNS FROM `t_course` [ RunTime:0.0025s ]
+SQL: UPDATE `t_course` SET `course_name`='动画设计',`course_outline`='动画设计大纲',`course_hourse`='1,2,1,3,|1,4,1,5,|',`course_begin`='2015-08-01 00:00:00',`course_end`='2015-08-12 00:00:00',`course_who_add`='1',`speaker_id`='1',`semester_id`='16',`course_place`='2教2618',`course_period`='64',`status_id`='2',`organization_id`='1',`ordertime`='15-08-13',`isshow`='0' WHERE ( course_id='6' ) [ RunTime:0.0503s ]
+
+[ 2015-08-13T21:15:28+08:00 ] 127.0.0.1 /YsInnoCenter/YsInnovation/index.php/Admin/Course/getCourseListData
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000287s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000530s ]
+SQL: select * from t_course where status_id='2' and isshow=0 limit 0,10 [ RunTime:0.0017s ]
+SQL: SHOW COLUMNS FROM `t_organization` [ RunTime:0.0023s ]
+SQL: SELECT * FROM `t_organization` WHERE ( organization_id=2 )  [ RunTime:0.0014s ]
+SQL: SHOW COLUMNS FROM `t_user` [ RunTime:0.0019s ]
+SQL: SELECT * FROM `t_user` WHERE ( user_id=2 )  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `t_user` WHERE ( user_id=1 )  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `t_organization` WHERE ( organization_id=1 )  [ RunTime:0.0013s ]
+SQL: SELECT * FROM `t_user` WHERE ( user_id=1 )  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `t_user` WHERE ( user_id=1 )  [ RunTime:0.0010s ]
+
+[ 2015-08-13T21:15:28+08:00 ] 127.0.0.1 /YsInnoCenter/YsInnovation/index.php/Admin/Course/getCourseCount
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000388s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000693s ]
+SQL: select count(*) from t_course where isshow='0' and status_id='2' [ RunTime:0.0009s ]
+
+[ 2015-08-13T21:15:31+08:00 ] 127.0.0.1 /YsInnoCenter/YsInnovation/index.php/Admin/Semester/getSemeName
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000410s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000736s ]
+SQL: select semester_id,semester_name from t_semester where isshow='0' and status_id='1' [ RunTime:0.0017s ]
+
+[ 2015-08-13T21:15:31+08:00 ] 127.0.0.1 /YsInnoCenter/YsInnovation/index.php/Admin/Laboratory/getLaboratoryUser
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000412s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000729s ]
+SQL: select t_user.* from t_user,t_user_account where t_user_account.organization_id='1' and t_user.user_id=t_user_account.user_id and t_user.is_tea_or_stu='1' [ RunTime:0.0013s ]
+
+[ 2015-08-13T21:15:31+08:00 ] 127.0.0.1 /YsInnoCenter/YsInnovation/index.php/Admin/Course/getCourseById
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000410s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000785s ]
+SQL: select * from t_course where course_id='2' [ RunTime:0.0015s ]
+
+[ 2015-08-13T21:15:37+08:00 ] 127.0.0.1 /YsInnoCenter/YsInnovation/index.php/Admin/Course/orgCourseEditSave
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000923s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001683s ]
+SQL: select * from t_course where course_id='2' [ RunTime:0.0019s ]
+SQL: SHOW COLUMNS FROM `t_course` [ RunTime:0.0028s ]
+SQL: UPDATE `t_course` SET `course_name`='安卓开发',`course_outline`='安卓开发大纲',`course_hourse`='1,1,1,1,|',`course_begin`='2015-08-01 16:43:41',`course_end`='2015-08-08 16:43:44',`course_who_add`='1',`speaker_id`='2',`semester_id`='16',`course_place`='2教2622',`course_period`='64',`status_id`='2',`organization_id`='2',`ordertime`='15-08-13',`isshow`='0' WHERE ( course_id='2' ) [ RunTime:0.0517s ]
+
+[ 2015-08-13T21:16:22+08:00 ] 127.0.0.1 /YsInnoCenter/YsInnovation/index.php/Admin/Course/getCourseListData
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000319s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000588s ]
+SQL: select * from t_course where status_id='2' and isshow=0 limit 0,10 [ RunTime:0.0017s ]
+SQL: SHOW COLUMNS FROM `t_organization` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `t_organization` WHERE ( organization_id=2 )  [ RunTime:0.0016s ]
+SQL: SHOW COLUMNS FROM `t_user` [ RunTime:0.0027s ]
+SQL: SELECT * FROM `t_user` WHERE ( user_id=2 )  [ RunTime:0.0017s ]
+SQL: SELECT * FROM `t_user` WHERE ( user_id=1 )  [ RunTime:0.0008s ]
+SQL: SELECT * FROM `t_organization` WHERE ( organization_id=1 )  [ RunTime:0.0013s ]
+SQL: SELECT * FROM `t_user` WHERE ( user_id=1 )  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `t_user` WHERE ( user_id=1 )  [ RunTime:0.0010s ]
+
+[ 2015-08-13T21:16:22+08:00 ] 127.0.0.1 /YsInnoCenter/YsInnovation/index.php/Admin/Course/getCourseCount
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000415s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000736s ]
+SQL: select count(*) from t_course where isshow='0' and status_id='2' [ RunTime:0.0009s ]
+
+[ 2015-08-13T21:23:04+08:00 ] 127.0.0.1 /YsInnoCenter/YsInnovation/index.php/Admin/Course/getCourseListData
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000413s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000739s ]
+SQL: select * from t_course where status_id='2' and isshow=0 limit 0,10 [ RunTime:0.0018s ]
+SQL: SHOW COLUMNS FROM `t_organization` [ RunTime:0.0023s ]
+SQL: SELECT * FROM `t_organization` WHERE ( organization_id=2 )  [ RunTime:0.0013s ]
+SQL: SHOW COLUMNS FROM `t_user` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `t_user` WHERE ( user_id=2 )  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `t_user` WHERE ( user_id=1 )  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `t_organization` WHERE ( organization_id=1 )  [ RunTime:0.0017s ]
+SQL: SELECT * FROM `t_user` WHERE ( user_id=1 )  [ RunTime:0.0007s ]
+SQL: SELECT * FROM `t_user` WHERE ( user_id=1 )  [ RunTime:0.0010s ]
+
+[ 2015-08-13T21:23:04+08:00 ] 127.0.0.1 /YsInnoCenter/YsInnovation/index.php/Admin/Course/getCourseCount
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000518s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000884s ]
+SQL: select count(*) from t_course where isshow='0' and status_id='2' [ RunTime:0.0008s ]
+
+[ 2015-08-13T21:23:04+08:00 ] 127.0.0.1 /YsInnoCenter/YsInnovation/index.php/Admin/Course/getCourseListData
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000339s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000616s ]
+SQL: select * from t_course where status_id='3' and isshow=0 limit 0,10 [ RunTime:0.0015s ]
+
+[ 2015-08-13T21:23:05+08:00 ] 127.0.0.1 /YsInnoCenter/YsInnovation/index.php/Admin/Course/getCourseCount
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000321s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000570s ]
+SQL: select count(*) from t_course where isshow='0' and status_id='3' [ RunTime:0.0008s ]
+
+[ 2015-08-13T21:23:05+08:00 ] 127.0.0.1 /YsInnoCenter/YsInnovation/index.php/Admin/Course/getCourseListData
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000575s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001017s ]
+SQL: select * from t_course where status_id='2' and isshow=0 limit 0,10 [ RunTime:0.0019s ]
+SQL: SHOW COLUMNS FROM `t_organization` [ RunTime:0.0023s ]
+SQL: SELECT * FROM `t_organization` WHERE ( organization_id=2 )  [ RunTime:0.0013s ]
+SQL: SHOW COLUMNS FROM `t_user` [ RunTime:0.0022s ]
+SQL: SELECT * FROM `t_user` WHERE ( user_id=2 )  [ RunTime:0.0011s ]
+SQL: SELECT * FROM `t_user` WHERE ( user_id=1 )  [ RunTime:0.0011s ]
+SQL: SELECT * FROM `t_organization` WHERE ( organization_id=1 )  [ RunTime:0.0013s ]
+SQL: SELECT * FROM `t_user` WHERE ( user_id=1 )  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `t_user` WHERE ( user_id=1 )  [ RunTime:0.0010s ]
+
+[ 2015-08-13T21:23:05+08:00 ] 127.0.0.1 /YsInnoCenter/YsInnovation/index.php/Admin/Course/getCourseCount
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000563s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001001s ]
+SQL: select count(*) from t_course where isshow='0' and status_id='2' [ RunTime:0.0009s ]
+
+[ 2015-08-13T21:23:06+08:00 ] 127.0.0.1 /YsInnoCenter/YsInnovation/index.php/Admin/Course/getCourseListData
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000289s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000512s ]
+SQL: select * from t_course where status_id='3' and isshow=0 limit 0,10 [ RunTime:0.0015s ]
+
+[ 2015-08-13T21:23:06+08:00 ] 127.0.0.1 /YsInnoCenter/YsInnovation/index.php/Admin/Course/getCourseCount
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000321s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000552s ]
+SQL: select count(*) from t_course where isshow='0' and status_id='3' [ RunTime:0.0009s ]
+
+[ 2015-08-13T21:23:06+08:00 ] 127.0.0.1 /YsInnoCenter/YsInnovation/index.php/Admin/Course/getCourseListData
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000311s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000563s ]
+SQL: select * from t_course where status_id='2' and isshow=0 limit 0,10 [ RunTime:0.0017s ]
+SQL: SHOW COLUMNS FROM `t_organization` [ RunTime:0.0023s ]
+SQL: SELECT * FROM `t_organization` WHERE ( organization_id=2 )  [ RunTime:0.0013s ]
+SQL: SHOW COLUMNS FROM `t_user` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `t_user` WHERE ( user_id=2 )  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `t_user` WHERE ( user_id=1 )  [ RunTime:0.0009s ]
+SQL: SELECT * FROM `t_organization` WHERE ( organization_id=1 )  [ RunTime:0.0013s ]
+SQL: SELECT * FROM `t_user` WHERE ( user_id=1 )  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `t_user` WHERE ( user_id=1 )  [ RunTime:0.0010s ]
+
+[ 2015-08-13T21:23:06+08:00 ] 127.0.0.1 /YsInnoCenter/YsInnovation/index.php/Admin/Course/getCourseCount
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000317s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000568s ]
+SQL: select count(*) from t_course where isshow='0' and status_id='2' [ RunTime:0.0009s ]
+
+[ 2015-08-13T21:23:06+08:00 ] 127.0.0.1 /YsInnoCenter/YsInnovation/index.php/Admin/Course/getCourseListData
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000470s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000893s ]
+SQL: select * from t_course where status_id='3' and isshow=0 limit 0,10 [ RunTime:0.0015s ]
+
+[ 2015-08-13T21:23:06+08:00 ] 127.0.0.1 /YsInnoCenter/YsInnovation/index.php/Admin/Course/getCourseCount
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000352s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000725s ]
+SQL: select count(*) from t_course where isshow='0' and status_id='3' [ RunTime:0.0009s ]
+
+[ 2015-08-13T21:23:07+08:00 ] 127.0.0.1 /YsInnoCenter/YsInnovation/index.php/Admin/Course/getCourseListData
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000297s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000543s ]
+SQL: select * from t_course where status_id='2' and isshow=0 limit 0,10 [ RunTime:0.0016s ]
+SQL: SHOW COLUMNS FROM `t_organization` [ RunTime:0.0023s ]
+SQL: SELECT * FROM `t_organization` WHERE ( organization_id=2 )  [ RunTime:0.0013s ]
+SQL: SHOW COLUMNS FROM `t_user` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `t_user` WHERE ( user_id=2 )  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `t_user` WHERE ( user_id=1 )  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `t_organization` WHERE ( organization_id=1 )  [ RunTime:0.0013s ]
+SQL: SELECT * FROM `t_user` WHERE ( user_id=1 )  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `t_user` WHERE ( user_id=1 )  [ RunTime:0.0014s ]
+
+[ 2015-08-13T21:23:07+08:00 ] 127.0.0.1 /YsInnoCenter/YsInnovation/index.php/Admin/Course/getCourseCount
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000294s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000549s ]
+SQL: select count(*) from t_course where isshow='0' and status_id='2' [ RunTime:0.0008s ]
+
+[ 2015-08-13T21:23:07+08:00 ] 127.0.0.1 /YsInnoCenter/YsInnovation/index.php/Admin/Course/getCourseListData
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000378s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000644s ]
+SQL: select * from t_course where status_id='3' and isshow=0 limit 0,10 [ RunTime:0.0015s ]
+
+[ 2015-08-13T21:23:07+08:00 ] 127.0.0.1 /YsInnoCenter/YsInnovation/index.php/Admin/Course/getCourseCount
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000310s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000554s ]
+SQL: select count(*) from t_course where isshow='0' and status_id='3' [ RunTime:0.0008s ]
+
+[ 2015-08-13T21:23:07+08:00 ] 127.0.0.1 /YsInnoCenter/YsInnovation/index.php/Admin/Course/getCourseListData
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000319s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000554s ]
+SQL: select * from t_course where status_id='2' and isshow=0 limit 0,10 [ RunTime:0.0016s ]
+SQL: SHOW COLUMNS FROM `t_organization` [ RunTime:0.0022s ]
+SQL: SELECT * FROM `t_organization` WHERE ( organization_id=2 )  [ RunTime:0.0013s ]
+SQL: SHOW COLUMNS FROM `t_user` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `t_user` WHERE ( user_id=2 )  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `t_user` WHERE ( user_id=1 )  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `t_organization` WHERE ( organization_id=1 )  [ RunTime:0.0012s ]
+SQL: SELECT * FROM `t_user` WHERE ( user_id=1 )  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `t_user` WHERE ( user_id=1 )  [ RunTime:0.0009s ]
+
+[ 2015-08-13T21:23:07+08:00 ] 127.0.0.1 /YsInnoCenter/YsInnovation/index.php/Admin/Course/getCourseCount
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000291s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000527s ]
+SQL: select count(*) from t_course where isshow='0' and status_id='2' [ RunTime:0.0009s ]
+
+[ 2015-08-13T21:28:22+08:00 ] 127.0.0.1 /YsInnoCenter/YsInnovation/index.php/Admin/Course/getCourseListData
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000315s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000558s ]
+SQL: select * from t_course where status_id='3' and isshow=0 limit 0,10 [ RunTime:0.0018s ]
+
+[ 2015-08-13T21:28:22+08:00 ] 127.0.0.1 /YsInnoCenter/YsInnovation/index.php/Admin/Course/getCourseCount
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000387s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000627s ]
+SQL: select count(*) from t_course where isshow='0' and status_id='3' [ RunTime:0.0009s ]
+
+[ 2015-08-13T21:28:23+08:00 ] 127.0.0.1 /YsInnoCenter/YsInnovation/index.php/Admin/Course/getCourseListData
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000305s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000539s ]
+SQL: select * from t_course where status_id='2' and isshow=0 limit 0,10 [ RunTime:0.0019s ]
+SQL: SHOW COLUMNS FROM `t_organization` [ RunTime:0.0024s ]
+SQL: SELECT * FROM `t_organization` WHERE ( organization_id=2 )  [ RunTime:0.0014s ]
+SQL: SHOW COLUMNS FROM `t_user` [ RunTime:0.0021s ]
+SQL: SELECT * FROM `t_user` WHERE ( user_id=2 )  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `t_user` WHERE ( user_id=1 )  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `t_organization` WHERE ( organization_id=1 )  [ RunTime:0.0013s ]
+SQL: SELECT * FROM `t_user` WHERE ( user_id=1 )  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `t_user` WHERE ( user_id=1 )  [ RunTime:0.0010s ]
+
+[ 2015-08-13T21:28:23+08:00 ] 127.0.0.1 /YsInnoCenter/YsInnovation/index.php/Admin/Course/getCourseCount
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000302s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000558s ]
+SQL: select count(*) from t_course where isshow='0' and status_id='2' [ RunTime:0.0008s ]
+
+[ 2015-08-13T21:28:25+08:00 ] 127.0.0.1 /YsInnoCenter/YsInnovation/index.php/Admin/Semester/getSemeName
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000364s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000655s ]
+SQL: select semester_id,semester_name from t_semester where isshow='0' and status_id='1' [ RunTime:0.0010s ]
+
+[ 2015-08-13T21:28:25+08:00 ] 127.0.0.1 /YsInnoCenter/YsInnovation/index.php/Admin/Laboratory/getLaboratoryUser
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000301s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000539s ]
+SQL: select t_user.* from t_user,t_user_account where t_user_account.organization_id='1' and t_user.user_id=t_user_account.user_id and t_user.is_tea_or_stu='1' [ RunTime:0.0013s ]
+
+[ 2015-08-13T21:28:25+08:00 ] 127.0.0.1 /YsInnoCenter/YsInnovation/index.php/Admin/Course/getCourseById
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000321s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000590s ]
+SQL: select * from t_course where course_id='6' [ RunTime:0.0015s ]
+
+[ 2015-08-13T21:28:33+08:00 ] 127.0.0.1 /YsInnoCenter/YsInnovation/index.php/Admin/Course/orgCourseEditSave
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000466s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000859s ]
+SQL: select * from t_course where course_id='6' [ RunTime:0.0016s ]
+SQL: SHOW COLUMNS FROM `t_course` [ RunTime:0.0024s ]
+SQL: UPDATE `t_course` SET `course_name`='动画设计',`course_outline`='动画设计大纲',`course_hourse`='1,2,1,3,|1,4,1,5,|',`course_begin`='2015-08-01 00:00:00',`course_end`='2015-08-12 00:00:00',`course_who_add`='1',`speaker_id`='1',`semester_id`='16',`course_place`='2教2617',`course_period`='64',`status_id`='2',`organization_id`='1',`ordertime`='15-08-13',`isshow`='0' WHERE ( course_id='6' ) [ RunTime:0.0489s ]
+
+[ 2015-08-13T21:28:34+08:00 ] 127.0.0.1 /YsInnoCenter/YsInnovation/index.php/Admin/Course/getCourseListData
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000325s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000547s ]
+SQL: select * from t_course where status_id='3' and isshow=0 limit 0,10 [ RunTime:0.0016s ]
+
+[ 2015-08-13T21:28:34+08:00 ] 127.0.0.1 /YsInnoCenter/YsInnovation/index.php/Admin/Course/getCourseCount
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000308s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000546s ]
+SQL: select count(*) from t_course where isshow='0' and status_id='3' [ RunTime:0.0008s ]
+
+[ 2015-08-13T21:28:40+08:00 ] 127.0.0.1 /YsInnoCenter/YsInnovation/index.php/Admin/Course/getCourseListData
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000289s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000512s ]
+SQL: select * from t_course where status_id='2' and isshow=0 limit 0,10 [ RunTime:0.0017s ]
+SQL: SHOW COLUMNS FROM `t_organization` [ RunTime:0.0023s ]
+SQL: SELECT * FROM `t_organization` WHERE ( organization_id=2 )  [ RunTime:0.0013s ]
+SQL: SHOW COLUMNS FROM `t_user` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `t_user` WHERE ( user_id=2 )  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `t_user` WHERE ( user_id=1 )  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `t_organization` WHERE ( organization_id=1 )  [ RunTime:0.0013s ]
+SQL: SELECT * FROM `t_user` WHERE ( user_id=1 )  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `t_user` WHERE ( user_id=1 )  [ RunTime:0.0010s ]
+
+[ 2015-08-13T21:28:40+08:00 ] 127.0.0.1 /YsInnoCenter/YsInnovation/index.php/Admin/Course/getCourseCount
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000288s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000516s ]
+SQL: select count(*) from t_course where isshow='0' and status_id='2' [ RunTime:0.0009s ]
+
+[ 2015-08-13T21:35:18+08:00 ] 127.0.0.1 /YsInnoCenter/YsInnovation/index.php/Admin/Course/getCourseListData
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000317s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000588s ]
+SQL: select * from t_course where status_id='2' and isshow=0 limit 0,10 [ RunTime:0.0016s ]
+SQL: SHOW COLUMNS FROM `t_organization` [ RunTime:0.0022s ]
+SQL: SELECT * FROM `t_organization` WHERE ( organization_id=2 )  [ RunTime:0.0013s ]
+SQL: SHOW COLUMNS FROM `t_user` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `t_user` WHERE ( user_id=2 )  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `t_user` WHERE ( user_id=1 )  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `t_organization` WHERE ( organization_id=1 )  [ RunTime:0.0014s ]
+SQL: SELECT * FROM `t_user` WHERE ( user_id=1 )  [ RunTime:0.0015s ]
+SQL: SELECT * FROM `t_user` WHERE ( user_id=1 )  [ RunTime:0.0010s ]
+
+[ 2015-08-13T21:35:18+08:00 ] 127.0.0.1 /YsInnoCenter/YsInnovation/index.php/Admin/Course/getCourseCount
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000393s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000642s ]
+SQL: select count(*) from t_course where isshow='0' and status_id='2' [ RunTime:0.0009s ]
+
+[ 2015-08-13T21:35:18+08:00 ] 127.0.0.1 /YsInnoCenter/YsInnovation/index.php/Admin/Course/getCourseListData
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000293s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000521s ]
+SQL: select * from t_course where status_id='3' and isshow=0 limit 0,10 [ RunTime:0.0015s ]
+
+[ 2015-08-13T21:35:18+08:00 ] 127.0.0.1 /YsInnoCenter/YsInnovation/index.php/Admin/Course/getCourseCount
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000296s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000524s ]
+SQL: select count(*) from t_course where isshow='0' and status_id='3' [ RunTime:0.0015s ]
+
+[ 2015-08-13T21:35:20+08:00 ] 127.0.0.1 /YsInnoCenter/YsInnovation/index.php/Admin/Course/getCourseListData
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000298s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000547s ]
+SQL: select * from t_course where status_id='2' and isshow=0 limit 0,10 [ RunTime:0.0021s ]
+SQL: SHOW COLUMNS FROM `t_organization` [ RunTime:0.0028s ]
+SQL: SELECT * FROM `t_organization` WHERE ( organization_id=2 )  [ RunTime:0.0016s ]
+SQL: SHOW COLUMNS FROM `t_user` [ RunTime:0.0021s ]
+SQL: SELECT * FROM `t_user` WHERE ( user_id=2 )  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `t_user` WHERE ( user_id=1 )  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `t_organization` WHERE ( organization_id=1 )  [ RunTime:0.0013s ]
+SQL: SELECT * FROM `t_user` WHERE ( user_id=1 )  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `t_user` WHERE ( user_id=1 )  [ RunTime:0.0010s ]
+
+[ 2015-08-13T21:35:20+08:00 ] 127.0.0.1 /YsInnoCenter/YsInnovation/index.php/Admin/Course/getCourseCount
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000298s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000557s ]
+SQL: select count(*) from t_course where isshow='0' and status_id='2' [ RunTime:0.0009s ]
+
+[ 2015-08-13T21:35:21+08:00 ] 127.0.0.1 /YsInnoCenter/YsInnovation/index.php/Admin/Semester/getSemeName
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000311s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000553s ]
+SQL: select semester_id,semester_name from t_semester where isshow='0' and status_id='1' [ RunTime:0.0010s ]
+
+[ 2015-08-13T21:35:21+08:00 ] 127.0.0.1 /YsInnoCenter/YsInnovation/index.php/Admin/Laboratory/getLaboratoryUser
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000425s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000711s ]
+SQL: select t_user.* from t_user,t_user_account where t_user_account.organization_id='1' and t_user.user_id=t_user_account.user_id and t_user.is_tea_or_stu='1' [ RunTime:0.0013s ]
+
+[ 2015-08-13T21:35:22+08:00 ] 127.0.0.1 /YsInnoCenter/YsInnovation/index.php/Admin/Course/getCourseListData
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000317s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000559s ]
+SQL: select * from t_course where status_id='3' and isshow=0 limit 0,10 [ RunTime:0.0016s ]
+
+[ 2015-08-13T21:35:22+08:00 ] 127.0.0.1 /YsInnoCenter/YsInnovation/index.php/Admin/Course/getCourseCount
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000346s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000611s ]
+SQL: select count(*) from t_course where isshow='0' and status_id='3' [ RunTime:0.0010s ]
+
+[ 2015-08-13T21:35:22+08:00 ] 127.0.0.1 /YsInnoCenter/YsInnovation/index.php/Admin/Course/getCourseListData
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000308s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000553s ]
+SQL: select * from t_course where status_id='2' and isshow=0 limit 0,10 [ RunTime:0.0016s ]
+SQL: SHOW COLUMNS FROM `t_organization` [ RunTime:0.0023s ]
+SQL: SELECT * FROM `t_organization` WHERE ( organization_id=2 )  [ RunTime:0.0014s ]
+SQL: SHOW COLUMNS FROM `t_user` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `t_user` WHERE ( user_id=2 )  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `t_user` WHERE ( user_id=1 )  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `t_organization` WHERE ( organization_id=1 )  [ RunTime:0.0013s ]
+SQL: SELECT * FROM `t_user` WHERE ( user_id=1 )  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `t_user` WHERE ( user_id=1 )  [ RunTime:0.0010s ]
+
+[ 2015-08-13T21:35:22+08:00 ] 127.0.0.1 /YsInnoCenter/YsInnovation/index.php/Admin/Course/getCourseCount
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000310s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000546s ]
+SQL: select count(*) from t_course where isshow='0' and status_id='2' [ RunTime:0.0008s ]
+
+[ 2015-08-13T21:35:23+08:00 ] 127.0.0.1 /YsInnoCenter/YsInnovation/index.php/Admin/Course/showOrgExaminedList
+ERR: 非法操作:showOrgExaminedList
+
+[ 2015-08-13T21:35:47+08:00 ] 127.0.0.1 /YsInnoCenter/YsInnovation/index.php/Admin/Semester/getSemeName
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000318s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000565s ]
+SQL: select semester_id,semester_name from t_semester where isshow='0' and status_id='1' [ RunTime:0.0010s ]
+
+[ 2015-08-13T21:35:47+08:00 ] 127.0.0.1 /YsInnoCenter/YsInnovation/index.php/Admin/Laboratory/getLaboratory
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000438s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000680s ]
+SQL: select organization_id,organization_name from t_organization where organization_type='2' and isshow='0' [ RunTime:0.0011s ]
+
+[ 2015-08-13T21:35:47+08:00 ] 127.0.0.1 /YsInnoCenter/YsInnovation/index.php/Admin/Laboratory/getLaboratoryUser
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000317s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000573s ]
+SQL: select t_user.* from t_user,t_user_account where t_user_account.organization_id='null' and t_user.user_id=t_user_account.user_id and t_user.is_tea_or_stu='1' [ RunTime:0.0012s ]
+
+[ 2015-08-13T21:35:48+08:00 ] 127.0.0.1 /YsInnoCenter/YsInnovation/index.php/Admin/Course/getCourseListData
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000297s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000549s ]
+SQL: select * from t_course where status_id='2' and isshow=0 limit 0,10 [ RunTime:0.0016s ]
+SQL: SHOW COLUMNS FROM `t_organization` [ RunTime:0.0024s ]
+SQL: SELECT * FROM `t_organization` WHERE ( organization_id=2 )  [ RunTime:0.0015s ]
+SQL: SHOW COLUMNS FROM `t_user` [ RunTime:0.0021s ]
+SQL: SELECT * FROM `t_user` WHERE ( user_id=2 )  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `t_user` WHERE ( user_id=1 )  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `t_organization` WHERE ( organization_id=1 )  [ RunTime:0.0013s ]
+SQL: SELECT * FROM `t_user` WHERE ( user_id=1 )  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `t_user` WHERE ( user_id=1 )  [ RunTime:0.0010s ]
+
+[ 2015-08-13T21:35:48+08:00 ] 127.0.0.1 /YsInnoCenter/YsInnovation/index.php/Admin/Course/getCourseCount
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000365s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000595s ]
+SQL: select count(*) from t_course where isshow='0' and status_id='2' [ RunTime:0.0008s ]
+
+[ 2015-08-13T21:35:51+08:00 ] 127.0.0.1 /YsInnoCenter/YsInnovation/index.php/Admin/Course/getCourseListData
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000330s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000569s ]
+SQL: select * from t_course where status_id='1' and isshow=0 limit 0,10 [ RunTime:0.0016s ]
+SQL: SHOW COLUMNS FROM `t_organization` [ RunTime:0.0024s ]
+SQL: SELECT * FROM `t_organization` WHERE ( organization_id=1 )  [ RunTime:0.0013s ]
+SQL: SHOW COLUMNS FROM `t_user` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `t_user` WHERE ( user_id=2 )  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `t_user` WHERE ( user_id=1 )  [ RunTime:0.0009s ]
+
+[ 2015-08-13T21:35:51+08:00 ] 127.0.0.1 /YsInnoCenter/YsInnovation/index.php/Admin/Course/getCourseCount
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000320s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000546s ]
+SQL: select count(*) from t_course where isshow='0' and status_id='1' [ RunTime:0.0009s ]
+
+[ 2015-08-13T21:35:53+08:00 ] 127.0.0.1 /YsInnoCenter/YsInnovation/index.php/Admin/Course/getCourseListData
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000312s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000592s ]
+SQL: select * from t_course where status_id='2' and isshow=0 limit 0,10 [ RunTime:0.0016s ]
+SQL: SHOW COLUMNS FROM `t_organization` [ RunTime:0.0023s ]
+SQL: SELECT * FROM `t_organization` WHERE ( organization_id=2 )  [ RunTime:0.0013s ]
+SQL: SHOW COLUMNS FROM `t_user` [ RunTime:0.0022s ]
+SQL: SELECT * FROM `t_user` WHERE ( user_id=2 )  [ RunTime:0.0009s ]
+SQL: SELECT * FROM `t_user` WHERE ( user_id=1 )  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `t_organization` WHERE ( organization_id=1 )  [ RunTime:0.0014s ]
+SQL: SELECT * FROM `t_user` WHERE ( user_id=1 )  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `t_user` WHERE ( user_id=1 )  [ RunTime:0.0010s ]
+
+[ 2015-08-13T21:35:53+08:00 ] 127.0.0.1 /YsInnoCenter/YsInnovation/index.php/Admin/Course/getCourseCount
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000327s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000600s ]
+SQL: select count(*) from t_course where isshow='0' and status_id='2' [ RunTime:0.0008s ]
+
+[ 2015-08-13T21:37:47+08:00 ] 127.0.0.1 /YsInnoCenter/YsInnovation/index.php/Admin/Course/getCourseListData
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000328s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000589s ]
+SQL: select * from t_course where status_id='1' and isshow=0 limit 0,10 [ RunTime:0.0018s ]
+SQL: SHOW COLUMNS FROM `t_organization` [ RunTime:0.0026s ]
+SQL: SELECT * FROM `t_organization` WHERE ( organization_id=1 )  [ RunTime:0.0013s ]
+SQL: SHOW COLUMNS FROM `t_user` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `t_user` WHERE ( user_id=2 )  [ RunTime:0.0012s ]
+SQL: SELECT * FROM `t_user` WHERE ( user_id=1 )  [ RunTime:0.0011s ]
+
+[ 2015-08-13T21:37:47+08:00 ] 127.0.0.1 /YsInnoCenter/YsInnovation/index.php/Admin/Course/getCourseCount
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000393s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000665s ]
+SQL: select count(*) from t_course where isshow='0' and status_id='1' [ RunTime:0.0008s ]
+
+[ 2015-08-13T21:37:47+08:00 ] 127.0.0.1 /YsInnoCenter/YsInnovation/index.php/Admin/Course/getCourseCount
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000299s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000548s ]
+SQL: select count(*) from t_course where isshow='0' and status_id='2' [ RunTime:0.0009s ]
+
+[ 2015-08-13T21:37:47+08:00 ] 127.0.0.1 /YsInnoCenter/YsInnovation/index.php/Admin/Course/getCourseListData
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000312s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000540s ]
+SQL: select * from t_course where status_id='2' and isshow=0 limit 0,10 [ RunTime:0.0017s ]
+SQL: SHOW COLUMNS FROM `t_organization` [ RunTime:0.0023s ]
+SQL: SELECT * FROM `t_organization` WHERE ( organization_id=2 )  [ RunTime:0.0013s ]
+SQL: SHOW COLUMNS FROM `t_user` [ RunTime:0.0022s ]
+SQL: SELECT * FROM `t_user` WHERE ( user_id=2 )  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `t_user` WHERE ( user_id=1 )  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `t_organization` WHERE ( organization_id=1 )  [ RunTime:0.0013s ]
+SQL: SELECT * FROM `t_user` WHERE ( user_id=1 )  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `t_user` WHERE ( user_id=1 )  [ RunTime:0.0011s ]
+
+[ 2015-08-13T21:37:48+08:00 ] 127.0.0.1 /YsInnoCenter/YsInnovation/index.php/Admin/Semester/getSemeName
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000306s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000551s ]
+SQL: select semester_id,semester_name from t_semester where isshow='0' and status_id='1' [ RunTime:0.0009s ]
+
+[ 2015-08-13T21:37:48+08:00 ] 127.0.0.1 /YsInnoCenter/YsInnovation/index.php/Admin/Laboratory/getLaboratory
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000390s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000666s ]
+SQL: select organization_id,organization_name from t_organization where organization_type='2' and isshow='0' [ RunTime:0.0011s ]
+
+[ 2015-08-13T21:37:48+08:00 ] 127.0.0.1 /YsInnoCenter/YsInnovation/index.php/Admin/Laboratory/getLaboratoryUser
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000409s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000687s ]
+SQL: select t_user.* from t_user,t_user_account where t_user_account.organization_id='null' and t_user.user_id=t_user_account.user_id and t_user.is_tea_or_stu='1' [ RunTime:0.0013s ]
+
+[ 2015-08-13T21:37:48+08:00 ] 127.0.0.1 /YsInnoCenter/YsInnovation/index.php/Admin/Course/getCourseListData
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000325s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000584s ]
+SQL: select * from t_course where status_id='2' and isshow=0 limit 0,10 [ RunTime:0.0022s ]
+SQL: SHOW COLUMNS FROM `t_organization` [ RunTime:0.0027s ]
+SQL: SELECT * FROM `t_organization` WHERE ( organization_id=2 )  [ RunTime:0.0013s ]
+SQL: SHOW COLUMNS FROM `t_user` [ RunTime:0.0019s ]
+SQL: SELECT * FROM `t_user` WHERE ( user_id=2 )  [ RunTime:0.0009s ]
+SQL: SELECT * FROM `t_user` WHERE ( user_id=1 )  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `t_organization` WHERE ( organization_id=1 )  [ RunTime:0.0013s ]
+SQL: SELECT * FROM `t_user` WHERE ( user_id=1 )  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `t_user` WHERE ( user_id=1 )  [ RunTime:0.0010s ]
+
+[ 2015-08-13T21:37:48+08:00 ] 127.0.0.1 /YsInnoCenter/YsInnovation/index.php/Admin/Course/getCourseCount
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000296s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000521s ]
+SQL: select count(*) from t_course where isshow='0' and status_id='2' [ RunTime:0.0009s ]
+
+[ 2015-08-13T21:37:49+08:00 ] 127.0.0.1 /YsInnoCenter/YsInnovation/index.php/Admin/Course/getCourseListData
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000295s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000547s ]
+SQL: select * from t_course where status_id='1' and isshow=0 limit 0,10 [ RunTime:0.0015s ]
+SQL: SHOW COLUMNS FROM `t_organization` [ RunTime:0.0023s ]
+SQL: SELECT * FROM `t_organization` WHERE ( organization_id=1 )  [ RunTime:0.0013s ]
+SQL: SHOW COLUMNS FROM `t_user` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `t_user` WHERE ( user_id=2 )  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `t_user` WHERE ( user_id=1 )  [ RunTime:0.0010s ]
+
+[ 2015-08-13T21:37:49+08:00 ] 127.0.0.1 /YsInnoCenter/YsInnovation/index.php/Admin/Course/getCourseCount
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000304s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000530s ]
+SQL: select count(*) from t_course where isshow='0' and status_id='1' [ RunTime:0.0008s ]
+
+[ 2015-08-13T21:37:53+08:00 ] 127.0.0.1 /YsInnoCenter/YsInnovation/index.php/Admin/Course/getCourseListData
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000347s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000601s ]
+SQL: select * from t_course where status_id='2' and isshow=0 limit 0,10 [ RunTime:0.0016s ]
+SQL: SHOW COLUMNS FROM `t_organization` [ RunTime:0.0024s ]
+SQL: SELECT * FROM `t_organization` WHERE ( organization_id=2 )  [ RunTime:0.0014s ]
+SQL: SHOW COLUMNS FROM `t_user` [ RunTime:0.0021s ]
+SQL: SELECT * FROM `t_user` WHERE ( user_id=2 )  [ RunTime:0.0017s ]
+SQL: SELECT * FROM `t_user` WHERE ( user_id=1 )  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `t_organization` WHERE ( organization_id=1 )  [ RunTime:0.0014s ]
+SQL: SELECT * FROM `t_user` WHERE ( user_id=1 )  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `t_user` WHERE ( user_id=1 )  [ RunTime:0.0011s ]
+
+[ 2015-08-13T21:37:53+08:00 ] 127.0.0.1 /YsInnoCenter/YsInnovation/index.php/Admin/Course/getCourseCount
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000322s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000598s ]
+SQL: select count(*) from t_course where isshow='0' and status_id='2' [ RunTime:0.0009s ]
+
+[ 2015-08-13T21:37:53+08:00 ] 127.0.0.1 /YsInnoCenter/YsInnovation/index.php/Admin/Semester/getSemeName
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000336s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000580s ]
+SQL: select semester_id,semester_name from t_semester where isshow='0' and status_id='1' [ RunTime:0.0010s ]
+
+[ 2015-08-13T21:37:53+08:00 ] 127.0.0.1 /YsInnoCenter/YsInnovation/index.php/Admin/Laboratory/getLaboratory
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000305s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000548s ]
+SQL: select organization_id,organization_name from t_organization where organization_type='2' and isshow='0' [ RunTime:0.0012s ]
+
+[ 2015-08-13T21:37:53+08:00 ] 127.0.0.1 /YsInnoCenter/YsInnovation/index.php/Admin/Laboratory/getLaboratoryUser
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000335s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000602s ]
+SQL: select t_user.* from t_user,t_user_account where t_user_account.organization_id='null' and t_user.user_id=t_user_account.user_id and t_user.is_tea_or_stu='1' [ RunTime:0.0012s ]
+
+[ 2015-08-13T21:37:54+08:00 ] 127.0.0.1 /YsInnoCenter/YsInnovation/index.php/Admin/Course/getCourseListData
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000313s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000547s ]
+SQL: select * from t_course where status_id='2' and isshow=0 limit 0,10 [ RunTime:0.0016s ]
+SQL: SHOW COLUMNS FROM `t_organization` [ RunTime:0.0025s ]
+SQL: SELECT * FROM `t_organization` WHERE ( organization_id=2 )  [ RunTime:0.0014s ]
+SQL: SHOW COLUMNS FROM `t_user` [ RunTime:0.0022s ]
+SQL: SELECT * FROM `t_user` WHERE ( user_id=2 )  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `t_user` WHERE ( user_id=1 )  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `t_organization` WHERE ( organization_id=1 )  [ RunTime:0.0014s ]
+SQL: SELECT * FROM `t_user` WHERE ( user_id=1 )  [ RunTime:0.0007s ]
+SQL: SELECT * FROM `t_user` WHERE ( user_id=1 )  [ RunTime:0.0008s ]
+
+[ 2015-08-13T21:37:54+08:00 ] 127.0.0.1 /YsInnoCenter/YsInnovation/index.php/Admin/Course/getCourseCount
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000390s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000658s ]
+SQL: select count(*) from t_course where isshow='0' and status_id='2' [ RunTime:0.0009s ]
+
+[ 2015-08-13T21:37:55+08:00 ] 127.0.0.1 /YsInnoCenter/YsInnovation/index.php/Admin/Course/getCourseListData
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000476s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000723s ]
+SQL: select * from t_course where status_id='1' and isshow=0 limit 0,10 [ RunTime:0.0016s ]
+SQL: SHOW COLUMNS FROM `t_organization` [ RunTime:0.0023s ]
+SQL: SELECT * FROM `t_organization` WHERE ( organization_id=1 )  [ RunTime:0.0013s ]
+SQL: SHOW COLUMNS FROM `t_user` [ RunTime:0.0021s ]
+SQL: SELECT * FROM `t_user` WHERE ( user_id=2 )  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `t_user` WHERE ( user_id=1 )  [ RunTime:0.0010s ]
+
+[ 2015-08-13T21:37:55+08:00 ] 127.0.0.1 /YsInnoCenter/YsInnovation/index.php/Admin/Course/getCourseCount
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000345s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000586s ]
+SQL: select count(*) from t_course where isshow='0' and status_id='1' [ RunTime:0.0008s ]
+

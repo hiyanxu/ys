@@ -1,0 +1,61 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 2015-8-5, 16:42:55
+    Author     : 3
+*/
+#divCourseName{
+    position: relative; margin-left: 2%; margin-top:2%; width: 90%; height: 30px;
+}
+#divCourseNum{
+    position: relative; margin-left: 2%; margin-top:10px; width: 90%; height: 30px;
+}
+label{
+    position: absolute; margin-left: 0px; margin-top: 0px; text-align: right; width: 150px; 
+}
+.input{
+	position:absolute; margin-left:150px; margin-top:0px; border-radius: 4px;
+    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.075) inset;
+}
+#divCourseBeginTime{
+    position:relative; margin-left: 2%; margin-top: 10px; width:90%; height:30px; 
+}
+#divCourseEndTime{
+    position:relative; margin-left: 2%; margin-top: 10px; width: 90%; height: 30px;
+}
+#divCourseSemester{
+    position:relative; margin-left: 2%; margin-top: 10px; width: 90%; height: 30px;
+}
+#divCourseWorkShop{
+    position:relative; margin-left: 2%; margin-top: 10px; width: 90%; height: 30px;
+}
+#divCourseSpeaker{
+    position:relative; margin-left: 2%; margin-top: 10px; width: 90%; height: 30px;
+}
+#divCoursePeriod{
+    position:relative; margin-left: 2%; margin-top: 10px; width: 90%; height: 30px;
+}
+#divCourseScore{
+    position:relative; margin-left: 2%; margin-top: 10px; width: 90%; height: 30px;
+}
+#divCoursePlace{
+     position:relative; margin-left: 2%; margin-top: 10px; width: 90%; height: 30px;
+}
+#divCourseHours{
+    position:relative; margin-left: 2%; margin-top: 10px; width: 90%;
+}
+.imgAdd{
+    position: absolute; margin-left: 5px; margin-top: 0px; cursor: pointer;
+}
+.ke-container.ke-container-default{
+    margin-left: 150px;
+}
+#divCourseButton{
+    position:relative; margin-left: 10%; margin-top: 10px; width: 90%; height: 200px;
+}
+#divCourseExamine{
+    position:relative; margin-left: 2%; margin-top: 20px; width: 90%; height: 30px;
+}

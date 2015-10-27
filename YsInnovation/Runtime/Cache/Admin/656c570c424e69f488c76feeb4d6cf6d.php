@@ -1,0 +1,130 @@
+<?php if (!defined('THINK_PATH')) exit();?><!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>以升后台管理系统</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link href="<?php echo (SURL); ?>Public/Admin/Public/css/publicThr.css" rel="stylesheet" type="text/css"/>
+        <link href="<?php echo (SURL); ?>Public/Admin/Semester/css/showSemesterList.css" rel="stylesheet" type="text/css"/>
+        <script type="text/javascript" src="<?php echo (SURL); ?>Public/Admin/Pintuer/js/jquery.js"></script>
+        <script type="text/javascript" src="<?php echo (SURL); ?>Public/jquery-easyui-1.3.6/jquery.easyui.min.js"></script>
+        <link rel="stylesheet" type="text/css" href="<?php echo (SURL); ?>Public/jquery-easyui-1.3.6/themes/default/easyui.css">
+        <link rel="stylesheet" type="text/css" href="<?php echo (SURL); ?>Public/jquery-easyui-1.3.6/themes/icon.css">          
+        
+        <script type="text/javascript">
+            $(function(){   
+                makePage(1);
+            }); 
+            function makePage(pageNum){
+                $.ajax({
+                    type:"POST",
+                    url:"/YsInnoCenter/YsInnovation/index.php/Admin/Semester/getNum",
+                    success:function(data){
+                        var sum=data[0]['count(*)'];
+                        //alert(sum);
+                        $("#semePageList").pagination({
+                            total:sum,
+                            pageSize:10,
+                            showPageList:false,
+                            beforePageText:"第",
+                            afterPageText:"共{pages}页",
+                            pageNumber:pageNum,
+                            onSelectPage:function(pageNumber,pageSize){
+                                $(this).pagination('loading');
+                                newData(pageNumber,pageSize);
+                                $(this).pagination('loaded'); 
+                                makePage(pageNumber);
+                            }                            
+                        });
+                    }
+                });
+            }
+            
+            //初始加载时信息显示
+            function newData(pageNumber,pageSize){
+                alert("newData");
+                $.ajax({
+                    type:"GET",
+                    url:"/YsInnoCenter/YsInnovation/index.php/Admin/Semester/getAllData",
+                    data:{page:pageNumber,rows:pageSize},
+                    dataType:"JSON",
+                    success:function(result){
+                        alert(result);
+                        
+                    },
+                    error:function(){
+                        alert("error");
+                    }
+                });
+            }
+            //将获得的信息添加到页面进行显示
+            function bindInfoList(data){
+                $(".listItemData").empty();
+                if(data==""){
+                    $("#listItemData").append("您好，当前条件下没有任何信息。");
+                    return;
+                }
+                else{
+                    for(var i=0; i<data.length;i++){
+                        var infoList=$('<div class="divListItemData">'
+                        +'<input type="checkbox" id='+i+'>'
+                        +'<div id="dataName" class="itemNameNoBold">'+data[i]['semester_name']+'</div>'
+                        +'<div id="dataWeek" class="itemNameNoBold">'+data[i]['semester_week_num']+'</div>'
+                        +'<div id="dataTime" class="itemNameNoBold">'+data[i]['semester_begin_time']+'</div>'
+                        +'<div id="dataOperations">'
+                            +'<a href="" class="button border-blue button-little" style="position:absolute; margin-left: 0px; margin-top: 7px;">修改</a>'
+                            +'<a href="" class="button border-yellow button-little" style="position:absolute; margin-left: 16%; margin-top: 7px;">删除</a>'
+                        +'</div>'
+                        +'</div>');
+                        $(".divListItemData").append(infoList);
+                    }
+                }
+
+            }
+        </script>  
+        <script type="text/javascript">
+            $(function(){
+                $("#inputAddSeme").click(function(){
+                    window.location.href="/YsInnoCenter/YsInnovation/index.php/Admin/Semester/showAddSemester";
+                });
+            });
+        </script>
+    </head>
+    <body>
+        <div id="divSemesterList">
+            <div class="listHead">
+                <strong>内容列表</strong>
+            </div>
+            <div class="listOper">
+                <input type="button" value="全选" class="button button-small checkall">      
+                <input id="inputAddSeme" type="button" value="添加新学期" class="button button-small border-green">  
+                <input type="button" value="批量删除" class="button button-small border-yellow">  
+            </div>
+            <div class="listItemName">
+                <div id="selected" class="itemName">选择</div>
+                <div id="name" class="itemName">学期名称</div>
+                <div id="educWeeks" class="itemName">教学周数</div>
+                <div id="beginTime" class="itemName">开始时间</div>
+                <div id="operations" class="itemName">操作</div>
+            </div>
+            <div class="listItemData">
+                <div class="divListItemData">
+                    <input type="checkbox">
+                    <div id="dataName" class="itemNameNoBold">名称</div>
+                    <div id="dataWeek" class="itemNameNoBold">周数</div>
+                    <div id="dataTime" class="itemNameNoBold">2015-06-12</div>
+                    <div id="dataOperations">
+                        <a href="" class="button border-blue button-little" style="position:absolute; margin-left: 0px; margin-top: 7px;">修改</a>
+                        <a href="" class="button border-yellow button-little" style="position:absolute; margin-left: 16%; margin-top: 7px;">删除</a>
+                    </div>
+                </div>                     
+            </div>
+            <div id="semePageList" class="easyui-pagination"></div>
+        </div>
+    </body>
+</html>

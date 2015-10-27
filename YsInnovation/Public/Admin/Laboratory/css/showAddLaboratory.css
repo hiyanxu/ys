@@ -1,0 +1,53 @@
+/*
+实验室添加页面css样式文件
+*/
+/* 
+    Created on : 2015-8-27, 22:29:43
+    Author     : 3
+*/
+#divLaboratoryName{
+    position: relative; margin-left: 2%; margin-top:2%; width: 90%; height: 30px;
+}
+#divLaboratoryEngName{
+    position: relative; margin-left: 2%; margin-top:10px; width: 90%; height: 30px;
+}
+label{
+    position: absolute; margin-left: 0px; margin-top: 0px; text-align: right; width: 150px; 
+}
+.input{
+	position:absolute; margin-left:150px; margin-top:0px; border-radius: 4px;
+    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.075) inset;
+}
+#divLaboratoryEngIdea{
+    position:relative; margin-left: 2%; margin-top: 10px; width:90%; height:30px; 
+}
+#divLaboratoryPurpose{
+    position:relative; margin-left: 2%; margin-top: 10px; width: 90%; height: 30px;
+}
+#divLecturePicture{
+    position:relative; margin-left: 2%; margin-top: 10px; width: 90%; height: 30px;
+}
+#divLaboratoryLocation{
+    position:relative; margin-left: 2%; margin-top: 10px; width: 90%; height: 30px;
+}
+#divLaboratoryInnoNum{
+    position:relative; margin-left: 2%; margin-top: 10px; width: 90%; height: 30px;
+}
+#divLaboratoryPhone{
+    position:relative; margin-left: 2%; margin-top: 10px; width: 90%; height: 30px;
+}
+#divLaboratoryRemark{
+    position:relative; margin-left: 2%; margin-top: 10px; width: 90%; height: 30px;
+}
+#divLaboratoryCollege{
+    position:relative; margin-left: 2%; margin-top: 10px; width: 90%; height: 30px;
+}
+.ke-container.ke-container-default{
+    margin-left: 150px;
+}
+#divLaboratoryButton{
+    position:relative; margin-left: 10%; margin-top: 10px; width: 90%; height: 200px;
+}
+#divCourseExamine{
+    position:relative; margin-left: 2%; margin-top: 20px; width: 90%; height: 30px;
+}

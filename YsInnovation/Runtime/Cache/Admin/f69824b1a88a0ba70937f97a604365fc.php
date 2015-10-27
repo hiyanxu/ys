@@ -1,0 +1,45 @@
+<?php if (!defined('THINK_PATH')) exit();?><!DOCTYPE html>
+<html>
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+		<title>以升后台管理系统</title>
+		<link rel="stylesheet" type="text/css" href="<?php echo (SURL); ?>Public/Admin/Public/css/publicThr.css"/>
+		<link rel="stylesheet" type="text/css" href="<?php echo (SURL); ?>Public/Admin/Semester/css/showAddSemester.css"/>
+                <script type="text/javascript" src="<?php echo (SURL); ?>Public/Admin/Public/js/jquery-1.4.2.js"></script>
+                <script type="text/javascript" src="<?php echo (SURL); ?>Public/Admin/Public/My97DatePicker/WdatePicker.js"></script>
+                <!--得到学期名称处年份的下拉列表-->
+                <script type="text/javascript" src="<?php echo (SURL); ?>Public/Admin/Semester/js/getSemeYear.js"></script>
+                <!--提交信息保存的方法-->
+                <script type="text/javascript" src="<?php echo (SURL); ?>Public/Admin/Semester/js/submitSemesterSave.js"></script>
+	</head>
+	<body>
+		<div id="divInput">
+                    <div id="divInputName">
+                            <label>学期名称：</label>
+                            <div id="divInputSemeSeas">
+                                    <div class="input">
+                                            <select id="selectSeme" >
+                                                    						
+                                            </select>
+                                            <select id="selectSeas">
+                                                    <option value="0">春</option>
+                                                    <option value="1">秋</option>
+                                            </select>
+                                    </div>
+                            </div>
+                    </div>
+                    <div id="divInputWeek">
+                            <label>学期总周数：</label>
+                            <input id="semeWeek" type="text" class="input"/>
+                    </div>
+                    <div id="divInputBeginTime">
+                            <label>学期开始时间：</label>
+                            <input id="semeBeginTime" type="text" class="input" onclick="WdatePicker()"/>
+                    </div>
+                    <div id="divButton" style="position:absolute; margin-left: 10%; margin-top: 15%; width: 90%; height: 50px;">
+                        <input id="btnSubmit" type="button" value="提交" class="button button-small border-green">  
+                        <input type="button" value="重置" class="button button-small border-yellow"> 
+                    </div>
+		</div>
+	</body>
+</html>

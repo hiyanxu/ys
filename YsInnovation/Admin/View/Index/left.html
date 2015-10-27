@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>以升后台管理系统</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <script type="text/javascript" src="{$Think.const.SURL}Public/Admin/Index/js/jquery.cookie.js"></script>
+        <script type="text/javascript" src="{$Think.const.SURL}Public/Admin/Index/js/jquery.js"></script>
+        <script type="text/javascript" src="{$Think.const.SURL}Public/Admin/Index/js/jquery.treeview.js"></script>
+        <link href="{$Think.const.SURL}Public/Admin/Index/css/left.css" rel="stylesheet" type="text/css"/>
+        <script type="text/javascript">
+            $(function(){
+                $("#modularAdminLeftTree").treeview({
+                    collapsed: true,
+                    unique: true
+                });
+            });
+        </script>
+    </head>
+    <body>
+        <div id="left">
+            <div style="position:absolute; margin-left:15px; margin-top:5px; width:150px; height:180px;">
+                <ul id="modularAdminLeftTree" class="manageTree">
+                    <foreach name="menuItem_pRows" item="pv">
+                        <li><span class="folder">{$pv.menuitem_name}</span>
+                            <ul>
+                                <foreach name="menuItem_sRows" item="sv">
+                                    <if condition='$sv["top_menuitem_id"] eq $pv["menuitem_id"]'>
+                                        <li><a href="{$Think.const.SURL}index.php/Admin/{$sv.menuitem_controller}/{$sv.menuitem_function}" target="right" class="folder" >{$sv.menuitem_name}</a></li>
+                                    </if>
+                                </foreach>
+                            </ul>                            
+                        </li>                        
+                    </foreach>
+                </ul>
+            </div>
+        </div>
+    </body>
+</html>
+

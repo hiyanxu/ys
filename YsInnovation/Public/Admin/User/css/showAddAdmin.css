@@ -1,0 +1,31 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 2015-8-25, 9:11:32
+    Author     : 3
+*/
+#divTeaList{
+    position: relative; margin-left: 2%; margin-top:2%; width: 90%; height: 30px;
+}
+#divTeaRole{
+    position:relative; margin-left: 2%; margin-top: 10px; width: 90%; height: 30px;
+}
+label{
+    position: absolute; margin-left: 0px; margin-top: 0px; text-align: right; width: 150px; 
+}
+.input{
+	position:absolute; margin-left:150px; margin-top:0px; border-radius: 4px;
+    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.075) inset;
+}
+#divTeaAccount{
+    position:relative; margin-left: 2%; margin-top: 10px; width:90%; height:30px; 
+}
+#divTeaPwd{
+    position:relative; margin-left: 2%; margin-top: 10px; width: 90%; height: 30px;
+}
+#divTeaButton{
+    position:relative; margin-left: 10%; margin-top: 10px; width: 90%; height: 200px;
+}
